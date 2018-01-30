@@ -1,0 +1,148 @@
+backend:
+  name: github
+  repo: monty5811/z
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "static/uploads"
+public_folder: "/static/uploads"
+
+collections:
+  - name: "headline" # Used in routes, e.g., /admin/collections/blog
+    label: "Headlines" # Used in the UI
+    folder: "src/headlines"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "select", options: ["Siobhan Smith"]}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - name: "our-vision"
+        label: "Our Vision"
+        file: "src/about/our-vision.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Text and Image"
+            name: "row1"
+            widget: object
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Content", name: "content", widget: "markdown"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "image_text_row"}
+          - label: "One Wide Banner"
+            name: "tagline"
+            widget: "object"
+            fields:
+              - {label: "Content", name: "content", widget: "markdown"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "tagline"}
+          - label: "Text and Image"
+            name: "row2"
+            widget: object
+            fields:
+              - {label: "Content", name: "content", widget: "markdown"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "text_image_row"}
+      - name: "our-team"
+        label: "Our Team"
+        file: "src/about/our-team.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Intro"
+            name: "intro"
+            widget: object
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+          - label: "Ministers"
+            name: "ministers"
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Picture", name: "picture", widget: "image"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
+          - label: "Staff"
+            name: "staff"
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Picture", name: "picture", widget: "image"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
+          - label: "Elders"
+            name: "elders"
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Picture", name: "picture", widget: "image"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
+          - label: "Deacons"
+            name: "deacons"
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Picture", name: "picture", widget: "image"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
+      - name: "church-plants"
+        label: "Church Plants"
+        file: "src/about/church-plants.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Intro"
+            name: "intro"
+            widget: object
+            fields:
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+          - label: "Church Plants"
+            name: "church_plants"
+            widget: list
+            fields:
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+      - name: "giving"
+        label: "Giving"
+        file: "src/connect/giving.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Heading"
+            name: "heading"
+            widget: "object"
+            fields:
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown", required: False}
+              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+          - label: "Introduction"
+            name: "intro_row"
+            widget: "object"
+            fields:
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+          - label: "Separator"
+            name: "separator"
+            widget: "hidden"
+            fields:
+              - {label: "Type", name; "type_", widget: "hidden", default: "separator"}
+          - label: "Giving Information"
+            name: "intro_row"
+            widget: "object"
+            fields:
+              - {label: "Online Form (auto populated)", name: "left", widget: "string", default: "!giving_form"}
+              - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}

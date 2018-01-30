@@ -1,0 +1,410 @@
+layout: "content_page"
+title: "Our Team"
+html:
+  type_: "raw_html"
+  html: |
+    <div class="spacer">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="heading">Staff & Volunteers</h2>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="unique-paragraph">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <p>Our leadership comprises Elders and Deacons, but we are also hugely thankful for all the many volunteers and small number of staff who help to run different aspects of congregational life. <br><br></p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <p>The staff and Office Bearers are listed below, with an indication of their area or responsibility and which pastoral area they are attached to. Throughout the website you will also find key contacts for different ministries to help you identify with who to be in touch with.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="fluid-container seperator-stcs"></div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <h2 class="heading">Ministers</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="our-staff">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/derek-image.jpg" alt="Derek Lamont">
+    </div>
+    <div class="caption">
+    <h3>Derek Lamont</h3>
+    <p>Senior Minister</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/tom-image.jpg" alt="Tom Muir">
+    </div>
+    <div class="caption">
+    <h3>Tom Muir</h3>
+    <p>Assistant Minister</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/cory-image.jpg" alt="Cory Brock">
+    </div>
+    <div class="caption">
+    <h3>Cory Brock</h3>
+    <p>Ministry Associate</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="fluid-container seperator-stcs"></div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="heading">Staff</h2>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="our-staff">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/uploads/donna_image.jpg" alt="Donna Macleod">
+    </div>
+    <div class="caption">
+    <h3>Donna Macleod</h3>
+    <p>Administrator & Treasurer</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="fluid-container seperator-stcs"></div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="heading">Elders</h2>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="our-staff">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/uploads/neil_image.jpg" alt="Neil MacMillan">
+    </div>
+    <div class="caption">
+    <h3>Neil MacMillan</h3>
+    <p>Cornerstone Church Plant</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/billy-image.jpg" alt="Billy Graham">
+    </div>
+    <div class="caption">
+    <h3>Billy Graham</h3>
+     <p>Corstorphine City Group</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/ali-image.jpg" alt="Ali Oliver">
+    </div>
+    <div class="caption">
+    <h3>Ali Oliver</h3>
+    <p>Blackford City Group</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/uploads/dave_cropped_4.jpg" alt="Dave Muir">
+    </div>
+    <div class="caption">
+    <h3>Dave Muir</h3>
+    <p>Esk Valley Church Plant</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/uploads/laird_image.jpg" alt="Colin Ross">
+    </div>
+    <div class="caption">
+    <h3>Colin Ross</h3>
+    <p>Cornerstone Church Plant</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/don-image.jpg" alt="Don Macleod">
+    </div>
+    <div class="caption">
+    <h3>Don Macleod</h3>
+    <p>Inverleith City Group</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="our-staff">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/neil-dm-image.jpg" alt="Neil MacLeod">
+    </div>
+    <div class="caption">
+    <h3>Neil MacLeod</h3>
+    <p>Newington City Group</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/andy-image.jpg" alt="Andy MacGillivray">
+    </div>
+    <div class="caption">
+    <h3>Andy MacGillivray</h3>
+    <p>Winchburgh City Group</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/ewan-image.jpg" alt="Ewan McGillivray">
+    </div>
+    <div class="caption">
+    <h3>Ewan McGillivray</h3>
+    <p>Fountainbridge City Group</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/ross-image.jpg" alt="Ross Graham">
+    </div>
+    <div class="caption">
+    <h3>Ross Graham</h3>
+    <p>Corstorphine City Group</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/dean-image.jpg" alt="Dean Montgomery">
+    </div>
+    <div class="caption">
+    <h3>Dean Montgomery</h3>
+    <p>Gilmerton City Group</p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="fluid-container seperator-stcs"></div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="heading">Deacons</h2>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="our-staff">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/murdo-image.jpg" alt="Murdo Morrison">
+    </div>
+    <div class="caption">
+    <h3>Murdo Morrison</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/colin-image.jpg" alt="Colin Armstrong">
+    </div>
+    <div class="caption">
+    <h3>Colin Armstrong</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/puzz-image.jpg" alt="Alasdair Mackenzie">
+    </div>
+    <div class="caption">
+    <h3>Alasdair Mackenzie</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/ken-image.jpg" alt="Ken Crichton">
+    </div>
+    <div class="caption">
+    <h3>Ken Crichton</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/craig-image.jpg" alt="Craig Nicolson">
+    </div>
+    <div class="caption">
+    <h3>Craig Nicolson</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/uploads/ian_image.jpg" alt="Ian Nevison">
+    </div>
+    <div class="caption">
+    <h3>Ian Nevison</h3>
+    <p></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="our-staff">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/david-image.jpg" alt="David Morris">
+    </div>
+    <div class="caption">
+    <h3>David Morris</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/uploads/colin_M_cropped.jpeg" alt="Colin Morrison">
+    </div>
+    <div class="caption">
+    <h3>Colin Morrison</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/john-image.jpg" alt="John Macdonald">
+    </div>
+    <div class="caption">
+    <h3>John Macdonald</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="thumbnail">
+    <img src="assets/images/Our Team Photos/pher-image.jpg" alt="Pher Nicolson">
+    </div>
+    <div class="caption">
+    <h3>Pher Nicolson</h3>
+    <p></p>
+    </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <footer>
+    <section id="stcs-footer" class="footer-stcs">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-3">
+    <h4>Contact</h4>
+    <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+    <span itemprop="street-address">St Columba's Free Church of Scotland<br>
+    Johnston Terrace</span>, <span itemprop="locality">Edinburgh</span><br>
+    <span itemprop="postal-code">EH1 2PW</span>
+    </p>
+    <p><a href="about/contact-us">View Map</a></p>
+    <p>
+    <a class="break-word" href="/cdn-cgi/l/email-protection#523d34343b3137122126312134317c3d2035" itemprop="email"><span class="__cf_email__" data-cfemail="d9b6bfbfb0babc99aaadbaaabfbaf7b6abbe">[email&#160;protected]</span></a></br>
+    <a href="tel:+441312253505" itemprop="telephone">0131 225 3505</a>
+    </p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+    <h4>Sunday Services</h4>
+    <p>
+    Morning Service 11am<br>
+    Evening Service 5:30pm
+    </p>
+    <p>For other meetings and events, please see the <a href="http://stcsfc.org/calendar" target="_blank">church calendar</a></p>
+    </div>
+    <div class="clearfix visible-xs-block"></div>
+    <div class="col-xs-6 col-sm-3">
+    <h4>Giving</h4>
+    <p>If you wish to give to St Columba's please visit our <a href="connect/giving">giving page</a>.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+    <h4>Connect</h4>
+    <ul>
+    <li><a href="http://www.twitter.com/stcsfreechurch" target="_blank">Twitter</a></li>
+    <li><a href="http://www.facebook.com/stcolumbasfreechurch" target="_blank">Facebook</a></li>
+    <li><a href="http://www.youtube.com/stcolumbasfreechurch" target="_blank">YouTube</a></li>
+    <li><a href="https://plus.google.com/110333993204526370348" target="_blank">Google+</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="stcs-legal" class="sub-footer-stcs">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-9">
+    <p>
+    &copy; 2016 St Columba's Free Church of Scotland. All rights reserved.<br>
+    St Columba's Free Church is a registered charity in Scotland (SC016551)
+    </p>
+    </div>
+    <div class="col-xs-3">
+    <p class="text-right">
+    <a href="http://frasercoyle.com" target="_blank">By Fraser/Coyle</a>
+    </p>
+    </div>
+    </div>
+    </div>

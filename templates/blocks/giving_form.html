@@ -1,0 +1,60 @@
+<h2 class="heading">Giving Online</h2>
+<div class="form">
+  <form action="/charge" method="post" id="payment-form">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" tabindex="1" class="form-control" name="name" id="name" data-stripe="name">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" tabindex="2" class="form-control" name="email" id="email">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="amount">I would like to give</label>
+          <input type="number" min="1" tabindex="3" class="form-control" name="amount" id="amount" pattern="[0-9]{13,16}" placeholder="&#163;" step="0.01">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="fund">Fund</label>
+          <select name="fund" class="form-control" id="fund">
+            <option value="General">General</option>
+            <option value="CP-Cornerstone">Church Planting - Cornerstone</option>
+            <option value="CP-Esk-Valley">Church Planting - Esk Valley</option>
+            <option value="Weekend-Away">Weekend Away</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <label for="card-element">
+          Credit or debit card
+        </label>
+        <div id="card-element" class="form-control">
+          <!-- a Stripe Element will be inserted here. -->
+        </div>
+
+        <!-- Used to display form errors -->
+        <div id="card-errors" role="alert"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <button type="submit" class="btn btn-med submit-btn btn-default" style="margin-top: 15px;" id="giving-button">Donate!</button>
+      </div>
+      <div class="col-md-12" id="elmContainer">
+      </div>
+    </div>
+  </form>
+</div>

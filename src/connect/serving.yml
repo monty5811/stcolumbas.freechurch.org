@@ -1,0 +1,164 @@
+layout: "content_page"
+title: "Serving"
+html:
+  type_: "raw_html"
+  html: |
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <p>In following Jesus, we follow a Saviour who said of himself: “For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many” (Mark 10.45). As a result, serving is something we seek to do as Christians from a grateful heart, knowing how Christ has served us - laying down his life for us.</p><p>God has blessed each of us with different gifts and abilities. At St Columba’s we want to encourage everyone to exercise their gifts and to contribute to church life in whatever way they can. Serving in church shouldn’t be onerous or laborious; it should be a way of offering worship to God by following Jesus’ example in putting others before ourselves. It can also be a great way of bringing our church community closer together - after all, there’s no room for rank or class when we wash up or sweep the floor together!</p><p>Here at St Columba’s, we encourage our people to commit to one core area of service on a Sunday - if they are able. <br></p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <p>This means that as many people as possible can get involved in one way or another, and that no one gets overburdened by doing too much. If you are interested in helping, please have a look at the different options below. Of course, service is not a requirement! Our primary goal is to worship God, and to glorify Him in the best way each of us can.
+    </p><p>We fully appreciate that for some people, committing to one of our regular Sunday morning opportunities for service may be too much to ask. We are all at different stages and seasons of life, with varying capacities and energies. If you feel like this might be you, we would like to encourage you to prayerfully consider some of the other types of service we are involved in as a church, including our social justice and outreach work. Details of these projects can be found on the Ministries page.
+    </p><p>“Whatever you do, work heartily, as for the Lord and not for men.” <br>Colossians 3.23.
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="fluid-container seperator-stcs"></div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="heading">Our Teams</h2>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <img src="assets/uploads/kidschurch_image_2.jpg" alt="" class="">
+    <h3 class="heading">Kids' Church</h3>
+    <p>Our Kids’ Church programme serves all the young people aged 3 to 14, of which there are an ever growing number! Our young people are the future of our church, and we are always looking for willing volunteers to join our teaching teams and help prepare these young people to live the Christian life in today’s often challenging world.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/ross-image.jpg" class="media-object img-circle" alt="Ross Graham">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Ross Graham</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <img src="assets/uploads/Cr_che_image.jpg" alt="" class="">
+    <h3 class="heading">Crèche Team</h3>
+    <p>We look after the smallest members of our church family (those aged 3 & under). If you have a loving heart and a ready smile, we would love for you to join us in making sure that the first memories these little ones have of church are happy and welcoming.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/helen-image.jpg" class="media-object img-circle" alt="Helen Brannigan">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Helen Brannigan</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <img src="assets/uploads/production_image.jpg" alt="" class="">
+    <h3 class="heading">Production Team</h3>
+    <p>We look after the sound and screens on a Sunday, manage the website and run a few other techie things behind the scenes. Much of what we do is unseen, but we do our best to help the life of the church run smoothly. You don’t need any prior experience to join the team, so please get in touch if you are interested in helping out.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/ali-image.jpg" class="media-object img-circle" alt="Ali Oliver">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Ali Oliver</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <img src="assets/uploads/praise_image_1.jpg" alt="" class="">
+    <h3 class="heading">Praise</h3>
+    <p>We are always looking for new ways of making a joyful noise to the Lord, so whether you think you’ve got untapped potential as a hymn-singer or precentor (someone who leads the psalm-singing), or play a little-known musical instrument, we want to hear from you. We would especially welcome any gents who can sing, but there’s always room for more ladies too!
+    </p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/don-image.jpg" class="media-object img-circle" alt="Don Macleod">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Don Macleod</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <img src="assets/uploads/welcometeam_image_2.jpg" alt="" class="">
+    <h3 class="heading">Welcome Team</h3>
+    <p>You can be the first person people meet at St Columba's! First impressions are always powerful, and the same is true here in church - so we want ours to be kind, helpful and open-hearted. You don’t need a good memory for names or faces; just a willingness to welcome every individual as if you are welcoming Christ himself!</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/david-image.jpg" class="media-object img-circle" alt="David Morris">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">David Morris</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <img src="assets/uploads/hospitality_image_1.jpg" alt="" class="">
+    <h3 class="heading">Hospitality Team</h3>
+    <p>We like to share hospitality together as a congregation, whether as a hot drink after the service or a meal together. If you would be willing to give up a small amount of your time every few weeks to help provide this hospitality on a Sunday, we would be be very grateful. It isn’t difficult or glamorous work, but it makes a huge difference to the fellowship we can share as a congregation.
+    </p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/uploads/georgie_images.png" class="media-object img-circle" alt="Georgie Armstrong">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Georgie Armstrong</h3>
+     </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    </div>
+    </div>
+    </div>
+    </div>

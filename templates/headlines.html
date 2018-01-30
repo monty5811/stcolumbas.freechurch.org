@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="headline-tabs">
+  <div class="col-md-8">
+    <ul class="nav nav-tabs col-md-9 col-md-offset-3">
+      <li class="tl-tag tl-tag-weight5">
+        <a href="headlines/" class="headlines-selected">Latest</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div id="news-page">
+  <div id="news-grid" class="col-md-8">
+    {% for post in posts %}
+    <div class="latest-post col-md-9 col-md-offset-3">
+      <div class="featured-image">
+        <div>
+          <a href="{{ post|blog_link }}">
+            <img src="{{ post|header_image }}" />
+          </a>
+        </div>
+      </div>
+      <h2><a href="{{ post|blog_link }}">{{ post.title }}</a></h2>
+      <div class="entry">
+      {{ post.intro|render_text }}
+
+      <p><a href="{{ post|blog_link }}">Continue reading...</a></p>
+      <p class="published-date">Published by {{ post.author }} on {{ post.date }}</p>
+      </div>
+      <hr>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

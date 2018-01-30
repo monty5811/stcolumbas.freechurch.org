@@ -1,0 +1,15 @@
+{% load wagtailimages_tags %}
+{% image value.photo original as contact_pic %}
+<div class="team-contact">
+  <a html="#">
+    <div class="media">
+      <div class="media-left media-middle">
+        <img src="{{ contact_pic.url }}" class="media-object img-circle" alt="{{ value.name }}">
+      </div>
+      <div class="media-body">
+        <p>Contact</p>
+        <h3 class="media-heading">{{ value.name }}</h3>
+      </div>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,168 @@
+layout: "content_page"
+title: "Ministries"
+html:
+  type_: "raw_html"
+  html: |
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/citygroups_image_2.jpg" alt="" class="">
+    <h3>City Group Sundays</h3><p>City Group Sundays are a chance to spend a little longer in each others’ company on a Sunday afternoon. They are a time where people can show hospitality by opening their homes and providing a meal for others in the group, and normally happen on the third Sunday of the month. Of course, there’s no requirement on you to host if you go to a group, but it’s there to help you build friendships.
+    </p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/donna-image.jpg" class="media-object img-circle" alt="Donna Macleod">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Donna Macleod</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/theden_image.jpg" alt="" class="">
+    <h3>The Den</h3><p>The Den, is an informal time together to relax, have fun, and to enjoy some Krispy Kremes and frappuccinos, on Sunday evenings. It is a chance for young teens to share their faith, meet others their own age and to ask any questions they may have about Christianity or the different issues they may be facing.
+    </p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/jen-images.jpg" class="media-object img-circle" alt="Jennifer Urquhart">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Jennifer Urquhart</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/connect_image_3.jpg" alt="" class="">
+    <h3>Connect Meals</h3><p>Connect Meals runs on the first Sunday of the month. These meals give everyone the chance to host people, meet new people and build community in a growing congregation. There are a couple of coordinators who arrange some hosts for any given weekend, and then it’s just up to you, if you feel like going to someone’s for a meal and to get to know them better, to sign up.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/sara-image.jpg" class="media-object img-circle" alt="Sara Gordon">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Sara Gordon</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/oldfarmcourt_image.jpg" alt="" class="">
+    <h3>Old Farm Court</h3><p>The Old Farm Court is a sheltered housing accommodation unit, in Colinton, for those aged 60+. On the second Sunday of each month an hour-long worship service, led by someone from St Columba’s, is held for its residents. The residents at Old Farm Court love to have visitors and so we try to encourage two or three from our congregation each month to enjoy fellowship with them. Currently we have about 25-30 people who come along which is great and it is an excellent opportunity to present the Gospel to those who have not heard it before.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/ben-image.jpg" class="media-object img-circle" alt="Ben Nicolson">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Ben Nicolson</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/kidschurch_image_2.jpg" alt="" class="">
+    <h3>Kids’ Church</h3><p>There is a growing group of children in the church. We love them and want to care for them, teach them and help them enjoy their time as part of the church family as much as possible. Kids’ church happens during the morning sermon and all ages are catered for. Each class utilises age-appropriate resources to illustrate and apply Bible teaching. Our teachers and helpers are all PVG checked, trained and are enthusiastic participants who work together in teams to look after the kids.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/ross-image.jpg" class="media-object img-circle" alt="Ross Graham">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Ross Graham</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/identity_image_1.jpg" alt="" class="">
+    <h3>Identity</h3><p>Identity is our group for late teens and early 20s. We meet on a Sunday after the evening worship service, usually at the manse. Identity aims to cement your understanding of the gospel and it’s relevance to where you are at in life, as well as being a great place to forge and deepen friendships.</p><p>Meetings usually take the form of a follow-up discussion & study based on the evening service, or a topical presentation on an aspect of life hopefully relevant to you.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/pher-image.jpg" class="media-object img-circle" alt="Pher Nicolson">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Pher Nicolson</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/coredisipleship_image_2.jpg" alt="" class="">
+    <p><strong><span style="font-size: 24px;">Discipleship & Mentoring</span></strong></p><p><strong><span style="font-size: 24px;"></span></strong></p><p>At St Columba’s we want to support people to grow in their faith and deepen their personal relationship with Jesus at every stage of their lives. One way of doing this is through the discipleship programmes we offer. These programmes are based in small groups to promote accountability and develop relationships within the church as well as encouraging spiritual growth. In addition to these programmes one-to-one discipleship is also available for those who would benefit from a more individualised approach.</p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/emma-image.jpg" class="media-object img-circle" alt="Emma MacGillivray">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Emma MacGillivray</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <img src="assets/uploads/socialaction_image_1.jpg" alt="" class="">
+    <p><strong><span style="font-size: 24px;">Social Action</span></strong></p><p>In St Columba’s we don’t run our own programmes but link up with existing charities to help bring relief and comfort to those who are disadvantaged and in need. Currently we help with <a href="http://www.bethanychristiantrust.com/" target="_blank">Bethany Christian Trust</a>, <a href="http://edinburghcitymission.org.uk/ministries/carevan/" target="_blank">The Care Van</a>, <a href="https://www.safefamiliesforchildren.com/" target="_blank">Safe Families for Children</a> and the <a href="http://edinburghse.foodbank.org.uk/" target="_blank">SE Edinburgh Foodbank</a>. If you would like to know more or get involved helping, please get in touch!
+    </p>
+    <div class="team-contact">
+    <a html="#">
+    <div class="media">
+    <div class="media-left media-middle">
+    <img src="assets/images/Our Team Photos/craig-image.jpg" class="media-object img-circle" alt="Craig Nicolson">
+    </div>
+    <div class="media-body">
+    <p>Contact</p>
+    <h3 class="media-heading">Craig Nicolson</h3>
+    </div>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block body_id %}home{% endblock %}
+{% block jumbotron %}{% endblock %}
+{% block section_start %}{% endblock %}
+{% block section_end %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block content %}
+<div id="carousel-stcs" class="carousel fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="fill" style="background-image: url('{{ data.photo.url }}');"></div>
+      <div class="carousel-caption">
+        <h1>{{ data.heading }}</h1>
+        <a href="{{ data.link.href }}" class="btn btn-home">{{ data.link.text }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block extra_js %}
+<script type="text/javascript">
+$(function() {
+  $('#carousel-stcs').carousel({
+    pause: "false"
+  });
+});
+</script>
+{% endblock %}

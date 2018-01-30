@@ -1,0 +1,9 @@
+layout: "home_page"
+title: "St Columba's Free Church"
+heading: "St Columba's is a city-wide community for Christ"
+link:
+  text: "Visit"
+  href: "/connect/visit"
+photo:
+  alt_text: ""
+  url: "/static/uploads/church-banner-1080.jpg"
