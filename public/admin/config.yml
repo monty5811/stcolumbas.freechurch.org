@@ -71,38 +71,20 @@ collections:
               - {label: "Left", name: "left", widget: "markdown"}
               - {label: "Right", name: "right", widget: "markdown"}
               - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
-          - label: "Ministers"
-            name: "ministers"
+          - label: "Teams"
+            name: "teams"
             widget: list
             fields:
-              - {label: "Name", name: "name", widget: "string"}
               - {label: "Title", name: "title", widget: "string"}
-              - {label: "Picture", name: "picture", widget: "image"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
-          - label: "Staff"
-            name: "staff"
-            widget: list
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Picture", name: "picture", widget: "image"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
-          - label: "Elders"
-            name: "elders"
-            widget: list
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Picture", name: "picture", widget: "image"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
-          - label: "Deacons"
-            name: "deacons"
-            widget: list
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Picture", name: "picture", widget: "image"}
-              - {label: "Type", name: "type_", widget: "hidden", default: "team_head"}
+              - {label: "Type", name; "type_", widget: "hidden", default: "team_list"}
+              - label: "Members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Picture", name: "picture", widget: "image"}
+                  - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
       - name: "church-plants"
         label: "Church Plants"
         file: "src/about/church-plants.yml"
