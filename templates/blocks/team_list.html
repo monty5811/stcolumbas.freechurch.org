@@ -1,28 +1,26 @@
-{% load wagtailimages_tags %}
-{% load stcs_extras %}
+{% include 'blocks/separator.html' %}
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <h2 class="heading">{{ value.team_name }}</h2>
+      <h2 class="heading">{{ title }}</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     </div>
   </div>
 </div>
 </div>
-{% for group in value.team_members|group_into:6 %}
+{% for group in members|group_into(6) %}
 <div class="our-staff">
   <div class="container">
     <div class="row">
       {% for member in group %}
-      {% image member.photo original as pic %}
       <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
         <div class="thumbnail">
-          <img src="{{ pic.url }}" alt="{{ member.name }}">
+          <img src="{{ member.picture }}" alt="{{ member.name }}">
         </div>
         <div class="caption">
           <h3>{{ member.name }}</h3>
-          <p>{{ member.role }}</p>
+          <p>{{ member.title }}</p>
         </div>
       </div>
       {% endfor %}
