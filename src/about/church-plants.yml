@@ -1,12 +1,13 @@
 layout: content_page
 title: Church Plants
 intro:
+  type_: "text_text_row"
   left: "Scotland is, according to recent church attendance statistics, an unreached country for the gospel. We see the effects of this in our city, yet rather than just self-preserve, we want to go out with the good news of Jesus and plant churches.\r\r\n\nPlanting churches is no new thing - every church anyone has ever been in was, at one time, a new church. So rather than seeing church planting as a fad, the leadership at St Columba’s see starting new churches as the most effective way to take the gospel out into a culture which, by and large, has rejected the mainstream institutional church in Scotland."
   right: "Almost every area of the city would benefit from having new, outreaching churches acting as salt and light. At present we have started a church in Morningside, and are working towards starting one just south of the city in Midlothian. These have been small groups of people from St Columba’s who have felt called to begin a new work in the part of the city where they live. Mostly, the way we do this is by being a community together, and by trying to reach out relationally to those we live and work amongst during the week.\r\n\r\nWe sense the challenge of doing this, and feel ourselves to be very small - but we recognise at the same time how great God is, that all the necessary resources are his and that He has the power to build His church."
 church_plants:
-  - left: >-
+  - type_: "text_text_row_with_sep"
+    left: >-
       ## Cornerstone
-
 
       In early 2014, we planted a new church in the Morningside / Bruntsfield
       area of the city. We want this church to be for those who are not
@@ -23,8 +24,9 @@ church_plants:
       the Bible, applying it to every-day life and praying. Some of us meet for
       prayer in the mornings and we like to hang out together on a Sunday
       afternoon.
-    right: '\[image]'
-  - left: '[image]'
+    right: '![Cornerstone](/static/uploads/cornerstone.jpg "Cornerstone")'
+  - type_: "text_text_row_with_sep"
+    left: '![Esk Valley](/static/uploads/eskvalley.jpg "Esk Valley")'
     right: >-
       ## Esk Valley Church
 

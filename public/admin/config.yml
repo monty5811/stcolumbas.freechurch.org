@@ -57,13 +57,20 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
           - {label: "Title", name: "title", widget: "string"}
+          - label: "Heading"
+            name: "heading"
+            widget: "object"
+            fields:
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown", required: False}
+              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
           - label: "Intro"
             name: "intro"
             widget: object
             fields:
-              - {label: "Heading", name: "heading", widget: "string"}
               - {label: "Left", name: "left", widget: "markdown"}
               - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
           - label: "Ministers"
             name: "ministers"
             widget: list
@@ -95,25 +102,28 @@ collections:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Picture", name: "picture", widget: "image"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "team_head"}
       - name: "church-plants"
         label: "Church Plants"
         file: "src/about/church-plants.yml"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type_", widget: "hidden", default: "church_plants"}
           - label: "Intro"
             name: "intro"
             widget: object
             fields:
               - {label: "Left", name: "left", widget: "markdown"}
               - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
           - label: "Church Plants"
             name: "church_plants"
             widget: list
             fields:
               - {label: "Left", name: "left", widget: "markdown"}
               - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row_with_sep"}
       - name: "giving"
         label: "Giving"
         file: "src/connect/giving.yml"

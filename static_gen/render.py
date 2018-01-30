@@ -8,6 +8,16 @@ from jinja2 import Environment, FileSystemLoader
 markdown = mistune.Markdown()
 
 
+def group_into(l, n=6):
+    """
+    Partition list into sub-lists of `n` items.
+    l: list
+    n: number of items in each sublist
+    """
+    for i in range(0, len(l), n):
+        yield l[i:i + n]
+
+
 def datetimeformat(value, format='%H:%M  %d-%b-%Y') -> str:
     return value.strftime(format)
 
@@ -39,6 +49,7 @@ def setup_jinja():
     env.filters['blog_link'] = blog_link
     env.filters['header_image'] = header_image
     env.filters['render_text'] = render_text
+    env.filters['group_into'] = group_into
     return env
 
 
@@ -107,6 +118,9 @@ def render_text_text_row(value):
 
     return render_template('blocks/two_column.html', data)
 
+def render_text_text_row_with_sep(value):
+    return render_separator(None) + render_text_text_row(value)
+
 
 def render_giving_row(value):
     left = render_giving_form()
@@ -122,9 +136,18 @@ def render_giving_row(value):
 def render_separator(_):
     return render_template('blocks/separator.html', {})
 
+def render_team_list(value):
+    return render_template('blocks/team_list.html', value)
+
 
 def render_content(value) -> str:
-    assert 'type_' in value
+    if isinstance(value, list):
+        return '\n'.join([render_content(v) for v in value])
+
+    try:
+        assert 'type_' in value
+    except AssertionError:
+        raise AssertionError(f'type_ missing from value: {value}')
     type_ = value['type_']
 
     render_fns = {
@@ -133,8 +156,10 @@ def render_content(value) -> str:
         'image_text_row': render_text_image_row,
         'raw_html': lambda value: value['html'],
         'text_text_row': render_text_text_row,
+        'text_text_row_with_sep': render_text_text_row_with_sep,
         'giving_row': render_giving_row,
         'separator': render_separator,
+        'team_list': render_team_list,
     }
     try:
         render_fn = render_fns[type_]
