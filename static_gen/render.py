@@ -50,6 +50,7 @@ def setup_jinja():
     env.filters['header_image'] = header_image
     env.filters['render_text'] = render_text
     env.filters['group_into'] = group_into
+    env.filters['md'] = markdown
     return env
 
 
@@ -139,6 +140,11 @@ def render_separator(_):
 def render_team_list(value):
     return render_template('blocks/team_list.html', value)
 
+def render_activities_list(value):
+    return render_template('blocks/activities_list.html', value)
+
+def render_activity_contact(value):
+    return render_template('blocks/activity_contact.html', value)
 
 def render_content(value) -> str:
     if isinstance(value, list):
@@ -160,6 +166,8 @@ def render_content(value) -> str:
         'giving_row': render_giving_row,
         'separator': render_separator,
         'team_list': render_team_list,
+        'activities_list': render_activities_list,
+        'activity_contact': render_activity_contact,
     }
     try:
         render_fn = render_fns[type_]

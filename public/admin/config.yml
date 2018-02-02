@@ -138,3 +138,67 @@ collections:
               - {label: "Online Form (auto populated)", name: "left", widget: "string", default: "!giving_form"}
               - {label: "Right", name: "right", widget: "markdown"}
               - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+      - name: "ministries"
+        label: "Ministries"
+        file: "src/connect/ministries.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Ministries"
+            name: "ministries"
+            widget: object
+            fields:
+              - {label: "Type", name; "type_", widget: "hidden", default: "activities_list"}
+              - {label: "Group Into", name; "group_into", widget: "hidden", default: 2}
+              - label: "Activities"
+                name: "activities"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Picture", name: "picture", widget: "image"}
+                  - {label: "Description", name: "content", widget: "markdown"}
+                  - label: "Contact"
+                    name: "contact"
+                    widget: "object"
+                    fields:
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Picture", name: "picture", widget: "image"}
+                      - {label: "Type", name; "type_", widget: "hidden", default: "activity_contact"}
+      - name: "serving"
+        label: "Serving"
+        file: "src/connect/serving.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Intro"
+            name: "intro"
+            widget: object
+            fields:
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
+          - label: "Separator"
+            name: "separator"
+            widget: "hidden"
+            fields:
+              - {label: "Type", name; "type_", widget: "hidden", default: "separator"}
+          - label: "Serving Areas"
+            name: "Serving Areas"
+            widget: object
+            fields:
+              - {label: "Type", name; "type_", widget: "hidden", default: "activities_list"}
+              - {label: "Group Into", name; "group_into", widget: "hidden", default: 3}
+              - label: "Activities"
+                name: "activities"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Picture", name: "picture", widget: "image"}
+                  - {label: "Description", name: "content", widget: "markdown"}
+                  - label: "Contact"
+                    name: "contact"
+                    widget: "object"
+                    fields:
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Picture", name: "picture", widget: "image"}
+                      - {label: "Type", name; "type_", widget: "hidden", default: "activity_contact"}

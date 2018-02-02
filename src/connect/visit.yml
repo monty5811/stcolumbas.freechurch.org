@@ -3,24 +3,18 @@ title: "Visit"
 html:
   type_: "raw_html"
   html: |
-    <section class="content">
-    <div class="jumbotron jumbotron-dark">
-    <div class="container">
-    <h1 class="banner-h1-stcs">Visit</h1>
-    </div>
-    </div>
     <div class="visit-times">
     <div class="container">
     <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <div class="visit-time">
-    <img src="assets/images/icons/sun-icon.png" class="media-object" alt="Sunday Morning Service 11am">
+    <img src="/static/uploads/sun-icon.png" class="media-object" alt="Sunday Morning Service 11am">
     <h3 class="visit-time-icon">Sunday Morning Service 11am</h3>
     </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <div class="visit-time">
-    <img src="assets/images/icons/moon-icon.png" class="media-object" alt="Sunday Evening Service 5.30pm">
+    <img src="/static/uploads/moon-icon.png" class="media-object" alt="Sunday Evening Service 5.30pm">
     <h3 class="visit-time-icon">Sunday Evening Service 5.30pm</h3>
     </div>
     </div>
@@ -36,7 +30,7 @@ html:
     <p>Many different people visit our church services for different reasons, from people on business, to holiday-makers, to people new to the city and looking to settle down. We'd like to give you an idea of what to expect if you visited one of our services.</p><p><a href="/jesus">Jesus</a> is at the centre of everything that happens at St Columba's, so during the service He is the main focus. Our service consists of a mix of singing, prayer, reading the Bible and preaching (a short talk, or 'sermon'), where a Bible passage is explained and applied. All our sermons are online so you can <a href="http://sermons.stcolumbas.freechurch.org/" target="_blank">check them out</a> ahead of time.</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/Stock_39_of_39.jpg" alt="" class="">
+    <img src="/static/uploads/Stock_39_of_39.jpg" alt="" class="">
     </div>
     </div>
     </div>
@@ -45,7 +39,7 @@ html:
     <div class="container">
     <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/IMG_3635.JPG" alt="" class="">
+    <img src="/static/uploads/IMG_3635.JPG" alt="" class="">
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <p>The service usually lasts for about 1 hour, during which you are free to sit and just observe. You don't need to participate in the singing or anything that makes you feel uncomfortable, and you're not required to make any kind of donation. </p><p>If you have recently started coming to St Columba's and you'd like us to have your details so we can connect you to the life of the congregation and a <a href="connect/community">City Group</a>, visit <a href="http://stcsfc.org/new" target="_blank">stcsfc.org/new</a>.</p>
@@ -67,17 +61,17 @@ html:
     <div class="container">
     <div class="row">
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-    <img src="assets/images/icons/car-icon.png" alt="car image" class="img-responsive center-block visit-icon">
+    <img src="/static/uploads/car-icon.png" alt="car image" class="img-responsive center-block visit-icon">
     <h3 class="heading">Travelling by car</h3>
     <p>There are often spaces available on Victoria Street or Johnston Terrace, where parking is free of charge on a Sunday.</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-    <img src="assets/images/icons/bus-icon.png" alt="bus image for travelling" class="img-responsive center-block visit-icon">
+    <img src="/static/uploads/bus-icon.png" alt="bus image for travelling" class="img-responsive center-block visit-icon">
     <h3 class="heading">Travelling by bus</h3>
     <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes <strong>23</strong>, <strong>27</strong>, <strong>41</strong> & <strong>42</strong>.</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-    <img src="assets/images/icons/train-icon.png" alt="train icon" class="img-responsive center-block visit-icon">
+    <img src="/static/uploads/train-icon.png" alt="train icon" class="img-responsive center-block visit-icon">
     <h3 class="heading">Travelling by train</h3>
     <p><del></del>You can walk to the church from Waverley station in less than 10 minutes.</p>
     </div>
@@ -85,11 +79,11 @@ html:
     </div>
     </div>
     <div class="google-map visit-map" id="map-container1"></div>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.6&amp;sensor=true"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.6&amp;sensor=true"></script>
     <script type="text/javascript">
     jQuery(document).ready(function($) {
       var center = new google.maps.LatLng(55.948845, -3.194091999999955);
-      var map_pin = new google.maps.MarkerImage('assets/images/icons/mapmarker-icon-76x106.png');
+      var map_pin = new google.maps.MarkerImage('static/uploads/mapmarker-icon-76x106.png');
       map_pin.size = new google.maps.Size(38,53);
       map_pin.scaledSize = new google.maps.Size(38,53);
       map_pin.anchor = new google.maps.Point(38,53);
@@ -126,7 +120,7 @@ html:
     </p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/Stock_14_of_39.jpg" alt="" class="">
+    <img src="/static/uploads/Stock_14_of_39.jpg" alt="" class="">
     </div>
     </div>
     </div>
@@ -135,7 +129,7 @@ html:
     <div class="container">
     <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/creche_1.jpg" alt="" class="">
+    <img src="/static/uploads/creche_1.jpg" alt="" class="">
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <h3>What about Children?</h3><p>Our Kids' Church (age 4 and up) meets during the 11am service. The children come in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song. There is a crèche available during the morning service for babies and toddlers up to the age of three. We have a large and experienced team of volunteers. Visitors are very welcome. In addition to the crèche facilities there is a feeding room in the church (with a video link) for those who have need of it. If in doubt, please just ask for directions or follow the signs. All our Créche and Kids' Church volunteers have full <a href="https://www.disclosurescotland.co.uk/disclosureinformation/pvgscheme.htm" target="_blank">PVG</a> disclosure.</p><h3>Where do I go?</h3><p>You enter the church building through the our main (red) double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.</p>
@@ -150,9 +144,8 @@ html:
     <h3>Mid-Week Prayer Meeting</h3><p>On the 2nd and 4th Wednesday evening of the month we have a Prayer Meeting in our Church Hall. This usually means a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together - usually by breaking out into small groups.</p><p>On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our <a href="/connect/community">City Groups</a>.</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/CsOId80WAAA62Fw - Edited.jpg" alt="" class="">
+    <img src="/static/uploads/CsOId80WAAA62Fw - Edited.jpg" alt="" class="">
     </div>
     </div>
     </div>
     </div>
-    </section>
