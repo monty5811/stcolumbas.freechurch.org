@@ -1,0 +1,15 @@
+{% for group in activities|group_into(group_into) %}
+<div class="container">
+  <div class="row">
+    {% for A in group %}
+    <div class="col-xs-12 col-sm-{{12//group_into}} col-md-{{12//group_into}} col-lg-{{12//group_into}}">
+      <img src="{{ A.picture }}">
+      <h3>{{ A.name }}</h3>
+      <p>{{ A.content }}</p>
+      </p>
+      {{ A.contact|render_content }}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

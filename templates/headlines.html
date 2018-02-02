@@ -33,5 +33,11 @@
     </div>
     {% endfor %}
   </div>
+  <div id="tags-grid" class="col-md-2">
+    <h2>Tags</h2>
+    {% for tag in tags %}
+      <a href="/headlines/tags/{{ tag }}">{{ tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+    {% endfor %}
+  </div>
 </div>
 {% endblock %}
