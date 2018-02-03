@@ -1,5 +1,6 @@
 var Elm = require('./Main.elm');
 var elmContainer = document.getElementById('elmContainer');
+var submitButton = document.getElementById('giving-button');
 
 if (elmContainer !== null) {
   var app = Elm.Main.embed(elmContainer);
@@ -37,8 +38,10 @@ if (elmContainer !== null) {
     var displayError = document.getElementById('card-errors');
     if (event.error) {
       displayError.textContent = event.error.message;
+      submitButton.disabled = true;
     } else {
       displayError.textContent = '';
+      submitButton.disabled = false;
     }
   });
 
@@ -46,8 +49,7 @@ if (elmContainer !== null) {
   form.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    b = document.getElementById('giving-button');
-    b.remove();
+    submitButton.remove();
 
     app.ports.startLoading.send(null);
 

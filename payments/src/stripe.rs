@@ -11,6 +11,12 @@ pub struct ChargeRequest {
     token: String,
 }
 
+static GENERIC_ERROR: &'static str = "No message from Stripe..
+
+I'm not sure if your card was charged...
+
+Maybe wait a bit or get in touch to check.";
+
 pub fn charge(charge: ChargeRequest) -> Result<String, String> {
     // get stripe API key
     let stripe_api_key = match env::var("STRIPE_API_KEY") {
@@ -22,12 +28,13 @@ pub fn charge(charge: ChargeRequest) -> Result<String, String> {
             "Card not charged (no Stripe API Key set on server)",
         ));
     }
-    println!("{:?}", charge);
     // pull together params
     let desc = format!(
         "Donation: {} ({}) for {}",
         charge.name, charge.email, charge.fund
     );
+    println!("About to create charge ({}p) for {}", charge.amount, desc);
+
     // create client and send request
     let client = stripe::Client::new(stripe_api_key);
     // add params
@@ -41,16 +48,16 @@ pub fn charge(charge: ChargeRequest) -> Result<String, String> {
     // make request to create charge
     let charge_ = stripe::Charge::create(&client, params);
     match charge_ {
-        Ok(charge) => Ok(String::from(format!("Card charged.\nid={}", charge.id))),
-        Err(stripe::Error::Stripe(s_err)) => {
-            Err(format!("Card not charged (Stripe Error)\n{:?}", s_err))
+        Ok(charge) => {
+            println!("Card charged successfully: {}", charge.id);
+            Ok(String::from(format!("Card charged.")))
         }
-        Err(stripe::Error::Io(_)) => Err(String::from("Card not charged (IO error)")),
-        Err(stripe::Error::Http(http_err)) => {
-            Err(format!("Card not charged (HTTP Error)\n{:?}", http_err))
-        }
-        Err(stripe::Error::Conversion(_)) => {
-            Err(String::from("Card not charged\n(Conversion error)"))
-        }
+        Err(stripe::Error::Stripe(s_err)) => match s_err.message {
+            Some(stripe_message) => Err(format!("{}", stripe_message)),
+            None => Err(format!("No message provided.")),
+        },
+        Err(stripe::Error::Io(_io_err)) => Err(String::from(GENERIC_ERROR)),
+        Err(stripe::Error::Http(_http_err)) => Err(String::from(GENERIC_ERROR)),
+        Err(stripe::Error::Conversion(_)) => Err(String::from(GENERIC_ERROR)),
     }
 }
