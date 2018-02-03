@@ -1,7 +1,7 @@
 import os
 
 from .constants import *
-from .utils import load_yaml
+from .utils import load_yaml, yaml
 
 
 def extract_tags(posts):
@@ -16,6 +16,20 @@ def _extract_tags(post):
     tags = [t.strip() for t in tags]
     return tags
 
+def load_post(fname):
+    with open(fname, 'r') as f:
+        d = f.read()
+    parts = d.split('\n---\n')
+    assert parts[0].startswith('---')
+    assert len(parts) == 2
+    raw_frontmatter = parts[0]
+    body = parts[1]
+
+    frontmatter = yaml.load(raw_frontmatter)
+    frontmatter['body'] = body
+
+    return frontmatter
+
 
 def write_blog_index(env, files):
     """
@@ -25,7 +39,7 @@ def write_blog_index(env, files):
     """
     posts = []
     for f in files:
-        post = load_yaml(f)
+        post = load_post(f)
         post['path'] = f.replace(SRC_DIR, '')
         posts.append(post)
 

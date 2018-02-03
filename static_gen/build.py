@@ -12,6 +12,9 @@ from .utils import load_yaml
 
 def write_files(env, pages):
     for p in pages:
+        # ignore headlines:
+        if '_headlines' in p:
+            continue
         data = load_yaml(p)
         content = data.copy()
         content.pop('layout', None)
