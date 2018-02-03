@@ -173,7 +173,7 @@ view model =
                 ]
 
         BadInputData rawErr ->
-            Html.div [ A.class "" ]
+            Html.div [ A.class "alert alert-danger" ]
                 [ Html.p [] [ Html.text "Uh oh, something went wrong there." ]
                 , Html.p [] [ Html.text "The issue happened before we tried to charge your card." ]
                 , Html.p [] [ Html.text "Please refresh this page and try again." ]
@@ -190,16 +190,41 @@ view model =
                 ]
 
         Complete ->
-            Html.div [ A.class "" ]
+            Html.div [ A.class "alert alert-success" ]
                 [ Html.text "Thank you for your donation!" ]
 
         Failed rawErr ->
-            Html.div [ A.class "" ]
-                [ Html.p [] [ Html.text "Uh oh, something went wrong there." ]
-                , Html.p [] [ Html.text "The issue happened as we were trying to charge your card." ]
-                , Html.p [] [ Html.text "I do not know if the charge was successful, can you please email us to check: " ]
-                , Html.p [] [ Html.text <| toString <| rawErr ]
-                ]
+            Html.div [ A.class "alert alert-danger" ]
+                ([ Html.p [] [ Html.text "Uh oh, something went wrong there." ]
+                 , Html.p [] [ Html.text "The issue happened as we were trying to charge your card:" ]
+                 ]
+                    ++ niceHttpErr rawErr
+                )
+
+
+niceHttpErr : Http.Error -> List (Html msg)
+niceHttpErr err =
+    case err of
+        Http.BadUrl _ ->
+            [ Html.p [] [ Html.text "Server error, your card should not have been charged, but please contact the office to make sure before trying again." ] ]
+
+        Http.Timeout ->
+            [ Html.p [] [ Html.text "Request timed out (it took too long)." ]
+            , Html.p [] [ Html.text "I do not know if your card was charged successfully, please contact the office and we will happily check for you." ]
+            ]
+
+        Http.NetworkError ->
+            [ Html.p [] [ Html.text "There was a network error, maybe your internet dropped out?" ]
+            , Html.p [] [ Html.text "I do not know if your card was charged successfully, please contact the office and we will happily check for you." ]
+            ]
+
+        Http.BadStatus resp ->
+            [ Html.p [] [ Html.text "The error message provided by our payments provider (Stripe) was:" ]
+            , Html.pre [] [ Html.text resp.body ]
+            ]
+
+        Http.BadPayload _ _ ->
+            [ Html.p [] [ Html.text "Server error, your card should not have been charged, but please contact the office to make sure before trying again." ] ]
 
 
 
@@ -247,7 +272,7 @@ makeCharge : Http.Body -> Cmd Msg
 makeCharge body =
     Http.request
         { method = "POST"
-        , headers = [ Http.header "Content-Type" "application/json" ]
+        , headers = []
         , url = "https://stcs-pay.herokuapp.com"
         , body = body
         , expect = Http.expectString

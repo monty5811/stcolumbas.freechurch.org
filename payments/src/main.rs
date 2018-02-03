@@ -72,21 +72,32 @@ impl AfterMiddleware for DefaultContentType {
     }
 }
 
-fn handle_err(err: bodyparser::BodyError) -> Response {
-    println!("Error: {:?}", err);
-    Response::with(status::BadRequest)
-}
-
 fn handle_post(req: &mut Request) -> Response {
+    println!("POST request received");
     let body = req.get::<bodyparser::Struct<stripe::ChargeRequest>>();
 
     match body {
-        Ok(Some(charge)) => match stripe::charge(charge) {
-            Ok(status) => Response::with((status::Created, status)),
-            Err(err) => Response::with((status::BadRequest, err)),
-        },
-        Ok(None) => Response::with(status::BadRequest),
-        Err(err) => handle_err(err),
+        Ok(Some(charge)) => {
+            println!("Parsed request body, starting Stripe request");
+            match stripe::charge(charge) {
+                Ok(status) => {
+                    println!("Stripe charge successful");
+                    Response::with((status::Created, status))
+                }
+                Err(err) => {
+                    println!("Stripe charge failed: {:?}", err);
+                    Response::with((status::BadRequest, err))
+                }
+            }
+        }
+        Ok(None) => {
+            println!("Request body was empty");
+            Response::with(status::BadRequest)
+        }
+        Err(err) => {
+            println!("Failed to parse request body: {:?}", err);
+            Response::with(status::BadRequest)
+        }
     }
 }
 
@@ -96,6 +107,7 @@ fn handle_get() -> Response {
 }
 
 fn handle_options() -> Response {
+    println!("OPTIONS request received");
     Response::with(status::Ok)
 }
 
