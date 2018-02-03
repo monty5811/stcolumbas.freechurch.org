@@ -46,7 +46,6 @@ impl AfterMiddleware for DefaultContentType {
     fn after(&self, req: &mut Request, mut resp: Response) -> IronResult<Response> {
         let allowed_domains = [
             String::from("stcolumbas.freechurch.org"),
-            String::from("calvin.deanmontgomery.com:4000"),
             String::from("boring-sammet-324fd8.netlify.com"),
         ];
 
