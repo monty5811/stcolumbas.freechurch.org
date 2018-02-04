@@ -4,7 +4,8 @@ title: "Services during the Christmas and New Year period"
 date: 2017-12-23
 thumbnail: "/static/uploads/church-banner-1080.jpg"
 author: Siobhan Smith
-tags: "news"
+tags: 
+    - "news"
 intro: |
   With Christmas and the New Year almost upon us, we wanted to remind you of the church services planned over the holidays. Here’s the rundown of what's in store:
 ---

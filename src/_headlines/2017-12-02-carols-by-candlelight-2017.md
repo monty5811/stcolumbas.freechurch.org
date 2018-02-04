@@ -4,7 +4,8 @@ title: "Carols by Candlelight"
 date: 2017-12-02
 thumbnail: "/static/uploads/carols-2017.jpg"
 author: Siobhan Smith
-tags: "news"
+tags: 
+    - "news"
 intro: |
   Our Saviour born! Share our community, worship and hospitality as we celebrate THE life changing story.
 ---

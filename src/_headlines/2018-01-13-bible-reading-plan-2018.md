@@ -4,7 +4,8 @@ title: "Bible Reading Plan 2018"
 date: 2018-01-13
 thumbnail: "/static/uploads/bible_reading_plan.jpg"
 author: Siobhan Smith
-tags: "news"
+tags: 
+    - "news"
 intro: |
   At St Columba’s we believe that prayerfully reading the Scriptures is critical to the Christian life, to growth, and our own spiritual formation. And because the whole Bible is God’s word, we must read it all! This year, we are going to engage as a community in a 52-week Bible reading plan. Of course, this is totally voluntary. But, we encourage everyone to join in and especially if you don’t already have a normal Bible reading schedule or have never read through the whole Bible.
 ---
