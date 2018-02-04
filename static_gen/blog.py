@@ -12,8 +12,7 @@ def extract_tags(posts):
 
 
 def _extract_tags(post):
-    tags = post['tags'].split(',')
-    tags = [t.strip() for t in tags]
+    tags = [t.strip() for t in post['tags']]
     return tags
 
 def load_post(fname):
