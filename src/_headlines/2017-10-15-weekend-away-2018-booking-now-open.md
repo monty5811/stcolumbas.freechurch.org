@@ -4,7 +4,8 @@ title: "Weekend Away 2018 - Booking Now Open!"
 date: 2017-10-15
 thumbnail: "/static/uploads/weekend_away_2018.jpg"
 author: Dean Montgomery
-tags: "news"
+tags: 
+    - "news"
 intro: |
   Booking is now open for our 2018 Weekend Away (Friday 5th - Sunday 7th of January). To book visit stcsfc.org/wa2018.
 ---

@@ -4,7 +4,8 @@ title: "Welcome to Student Life"
 date: 2017-08-27
 thumbnail: "/static/uploads/welcome_to_student_life.jpg"
 author: Siobhan Smith
-tags: "news"
+tags: 
+    - "news"
 intro: |
     Around this time of year at St Columba’s, we get all excited at the prospect of getting to know a whole new group of people who are moving into the city to begin their college or university studies.
     We know that your student years can be incredibly pivotal in your life.

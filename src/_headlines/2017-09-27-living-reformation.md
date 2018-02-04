@@ -4,7 +4,8 @@ title: "Living Reformation"
 date: 2017-09-27
 thumbnail: "/static/uploads/living_reformation.jpg"
 author: Siobhan Smith
-tags: "news"
+tags: 
+    - "news"
 intro: |
   In October, Protestants across the world celebrate the 500th anniversary of the Reformation.
   Specifically, the 31st of October 2017 is the 500th anniversary of Martin Luther’s call for a debate.

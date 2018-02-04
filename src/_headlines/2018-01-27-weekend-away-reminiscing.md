@@ -4,7 +4,8 @@ title: "Weekend Away Reminiscing"
 date: 2018-01-27
 thumbnail: "/static/uploads/weekend-away-2018-reminiscing.jpg"
 author: Siobhan Smith
-tags: "news"
+tags:
+  - "news"
 intro: |
   "It has been through going to the church weekends away that I have felt really at home at St Columba’s - living in community together even for a short weekend brings so much joy and laughter and can provide a space to rest and consider God’s goodness again."
 ---
