@@ -8,13 +8,13 @@ html:
     <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <div class="visit-time">
-    <img src="/static/uploads/sun-icon.png" class="media-object" alt="Sunday Morning Service 11am">
+    <img src="/static/images/icons/sun-icon.png" class="media-object" alt="Sunday Morning Service 11am">
     <h3 class="visit-time-icon">Sunday Morning Service 11am</h3>
     </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <div class="visit-time">
-    <img src="/static/uploads/moon-icon.png" class="media-object" alt="Sunday Evening Service 5.30pm">
+    <img src="/static/images/icons/moon-icon.png" class="media-object" alt="Sunday Evening Service 5.30pm">
     <h3 class="visit-time-icon">Sunday Evening Service 5.30pm</h3>
     </div>
     </div>
@@ -61,17 +61,17 @@ html:
     <div class="container">
     <div class="row">
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-    <img src="/static/uploads/car-icon.png" alt="car image" class="img-responsive center-block visit-icon">
+    <img src="/static/images/icons/car-icon.png" alt="car image" class="img-responsive center-block visit-icon">
     <h3 class="heading">Travelling by car</h3>
     <p>There are often spaces available on Victoria Street or Johnston Terrace, where parking is free of charge on a Sunday.</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-    <img src="/static/uploads/bus-icon.png" alt="bus image for travelling" class="img-responsive center-block visit-icon">
+    <img src="/static/images/icons/bus-icon.png" alt="bus image for travelling" class="img-responsive center-block visit-icon">
     <h3 class="heading">Travelling by bus</h3>
     <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes <strong>23</strong>, <strong>27</strong>, <strong>41</strong> & <strong>42</strong>.</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-    <img src="/static/uploads/train-icon.png" alt="train icon" class="img-responsive center-block visit-icon">
+    <img src="/static/images/icons/train-icon.png" alt="train icon" class="img-responsive center-block visit-icon">
     <h3 class="heading">Travelling by train</h3>
     <p><del></del>You can walk to the church from Waverley station in less than 10 minutes.</p>
     </div>
@@ -80,37 +80,6 @@ html:
     </div>
     <div class="google-map visit-map" id="map-container1"></div>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.6&amp;sensor=true"></script>
-    <script type="text/javascript">
-    jQuery(document).ready(function($) {
-      var center = new google.maps.LatLng(55.948845, -3.194091999999955);
-      var map_pin = new google.maps.MarkerImage('static/uploads/mapmarker-icon-76x106.png');
-      map_pin.size = new google.maps.Size(38,53);
-      map_pin.scaledSize = new google.maps.Size(38,53);
-      map_pin.anchor = new google.maps.Point(38,53);
-      var mapOptions = {
-            zoom: 15,
-            minZoom: 2,
-            maxZoom: 18,
-            center: center,
-            scrollwheel: false,
-            draggable: false,
-            mapTypeControl: true,
-            disableDefaultUI: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map($("#map-container1")[0], mapOptions);
-        var title = '';
-        var churchMarker = new google.maps.Marker({
-          position: center,
-          map: map,
-          icon: map_pin,
-            url: "https://www.google.co.uk/maps/place/St+Columba's+Free+Church+of+Scotland"
-        });
-    google.maps.event.addListener(churchMarker, 'click', function() {
-        window.open(this.url);
-    });
-    });
-    </script>
     <div class="">
     <div class="container">
     <div class="row">

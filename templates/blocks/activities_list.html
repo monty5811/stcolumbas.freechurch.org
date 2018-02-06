@@ -3,7 +3,7 @@
   <div class="row">
     {% for A in group %}
     <div class="col-xs-12 col-sm-{{12//group_into}} col-md-{{12//group_into}} col-lg-{{12//group_into}}">
-      <img src="{{ A.picture }}">
+      {{ A.picture|render_image }}
       <h3>{{ A.name }}</h3>
       <p>{{ A.content }}</p>
       </p>

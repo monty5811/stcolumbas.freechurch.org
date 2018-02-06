@@ -1,4 +1,4 @@
-port module Main exposing (main)
+port module Payments exposing (main)
 
 import Html exposing (Html)
 import Html.Attributes as A

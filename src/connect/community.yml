@@ -27,14 +27,14 @@ html:
     <div class="container">
     <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/citygroups_image_3.jpg" alt="" class="">
+    <img src="static/uploads/citygroups.jpg" alt="" class="">
     <h3><strong></strong>City Groups
     </h3><p>City groups are our midweek house groups where we not only socialise and share hospitality, but we study the Bible together and pray. If the normal Sunday service is ‘big’ church, then this is ‘small’ church. These groups are normally regional throughout the city and overseen pastoral teams led by elders. These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce their wider circle of friends and others to the Christian faith</p>
     <div class="team-contact">
     <a html="#">
     <div class="media">
     <div class="media-left media-middle">
-    <img src="assets/images/Our Team Photos/donna-image.jpg" class="media-object img-circle" alt="Donna Macleod">
+    <img src="static/uploads/people/donna.jpg" class="media-object img-circle" alt="Donna Macleod">
     </div>
     <div class="media-body">
     <p>Contact</p>

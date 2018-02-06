@@ -13,12 +13,12 @@
 
 <div id="news-page">
   <div id="news-grid" class="col-md-8">
-    {% for post in posts %}
+    {% for post in pagination['posts'] %}
     <div class="latest-post col-md-9 col-md-offset-3">
       <div class="featured-image">
         <div>
           <a href="{{ post|blog_link }}">
-            <img src="{{ post|header_image }}" />
+            {{ post|header_image }}
           </a>
         </div>
       </div>
@@ -32,6 +32,21 @@
       <hr>
     </div>
     {% endfor %}
+    {% if pagination.prev or pagination.next %}
+    <nav aria-label="...">
+      <ul class="pager">
+        {% if pagination.prev %}
+        <li><a href="{{ pagination.prev }}">Newer</a></li>
+        {% endif %}
+        {% if pagination.next %}
+        <li><a href="{{ pagination.next}}">Older</a></li>
+        {% endif %}
+      </ul>
+    </nav>
+    {% endif %}
+    <div>
+
+    </div>
   </div>
   <div id="tags-grid" class="col-md-2">
     <h2>Tags</h2>

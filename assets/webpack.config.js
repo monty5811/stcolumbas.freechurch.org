@@ -17,10 +17,10 @@ if (process.env.WATCH) {
 
 module.exports = {
   entry: {
-    payments: ['./payments.js'],
+    stcs: ['./stcs.js'],
   },
   output: {
-    path: path.resolve(__dirname + '/../../static/js/'),
+    path: path.resolve(__dirname + '/../static/js'),
     filename: '[name].js',
   },
   module: {

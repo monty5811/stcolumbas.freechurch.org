@@ -44,6 +44,7 @@ pub fn charge(charge: ChargeRequest) -> Result<String, String> {
     params.currency = Some(stripe::Currency::GBP);
     params.description = Some(&desc);
     params.statement_descriptor = Some("StColumbas Free Church");
+    params.receipt_email = Some(&charge.email);
 
     // make request to create charge
     let charge_ = stripe::Charge::create(&client, params);

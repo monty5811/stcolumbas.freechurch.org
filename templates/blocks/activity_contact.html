@@ -2,7 +2,7 @@
   <a html="#">
     <div class="media">
       <div class="media-left media-middle">
-        <img src="{{ picture }}" class="media-object img-circle" alt="{{ name }}">
+        {{ picture|render_image(alt_text=name, class_text="media-object img-circle") }}
       </div>
       <div class="media-body">
         <p>Contact</p>

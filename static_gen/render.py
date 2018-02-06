@@ -1,21 +1,18 @@
+import os
 import re
+import subprocess
 import unicodedata
 from datetime import datetime as dt
+from hashlib import sha256
 
-import mistune
 from jinja2 import Environment, FileSystemLoader
 
+import mistune
+
+from .constants import DIST_DIR
+from .utils import group_into
+
 markdown = mistune.Markdown()
-
-
-def group_into(l, n=6):
-    """
-    Partition list into sub-lists of `n` items.
-    l: list
-    n: number of items in each sublist
-    """
-    for i in range(0, len(l), n):
-        yield l[i:i + n]
 
 
 def datetimeformat(value, format='%H:%M  %d-%b-%Y') -> str:
@@ -51,6 +48,8 @@ def setup_jinja():
     env.filters['render_text'] = render_text
     env.filters['group_into'] = group_into
     env.filters['md'] = markdown
+    env.filters['render_image'] = render_image
+    env.filters['render_bg_image'] = render_bg_image
     return env
 
 
@@ -62,7 +61,7 @@ def blog_link(post):
 
 
 def header_image(post):
-    return post['thumbnail']
+    return render_image(post['thumbnail'])
 
 
 def render_template(templ, data):
@@ -119,6 +118,7 @@ def render_text_text_row(value):
 
     return render_template('blocks/two_column.html', data)
 
+
 def render_text_text_row_with_sep(value):
     return render_separator(None) + render_text_text_row(value)
 
@@ -137,14 +137,18 @@ def render_giving_row(value):
 def render_separator(_):
     return render_template('blocks/separator.html', {})
 
+
 def render_team_list(value):
     return render_template('blocks/team_list.html', value)
+
 
 def render_activities_list(value):
     return render_template('blocks/activities_list.html', value)
 
+
 def render_activity_contact(value):
     return render_template('blocks/activity_contact.html', value)
+
 
 def render_content(value) -> str:
     if isinstance(value, list):
@@ -175,3 +179,54 @@ def render_content(value) -> str:
         raise NotImplementedError(f'{type_} not implemented')
 
     return render_fn(value)
+
+
+def infer_image_type(src):
+    src = src.lower()
+    if src.endswith('.png'):
+        return 'png'
+    if src.endswith('.jpg') or src.endswith('jpeg'):
+        return 'jpg'
+    if src.endswith('.gif'):
+        return 'gif'
+
+    raise NotImplementedError(f'No image type for {src}')
+
+
+def convert_to_webp(src):
+    path_to_src_file = DIST_DIR + src
+    out_file_uri, _ = os.path.splitext(src)
+    out_file_uri += '.webp'
+    path_to_out_file = DIST_DIR + out_file_uri
+
+    cmd = f'cwebp "{path_to_src_file}" -o "{path_to_out_file}" -quiet'
+    subprocess.run(cmd, shell=True)
+
+    return out_file_uri
+
+
+def render_bg_image(src):
+    src_webp = convert_to_webp(src)
+    class_hash = sha256(src.encode()).hexdigest()[:8]
+    return render_template(
+        'blocks/bg_image.html', {
+            'src': src,
+            'src_webp': src_webp,
+            'class_hash': 'h-' + class_hash,
+        }
+    )
+
+
+def render_image(src, alt_text='', class_text=''):
+    src_webp = convert_to_webp(src)
+    src_type = infer_image_type(src)
+
+    return render_template(
+        'blocks/picture.html', {
+            'src': src,
+            'src_type': src_type,
+            'alt_text': alt_text,
+            'class_text': class_text,
+            'src_webp': src_webp,
+        }
+    )

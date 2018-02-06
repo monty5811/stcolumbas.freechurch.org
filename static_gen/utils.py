@@ -21,3 +21,14 @@ def load_yaml(p):
     with open(p, 'r') as f:
         raw = f.read()
     return yaml.load(raw)
+
+
+def group_into(l, n=6):
+    """
+    Partition list into sub-lists of `n` items.
+    l: list
+    n: number of items in each sublist
+    """
+    for i in range(0, len(l), n):
+        yield l[i:i + n]
+

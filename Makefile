@@ -1,6 +1,3 @@
-format:
-	yapf -ir **/*.py
-
 build:
 	python build.py
 
@@ -13,10 +10,27 @@ serve:
 deploy:
 	netlify deploy
 
-pay_build_form:
-	cd payments/elm/ && yarn build
-
-pay_deploy_backend:
+pay_deploy:
 	cd payments && ./build.sh
 
-ci: pay_build_form build deploy
+ci: js-build css-build build css-opt-index deploy
+
+ci-setup:
+	pip install -r requirements.txt
+	cd assets && yarn
+	sudo apt install webp
+
+js-build:
+	cd assets && yarn build
+
+js-watch:
+	cd assets && yarn watch
+
+css-build:
+	cd assets && yarn css:build
+
+css-opt-index:
+	cd assets && yarn css:opt-index
+
+py-format:
+	yapf -ir **/*.py
