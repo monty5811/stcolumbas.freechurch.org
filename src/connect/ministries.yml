@@ -84,8 +84,8 @@ ministries:
          In addition to these programmes one-to-one discipleship is also available for those who would benefit from a more individualised approach.
       contact:
         type_: "activity_contact"
-        name: "Emma MacGillivray"
-        picture: "/static/uploads/people/emma.jpg"
+        name: "Cory Brock"
+        picture: "/static/uploads/people/cory-image.jpg"
     - type_: "activity"
       name: "Social Action"
       picture: "/static/uploads/social_action.jpg"

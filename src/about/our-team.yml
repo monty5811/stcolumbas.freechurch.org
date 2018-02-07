@@ -16,10 +16,6 @@ teams:
         title: "Senior Minister"
         type_: "team_head"
         picture: /static/uploads/people/derek-image.jpg
-      - name: "Tom Muir"
-        title: "Assistant Minister"
-        type_: "team_head"
-        picture: /static/uploads/people/tom-image.jpg
       - name: "Cory Brock"
         title: "Ministry Associate"
         type_: "team_head"
@@ -38,10 +34,6 @@ teams:
   - title: "Elders"
     type_: "team_list"
     members:
-      - name: "Neil MacMillan"
-        title: "Cornerstone Church Plant"
-        type_: "team_head"
-        picture: /static/uploads/people/neil-mac.jpg
       - name: "Billy Graham"
         title: "Corstorphine City Group"
         type_: "team_head"
@@ -50,14 +42,6 @@ teams:
         title: "Blackford City Group"
         type_: "team_head"
         picture: /static/uploads/people/ali-image.jpg
-      - name: "Dave Muir"
-        title: "Esk Valley Church Plant"
-        type_: "team_head"
-        picture: /static/uploads/people/dave-muir.jpg
-      - name: "Colin Ross"
-        title: "Cornerstone Church Plant"
-        type_: "team_head"
-        picture: /static/uploads/people/laird_image.jpg
       - name: "Don Macleod"
         title: "Inverleith City Group"
         type_: "team_head"
@@ -105,10 +89,6 @@ teams:
         title: ""
         type_: "team_head"
         picture: /static/uploads/people/craig-image.jpg
-      - name: "Ian Nevison"
-        title: ""
-        type_: "team_head"
-        picture: /static/uploads/people/ian_image.jpg
       - name: "David Morris"
         title: ""
         type_: "team_head"
@@ -125,3 +105,29 @@ teams:
         title: ""
         type_: "team_head"
         picture: /static/uploads/people/pher-image.jpg
+  - title: "Cornerstone Church Plant"
+    type_: "team_list"
+    members:
+      - name: "Neil MacMillan"
+        title: "Full Time Church Planter & Elder"
+        type_: "team_head"
+        picture: /static/uploads/people/neil-mac.jpg
+      - name: "Colin Ross"
+        title: "Elder"
+        type_: "team_head"
+        picture: /static/uploads/people/laird_image.jpg
+      - name: "Ian Nevison"
+        title: "Deacon"
+        type_: "team_head"
+        picture: /static/uploads/people/ian_image.jpg
+  - title: "Esk Valley Church Plant"
+    type_: "team_list"
+    members:
+      - name: "Tom Muir"
+        title: "Full Time Church Planter & Elder"
+        type_: "team_head"
+        picture: /static/uploads/people/tom-image.jpg
+      - name: "Dave Muir"
+        title: "Elder"
+        type_: "team_head"
+        picture: /static/uploads/people/dave-muir.jpg
