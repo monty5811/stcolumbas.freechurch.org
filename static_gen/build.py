@@ -21,7 +21,11 @@ def write_files(env, pages):
         content = data.copy()
         content.pop('layout', None)
         content.pop('title', None)
-        result = env.get_template(data['layout'] + '.html').render(data=data, content=content)
+        result = env.get_template(data['layout'] + '.html').render(
+            data=data,
+            content=content,
+            uri=p.replace(SRC_DIR, '').replace('.yml', ''),
+        )
 
         new_path = p.replace(SRC_DIR, DIST_DIR)
         new_path = new_path.replace('.yml', '.html')

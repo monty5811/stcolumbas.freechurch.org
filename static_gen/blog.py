@@ -58,11 +58,13 @@ def paginate(posts):
 
 
 def _write_blog_index(env, idx, data):
-    result = env.get_template('headlines.html').render(data)
     if idx == 0:
         path = os.path.join(DIST_DIR, 'headlines.html')
     else:
         path = os.path.join(DIST_DIR, 'headlines', f'{str(idx)}.html')
+
+    data['uri'] = path.replace(DIST_DIR, '').replace('.html', '')
+    result = env.get_template('headlines.html').render(data)
 
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w') as f:

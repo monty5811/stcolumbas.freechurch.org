@@ -140,6 +140,50 @@ collections:
               - {label: "Online Form (auto populated)", name: "left", widget: "string", default: "!giving_form"}
               - {label: "Right", name: "right", widget: "markdown"}
               - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+      - name: "community"
+        label: "Community"
+        file: "src/connect/community.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Bible Verse"
+            name: "bible_verse"
+            widget: "object"
+            fields:
+              - {label: "Type", name; "type_", widget: "hidden", default: "one_wide_row"}
+              - {label: "Content", name; "content", widget: "markdown"}
+          - label: "Intro"
+            name: "intro"
+            widget: object
+            fields:
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
+          - label: "Separator"
+            name: "separator"
+            widget: "hidden"
+            fields:
+              - {label: "Type", name; "type_", widget: "hidden", default: "separator"}
+          - label: "Ministries"
+            name: "ministries"
+            widget: object
+            fields:
+              - {label: "Type", name; "type_", widget: "hidden", default: "activities_list"}
+              - {label: "Group Into", name; "group_into", widget: "hidden", default: 2}
+              - label: "Activities"
+                name: "activities"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Picture", name: "picture", widget: "image"}
+                  - {label: "Description", name: "content", widget: "markdown"}
+                  - label: "Contact"
+                    name: "contact"
+                    widget: "object"
+                    fields:
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Picture", name: "picture", widget: "image"}
+                      - {label: "Type", name; "type_", widget: "hidden", default: "activity_contact"}
       - name: "ministries"
         label: "Ministries"
         file: "src/connect/ministries.yml"

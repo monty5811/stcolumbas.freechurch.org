@@ -1,138 +1,71 @@
 layout: "content_page"
 title: "Community"
-html:
-  type_: "raw_html"
-  html: |
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+bible_verse:
+  type_: "one_wide_row"
+  content: |
     <h4 style="text-align: center;">'Above all, love one another deeply... offer hospitality to one another...'<br></h4><p style="text-align: center;">1 Peter 4:8-9</p><p style="text-align: center;"><br></p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <p>This short Bible verse helps us see what it means to be a community in church. To love one another, and to provide for one another is a practical way of expressing our sense of being a family together, and of following the example of Jesus. </p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <p>Below you can see the variety of community events at St Columba's which you may be interested in being involved in.</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="static/uploads/citygroups.jpg" alt="" class="">
-    <h3><strong></strong>City Groups
-    </h3><p>City groups are our midweek house groups where we not only socialise and share hospitality, but we study the Bible together and pray. If the normal Sunday service is ‘big’ church, then this is ‘small’ church. These groups are normally regional throughout the city and overseen pastoral teams led by elders. These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce their wider circle of friends and others to the Christian faith</p>
-    <div class="team-contact">
-    <a html="#">
-    <div class="media">
-    <div class="media-left media-middle">
-    <img src="static/uploads/people/donna.jpg" class="media-object img-circle" alt="Donna Macleod">
-    </div>
-    <div class="media-body">
-    <p>Contact</p>
-    <h3 class="media-heading">Donna Macleod</h3>
-    </div>
-    </div>
-    </a>
-    </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/roots_shoots_slide_1080_1.jpg" alt="" class="">
-    <h3>Roots & Shoots</h3><p><strong></strong>An opportunity for parents and carers of pre-school children to meet up for chat, coffee, fresh bread and cake! We have a variety of toys for children to play with and usually have a song/story time. We meet around the city, twice a month, during the school term from 9:30am till 11:30am and you’d be very welcome to join us.
-    </p>
-    <div class="team-contact">
-    <a html="#">
-    <div class="media">
-    <div class="media-left media-middle">
-    <img src="assets/uploads/placeholder_175x175.png" class="media-object img-circle" alt="Miriam Montgomery">
-    </div>
-    <div class="media-body">
-    <p>Contact</p>
-    <h3 class="media-heading">Miriam Montgomery</h3>
-    </div>
-    </div>
-    </a>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/openbook_image.jpg" alt="" class="">
-    <h3><strong></strong>Open Book
-    </h3><p>Open Book is a bible discussion time for all women in the congregation in the 20s and 30s age group, and any friends they would like to invite along. Open Book provides a space where we can get together, talk and have any children looked after for a while, as there is also the crèche provided. We meet fortnightly during term-time, from 9.30am – 11.30am on a Thursday morning and usually at a different location each time, which will be advertised.</p>
-    <div class="team-contact">
-    <a html="#">
-    <div class="media">
-    <div class="media-left media-middle">
-    <img src="assets/images/Our Team Photos/louise-images.jpg" class="media-object img-circle" alt="Louise Gillies">
-    </div>
-    <div class="media-body">
-    <p>Contact</p>
-    <h3 class="media-heading">Louise Gillies</h3>
-    </div>
-    </div>
-    </a>
-    </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/ladiesfellowship_image.jpg" alt="" class="">
-    <h3>Edinburgh Ladies’ Fellowship<strong></strong>
-    </h3><p><strong></strong>
-    </p><p>The group meets fortnightly from September to May on Thursday afternoon from 2.30 to 4pm. We enjoy fellowship together and then alternate between doing a Bible study led by one of us, and having a talk by a missionary/speaker. All are warmly invited to join us of any age.
-    </p>
-    <div class="team-contact">
-    <a html="#">
-    <div class="media">
-    <div class="media-left media-middle">
-    <img src="assets/uploads/placeholder_175x175.png" class="media-object img-circle" alt="Caroline Muir">
-    </div>
-    <div class="media-body">
-    <p>Contact</p>
-    <h3 class="media-heading">Caroline Muir</h3>
-    </div>
-    </div>
-    </a>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="assets/uploads/mensfellowship_image.jpg" alt="" class="">
-    <h3>Men's Fellowship Meeting</h3><p>The Men's Meeting is an informal gathering of men (mostly senior citizens) for discussion and friendship. The meetings take place every two weeks at 2.30pm on a Thursday, usually in the St Columba’s Church Hall, with refreshments being shared at the beginning of the meeting. Invitations are extended to men from all the city Free Churches and we have discussion topics that cover a wide range of interests.
-    </p><p><strong></strong>
-    </p>
-    <div class="team-contact">
-    <a html="#">
-    <div class="media">
-    <div class="media-left media-middle">
-    <img src="assets/images/Our Team Photos/billy-image.jpg" class="media-object img-circle" alt="Billy Graham">
-    </div>
-    <div class="media-body">
-    <p>Contact</p>
-    <h3 class="media-heading">Billy Graham</h3>
-    </div>
-    </div>
-    </a>
-    </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    </div>
-    </div>
-    </div>
-    </div>
+intro:
+  type_: "text_text_row"
+  left: |
+    This short Bible verse helps us see what it means to be a community in church.
+    To love one another, and to provide for one another is a practical way of expressing our sense of being a family together, and of following the example of Jesus.
+  right: |
+    Below you can see the variety of community events at St Columba's which you may be interested in being involved in.
+communities:
+  - type_: "activities_list"
+    group_into: 2
+    activities:
+      - type_: "activity"
+        name: "City Groups"
+        picture: "/static/uploads/citygroups.jpg"
+        content: |
+          City groups are our midweek house groups where we not only socialise and share hospitality, but we study the Bible together and pray.
+          If the normal Sunday service is ‘big’ church, then this is ‘small’ church.
+          These groups are normally regional throughout the city and overseen pastoral teams led by elders.
+          These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce their wider circle of friends and others to the Christian faith.
+        contact:
+          type_: "activity_contact"
+          name: "Donna Macleod"
+          picture: "/static/uploads/people/donna.jpg"
+      - type_: "activity"
+        name: "Roots & Shoots"
+        picture: "/static/uploads/roots_and_shoots.jpg"
+        content: |
+          An opportunity for parents and carers of pre-school children to meet up for chat, coffee, fresh bread and cake! We have a variety of toys for children to play with and usually have a song/story time.
+          We meet around the city, twice a month, during the school term from 9:30am till 11:30am and you’d be very welcome to join us.
+        contact:
+          type_: "activity_contact"
+          name: "Miriam Mongtomery"
+          picture: "/static/uploads/placeholder_175x175.png"
+      - type_: "activity"
+        name: "Open Book"
+        picture: "/static/uploads/open_book.jpg"
+        content: |
+          Open Book is a bible discussion time for all women in the congregation in the 20s and 30s age group, and any friends they would like to invite along. Open Book provides a space where we can get together, talk and have any children looked after for a while, as there is also the crèche provided.
+          We meet fortnightly during term-time, from 9.30am – 11.30am on a Thursday morning and usually at a different location each time, which will be advertised.
+        contact:
+          type_: "activity_contact"
+          name: "Louise Gilles"
+          picture: "/static/uploads/people/louise_g.jpg"
+      - type_: "activity"
+        name: "Edinburgh Ladies’ Fellowship"
+        picture: "/static/uploads/ladies_fellowship.jpg"
+        content: |
+          The group meets fortnightly from September to May on Thursday afternoon from 2.30 to 4pm.
+          We enjoy fellowship together and then alternate between doing a Bible study led by one of us, and having a talk by a missionary/speaker.
+          All are warmly invited to join us of any age.
+        contact:
+          type_: "activity_contact"
+          name: "Caroline Muir"
+          picture: "/static/uploads/placeholder_175x175.png"
+      - type_: "activity"
+        name: "Men's Fellowship Meeting"
+        picture: "/static/uploads/mens_fellowship.jpg"
+        content: |
+          The Men's Meeting is an informal gathering of men (mostly senior citizens) for discussion and friendship.
+          The meetings take place every two weeks at 2.30pm on a Thursday, usually in the St Columba’s Church Hall, with refreshments being shared at the beginning of the meeting.
+          Invitations are extended to men from all the city Free Churches and we have discussion topics that cover a wide range of interests.
+        contact:
+          type_: "activity_contact"
+          name: "Billy Graham"
+          picture: "/static/uploads/people/billy-image.jpg"

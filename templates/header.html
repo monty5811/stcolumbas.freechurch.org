@@ -1,64 +1,69 @@
-<header>
-  <nav class="navbar navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/"> <img src="/static/images/stcolumbas-logo.png" class="logo1" alt="St Columba's Free Church">
-          <img src="/static/images/stcolumbas-logo-small.png" class="logo2" alt="St Columba's Free Church"></a>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#stcs-collapse" aria-expanded="false">
-          <span class="menu-text">Menu</span>
-          <span class="icon-bar top-bar"></span>
-          <span class="icon-bar middle-bar"></span>
-          <span class="icon-bar bottom-bar"></span>
-        </button>
+  <header>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/"> <img src="/static/images/stcolumbas-logo.png" class="logo1" alt="St Columba's Free Church">
+            <img src="/static/images/stcolumbas-logo-small.png" class="logo2" alt="St Columba's Free Church"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#stcs-collapse" aria-expanded="false">
+            <span class="menu-text">Menu</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="stcs-collapse">
+         <ul class="nav navbar-nav navbar-mm">
+           <li class="first {{ maybe_active('/jesus', uri) }}"><a href="/jesus" title="Jesus">Jesus</a></li>
+           <li class="dropdown {{ maybe_active('/about', uri) }}">
+             <a href="/about/" class="dropdown-toggle" data-toggle="dropdown">About</a>
+             <ul class="dropdown-menu">
+               <li class="first"><a href="/about/our-vision" title="Our Vision">Our Vision</a></li>
+               <li><a href="/about/our-team" title="Our Team">Our Team</a></li>
+               <li><a href="/about/church-plants" title="Church Plants">Church Plants</a></li>
+               <li class="last"><a href="/about/contact-us" title="Contact Us">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="dropdown {{ maybe_active('/connect', uri) }}">
+             <a href="/connect/" class="dropdown-toggle" data-toggle="dropdown">Connect</a>
+             <ul class="dropdown-menu">
+               <li class="first"><a href="/connect/visit" title="Visit">Visit</a></li>
+               <li><a href="/connect/community" title="Community">Community</a></li>
+               <li><a href="/connect/giving" title="Giving">Giving</a></li>
+               <li><a href="/connect/ministries" title="Ministries">Ministries</a></li>
+               <li><a href="/connect/serving" title="Serving">Serving</a></li>
+                <li class="last"><a href="http://stcsfc.org/connect" title="Connect Meals" target="_blank" rel="noopener">Connect Meals</a></li>
+              </ul>
+            </li>
+            <li class="dropdown {{ maybe_active('/headlines', uri) }}">
+             <a href="/headlines/" title="Headlines">Headlines</a>
+           </li>
+            <li class="last dropdown">
+              <a href="resources/" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
+              <ul class="dropdown-menu"><li class="first"><a href="http://sermons.stcolumbas.freechurch.org/" title="Sermons" target="_blank" rel="noopener">Sermons</a></li>
+                <li class="last"><a href="http://stcs.elvanto.eu/pages/resources" title="Internal Resources" target="_blank" rel="noopener">Internal Resources</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-social">
+            <li><a href="https://www.twitter.com/stcsfreechurch" target="_blank" rel="noopener"><img src="/static/images/icons/twitter-icon.png" alt="Twitter: @stcsfreechurch"></a></li>
+            <li><a href="https://www.facebook.com/stcolumbasfreechurch/" target="_blank" rel="noopener"><img src="/static/images/icons/facebook-icon.png" alt="Facebook: St Columba's Free Church"></a></li>
+            <li><a href="https://www.youtube.com/user/stcolumbasfreechurch" target="_blank" rel="noopener"><img src="/static/images/icons/youtube-icon.png" alt="YouTube"></a></li>
+            <li><a href="http://elvanto.stcsfc.org" target="_blank" rel="noopener"><img width="16px" src="/static/images/icons/elvanto-icon.svg"></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-mm navbar-contacts">
+            <li class="first open">
+              <a title="Contact" class="dropdown-toggle">Contact</a>
+              <ul class="dropdown-menu">
+                <li class="first">
+                  <a href="mailto:office@stcsfc.org">Email</a>
+                </li>
+                <li class="last">
+                  <a href="tel:+441312253505">0131 225 3505</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="stcs-collapse">
-        <ul class="nav navbar-nav navbar-mm"><li class="first"><a href="/jesus" title="Jesus">Jesus</a></li>
-          <li class="dropdown">
-            <a href="/about/" class="dropdown-toggle" data-toggle="dropdown">About</a>
-            <ul class="dropdown-menu"><li class="first"><a href="/about/our-vision" title="Our Vision">Our Vision</a></li>
-              <li><a href="/about/our-team" title="Our Team">Our Team</a></li>
-              <li><a href="/about/church-plants" title="Church Plants">Church Plants</a></li>
-              <li class="last"><a href="/about/contact-us" title="Contact Us">Contact Us</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="/connect/" class="dropdown-toggle" data-toggle="dropdown">Connect</a>
-            <ul class="dropdown-menu"><li class="first"><a href="/connect/visit" title="Visit">Visit</a></li>
-              <li><a href="/connect/community" title="Community">Community</a></li>
-              <li><a href="/connect/giving" title="Giving">Giving</a></li>
-              <li><a href="/connect/ministries" title="Ministries">Ministries</a></li>
-              <li><a href="/connect/serving" title="Serving">Serving</a></li>
-              <li class="last"><a href="http://stcsfc.org/connect" title="Connect Meals" target="_blank" rel="noopener">Connect Meals</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="/headlines/" title="Headlines">Headlines</a></li>
-          <li class="last dropdown">
-            <a href="resources/" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
-            <ul class="dropdown-menu"><li class="first"><a href="http://sermons.stcolumbas.freechurch.org/" title="Sermons" target="_blank" rel="noopener">Sermons</a></li>
-              <li class="last"><a href="http://stcs.elvanto.eu/pages/resources" title="Internal Resources" target="_blank" rel="noopener">Internal Resources</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-social">
-          <li><a href="https://www.twitter.com/stcsfreechurch" target="_blank" rel="noopener"><img src="/static/images/icons/twitter-icon.png" alt="Twitter: @stcsfreechurch"></a></li>
-          <li><a href="https://www.facebook.com/stcolumbasfreechurch/" target="_blank" rel="noopener"><img src="/static/images/icons/facebook-icon.png" alt="Facebook: St Columba's Free Church"></a></li>
-          <li><a href="https://www.youtube.com/user/stcolumbasfreechurch" target="_blank" rel="noopener"><img src="/static/images/icons/youtube-icon.png" alt="YouTube"></a></li>
-          <li><a href="http://elvanto.stcsfc.org" target="_blank" rel="noopener"><img width="16px" src="/static/images/icons/elvanto-icon.svg"></a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-mm navbar-contacts">
-          <li class="first open">
-            <a title="Contact" class="dropdown-toggle">Contact</a>
-            <ul class="dropdown-menu">
-              <li class="first">
-                <a href="mailto:office@stcsfc.org">Email</a>
-              </li>
-              <li class="last">
-                <a href="tel:+441312253505">0131 225 3505</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>

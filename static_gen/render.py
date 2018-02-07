@@ -37,6 +37,16 @@ def slugify(value, allow_unicode=False):
     return re.sub(r'[-\s]+', '-', value)
 
 
+def render_maybe_active(href, uri):
+    if uri is None:
+        return ""
+    # import pdb;pdb.set_trace()
+    if uri.startswith(href):
+        return "active"
+    else:
+        return ""
+
+
 def setup_jinja():
     # setup templates
     env = Environment(loader=FileSystemLoader('templates'))
@@ -50,6 +60,7 @@ def setup_jinja():
     env.filters['md'] = markdown
     env.filters['render_image'] = render_image
     env.filters['render_bg_image'] = render_bg_image
+    env.globals['maybe_active'] = render_maybe_active
     return env
 
 
@@ -149,6 +160,8 @@ def render_activities_list(value):
 def render_activity_contact(value):
     return render_template('blocks/activity_contact.html', value)
 
+def render_one_wide_row(value):
+    return render_template('blocks/one_wide_row.html', value)
 
 def render_content(value) -> str:
     if isinstance(value, list):
@@ -172,6 +185,7 @@ def render_content(value) -> str:
         'team_list': render_team_list,
         'activities_list': render_activities_list,
         'activity_contact': render_activity_contact,
+        'one_wide_row': render_one_wide_row,
     }
     try:
         render_fn = render_fns[type_]
