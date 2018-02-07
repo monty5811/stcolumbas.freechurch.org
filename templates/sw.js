@@ -22,3 +22,11 @@ workbox.precaching.precacheAndRoute([
   {% for k in manifest %}{url: '{{ k }}', revision: '{{ manifest[k] }}'},
   {% endfor %}
 ]);
+
+self.addEventListener('activate', function(event) {
+  return self.clients.claim();
+});
+
+self.addEventListener('install', function(event) {
+  return self.skipWaiting();
+});
