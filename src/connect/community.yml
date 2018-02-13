@@ -35,7 +35,7 @@ communities:
           We meet around the city, twice a month, during the school term from 9:30am till 11:30am and you’d be very welcome to join us.
         contact:
           type_: "activity_contact"
-          name: "Miriam Mongtomery"
+          name: "Miriam Montgomery"
           picture: "/static/uploads/placeholder_175x175.png"
       - type_: "activity"
         name: "Open Book"
