@@ -17,16 +17,16 @@
     <div class="latest-post col-md-9 col-md-offset-3">
       <div class="featured-image">
         <div>
-          <a href="{{ post|blog_link }}">
+          <a href="/{{ post.path }}">
             {{ post|header_image }}
           </a>
         </div>
       </div>
-      <h2><a href="{{ post|blog_link }}">{{ post.title }}</a></h2>
+      <h2><a href="/{{ post.path }}">{{ post.title }}</a></h2>
       <div class="entry">
       {{ post.intro|render_text }}
 
-      <p><a href="{{ post|blog_link }}">Continue reading...</a></p>
+      <p><a href="/{{ post.path }}">Continue reading...</a></p>
       <p class="published-date">Published by {{ post.author }} on {{ post.date }}</p>
       </div>
       <hr>

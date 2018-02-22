@@ -53,6 +53,12 @@ def write_sw(env, manifest):
 
         manifest[f_] = sha256(content).hexdigest()[:8]
 
+    for k in manifest:
+        if 'contact-us' in k:
+            # skip contact us so form works with service worker
+            key_to_delete = k
+    del manifest[key_to_delete]
+
     all_hashes = ''.join([k + v for k, v in manifest.items()])
     big_hash = sha256(all_hashes.encode()).hexdigest()[:8]
 

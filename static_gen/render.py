@@ -40,7 +40,6 @@ def slugify(value, allow_unicode=False):
 def render_maybe_active(href, uri):
     if uri is None:
         return ""
-    # import pdb;pdb.set_trace()
     if uri.startswith(href):
         return "active"
     else:
@@ -53,7 +52,6 @@ def setup_jinja():
     env.filters['datetimeformat'] = datetimeformat
     env.filters['slugify'] = slugify
     env.filters['render_content'] = render_content
-    env.filters['blog_link'] = blog_link
     env.filters['header_image'] = header_image
     env.filters['render_text'] = render_text
     env.filters['group_into'] = group_into
@@ -62,13 +60,6 @@ def setup_jinja():
     env.filters['render_bg_image'] = render_bg_image
     env.globals['maybe_active'] = render_maybe_active
     return env
-
-
-def blog_link(post):
-    slug = post['path'].replace('.yml', '.html')
-    if not slug.startswith('/'):
-        slug = '/' + slug
-    return slug
 
 
 def header_image(post):

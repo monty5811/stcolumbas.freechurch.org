@@ -1,4 +1,5 @@
 import os
+import codecs
 
 from .constants import *
 from .utils import load_yaml, yaml, group_into
@@ -16,8 +17,35 @@ def _extract_tags(post):
     return tags
 
 
+def generate_post_path(orig_path):
+    # extract only the filename
+    fname = os.path.basename(orig_path)
+    # pull out the date, assuming: yyyy-mm-dd-title.md
+    year, month, day, *rest = fname.split('-')
+    # reassemble slug
+    slug = '-'.join(rest)
+    slug = slug.replace('.md', '')
+    # assemble new path
+    new_path = os.path.join('headlines', year, month, day, slug)
+
+    return new_path
+
+
+def write_post(env, post):
+    result = env.get_template(post['layout'] + '.html').render(
+        data=post,
+        content=post,
+        uri=post['path'],
+    )
+    new_path = os.path.join(DIST_DIR, post['path'] + '.html')
+    os.makedirs(os.path.dirname(new_path), exist_ok=True)
+    print(new_path)
+    with open(new_path, 'w') as f:
+        f.write(result)
+
+
 def load_post(fname):
-    with open(fname, 'r') as f:
+    with codecs.open(fname, encoding='utf-8', mode='r') as f:
         d = f.read()
     parts = d.split('\n---\n')
     assert parts[0].startswith('---')
@@ -72,16 +100,14 @@ def _write_blog_index(env, idx, data):
 
 
 def write_blog_index(env, files):
-    """
-    Each post has already been written to the dist folder.
-
-    So, here, we just need to build the paginated index and the tags pages.
-    """
+    """"""
     posts = []
     for f in files:
         post = load_post(f)
-        post['path'] = f.replace(SRC_DIR, '')
+        post['path'] = generate_post_path(f)
         posts.append(post)
+        write_post(env, post)
+
 
     posts = sorted(posts, key=lambda p: p['date'])
     posts = list(reversed(posts))
