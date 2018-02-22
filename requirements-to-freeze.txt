@@ -1,3 +1,4 @@
 Jinja2==2.9.4
 mistune==0.8.3
+Pillow==5.0.0
 PyYAML==3.12

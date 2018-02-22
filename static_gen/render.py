@@ -1,13 +1,12 @@
 import os
 import re
-import subprocess
 import unicodedata
 from datetime import datetime as dt
 from hashlib import sha256
 
-from jinja2 import Environment, FileSystemLoader
-
 import mistune
+from jinja2 import Environment, FileSystemLoader
+from PIL import Image
 
 from .constants import DIST_DIR
 from .utils import group_into
@@ -204,12 +203,8 @@ def convert_to_webp(src):
     out_file_uri += '.webp'
     path_to_out_file = DIST_DIR + out_file_uri
 
-    cmd = f'cwebp "{path_to_src_file}" -o "{path_to_out_file}" -quiet'
-    if os.environ.get('IS_NETLIFY', False):
-        cmd = './' + cmd
-
-    proc = subprocess.run(cmd, shell=True)
-    proc.check_returncode()
+    im = Image.open(path_to_src_file)
+    im.save(path_to_out_file, 'WEBP')
 
     return out_file_uri
 
