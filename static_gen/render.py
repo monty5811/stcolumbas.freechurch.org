@@ -205,6 +205,9 @@ def convert_to_webp(src):
     path_to_out_file = DIST_DIR + out_file_uri
 
     cmd = f'cwebp "{path_to_src_file}" -o "{path_to_out_file}" -quiet'
+    if os.environ.get('IS_NETLIFY', False):
+        cmd = './' + cmd
+
     proc = subprocess.run(cmd, shell=True)
     proc.check_returncode()
 
