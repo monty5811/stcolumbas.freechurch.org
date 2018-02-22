@@ -72,13 +72,11 @@ def paginate(posts):
 
         next_link = f'/headlines/{idx + 1}.html'
 
-        pagination.append(
-            {
-                'prev': prev_link,
-                'next': next_link,
-                'posts': g,
-            }
-        )
+        pagination.append({
+            'prev': prev_link,
+            'next': next_link,
+            'posts': g,
+        })
 
     pagination[-1]['next'] = None  # no next for last group
 
@@ -107,7 +105,6 @@ def write_blog_index(env, files):
         post['path'] = generate_post_path(f)
         posts.append(post)
         write_post(env, post)
-
 
     posts = sorted(posts, key=lambda p: p['date'])
     posts = list(reversed(posts))

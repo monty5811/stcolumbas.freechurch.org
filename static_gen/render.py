@@ -150,8 +150,10 @@ def render_activities_list(value):
 def render_activity_contact(value):
     return render_template('blocks/activity_contact.html', value)
 
+
 def render_one_wide_row(value):
     return render_template('blocks/one_wide_row.html', value)
+
 
 def render_content(value) -> str:
     if isinstance(value, list):
