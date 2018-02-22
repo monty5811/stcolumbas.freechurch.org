@@ -1,4 +1,6 @@
 build:
+	pwd
+	ls -lah
 	python build.py
 
 watch:
@@ -21,7 +23,8 @@ ci-setup:
 	wget https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-0.6.1-linux-x86-32.tar.gz
 	tar -xzf libwebp-0.6.1-linux-x86-32.tar.gz
 	mv libwebp-0.6.1-linux-x86-32/bin/cwebp .
-	export PATH="$PATH:$(pwd)"
+	pwd
+	ls -lah
 
 js-build:
 	cd assets && yarn build
