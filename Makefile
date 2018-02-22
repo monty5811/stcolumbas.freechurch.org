@@ -1,7 +1,7 @@
 build:
 	pwd
 	ls -lah
-	python build.py
+	export PATH=$$PATH:$$(pwd); echo $$PATH; python build.py
 
 watch:
 	find src templates *.py | entr make build
