@@ -6,6 +6,7 @@ thumbnail: "/static/uploads/carols-2017.jpg"
 author: Siobhan Smith
 tags: 
     - "news"
+    - "events"
 intro: |
   Our Saviour born! Share our community, worship and hospitality as we celebrate THE life changing story.
 ---

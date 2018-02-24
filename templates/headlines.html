@@ -5,7 +5,13 @@
   <div class="col-md-8">
     <ul class="nav nav-tabs col-md-9 col-md-offset-3">
       <li class="tl-tag tl-tag-weight5">
-        <a href="headlines/" class="headlines-selected">Latest</a>
+        <a href="/headlines/" {% if tag == None %}class="headlines-selected"{% endif %}>Latest</a>
+      </li>
+      <li class="tl-tag tl-tag-weight5">
+        <a href="/headlines/tags/news" {% if tag == 'news' %}class="headlines-selected"{% endif %}>News</a>
+      </li>
+      <li class="tl-tag tl-tag-weight5">
+        <a href="/headlines/tags/events" {% if tag == 'events' %}class="headlines-selected"{% endif %}>Events</a>
       </li>
     </ul>
   </div>
@@ -24,10 +30,10 @@
       </div>
       <h2><a href="/{{ post.path }}">{{ post.title }}</a></h2>
       <div class="entry">
-      {{ post.intro|render_text }}
+        {{ post.intro|render_text }}
 
-      <p><a href="/{{ post.path }}">Continue reading...</a></p>
-      <p class="published-date">Published by {{ post.author }} on {{ post.date }}</p>
+        <p><a href="/{{ post.path }}">Continue reading...</a></p>
+        <p class="published-date">Published by {{ post.author }} on {{ post.date }}</p>
       </div>
       <hr>
     </div>
@@ -44,14 +50,11 @@
       </ul>
     </nav>
     {% endif %}
-    <div>
-
-    </div>
   </div>
   <div id="tags-grid" class="col-md-2">
     <h2>Tags</h2>
     {% for tag in tags %}
-      <a href="/headlines/tags/{{ tag }}">{{ tag }}</a>{% if loop.last %}{% else %}, {% endif %}
+    <a href="/headlines/tags/{{ tag }}">{{ tag }}</a>{% if loop.last %}{% else %}, {% endif %}
     {% endfor %}
   </div>
 </div>
