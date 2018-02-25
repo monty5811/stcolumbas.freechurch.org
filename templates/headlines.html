@@ -11,7 +11,7 @@
         <a href="/headlines/tags/news" {% if tag == 'news' %}class="headlines-selected"{% endif %}>News</a>
       </li>
       <li class="tl-tag tl-tag-weight5">
-        <a href="/headlines/tags/events" {% if tag == 'events' %}class="headlines-selected"{% endif %}>Events</a>
+        <a href="/headlines/tags/other" {% if tag == 'other' %}class="headlines-selected"{% endif %}>Other</a>
       </li>
     </ul>
   </div>
@@ -50,12 +50,6 @@
       </ul>
     </nav>
     {% endif %}
-  </div>
-  <div id="tags-grid" class="col-md-2">
-    <h2>Tags</h2>
-    {% for tag in tags %}
-    <a href="/headlines/tags/{{ tag }}">{{ tag }}</a>{% if loop.last %}{% else %}, {% endif %}
-    {% endfor %}
   </div>
 </div>
 {% endblock %}

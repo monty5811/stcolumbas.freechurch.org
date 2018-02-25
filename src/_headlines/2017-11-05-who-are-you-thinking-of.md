@@ -5,7 +5,7 @@ date: 2017-11-05
 thumbnail: "/static/uploads/calton_hill_1.jpg"
 author: Siobhan Smith
 tags: 
-    - "news"
+    - "other"
 intro: |
   At first, I thought that running up Edinburgh's hilly roads was the toughest exercise I would face, until I encountered an even tougher challenge: thinking of myself less.
 ---
