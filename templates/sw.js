@@ -23,10 +23,5 @@ workbox.precaching.precacheAndRoute([
   {% endfor %}
 ]);
 
-self.addEventListener('activate', function(event) {
-  return self.clients.claim();
-});
-
-self.addEventListener('install', function(event) {
-  return self.skipWaiting();
-});
+workbox.skipWaiting();
+workbox.clientsClaim();
