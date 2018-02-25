@@ -20,9 +20,9 @@ def write_feed(posts):
 
     for p in posts:
         fe = fg.add_entry()
-        fe.id(f'{BASE_URL}/p["path"]')
+        fe.id(f'{BASE_URL}/{p["path"]}')
         fe.title(p['title'])
-        fe.link(href=f'{BASE_URL}/p["path"]')
+        fe.link(href=f'{BASE_URL}/{p["path"]}')
         fe.author(name=p['author'])
         fe.summary(p['intro'])
         fe.content(markdown(p['body']))
