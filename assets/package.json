@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.3.5",
     "chalk": "^2.3.0",
     "critical": "^1.1.0",
     "cssnano": "^3.10.0",
