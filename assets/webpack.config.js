@@ -18,6 +18,7 @@ if (process.env.WATCH) {
 module.exports = {
   entry: {
     stcs: ['./stcs.js'],
+    cms: ['./cms.js'],
   },
   output: {
     path: path.resolve(__dirname + '/../static/js'),
