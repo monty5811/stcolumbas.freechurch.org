@@ -22,17 +22,18 @@ intro:
     If you feel like this might be you, we would like to encourage you to prayerfully consider some of the other types of service we are involved in as a church, including our social justice and outreach work.
     Details of these projects can be found on the Ministries page.
 
-    “Whatever you do, work heartily, as for the Lord and not for men.”
-
+    “Whatever you do, work heartily, as for the Lord and not for men.”  
     Colossians 3.23.
+separator:
+  type_: "separator"
 heading:
   type_: "text_text_row"
   left: "## Our Teams"
   right: ""
 serving_areas:
-  - type_: "activities_list"
-    group_into: 3
-    activities:
+  type_: "activities_list"
+  group_into: 3
+  activities:
     - type_: "activity"
       name: "Kids' Church"
       picture: "/static/uploads/kids_church.jpg"
@@ -40,9 +41,9 @@ serving_areas:
         Our Kids’ Church programme serves all the young people aged 3 to 14, of which there are an ever growing number!
         Our young people are the future of our church, and we are always looking for willing volunteers to join our teaching teams and help prepare these young people to live the Christian life in today’s often challenging world.
       contact:
-        type_: "activity_contact"
         name: "Ross Graham"
         picture: "/static/uploads/people/ross-image.jpg"
+        type_: "activity_contact"
     - type_: "activity"
       name: "Crèche Team"
       picture: "/static/uploads/creche.jpg"
@@ -50,9 +51,9 @@ serving_areas:
         We look after the smallest members of our church family (those aged under 3).
         If you have a loving heart and a ready smile, we would love for you to join us in making sure that the first memories these little ones have of church are happy and welcoming.
       contact:
-        type_: "activity_contact"
         name: "Helen Brannigan"
         picture: "/static/uploads/people/helen.jpg"
+        type_: "activity_contact"
     - type_: "activity"
       name: "Production Team"
       picture: "/static/uploads/production_image.jpg"
@@ -60,9 +61,9 @@ serving_areas:
         We look after the sound and screens on a Sunday, manage the website and run a few other techie things behind the scenes. Much of what we do is unseen, but we do our best to help the life of the church run smoothly.
         You don’t need any prior experience to join the team, so please get in touch if you are interested in helping out.
       contact:
-        type_: "activity_contact"
         name: "Ali Oliver"
         picture: "/static/uploads/people/ali-image.jpg"
+        type_: "activity_contact"
     - type_: "activity"
       name: "Praise"
       picture: "/static/uploads/praise.jpg"
@@ -70,9 +71,9 @@ serving_areas:
         We are always looking for new ways of making a joyful noise to the Lord, so whether you think you’ve got untapped potential as a hymn-singer or precentor (someone who leads the psalm-singing), or play a little-known musical instrument, we want to hear from you.
         We would especially welcome any gents who can sing, but there’s always room for more ladies too!
       contact:
-        type_: "activity_contact"
         name: "Don Macleod"
         picture: "/static/uploads/people/don-image.jpg"
+        type_: "activity_contact"
     - type_: "activity"
       name: "Welcome Team"
       picture: "/static/uploads/welcome_team.jpg"
@@ -80,15 +81,15 @@ serving_areas:
         You can be the first person people meet at St Columba's! First impressions are always powerful, and the same is true here in church - so we want ours to be kind, helpful and open-hearted.
         You don’t need a good memory for names or faces; just a willingness to welcome every individual as if you are welcoming Christ himself!
       contact:
-        type_: "activity_contact"
         name: "David Morris"
         picture: "/static/uploads/people/david-image.jpg"
+        type_: "activity_contact"
     - type_: "activity"
       name: "Hospitality Team"
       picture: "/static/uploads/hospitality.jpg"
       content: |
         We like to share hospitality together as a congregation, whether as a hot drink after the service or a meal together. If you would be willing to give up a small amount of your time every few weeks to help provide this hospitality on a Sunday, we would be be very grateful. It isn’t difficult or glamorous work, but it makes a huge difference to the fellowship we can share as a congregation.
       contact:
-        type_: "activity_contact"
         name: "Georgie Armstrong"
         picture: "/static/uploads/people/georgie.jpg"
+        type_: "activity_contact"

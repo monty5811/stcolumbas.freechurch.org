@@ -12,60 +12,60 @@ intro:
   right: |
     Below you can see the variety of community events at St Columba's which you may be interested in being involved in.
 communities:
-  - type_: "activities_list"
-    group_into: 2
-    activities:
-      - type_: "activity"
-        name: "City Groups"
-        picture: "/static/uploads/citygroups.jpg"
-        content: |
-          City groups are our midweek house groups where we not only socialise and share hospitality, but we study the Bible together and pray.
-          If the normal Sunday service is ‘big’ church, then this is ‘small’ church.
-          These groups are normally regional throughout the city and overseen pastoral teams led by elders.
-          These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce their wider circle of friends and others to the Christian faith.
-        contact:
-          type_: "activity_contact"
-          name: "Donna Macleod"
-          picture: "/static/uploads/people/donna.jpg"
-      - type_: "activity"
-        name: "Roots & Shoots"
-        picture: "/static/uploads/roots_and_shoots.jpg"
-        content: |
-          An opportunity for parents and carers of pre-school children to meet up for chat, coffee, fresh bread and cake! We have a variety of toys for children to play with and usually have a song/story time.
-          We meet around the city, twice a month, during the school term from 9:30am till 11:30am and you’d be very welcome to join us.
-        contact:
-          type_: "activity_contact"
-          name: "Miriam Montgomery"
-          picture: "/static/uploads/placeholder_175x175.png"
-      - type_: "activity"
-        name: "Open Book"
-        picture: "/static/uploads/open_book.jpg"
-        content: |
-          Open Book is a bible discussion time for all women in the congregation in the 20s and 30s age group, and any friends they would like to invite along. Open Book provides a space where we can get together, talk and have any children looked after for a while, as there is also the crèche provided.
-          We meet fortnightly during term-time, from 9.30am – 11.30am on a Thursday morning and usually at a different location each time, which will be advertised.
-        contact:
-          type_: "activity_contact"
-          name: "Louise Gillies"
-          picture: "/static/uploads/people/louise_g.jpg"
-      - type_: "activity"
-        name: "Edinburgh Ladies’ Fellowship"
-        picture: "/static/uploads/ladies_fellowship.jpg"
-        content: |
-          The group meets fortnightly from September to May on Thursday afternoon from 2.30 to 4pm.
-          We enjoy fellowship together and then alternate between doing a Bible study led by one of us, and having a talk by a missionary/speaker.
-          All are warmly invited to join us of any age.
-        contact:
-          type_: "activity_contact"
-          name: "Caroline Muir"
-          picture: "/static/uploads/placeholder_175x175.png"
-      - type_: "activity"
-        name: "Men's Fellowship Meeting"
-        picture: "/static/uploads/mens_fellowship.jpg"
-        content: |
-          The Men's Meeting is an informal gathering of men (mostly senior citizens) for discussion and friendship.
-          The meetings take place every two weeks at 2.30pm on a Thursday, usually in the St Columba’s Church Hall, with refreshments being shared at the beginning of the meeting.
-          Invitations are extended to men from all the city Free Churches and we have discussion topics that cover a wide range of interests.
-        contact:
-          type_: "activity_contact"
-          name: "Billy Graham"
-          picture: "/static/uploads/people/billy-image.jpg"
+  type_: "activities_list"
+  group_into: 2
+  activities:
+    - type_: "activity"
+      name: "City Groups"
+      picture: "/static/uploads/citygroups.jpg"
+      content: |
+        City groups are our midweek house groups where we not only socialise and share hospitality, but we study the Bible together and pray.
+        If the normal Sunday service is ‘big’ church, then this is ‘small’ church.
+        These groups are normally regional throughout the city and overseen pastoral teams led by elders.
+        These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce their wider circle of friends and others to the Christian faith.
+      contact:
+        type_: "activity_contact"
+        name: "Donna Macleod"
+        picture: "/static/uploads/people/donna.jpg"
+    - type_: "activity"
+      name: "Roots & Shoots"
+      picture: "/static/uploads/roots_and_shoots.jpg"
+      content: |
+        An opportunity for parents and carers of pre-school children to meet up for chat, coffee, fresh bread and cake! We have a variety of toys for children to play with and usually have a song/story time.
+        We meet around the city, twice a month, during the school term from 9:30am till 11:30am and you’d be very welcome to join us.
+      contact:
+        type_: "activity_contact"
+        name: "Miriam Montgomery"
+        picture: "/static/uploads/placeholder_175x175.png"
+    - type_: "activity"
+      name: "Open Book"
+      picture: "/static/uploads/open_book.jpg"
+      content: |
+        Open Book is a bible discussion time for all women in the congregation in the 20s and 30s age group, and any friends they would like to invite along. Open Book provides a space where we can get together, talk and have any children looked after for a while, as there is also the crèche provided.
+        We meet fortnightly during term-time, from 9.30am – 11.30am on a Thursday morning and usually at a different location each time, which will be advertised.
+      contact:
+        type_: "activity_contact"
+        name: "Louise Gillies"
+        picture: "/static/uploads/people/louise_g.jpg"
+    - type_: "activity"
+      name: "Edinburgh Ladies’ Fellowship"
+      picture: "/static/uploads/ladies_fellowship.jpg"
+      content: |
+        The group meets fortnightly from September to May on Thursday afternoon from 2.30 to 4pm.
+        We enjoy fellowship together and then alternate between doing a Bible study led by one of us, and having a talk by a missionary/speaker.
+        All are warmly invited to join us of any age.
+      contact:
+        type_: "activity_contact"
+        name: "Caroline Muir"
+        picture: "/static/uploads/placeholder_175x175.png"
+    - type_: "activity"
+      name: "Men's Fellowship Meeting"
+      picture: "/static/uploads/mens_fellowship.jpg"
+      content: |
+        The Men's Meeting is an informal gathering of men (mostly senior citizens) for discussion and friendship.
+        The meetings take place every two weeks at 2.30pm on a Thursday, usually in the St Columba’s Church Hall, with refreshments being shared at the beginning of the meeting.
+        Invitations are extended to men from all the city Free Churches and we have discussion topics that cover a wide range of interests.
+      contact:
+        type_: "activity_contact"
+        name: "Billy Graham"
+        picture: "/static/uploads/people/billy-image.jpg"

@@ -39,20 +39,20 @@ collections:
             fields:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Content", name: "content", widget: "markdown"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "image_text_row"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "image_text_row"}
           - label: "One Wide Banner"
             name: "tagline"
             widget: "object"
             fields:
               - {label: "Content", name: "content", widget: "markdown"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "tagline"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "tagline"}
           - label: "Text and Image"
             name: "row2"
             widget: object
             fields:
               - {label: "Content", name: "content", widget: "markdown"}
               - {label: "Image", name: "image", widget: "image"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "text_image_row"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_image_row"}
       - name: "our-team"
         label: "Our Team"
         file: "src/about/our-team.yml"
@@ -65,7 +65,7 @@ collections:
             fields:
               - {label: "Left", name: "left", widget: "markdown"}
               - {label: "Right", name: "right", widget: "markdown", required: False}
-              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
           - label: "Intro"
             name: "intro"
             widget: object
@@ -78,7 +78,7 @@ collections:
             widget: list
             fields:
               - {label: "Title", name: "title", widget: "string"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "team_list"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "team_list"}
               - label: "Members"
                 name: "members"
                 widget: "list"
@@ -86,7 +86,7 @@ collections:
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Picture", name: "picture", widget: "image"}
-                  - {label: "Type", name; "type_", widget: "hidden", default: "team_head"}
+                  - {label: "Type", name: "type_", widget: "hidden", default: "team_head"}
       - name: "church-plants"
         label: "Church Plants"
         file: "src/about/church-plants.yml"
@@ -120,26 +120,26 @@ collections:
             fields:
               - {label: "Left", name: "left", widget: "markdown"}
               - {label: "Right", name: "right", widget: "markdown", required: False}
-              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
           - label: "Introduction"
             name: "intro_row"
             widget: "object"
             fields:
               - {label: "Left", name: "left", widget: "markdown"}
               - {label: "Right", name: "right", widget: "markdown"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
           - label: "Separator"
             name: "separator"
             widget: "hidden"
             fields:
-              - {label: "Type", name; "type_", widget: "hidden", default: "separator"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "separator"}
           - label: "Giving Information"
             name: "intro_row"
             widget: "object"
             fields:
               - {label: "Online Form (auto populated)", name: "left", widget: "string", default: "!giving_form"}
               - {label: "Right", name: "right", widget: "markdown"}
-              - {label: "Type", name; "type_", widget: "hidden", default: "text_text_row"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
       - name: "community"
         label: "Community"
         file: "src/connect/community.yml"
@@ -150,8 +150,8 @@ collections:
             name: "bible_verse"
             widget: "object"
             fields:
-              - {label: "Type", name; "type_", widget: "hidden", default: "one_wide_row"}
-              - {label: "Content", name; "content", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "one_wide_row"}
+              - {label: "Content", name: "content", widget: "markdown"}
           - label: "Intro"
             name: "intro"
             widget: object
@@ -163,17 +163,18 @@ collections:
             name: "separator"
             widget: "hidden"
             fields:
-              - {label: "Type", name; "type_", widget: "hidden", default: "separator"}
-          - label: "Ministries"
-            name: "ministries"
+              - {label: "Type", name: "type_", widget: "hidden", default: "separator"}
+          - label: "Communities"
+            name: "communities"
             widget: object
             fields:
-              - {label: "Type", name; "type_", widget: "hidden", default: "activities_list"}
-              - {label: "Group Into", name; "group_into", widget: "hidden", default: 2}
+              - {label: "Type", name: "type_", widget: "hidden", default: "activities_list"}
+              - {label: "Group Into", name: "group_into", widget: "hidden", default: 2}
               - label: "Activities"
                 name: "activities"
                 widget: "list"
                 fields:
+                  - {label: "Type", name: "type_", widget: "hidden", default: "activity"}
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Picture", name: "picture", widget: "image"}
                   - {label: "Description", name: "content", widget: "markdown"}
@@ -183,7 +184,7 @@ collections:
                     fields:
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Picture", name: "picture", widget: "image"}
-                      - {label: "Type", name; "type_", widget: "hidden", default: "activity_contact"}
+                      - {label: "Type", name: "type_", widget: "hidden", default: "activity_contact"}
       - name: "ministries"
         label: "Ministries"
         file: "src/connect/ministries.yml"
@@ -194,12 +195,13 @@ collections:
             name: "ministries"
             widget: object
             fields:
-              - {label: "Type", name; "type_", widget: "hidden", default: "activities_list"}
-              - {label: "Group Into", name; "group_into", widget: "hidden", default: 2}
+              - {label: "Type", name: "type_", widget: "hidden", default: "activities_list"}
+              - {label: "Group Into", name: "group_into", widget: "hidden", default: 2}
               - label: "Activities"
                 name: "activities"
                 widget: "list"
                 fields:
+                  - {label: "Type", name: "type_", widget: "hidden", default: "activity"}
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Picture", name: "picture", widget: "image"}
                   - {label: "Description", name: "content", widget: "markdown"}
@@ -209,7 +211,7 @@ collections:
                     fields:
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Picture", name: "picture", widget: "image"}
-                      - {label: "Type", name; "type_", widget: "hidden", default: "activity_contact"}
+                      - {label: "Type", name: "type_", widget: "hidden", default: "activity_contact"}
       - name: "serving"
         label: "Serving"
         file: "src/connect/serving.yml"
@@ -227,17 +229,25 @@ collections:
             name: "separator"
             widget: "hidden"
             fields:
-              - {label: "Type", name; "type_", widget: "hidden", default: "separator"}
-          - label: "Serving Areas"
-            name: "Serving Areas"
+              - {label: "Type", name: "type_", widget: "hidden", default: "separator"}
+          - label: "Heading"
+            name: "heading"
             widget: object
             fields:
-              - {label: "Type", name; "type_", widget: "hidden", default: "activities_list"}
-              - {label: "Group Into", name; "group_into", widget: "hidden", default: 3}
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
+          - label: "Serving Areas"
+            name: "serving_areas"
+            widget: object
+            fields:
+              - {label: "Type", name: "type_", widget: "hidden", default: "activities_list"}
+              - {label: "Group Into", name: "group_into", widget: "hidden", default: 3}
               - label: "Activities"
                 name: "activities"
-                widget: "list"
+                widget: list
                 fields:
+                  - {label: "Type", name: "type_", widget: "hidden", default: "activity"}
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Picture", name: "picture", widget: "image"}
                   - {label: "Description", name: "content", widget: "markdown"}
@@ -247,4 +257,4 @@ collections:
                     fields:
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Picture", name: "picture", widget: "image"}
-                      - {label: "Type", name; "type_", widget: "hidden", default: "activity_contact"}
+                      - {label: "Type", name: "type_", widget: "hidden", default: "activity_contact"}
