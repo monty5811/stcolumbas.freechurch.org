@@ -1,11 +1,14 @@
 build:
-	python build.py
+	pipenv run python build.py
 
 watch:
 	find src templates *.py | entr make build
 
 serve:
-	cd dist && python -m http.server 4001
+	cd dist && pienv run python -m http.server 4001
+
+dev-setup:
+	pipenv install -d
 
 deploy:
 	netlify deploy
@@ -16,7 +19,6 @@ pay_deploy:
 ci: js-build css-build build css-opt-index
 
 ci-setup:
-	pip install -r requirements.txt
 	cd assets && yarn && cd ..
 
 js-build:
@@ -32,4 +34,4 @@ css-opt-index:
 	cd assets && yarn css:opt-index
 
 py-format:
-	yapf -ir **/*.py
+	pipenv run yapf -ir **/*.py
