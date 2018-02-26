@@ -1,11 +1,11 @@
 build:
-	pipenv run python build.py
+	python build.py
 
 watch:
 	find src templates *.py | entr make build
 
 serve:
-	cd dist && pienv run python -m http.server 4001
+	cd dist && python -m http.server 4001
 
 dev-setup:
 	pipenv install -d
@@ -19,7 +19,6 @@ pay_deploy:
 ci: js-build css-build build css-opt-index
 
 ci-setup:
-	pipenv install
 	cd assets && yarn && cd ..
 
 js-build:
@@ -35,4 +34,4 @@ css-opt-index:
 	cd assets && yarn css:opt-index
 
 py-format:
-	pipenv run yapf -ir **/*.py
+	yapf -ir **/*.py
