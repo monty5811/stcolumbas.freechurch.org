@@ -15,7 +15,6 @@ function members(team) {
 const OurTeamPreview = createClass({
   render: function() {
     const entry = this.props.entry;
-    const heading = entry.getIn(['data', 'heading', 'left']);
     const rows = this.props.widgetsFor('teams').map(function(team, index) {
       return <div className="container">
         <div className="row">
@@ -36,14 +35,21 @@ const OurTeamPreview = createClass({
     });
 
     return <div className="content">
-      <h1>{ heading }</h1>
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            { entry.getIn(['data', 'intro', 'left']) }
+            { this.props.widgetsFor('heading').getIn(['widgets', 'left']) }
           </div>
           <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            { entry.getIn(['data', 'intro', 'right']) }
+            { this.props.widgetsFor('heading').getIn(['widgets', 'right']) }
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            { this.props.widgetsFor('intro').getIn(['widgets', 'left']) }
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            { this.props.widgetsFor('intro').getIn(['widgets', 'right']) }
           </div>
         </div>
         { rows }
