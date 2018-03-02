@@ -8,6 +8,7 @@ from .constants import *
 BASE_URL = 'https://stcolumbas.freechurch.org'
 markdown = mistune.Markdown()
 
+
 def write_feed(posts):
     fg = FeedGenerator()
     fg.id(f'{BASE_URL}/headlines/')

@@ -20,6 +20,9 @@ ipdb = "*"
 ipython = "*"
 isort = "*"
 yapf = "*"
+selenium = "*"
+
 
 [requires]
+
 python_full_version = "3.6.4"
