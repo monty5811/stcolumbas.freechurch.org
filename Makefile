@@ -19,6 +19,7 @@ pay_deploy:
 ci: js-build css-build build css-opt-index
 
 ci-setup:
+	npm install -g yarn
 	cd assets && yarn && cd ..
 
 js-build:
