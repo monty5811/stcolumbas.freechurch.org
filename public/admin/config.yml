@@ -37,9 +37,9 @@ collections:
             name: "row1"
             widget: object
             fields:
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Content", name: "content", widget: "markdown"}
-              - {label: "Type", name: "type_", widget: "hidden", default: "image_text_row"}
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
           - label: "One Wide Banner"
             name: "tagline"
             widget: "object"
@@ -50,9 +50,9 @@ collections:
             name: "row2"
             widget: object
             fields:
-              - {label: "Content", name: "content", widget: "markdown"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Type", name: "type_", widget: "hidden", default: "text_image_row"}
+              - {label: "Left", name: "left", widget: "markdown"}
+              - {label: "Right", name: "right", widget: "markdown"}
+              - {label: "Type", name: "type_", widget: "hidden", default: "text_text_row"}
       - name: "our-team"
         label: "Our Team"
         file: "src/about/our-team.yml"

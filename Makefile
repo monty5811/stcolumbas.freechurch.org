@@ -2,7 +2,7 @@ build:
 	python build.py
 
 watch:
-	find src templates *.py | entr make build
+	find src templates static_gen/*.py *.py | entr make build
 
 serve:
 	cd dist && python -m http.server 4001

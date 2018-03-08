@@ -89,26 +89,6 @@ def render_giving_form():
     return render_template('blocks/giving_form.html', {})
 
 
-def render_text_image_row(value):
-    image_ = render_image(value['image'])
-    text_ = render_text(value['content'])
-    if value['type_'] == 'image_text_row':
-        data = {
-            'left_col': image_,
-            'right_col': text_,
-        }
-    elif value['type_'] == 'text_image_row':
-        data = {
-            'left_col': text_,
-            'right_col': image_,
-        }
-
-    else:
-        raise NotImplementedError
-
-    return render_template('blocks/two_column.html', data)
-
-
 def render_text_text_row(value):
     left = render_text(value['left'])
     right = render_text(value['right'])
@@ -167,8 +147,6 @@ def render_content(value) -> str:
 
     render_fns = {
         'tagline': render_tagline,
-        'text_image_row': render_text_image_row,
-        'image_text_row': render_text_image_row,
         'raw_html': lambda value: value['html'],
         'text_text_row': render_text_text_row,
         'text_text_row_with_sep': render_text_text_row_with_sep,

@@ -1,18 +1,21 @@
 layout: "content_page"
 title: "Our Vision"
 row1:
-  image: "/static/uploads/edinburgh_image_1.jpg"
-  content: |
+  right: |
+    ![](/static/uploads/edinburgh_image_1.jpg "")
+
+  left: |
     ### Our Vision
 
     Our vision is to have a strong city centre church that meets to worship God, equipping its people to live for Christ and share their faith. We aim to be a strong presence in Edinburgh, starting new churches in local communities through existing core groups. We believe in the radical transforming power of the Gospel. By following Christ in grace dependant communities throughout the city we can be a powerful witness to the Gospel, to the Glory of God.
-  type_: "text_image_row"
+  type_: "text_text_row"
 tagline:
   content: "We are a city-centre church committed to the Gospel of Jesus Christ in worship, mission, community and discipleship with a vision to plant churches in and around Edinburgh."
   type_: "tagline"
 row2:
-  image: "/static/uploads/stcs_image_1_1.jpg"
-  content: |
+  left: |
+    ![](/static/uploads/stcs_image_1_1.jpg "")
+  right: |
     ### Our Pillars
 
     **Gospel**
@@ -30,4 +33,4 @@ row2:
     **Growth**
 
     We want the church to grow by Christians getting to know God better, and more and more people coming to know God as their saviour. To do this, we have a range of ‘pathways’ because we know people are at different points in their own discovery of the person and significance of Jesus.
-  type_: "image_text_row"
+  type_: "text_text_row"
