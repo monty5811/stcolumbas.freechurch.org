@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: monty5811/z
-  branch: master
+  name: git-gateway
 
 publish_mode: editorial_workflow
 
