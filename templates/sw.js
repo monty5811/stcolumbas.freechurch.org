@@ -1,4 +1,4 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.0/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 
 workbox.core.setCacheNameDetails({
   prefix: 'stcs',
@@ -16,6 +16,11 @@ workbox.routing.registerRoute(
       }),
     ],
   }),
+);
+
+workbox.routing.registerRoute(
+  new RegExp('^https://fonts.(?:googleapis|gstatic).com/(.*)'),
+  workbox.strategies.cacheFirst(),
 );
 
 workbox.precaching.precacheAndRoute([
