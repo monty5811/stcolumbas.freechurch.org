@@ -23,7 +23,7 @@ church_plants:
       the Bible, applying it to every-day life and praying. Some of us meet for
       prayer in the mornings and we like to hang out together on a Sunday
       afternoon.
-    right: '![Cornerstone](/static/uploads/cornerstone.jpg title)'
+    right: '![Cornerstone](/static/uploads/cornerstone.jpg)'
     type_: text_text_row_with_sep
   - left: '![Esk Valley](/static/uploads/evc.jpg)'
     right: >-
@@ -69,5 +69,5 @@ church_plants:
       2018 as we look to reach more people in Haddington and the surrounding
       towns with the good news of Jesus Christ. For more information please
       contact [Ali Sewell](mailto:ali.sewell@gmail.com).
-    right: '![Haddington](/static/uploads/haddington_aerial.jpg title)'
+    right: '![Haddington](/static/uploads/haddington_aerial.jpg)'
     type_: text_text_row_with_sep
