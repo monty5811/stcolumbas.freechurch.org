@@ -1,12 +1,11 @@
 layout: content_page
 title: Church Plants
 intro:
-  type_: "text_text_row"
   left: "Scotland is, according to recent church attendance statistics, an unreached country for the gospel. We see the effects of this in our city, yet rather than just self-preserve, we want to go out with the good news of Jesus and plant churches.\r\r\n\nPlanting churches is no new thing - every church anyone has ever been in was, at one time, a new church. So rather than seeing church planting as a fad, the leadership at St Columba’s see starting new churches as the most effective way to take the gospel out into a culture which, by and large, has rejected the mainstream institutional church in Scotland."
   right: "Almost every area of the city would benefit from having new, outreaching churches acting as salt and light. At present we have started a church in Morningside, and are working towards starting one just south of the city in Midlothian. These have been small groups of people from St Columba’s who have felt called to begin a new work in the part of the city where they live. Mostly, the way we do this is by being a community together, and by trying to reach out relationally to those we live and work amongst during the week.\r\n\r\nWe sense the challenge of doing this, and feel ourselves to be very small - but we recognise at the same time how great God is, that all the necessary resources are his and that He has the power to build His church."
+  type_: text_text_row
 church_plants:
-  - type_: "text_text_row_with_sep"
-    left: >-
+  - left: >-
       ## Cornerstone
 
       In early 2014, we planted a new church in the Morningside / Bruntsfield
@@ -24,40 +23,51 @@ church_plants:
       the Bible, applying it to every-day life and praying. Some of us meet for
       prayer in the mornings and we like to hang out together on a Sunday
       afternoon.
-    right: '![Cornerstone](/static/uploads/cornerstone.jpg "Cornerstone")'
-  - type_: "text_text_row_with_sep"
-    left: '![Esk Valley](/static/uploads/eskvalley.jpg "Esk Valley")'
+    right: '![Cornerstone](/static/uploads/cornerstone.jpg title)'
+    type_: text_text_row_with_sep
+  - left: '![Esk Valley](/static/uploads/evc.jpg)'
     right: >-
       ## Esk Valley Church
 
 
-      Having planted Cornerstone in Morningside, St Columba’s are now starting
-      Esk Valley church South of Edinburgh in Midlothian. This is an expanding
+      Esk Valley Church is the second plant out of St Columba’s. It meets in
+      Midlothian to the immediate south of Edinburgh. Midlothian is an expanding
       region with newly developed transport links joining up Edinburgh and the
       Scottish Borders. It’s also an area with a huge need for the gospel, and
       for new churches to be started.
 
 
-      At present there is a core group meeting in the Scottish Mining Museum in
-      Newtongrange. We meet on most Sunday mornings at 10.30am, and throughout
-      the week in people’s homes, to look at the bible, pray and share life
-      together. Our desire as followers of Jesus is that we worship God, grow in
-      our faith, serve others out of love, and witness to what Jesus has done in
-      our lives.
+      We launched a couple of years ago, and meet on Sunday mornings in the
+      Scottish Mining Museum in Newtongrange at 10.30am. During the week we meet
+      in people’s homes, to look at the bible, pray, and share life together.
+      Some of us are Christians, some are exploring Christianity, and some
+      coming back to the church after being away for a time. We really want EVC
+      to be a place people can know good friendship, and grow in their
+      understand of who God really is. We are working out what it means to know
+      God & worship Him, grow in our faith, serve others out of love, and
+      witness to the good news about Jesus.
 
 
       To find out more, please visit the Esk Valley Church
       [website](http://eskvalleychurch.org/).
-  - type_: "text_text_row_with_sep"
-    left: >-
+    type_: text_text_row_with_sep
+  - left: >-
       ## Haddington Community Church
 
-      Haddington Community Church is a new congregation in the early stages of being planted in the centre of East Lothian.
-      There is a great need for gospel churches in the area as the population grows rapidly, but the number of people attending churches who have a living faith remains small.
-      We have a real mix of ages and church backgrounds, and currently gather on Sunday afternoons to spend time looking at the bible together and praying.
-      Our goal is to build a community grounded in God's word who will be welcoming to all, seeking to grow in our love for Jesus, and serving one another and those around us as we share the gospel.
-      As we do all this we seek to be a prayerful people as we depend fully on God's grace.
+      Haddington Community Church is a new congregation in the early stages of
+      being planted in the centre of East Lothian. There is a great need for
+      gospel churches in the area as the population grows rapidly, but the
+      number of people attending churches who have a living faith remains small.
+      We have a real mix of ages and church backgrounds, and currently gather on
+      Sunday afternoons to spend time looking at the bible together and praying.
+      Our goal is to build a community grounded in God's word who will be
+      welcoming to all, seeking to grow in our love for Jesus, and serving one
+      another and those around us as we share the gospel. As we do all this we
+      seek to be a prayerful people as we depend fully on God's grace.
 
-      We are hoping to publicly launch morning services in the second half of 2018 as we look to reach more people in Haddington and the surrounding towns with the good news of Jesus Christ. For more information please contact [Ali Sewell](mailto:ali.sewell@gmail.com).
-
-    right: '![Haddington](/static/uploads/haddington_aerial.jpg "Haddington")'
+      We are hoping to publicly launch morning services in the second half of
+      2018 as we look to reach more people in Haddington and the surrounding
+      towns with the good news of Jesus Christ. For more information please
+      contact [Ali Sewell](mailto:ali.sewell@gmail.com).
+    right: '![Haddington](/static/uploads/haddington_aerial.jpg title)'
+    type_: text_text_row_with_sep
