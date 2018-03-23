@@ -51,16 +51,22 @@ function init() {
     form.addEventListener('submit', function(event) {
       event.preventDefault();
 
-      submitButton.remove();
-
-      app.ports.startLoading.send(null);
-
+      const buttonText = submitButton.innerText;
+      submitButton.innerText = 'Working...';
+      // create stripe token
       stripe.createToken(card).then(function(result) {
         if (result.error) {
-          // Inform the user if there was an error
-          var errorElement = document.getElementById('card-errors');
-          errorElement.textContent = result.error.message;
+          if (result.error.type === 'validation_error') {
+            // change text back to donate as stripe will handle this error for us
+            submitButton.innerText = buttonText;
+          } else {
+            // Inform the user if there was an error
+            var errorElement = document.getElementById('card-errors');
+            errorElement.textContent = result.error.message;
+          }
         } else {
+          submitButton.remove();
+          app.ports.startLoading.send(null);
           // Send the token to the server
           stripeTokenHandler(result);
         }

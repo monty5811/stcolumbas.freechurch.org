@@ -13,8 +13,14 @@ import Json.Encode as Encode
 
 type alias Model =
     { state : State
-    , serverAwake : Bool
+    , serverAwake : ServerStatus
     }
+
+
+type ServerStatus
+    = Awake
+    | Trying Int
+    | GaveUp
 
 
 type State
@@ -102,7 +108,7 @@ update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         FromJs json ->
-            case Decode.decodeValue formDataDecoder (json |> Debug.log "json") |> Debug.log "decoded" of
+            case Decode.decodeValue formDataDecoder json of
                 Ok rawFormData ->
                     case String.toFloat rawFormData.amount of
                         Ok amount ->
@@ -113,8 +119,8 @@ update msg model =
                                 Just token ->
                                     ( { model | state = WaitingForServer }, makeCharge (chargeBody amount token.id rawFormData) )
 
-                        Err err ->
-                            ( { model | state = BadInputData err }, Cmd.none )
+                        Err _ ->
+                            ( { model | state = BadInputData (niceAmountErrorMsg rawFormData.amount) }, Cmd.none )
 
                 Err err ->
                     ( { model | state = BadInputData err }, Cmd.none )
@@ -126,13 +132,34 @@ update msg model =
             ( { model | state = Failed err }, Cmd.none )
 
         WakeUpResponseReceived (Ok _) ->
-            ( { model | serverAwake = True }, Cmd.none )
+            ( { model | serverAwake = Awake }, Cmd.none )
 
         WakeUpResponseReceived (Err _) ->
-            ( { model | serverAwake = False }, wakeUpHeroku )
+            case model.serverAwake of
+                Awake ->
+                    ( { model | serverAwake = Trying 0 }, Cmd.none )
+
+                Trying times ->
+                    if times < 10 then
+                        ( { model | serverAwake = Trying <| times + 1 }, wakeUpHeroku )
+                    else
+                        ( { model | serverAwake = GaveUp }, Cmd.none )
+
+                GaveUp ->
+                    ( model, Cmd.none )
 
         WaitForStripeToken ->
             ( { model | state = WaitingForStripeToken }, Cmd.none )
+
+
+niceAmountErrorMsg : String -> String
+niceAmountErrorMsg amount =
+    case amount of
+        "" ->
+            "You need to provide how much you would like to give."
+
+        _ ->
+            "\"" ++ amount ++ "\" is not a valid number."
 
 
 
@@ -244,7 +271,7 @@ main =
 init : ( Model, Cmd Msg )
 init =
     ( { state = WaitingForForm
-      , serverAwake = False
+      , serverAwake = Trying 0
       }
     , wakeUpHeroku
     )
