@@ -25,5 +25,4 @@ critical
     penthouse: {
       blockJSRequests: false,
     },
-  })
-  .error(err => console.error(err));
+  });

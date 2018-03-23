@@ -22,11 +22,12 @@
     "postcss": "^6.0.17",
     "postcss-import": "^11.0.0",
     "prettier": "^1.10.2",
-    "webpack": "^3.10.0"
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "WATCH=true webpack --watch --color --progress",
+    "build": "webpack --mode production",
+    "watch": "WATCH=true webpack --watch --color --progress --mode development",
     "css:build": "node build-css.js",
     "css:opt-index": "node optimise_index.js",
     "format-js": "prettier --single-quote --trailing-comma es5 --write \"*.js\"",
