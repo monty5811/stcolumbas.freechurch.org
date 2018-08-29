@@ -1,5 +1,6 @@
 import os
 import shutil
+from distutils.dir_util import copy_tree
 from hashlib import sha256
 
 from jinja2 import Environment, FileSystemLoader
@@ -84,23 +85,31 @@ def load_files(sub_dir=None):
 def copy_static_files():
     dest = os.path.join(DIST_DIR, STATIC_DIR)
     shutil.rmtree(dest, ignore_errors=True)
-    shutil.copytree(STATIC_DIR, dest)
+    copy_tree(STATIC_DIR, dest)
 
 
 def copy_public_files():
     dest = os.path.join(DIST_DIR)
-    shutil.copytree(PUBLIC_DIR, dest)
+    copy_tree(PUBLIC_DIR, dest)
 
 
 def copy_src_files():
     dest = os.path.join(DIST_DIR, SRC_DIR)
     shutil.rmtree(dest, ignore_errors=True)
-    shutil.copytree(SRC_DIR, dest)
+    copy_tree(SRC_DIR, dest)
+
+
+def clean_folder(folder_path):
+    for root, dirs, files in os.walk(folder_path):
+        for f in files:
+            os.unlink(os.path.join(root, f))
+        for d in dirs:
+            shutil.rmtree(os.path.join(root, d))
 
 
 def build():
     env = render.setup_jinja()
-    shutil.rmtree(DIST_DIR, ignore_errors=True)
+    clean_folder(DIST_DIR)
     copy_public_files()
     copy_static_files()
     blog.write_blog_index(env, load_files(sub_dir='_headlines'))

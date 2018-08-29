@@ -1,14 +1,13 @@
 <style type="text/css">
-.webp .{{class_hash}}{
-  background-image: url("{{ src_webp }}");
-}
-
-.no-webp .{{ class_hash }}{
+.{{ class_hash }} {
   background-image: url("{{ src }}");
 }
-
-.no-js .{{ class_hash }} {
-  background-image: url("{{ src }}");
-}
+{% for sz, src_resized in resized_images.items() %}{% if src_resized %}
+    @media(max-width: {{ (sz//2) - 1 }}px){
+      .{{ class_hash }} {
+          background-image: url("{{ src_resized }}");
+      }
+    }
+{% endif %}{% endfor %}
 </style>
 <div class="fill {{ class_hash }}"></div>
