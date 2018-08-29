@@ -705,7 +705,8 @@
     }
 }
 body{
-    font-family:"Roboto",Arial,Helvetica,sans-serif;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-display: "fallback";
 }
 a{
     color:#909194;
