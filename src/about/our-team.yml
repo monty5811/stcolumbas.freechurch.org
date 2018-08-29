@@ -16,10 +16,6 @@ teams:
         title: "Senior Minister"
         type_: "team_head"
         picture: /static/uploads/people/derek-image.jpg
-      - name: "Cory Brock"
-        title: "Ministry Associate"
-        type_: "team_head"
-        picture: /static/uploads/people/cory-image.jpg
   - title: "Staff"
     type_: "team_list"
     members:
@@ -50,10 +46,6 @@ teams:
         title: "Newington City Group"
         type_: "team_head"
         picture: /static/uploads/people/neil-dm-image.jpg
-      - name: "Andy MacGillivray"
-        title: "Winchburgh City Group"
-        type_: "team_head"
-        picture: /static/uploads/people/andy-image.jpg
       - name: "Ewan McGillivray"
         title: "Fountainbridge City Group"
         type_: "team_head"
