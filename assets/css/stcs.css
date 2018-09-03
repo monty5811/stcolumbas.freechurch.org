@@ -617,7 +617,9 @@
         margin-top:20px;
     }
     #stcs-collapse:hover{
-        padding-bottom:200px;
+        padding-bottom: 300px;
+        /*alternate hack: */
+        /*height: 100vh !important;*/
     }
     .mega-menu{
         position:absolute;
