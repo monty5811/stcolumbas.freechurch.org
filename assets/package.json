@@ -30,8 +30,9 @@
     "watch": "WATCH=true webpack --watch --color --progress --mode development",
     "css:build": "node build-css.js",
     "css:opt-index": "node optimise_index.js",
-    "format-js": "prettier --single-quote --trailing-comma es5 --write \"*.js\"",
+    "format-js": "prettier --single-quote --trailing-comma es5 --write \"./**/*.js\"",
+    "format-css": "prettier --write \"./css/stcs.css\"",
     "format-elm": "elm-format --yes Main.elm",
-    "format": "yarn format-elm && yarn format-js"
+    "format": "yarn format-elm && yarn format-js && yarn format-css"
   }
 }

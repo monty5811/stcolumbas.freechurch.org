@@ -16,58 +16,53 @@ def write_files(env, pages):
     manifest = {}
     for p in pages:
         # ignore headlines:
-        if '_headlines' in p:
+        if "_headlines" in p:
             continue
         data = load_yaml(p)
         content = data.copy()
-        content.pop('layout', None)
-        content.pop('title', None)
-        result = env.get_template(data['layout'] + '.html').render(
-            data=data,
-            content=content,
-            uri=p.replace(SRC_DIR, '').replace('.yml', ''),
+        content.pop("layout", None)
+        content.pop("title", None)
+        result = env.get_template(data["layout"] + ".html").render(
+            data=data, content=content, uri=p.replace(SRC_DIR, "").replace(".yml", "")
         )
 
         new_path = p.replace(SRC_DIR, DIST_DIR)
-        new_path = new_path.replace('.yml', '.html')
+        new_path = new_path.replace(".yml", ".html")
         os.makedirs(os.path.dirname(new_path), exist_ok=True)
         print(new_path)
-        with open(new_path, 'w') as f:
+        with open(new_path, "w") as f:
             f.write(result)
 
-        manifest[new_path.replace(DIST_DIR, '')] = sha256(result.encode()).hexdigest()[:8]
+        manifest[new_path.replace(DIST_DIR, "")] = sha256(result.encode()).hexdigest()[
+            :8
+        ]
 
     return manifest
 
 
 def write_sw(env, manifest):
     # add css and js:
-    files = [
-        '/static/css/stcs.css',
-        '/static/js/stcs.js',
-        '/headlines.html',
-    ]
+    files = ["/static/css/stcs.css", "/static/js/stcs.js", "/headlines.html"]
 
     for f_ in files:
-        with open(DIST_DIR + f_, 'rb') as f:
+        with open(DIST_DIR + f_, "rb") as f:
             content = f.read()
 
         manifest[f_] = sha256(content).hexdigest()[:8]
 
     for k in manifest:
-        if 'contact-us' in k:
+        if "contact-us" in k:
             # skip contact us so form works with service worker
             key_to_delete = k
     del manifest[key_to_delete]
 
-    all_hashes = ''.join([k + v for k, v in manifest.items()])
+    all_hashes = "".join([k + v for k, v in manifest.items()])
     big_hash = sha256(all_hashes.encode()).hexdigest()[:8]
 
-    result = env.get_template('sw.js').render({
-        'manifest': manifest,
-        'version': big_hash,
-    })
-    with open(os.path.join(DIST_DIR, 'sw.js'), 'w') as f:
+    result = env.get_template("sw.js").render(
+        {"manifest": manifest, "version": big_hash}
+    )
+    with open(os.path.join(DIST_DIR, "sw.js"), "w") as f:
         f.write(result)
 
 
@@ -112,6 +107,6 @@ def build():
     clean_folder(DIST_DIR)
     copy_public_files()
     copy_static_files()
-    blog.write_blog_index(env, load_files(sub_dir='_headlines'))
+    blog.write_blog_index(env, load_files(sub_dir="_headlines"))
     manifest = write_files(env, load_files())
     write_sw(env, manifest)

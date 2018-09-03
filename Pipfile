@@ -19,10 +19,15 @@ pyyaml = "==3.12"
 ipdb = "*"
 ipython = "*"
 isort = "*"
-yapf = "*"
 selenium = "*"
+black = "==18.6b4"
 
 
 [requires]
 
 python_full_version = "3.6.4"
+
+
+[pipenv]
+
+allow_prereleases = true

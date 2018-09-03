@@ -35,4 +35,4 @@ css-opt-index:
 	cd assets && yarn css:opt-index
 
 py-format:
-	yapf -ir **/*.py
+	black **/*.py

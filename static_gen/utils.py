@@ -18,7 +18,7 @@ yaml.add_constructor(_mapping_tag, dict_constructor)
 
 
 def load_yaml(p):
-    with open(p, 'r') as f:
+    with open(p, "r") as f:
         raw = f.read()
     return yaml.load(raw)
 
@@ -30,4 +30,4 @@ def group_into(l, n=6):
     n: number of items in each sublist
     """
     for i in range(0, len(l), n):
-        yield l[i:i + n]
+        yield l[i : i + n]
