@@ -16,6 +16,10 @@ teams:
         title: "Senior Minister"
         type_: "team_head"
         picture: /static/uploads/people/derek-image.jpg
+      - name: "Thomas Davis"
+        title: "Assistant Minister"
+        type_: "team_head"
+        picture: /static/uploads/people/thomas_davis.jpg
   - title: "Staff"
     type_: "team_list"
     members:
@@ -24,9 +28,13 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/donna.jpg
       - name: "Ali Oliver"
-        title: ""
+        title: "Part Time Operations Manager"
         type_: "team_head"
         picture: /static/uploads/people/ali-image.jpg
+      - name: "Calum Cameron"
+        title: "Ministry Apprentice"
+        type_: "team_head"
+        picture: /static/uploads/people/calum_cam.png
   - title: "Elders"
     type_: "team_list"
     members:
@@ -58,6 +66,18 @@ teams:
         title: "Gilmerton City Group"
         type_: "team_head"
         picture: /static/uploads/people/dean-image.jpg
+      - name: "Alasdair Black"
+        title: "Corstorphine City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/alasdair_b_elder.png
+      - name: "Patrick Flanagan"
+        title: "Fountainbridge City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/patrick_elder.png
+      - name: "Alastair Simison"
+        title: "Meadows City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/alasdair_s_elder.png
   - title: "Deacons"
     type_: "team_list"
     members:
