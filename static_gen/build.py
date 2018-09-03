@@ -33,9 +33,12 @@ def write_files(env, pages):
         with open(new_path, "w") as f:
             f.write(result)
 
-        manifest[new_path.replace(DIST_DIR, "")] = sha256(result.encode()).hexdigest()[
-            :8
-        ]
+        # todo: do cleaning in write_sw instead
+        manifest[
+            new_path.replace(DIST_DIR, "")
+            .replace(".html", "")
+            .replace("index.html", "")
+        ] = sha256(result.encode()).hexdigest()[:8]
 
     return manifest
 

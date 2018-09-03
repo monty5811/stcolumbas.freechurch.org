@@ -15,9 +15,7 @@ workbox.core.setCacheNameDetails({
 // ]);
 // in the meantime we use this so we always get up to date data:
 self.addEventListener('install', event => {
-  const urls = [
-    {% for k in manifest %}
-    '{{ k }}',
+  const urls = [{% for k in manifest %}'{{ k }}',
     {% endfor %}
   ];
   /* ... */
