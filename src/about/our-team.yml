@@ -82,41 +82,108 @@ teams:
     type_: "team_list"
     members:
       - name: "Murdo Morrison"
-        title: ""
+        title: "Meadows City Group"
         type_: "team_head"
         picture: /static/uploads/people/murdo-image.jpg
       - name: "Colin Armstrong"
-        title: ""
+        title: "Inverleith City Group"
         type_: "team_head"
         picture: /static/uploads/people/colin-image.jpg
       - name: "Alasdair Mackenzie"
-        title: ""
+        title: "Winchburgh City Group"
         type_: "team_head"
         picture: /static/uploads/people/puzz-image.jpg
       - name: "Ken Crichton"
-        title: ""
+        title: "Gilmerton City Group"
         type_: "team_head"
         picture: /static/uploads/people/ken-image.jpg
       - name: "Craig Nicolson"
-        title: ""
+        title: "Winchburgh City Group"
         type_: "team_head"
         picture: /static/uploads/people/craig-image.jpg
       - name: "David Morris"
-        title: ""
+        title: "Fountainbridge City Group"
         type_: "team_head"
         picture: /static/uploads/people/david-image.jpg
       - name: "Colin Morrison"
-        title: ""
+        title: "Fountainbridge City Group"
         type_: "team_head"
         picture: /static/uploads/people/colin_rm.jpeg
-      - name: "John Macdonald"
-        title: ""
-        type_: "team_head"
-        picture: /static/uploads/people/john-image.jpg
       - name: "Pher Nicolson"
-        title: ""
+        title: "Newington City Group"
         type_: "team_head"
         picture: /static/uploads/people/pher-image.jpg
+  - title: "Women's Pastoral Team"
+    type_: "team_list"
+    members:
+      - name: "Georgie Armstrong"
+        title: "Inverleith City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/georgie.jpg
+      - name: "Esther Black"
+        title: "Corstorphine City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/esther-black.jpg
+      - name: "Helen Brannigan"
+        title: "Blackford City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/helen.jpg
+      - name: "Noor Gammoh"
+        title: "Meadows City Group"
+        type_: "team_head"
+        picture: /static/uploads/placeholder_175x175.png
+      - name: "Sara Gordon"
+        title: "Gilmerton City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/sara.jpg
+      - name: "Sophie Johnston"
+        title: "Mentoring"
+        type_: "team_head"
+        picture: /static/uploads/people/sophie-johnston.jpg
+      - name: "Catriona Lamont"
+        title: "Meadows City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/catriona-lamont.jpg
+      - name: "Dayspring MacLeod"
+        title: "Newington City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/dayspring-macleod.jpg
+      - name: "Lois Macleod"
+        title: "Inverleith City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/lois-macleod.jpg
+      - name: "Anna Macrae"
+        title: "Newington City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/anna-macrae.jpg
+      - name: "Kathleen MacSween"
+        title: "Fountainbridge City Group"
+        type_: "team_head"
+        picture: /static/uploads/placeholder_175x175.png
+      - name: "Miriam Montgomery"
+        title: "Gilmerton City Group"
+        type_: "team_head"
+        picture: /static/uploads/placeholder_175x175.png
+      - name: "Anne Norrie"
+        title: "Corstorphine City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/anne-norrie.jpg
+      - name: "Jenny Nicolson"
+        title: "Winchburgh City Group"
+        type_: "team_head"
+        picture: /static/uploads/placeholder_175x175.png
+      - name: "Victoria Oliver"
+        title: "Blackford City Group"
+        type_: "team_head"
+        picture: /static/uploads/placeholder_175x175.png
+      - name: "Kirsty Thompson"
+        title: "Fountainbridge City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/kirsty-thompson.jpg
+      - name: "Laura Watt"
+        title: "Winchburgh City Group"
+        type_: "team_head"
+        picture: /static/uploads/people/laura-watt.jpg
   - title: "Cornerstone Church Plant"
     type_: "team_list"
     members:
