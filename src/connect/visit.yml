@@ -82,14 +82,13 @@ html_getting_here:
 html_map:
   type_: "raw_html"
   html: |
-    <iframe
-      class="google-map visit-map"
-      frameborder="0"
-      scrolling="no"
-      marginheight="0"
-      marginwidth="0"
-      src="https://www.openstreetmap.org/export/embed.html?bbox=-3.1971248938134527%2C55.94791200219514%2C-3.1911382032922124%2C55.94960309696996&amp;layer=mapnik&amp;marker=55.948757558814606%2C-3.194131548552832">
-    </iframe>
+    <div id="map-container" class="google-map visit-map"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+    integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+    crossorigin=""></script>
 services_row_1:
   type_: "text_text_row"
   left: |
