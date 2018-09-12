@@ -77,7 +77,7 @@ teams:
       - name: "Alastair Simison"
         title: "Meadows City Group"
         type_: "team_head"
-        picture: /static/uploads/people/alasdair_s_elder.png
+        picture: /static/uploads/people/alastair_s_elder.png
   - title: "Deacons"
     type_: "team_list"
     members:
