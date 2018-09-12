@@ -47,7 +47,7 @@ ministries:
     contact:
       type_: "activity_contact"
       name: "Brian McDowell"
-      picture: "/static/uploads/placeholder_175x175.png"
+      picture: "/static/uploads/people/brian.jpg"
   - type_: "activity"
     name: "Kids’ Church"
     picture: "/static/uploads/kids_church.jpg"

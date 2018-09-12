@@ -131,7 +131,7 @@ teams:
       - name: "Noor Gammoh"
         title: "Meadows"
         type_: "team_head"
-        picture: /static/uploads/placeholder_175x175.png
+        picture: /static/uploads/people/noor.jpg
       - name: "Sara Gordon"
         title: "Gilmerton"
         type_: "team_head"
@@ -159,19 +159,19 @@ teams:
       - name: "Kathleen MacSween"
         title: "Fountainbridge"
         type_: "team_head"
-        picture: /static/uploads/placeholder_175x175.png
+        picture: /static/uploads/people/kathleen.jpg
       - name: "Miriam Montgomery"
         title: "Gilmerton"
         type_: "team_head"
-        picture: /static/uploads/placeholder_175x175.png
+        picture: /static/uploads/people/miriam.jpg
       - name: "Jenny Nicolson"
         title: "Winchburgh"
         type_: "team_head"
-        picture: /static/uploads/placeholder_175x175.png
+        picture: /static/uploads/people/jenny.jpg
       - name: "Victoria Oliver"
         title: "Blackford"
         type_: "team_head"
-        picture: /static/uploads/placeholder_175x175.png
+        picture: /static/uploads/people/vikki.jpg
       - name: "Kirsty Thompson"
         title: "Fountainbridge"
         type_: "team_head"
