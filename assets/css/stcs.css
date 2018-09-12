@@ -1358,3 +1358,49 @@ body {
 body {
   padding-top: 70px;
 }
+
+/* im-new page */
+.im-new-heading {
+    text-align: center;
+}
+.im-new-box {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
+.im-new-box > a {
+    color: #fff;
+}
+.im-new-text {
+    color: #fff;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    font-size: larger;
+}
+.im-new-box > a:active, a:focus, a:hover {
+    text-decoration: underline;
+}
+@media only screen and (min-width : 768px) {
+    .im-new-row {
+        display: flex;
+        align-items: center;
+    }
+    .im-new-box {
+        margin-top: 15%;
+        margin-bottom: 20%;
+    }
+    .im-new-bg {
+        background-image: url("/static/uploads/im_new-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+}
+@media only screen and (min-width : 992px) {
+    .im-new-box {
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+}
