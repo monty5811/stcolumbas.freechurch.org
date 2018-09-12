@@ -85,7 +85,7 @@ ministries:
     contact:
       type_: "activity_contact"
       name: "Cory Brock"
-      picture: "/static/uploads/people/cory-image.jpg"
+      picture: "/static/uploads/placeholder_175x175.png"
   - type_: "activity"
     name: "Social Action"
     picture: "/static/uploads/social_action.jpg"
