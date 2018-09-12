@@ -5,7 +5,7 @@ function init() {
   var submitButton = document.getElementById('giving-button');
 
   if (elmContainer !== null) {
-    var app = Elm.Payments.embed(elmContainer);
+    var app = Elm.Elm.Payments.init({node: elmContainer});
 
     function stripeTokenHandler(result) {
       app.ports.stripeResult.send({
