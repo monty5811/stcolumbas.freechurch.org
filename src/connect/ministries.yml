@@ -83,8 +83,8 @@ ministries:
        In addition to these programmes one-to-one discipleship is also available for those who would benefit from a more individualised approach.
     contact:
       type_: "activity_contact"
-      name: "Cory Brock"
-      picture: "/static/uploads/placeholder_175x175.png"
+      name: "Thomas Davis"
+      picture: "/static/uploads/people/thomas_davis.jpg"
   - type_: "activity"
     name: "Social Action"
     picture: "/static/uploads/social_action.jpg"
