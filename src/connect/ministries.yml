@@ -72,7 +72,7 @@ ministries:
     contact:
       type_: "activity_contact"
       name: "Laura Watt"
-      picture: "/static/uploads/laura-watt.jpg"
+      picture: "/static/uploads/people/laura-watt.jpg"
   - type_: "activity"
     name: "Discipleship & Mentoring"
     picture: "/static/uploads/core_discipleship.jpg"
