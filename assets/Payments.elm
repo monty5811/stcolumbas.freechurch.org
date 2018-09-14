@@ -1,11 +1,13 @@
 port module Payments exposing (main)
 
+import Browser
 import Html exposing (Html)
 import Html.Attributes as A
 import Http
 import Json.Decode as Decode
 import Json.Decode.Pipeline as DP
 import Json.Encode as Encode
+
 
 
 -- Model
@@ -43,7 +45,7 @@ type alias FormData =
 
 formDataDecoder : Decode.Decoder FormData
 formDataDecoder =
-    DP.decode FormData
+    Decode.succeed FormData
         |> DP.required "name" Decode.string
         |> DP.required "amount" Decode.string
         |> DP.required "email" Decode.string
@@ -59,7 +61,7 @@ type alias StripeResult =
 
 stripeResultDecoder : Decode.Decoder StripeResult
 stripeResultDecoder =
-    DP.decode StripeResult
+    Decode.succeed StripeResult
         |> DP.optional "token" (Decode.maybe stripeTokenDecoder) Nothing
         |> DP.optional "error" (Decode.maybe stripeErrorDecoder) Nothing
 
@@ -70,7 +72,7 @@ type alias StripeToken =
 
 stripeTokenDecoder : Decode.Decoder StripeToken
 stripeTokenDecoder =
-    DP.decode StripeToken
+    Decode.succeed StripeToken
         |> DP.required "id" Decode.string
 
 
@@ -85,7 +87,7 @@ type alias StripeError =
 
 stripeErrorDecoder : Decode.Decoder StripeError
 stripeErrorDecoder =
-    DP.decode StripeError
+    Decode.succeed StripeError
         |> DP.required "charge" Decode.string
         |> DP.optional "message" (Decode.maybe Decode.string) Nothing
         |> DP.optional "code" (Decode.maybe Decode.string) Nothing
@@ -111,7 +113,7 @@ update msg model =
             case Decode.decodeValue formDataDecoder json of
                 Ok rawFormData ->
                     case String.toFloat rawFormData.amount of
-                        Ok amount ->
+                        Just amount ->
                             case rawFormData.result.token of
                                 Nothing ->
                                     ( { model | state = BadInputData <| Maybe.withDefault "Unknown Error" <| Maybe.andThen .message rawFormData.result.error }, Cmd.none )
@@ -119,11 +121,11 @@ update msg model =
                                 Just token ->
                                     ( { model | state = WaitingForServer }, makeCharge (chargeBody amount token.id rawFormData) )
 
-                        Err _ ->
+                        Nothing ->
                             ( { model | state = BadInputData (niceAmountErrorMsg rawFormData.amount) }, Cmd.none )
 
                 Err err ->
-                    ( { model | state = BadInputData err }, Cmd.none )
+                    ( { model | state = BadInputData <| Decode.errorToString err }, Cmd.none )
 
         ServerResponseReceived (Ok _) ->
             ( { model | state = Complete }, Cmd.none )
@@ -142,6 +144,7 @@ update msg model =
                 Trying times ->
                     if times < 10 then
                         ( { model | serverAwake = Trying <| times + 1 }, wakeUpHeroku )
+
                     else
                         ( { model | serverAwake = GaveUp }, Cmd.none )
 
@@ -258,9 +261,9 @@ niceHttpErr err =
 -- Main
 
 
-main : Program Never Model Msg
+main : Program () Model Msg
 main =
-    Html.program
+    Browser.element
         { init = init
         , update = update
         , view = view
@@ -268,8 +271,8 @@ main =
         }
 
 
-init : ( Model, Cmd Msg )
-init =
+init : () -> ( Model, Cmd Msg )
+init _ =
     ( { state = WaitingForForm
       , serverAwake = Trying 0
       }
