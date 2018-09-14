@@ -1,5 +1,5 @@
 build:
-	python build.py
+	time python build.py
 
 watch:
 	find src templates static_gen/*.py *.py | entr make build
@@ -20,19 +20,19 @@ ci: js-build css-build build css-opt-index
 
 ci-setup:
 	npm install -g yarn
-	cd assets && yarn && cd ..
+	cd assets && time yarn && cd ..
 
 js-build:
-	cd assets && yarn build
+	cd assets && time yarn build
 
 js-watch:
 	cd assets && yarn watch
 
 css-build:
-	cd assets && yarn css:build
+	cd assets && time yarn css:build
 
 css-opt-index:
-	cd assets && yarn css:opt-index
+	cd assets && time yarn css:opt-index
 
 py-format:
 	black **/*.py
