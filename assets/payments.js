@@ -17,7 +17,7 @@ function init() {
       });
     }
 
-    var stripe = Stripe('pk_test_tWSjt9r8V1ULPf5VJTfFOH0Q');
+    var stripe = Stripe('pk_live_20VpW3kP9MacCmc5m49T6kwY');
     var elements = stripe.elements();
     var card = elements.create('card', {
       style: {

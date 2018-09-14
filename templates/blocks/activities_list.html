@@ -5,7 +5,7 @@
     <div class="col-xs-12 col-sm-{{12//group_into}} col-md-{{12//group_into}} col-lg-{{12//group_into}}">
       {{ A.picture|render_image }}
       <h3>{{ A.name }}</h3>
-      <p>{{ A.content }}</p>
+      <p>{{ A.content|md }}</p>
       {{ A.contact|render_content }}
     </div>
     {% endfor %}

@@ -65,15 +65,14 @@ ministries:
     name: "Identity"
     picture: "/static/uploads/identity.jpg"
     content: |
-       Identity is our group for late teens and early 20s.
-       We meet on a Sunday after the evening worship service, usually at the manse.
-       Identity aims to cement your understanding of the gospel and it’s relevance to where you are at in life, as well as being a great place to forge and deepen friendships.
-
-       Meetings usually take the form of a follow-up discussion & study based on the evening service, or a topical presentation on an aspect of life hopefully relevant to you.
+      The opportunity to establish your own identity is part of what makes moving to a new city as a student or young worker so exciting.
+      [Identity](https://stcsfc.org/identity) is our group for students and young workers which aims to equip you with what you need to live out your identity as a child of God in Edinburgh (Romans 8:16) and to be a disciple maker wherever you are.
+      We meet together every Sunday, alternating each week between lunchtime and evening sessions.
+      Each session involves eating together, the chance to build and develop friendships, and a talk which aims to answer a ‘big question’ or issue facing young Christians in today’s world, with follow up discussion on the topic.
     contact:
       type_: "activity_contact"
-      name: "Pher Nicolson"
-      picture: "/static/uploads/people/pher-image.jpg"
+      name: "Laura Watt"
+      picture: "/static/uploads/people/laura-watt.jpg"
   - type_: "activity"
     name: "Discipleship & Mentoring"
     picture: "/static/uploads/core_discipleship.jpg"
@@ -84,8 +83,8 @@ ministries:
        In addition to these programmes one-to-one discipleship is also available for those who would benefit from a more individualised approach.
     contact:
       type_: "activity_contact"
-      name: "Cory Brock"
-      picture: "/static/uploads/placeholder_175x175.png"
+      name: "Thomas Davis"
+      picture: "/static/uploads/people/thomas_davis.jpg"
   - type_: "activity"
     name: "Social Action"
     picture: "/static/uploads/social_action.jpg"

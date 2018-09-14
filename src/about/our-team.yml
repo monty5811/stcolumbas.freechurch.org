@@ -69,15 +69,15 @@ teams:
       - name: "Alasdair Black"
         title: "Corstorphine City Group"
         type_: "team_head"
-        picture: /static/uploads/people/alasdair_b_elder.png
+        picture: /static/uploads/people/alasdair-black.jpg
       - name: "Patrick Flanagan"
         title: "Fountainbridge City Group"
         type_: "team_head"
-        picture: /static/uploads/people/patrick_elder.png
+        picture: /static/uploads/people/patrick-elder.jpg
       - name: "Alastair Simison"
         title: "Meadows City Group"
         type_: "team_head"
-        picture: /static/uploads/people/alastair_s_elder.png
+        picture: /static/uploads/people/alastair-simison.jpg
   - title: "Deacons"
     type_: "team_list"
     members:

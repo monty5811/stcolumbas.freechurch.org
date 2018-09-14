@@ -28,16 +28,6 @@ communities:
         name: "Donna Macleod"
         picture: "/static/uploads/people/donna.jpg"
     - type_: "activity"
-      name: "Roots & Shoots"
-      picture: "/static/uploads/roots_and_shoots.jpg"
-      content: |
-        An opportunity for parents and carers of pre-school children to meet up for chat, coffee, fresh bread and cake! We have a variety of toys for children to play with and usually have a song/story time.
-        We meet around the city, twice a month, during the school term from 9:30am till 11:30am and you’d be very welcome to join us.
-      contact:
-        type_: "activity_contact"
-        name: "Miriam Montgomery"
-        picture: "/static/uploads/placeholder_175x175.png"
-    - type_: "activity"
       name: "Open Book"
       picture: "/static/uploads/open_book.jpg"
       content: |
