@@ -16,7 +16,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "headline"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "select", options: ["Siobhan Smith"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
