@@ -1,4 +1,5 @@
 import codecs
+import datetime
 import os
 
 from .constants import *
@@ -46,14 +47,23 @@ def write_post(env, post):
 def load_post(fname):
     with codecs.open(fname, encoding="utf-8", mode="r") as f:
         d = f.read()
+    d = d.replace('\r\n', '\n')
     parts = d.split("\n---\n")
     assert parts[0].startswith("---")
-    assert len(parts) == 2
+    try:
+        assert len(parts) == 2
+    except Exception:
+        import pdb
+        pdb.set_trace()
     raw_frontmatter = parts[0]
     body = parts[1]
 
     frontmatter = yaml.load(raw_frontmatter)
     frontmatter["body"] = body
+
+    # change datetimes to date:
+    if isinstance(frontmatter["date"], datetime.datetime):
+        frontmatter["date"] = frontmatter["date"].date()
 
     return frontmatter
 
