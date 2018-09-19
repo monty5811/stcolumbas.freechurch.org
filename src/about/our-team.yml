@@ -6,8 +6,8 @@ heading:
   right: ""
 intro:
   type_: "text_text_row"
-  left: "Our leadership comprises Elders and Deacons, but we are also hugely thankful for all the many volunteers and small number of staff who help to run different aspects of congregational life."
-  right: "The staff and Office Bearers are listed below, with an indication of their area or responsibility and which pastoral area they are attached to. Throughout the website you will also find key contacts for different ministries to help you identify with who to be in touch with."
+  left: "Our leadership comprises Elders and Deacons, They are supported in their work by the Womens Pastoral team.  Each City Group is led by a team comprising an elder, deacons and women's pastoral team members. We are also hugely thankful for all the many volunteers and small number of staff who help to run different aspects of congregational life."
+  right: "The staff and Office Bearers and women's pastoral team members are listed below, with an indication of their area or responsibility and which pastoral area they are attached to. Throughout the website you will also find key contacts for different ministries to help you identify with who to be in touch with."
 teams:
   - title: "Ministers"
     type_: "team_list"
