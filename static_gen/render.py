@@ -195,7 +195,8 @@ def infer_image_type(src):
 def convert_to_webp(src):
     path_to_src_file = DIST_DIR + src
     out_file_uri, _ = os.path.splitext(src)
-    path_to_webp_file = DIST_DIR + out_file_uri + ".webp"
+    out_file_uri = out_file_uri + ".webp"
+    path_to_webp_file = DIST_DIR + out_file_uri
 
     im = Image.open(path_to_src_file)
     im.save(path_to_webp_file, "WEBP")
