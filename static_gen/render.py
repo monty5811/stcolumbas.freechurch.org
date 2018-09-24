@@ -195,23 +195,10 @@ def infer_image_type(src):
 def convert_to_webp(src):
     path_to_src_file = DIST_DIR + src
     out_file_uri, _ = os.path.splitext(src)
-    out_file_uri += ".webp"
-    path_to_out_file = DIST_DIR + out_file_uri
+    path_to_webp_file = DIST_DIR + out_file_uri + ".webp"
 
     im = Image.open(path_to_src_file)
-    im.save(path_to_out_file, "WEBP")
-
-    return out_file_uri
-
-
-def convert_to_jpeg2000(src):
-    path_to_src_file = DIST_DIR + src
-    out_file_uri, _ = os.path.splitext(src)
-    out_file_uri += ".jp2"
-    path_to_out_file = DIST_DIR + out_file_uri
-
-    im = Image.open(path_to_src_file)
-    im.save(path_to_out_file, "JPEG2000")
+    im.save(path_to_webp_file, "WEBP")
 
     return out_file_uri
 
