@@ -74,9 +74,28 @@ def render_template(templ, data):
 
 def render_text(text):
     if text:
-        return markdown(text)
+        rendered = markdown(text)
+        return process_img_tags(rendered)
     else:
         return ""
+
+
+def process_img_tags(html):
+    tag_re = r'<img\s+[^>]*src="[^"]*"[^>]*>'
+    matches = re.findall(tag_re, html)
+    for match in matches:
+        html = replace_img(html, match)
+    return html
+
+
+def replace_img(html, old_block):
+    src = re.findall('src="([^"]*)"', old_block)
+    if len(src) > 1:
+        raise Exception("Parse error")
+    src = src[0]
+    new_block = render_template("blocks/simple_image.html", {"url": src})
+    html = html.replace(old_block, new_block)
+    return html
 
 
 def render_tagline(value):
