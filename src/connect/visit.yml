@@ -1,6 +1,6 @@
 layout: "content_page"
 title: "Visit"
-html:
+html_times:
   type_: "raw_html"
   html: |
     <div class="visit-times">
@@ -21,33 +21,34 @@ html:
     </div>
     </div>
     </div>
-    <div class="fluid-container seperator-stcs"></div>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <h2 class="heading">What To Expect</h2>
-    <p>Many different people visit our church services for different reasons, from people on business, to holiday-makers, to people new to the city and looking to settle down. We'd like to give you an idea of what to expect if you visited one of our services.</p><p><a href="/jesus">Jesus</a> is at the centre of everything that happens at St Columba's, so during the service He is the main focus. Our service consists of a mix of singing, prayer, reading the Bible and preaching (a short talk, or 'sermon'), where a Bible passage is explained and applied. All our sermons are online so you can <a href="http://sermons.stcolumbas.freechurch.org/" target="_blank">check them out</a> ahead of time.</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="/static/uploads/Stock_39_of_39.jpg" alt="" class="">
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="/static/uploads/visit-alasdair-1.jpg" alt="" class="">
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <p>The service usually lasts for about 1 hour, during which you are free to sit and just observe. You don't need to participate in the singing or anything that makes you feel uncomfortable, and you're not required to make any kind of donation. </p><p>If you have recently started coming to St Columba's and you'd like us to have your details so we can connect you to the life of the congregation and a <a href="/connect/community">City Group</a>, visit <a href="http://stcsfc.org/new" target="_blank">stcsfc.org/new</a>.</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="fluid-container seperator-stcs"></div>
+separator1:
+  type_: separator
+what_to_expect_row1:
+  type_: "text_text_row"
+  left: |
+    ## What To Expect
+
+    Many different people visit our church services for different reasons, from people on business, to holiday-makers, to people new to the city and looking to settle down.
+    We'd like to give you an idea of what to expect if you visited one of our services.
+    
+    [Jesus](/jesus) is at the centre of everything that happens at St Columba's, so during the service He is the main focus.
+    Our service consists of a mix of singing, prayer, reading the Bible and preaching (a short talk, or 'sermon'), where a Bible passage is explained and applied.
+    All our sermons are online so you can [check them out](http://sermons.stcolumbas.freechurch.org/) ahead of time.
+  right: |
+    ![](/static/uploads/Stock_39_of_39.jpg "")
+what_to_expect_row2:
+  type_: "text_text_row"
+  left: |
+    ![](/static/uploads/visit-alasdair-1.jpg "")
+  right: |
+    The service usually lasts for about 1 hour, during which you are free to sit and just observe.
+    You don't need to participate in the singing or anything that makes you feel uncomfortable, and you're not required to make any kind of donation.
+    If you have recently started coming to St Columba's and you'd like us to have your details so we can connect you to the life of the congregation and a [City Group](/connect/community), visit [stcsfc.org/new](https://stcsfc.org/new).
+separator2:
+  type_: separator
+html_getting_here:
+  type_: "raw_html"
+  html: |
     <div class="getting-here">
     <div class="container">
     <div class="row">
@@ -78,43 +79,56 @@ html:
     </div>
     </div>
     </div>
+html_map:
+  type_: "raw_html"
+  html: |
     <div class="google-map visit-map" id="map-container1"></div>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.6&amp;sensor=true"></script>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <h2 class="heading">Sunday Services</h2>
-    <p>Our Sunday morning service is at 11 am and our evening service is at 5.30 pm. The services follow similar formats, but the content of each will be different. We celebrate Communion at 8 different times throughout the year (see Headlines for upcoming dates). When you arrive at the church a member of the Welcome Team can give you a Bible if you need one, and show you where to go to get a seat if it is busy.</p><p>Following the morning service, we serve tea and coffee in the Main Hall and you are welcome to stay around for a coffee, ask questions and find out more. No charge is made for the tea and coffee.
-    </p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="/static/uploads/visit-singing-1.jpg" alt="" class="">
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="unique-paragraph">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="/static/uploads/visit-opening-1.jpg" alt="" class="">
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <h3>What about Children?</h3><p>Our Kids' Church (age 4 and up) meets during the 11am service. The children come in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song. There is a crèche available during the morning service for babies and toddlers up to the age of three. We have a large and experienced team of volunteers. Visitors are very welcome. In addition to the crèche facilities there is a feeding room in the church (with a video link) for those who have need of it. If in doubt, please just ask for directions or follow the signs. All our Créche and Kids' Church volunteers have full <a href="https://www.disclosurescotland.co.uk/disclosureinformation/pvgscheme.htm" target="_blank">PVG</a> disclosure.</p><h3>Where do I go?</h3><p>You enter the church building through the our main (red) double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="">
-    <div class="container">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <h3>Mid-Week Prayer Meeting</h3><p>On the 2nd and 4th Wednesday evening of the month we have a Prayer Meeting in our Church Hall. This usually means a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together - usually by breaking out into small groups.</p><p>On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our <a href="/connect/community">City Groups</a>.</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <img src="/static/uploads/CsOId80WAAA62Fw - Edited.jpg" alt="" class="">
+services_row_1:
+  type_: "text_text_row"
+  left: |
+    ##Sunday Services
+    
+    Our Sunday morning service is at 11 am and our evening service is at 5.30 pm.
+    The services follow similar formats, but the content of each will be different.
+    We celebrate Communion at 10 different times throughout the year.
+    When you arrive at the church a member of the Welcome Team can give you a Bible if you need one, and show you where to go to get a seat if it is busy.
+    
+    Following the morning service, we serve tea and coffee in the Main Hall and you are welcome to stay around for a coffee, ask questions and find out more.
+    No charge is made for the tea and coffee.
+  right: |
+    ![](/static/uploads/visit-singing-1.jpg "")
+services_row_2:
+  type_: "text_text_row"
+  left: |
+    ![](/static/uploads/visit-opening-1.jpg "")
+  right: |
+    ### What about Children?
+    
+    Our Kids' Church (age 4 and up) meets during the 11am service.
+    The children come in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song.
+    There is a crèche available during the morning service for babies and toddlers up to the age of three.
+    We have a large and experienced team of volunteers.
+    Visitors are very welcome.
+    In addition to the crèche facilities there is a feeding room in the church (with a video link) for those who have need of it.
+    If in doubt, please just ask for directions or follow the signs.
+    All our Créche and Kids' Church volunteers have full [PVG](https://www.disclosurescotland.co.uk/disclosureinformation/pvgscheme.htm) disclosure.
+    ### Where do I go?
+    
+    You enter the church building through the our main (red) double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.
     </div>
     </div>
     </div>
     </div>
+services_row_3:
+  type_: "text_text_row"
+  left: |
+    ### Mid-Week Prayer Meeting
+    
+    On the 2nd and 4th Wednesday evening of the month we have a Prayer Meeting in our Church Hall.
+    This usually means a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together - usually by breaking out into small groups.
+    
+    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/community").
+
+  right: |
+    ![](/static/uploads/CsOId80WAAA62Fw - Edited.jpg "")
