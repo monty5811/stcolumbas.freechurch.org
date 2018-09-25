@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block body_id %}home{% endblock %}
+{% block jumbotron %}{% endblock %}
+{% block section_start %}{% endblock %}
+{% block section_end %}{% endblock %}
+
+{% block content %}
+{% for c in content %}
+{{ content[c]|render_content }}
+{% endfor %}
+{% endblock %}

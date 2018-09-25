@@ -827,7 +827,6 @@ h3 {
 }
 .footer-stcs {
   background-color: #3a3a3a;
-  margin-top: 60px;
   padding: 30px 0px;
 }
 .footer-stcs p {
@@ -958,7 +957,7 @@ h3 {
 }
 .content {
   min-height: 800px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 .content h2,
 .content h3 {
