@@ -15,7 +15,7 @@ html_times:
     .im-new-box > a {
       color: #fff;
     }
-    p {
+    .im-new-text {
       color: #fff;
       margin-left: 3rem;
       margin-right: 3rem;
@@ -47,19 +47,19 @@ html_times:
     <div class="im-new-box col-xs-12 col-sm-4 col-md-4 col-lg-4" style="background-color: #56beeb;">
         <a href="/jesus">
         <h1 class="heading">Jesus</h1>
-        <p>Jesus is central to our lives and everything we do at St&#160;Columba's. Click here to find out more!</p>
+        <p class="im-new-text">Jesus is central to our lives and everything we do at St&#160;Columba's. Click here to find out more!</p>
         </a>
       </div>
       <div class="im-new-box col-xs-12 col-sm-4 col-md-4 col-lg-4" style="background-color: #e22850;">
         <a href="/connect/visit">
         <h1 class="heading">Visit</h1>
-        <p>We would love you to worship with us this Sunday. Learn more about what to expect and how to get here.</p>
+        <p class="im-new-text">We would love you to worship with us this Sunday. Learn more about what to expect and how to get here.</p>
         </a>
       </div>
       <div class="im-new-box col-xs-12 col-sm-4 col-md-4 col-lg-4" style="background-color: #183353;">
         <a href="/about/contact-us">
         <h1 class="heading">Get In Touch</h1>
-        <p>If you have any questions, or want to know more, please feel free to get in touch.</p>
+        <p class="im-new-text">If you have any questions, or want to know more, please feel free to get in touch.</p>
         </a>
       </div>
     </div>
