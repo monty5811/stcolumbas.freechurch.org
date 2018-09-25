@@ -17,6 +17,10 @@ html_times:
     }
     p {
       color: #fff;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      text-align: center;
+      font-size: larger;
     }
     .im-new-box > a:active, a:focus, a:hover {
       text-decoration: underline;
@@ -43,7 +47,7 @@ html_times:
     <div class="im-new-box col-xs-12 col-sm-4 col-md-4 col-lg-4" style="background-color: #56beeb;">
         <a href="/jesus">
         <h1 class="heading">Jesus</h1>
-        <p>Jesus is central to our lives and everything we do at St Columba's. Click here to find out more!</p>
+        <p>Jesus is central to our lives and everything we do at St&#160;Columba's. Click here to find out more!</p>
         </a>
       </div>
       <div class="im-new-box col-xs-12 col-sm-4 col-md-4 col-lg-4" style="background-color: #e22850;">
