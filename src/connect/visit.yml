@@ -116,10 +116,6 @@ services_row_2:
     ### Where do I go?
     
     You enter the church building through the our main (red) double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.
-    </div>
-    </div>
-    </div>
-    </div>
 services_row_3:
   type_: "text_text_row"
   left: |
