@@ -34,13 +34,19 @@ html_times:
         margin-top: 15%;
         margin-bottom: 20%;
       }
+      .im-new-bg {
+        background-image: url("/static/uploads/im_new-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+      }
     }
-    .im-new-bg {
-      background-image: url("/static/uploads/im_new-1.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      min-height: 100vh;
+    @media only screen and (min-width : 992px) {
+      .im-new-box {
+        margin-right: 5rem;
+        margin-left: 5rem;
+      }
     }
     </style>
     <div class="im-new-row im-new-bg">
