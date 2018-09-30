@@ -82,8 +82,14 @@ html_getting_here:
 html_map:
   type_: "raw_html"
   html: |
-    <div class="google-map visit-map" id="map-container1"></div>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.6&amp;sensor=true"></script>
+    <iframe
+      class="google-map visit-map"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-3.1971248938134527%2C55.94791200219514%2C-3.1911382032922124%2C55.94960309696996&amp;layer=mapnik&amp;marker=55.948757558814606%2C-3.194131548552832">
+    </iframe>
 services_row_1:
   type_: "text_text_row"
   left: |
