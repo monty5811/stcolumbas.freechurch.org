@@ -5,7 +5,7 @@ watch:
 	find src templates static_gen/*.py *.py | entr make build
 
 serve:
-	cd dist && python -m http.server 4001
+	python server.py
 
 dev-setup:
 	pipenv install -d
