@@ -5,7 +5,7 @@ date: 2018-09-01
 thumbnail: "/static/uploads/davis-family.jpg"
 author: Siobhan Smith
 tags:
-  - "other"
+  - "news"
 intro: |
   "On Wednesday night, the 29th of August, we were delighted to induct Thomas Davis as our new Assistant Minister and also welcome Una, Tom, John and Annie into the St Columba’s family. As well as joining our Senior Minister, Derek, and our Ministry Apprentice, Calum, Thomas will also be lecturing at Edinburgh Theological Seminary. To get to know Thomas a bit better, we’ve asked him a few questions."
 ---
