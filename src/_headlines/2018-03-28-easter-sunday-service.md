@@ -5,7 +5,7 @@ date: 2018-03-28
 thumbnail: "/static/uploads/stcs-easter-2018.jpg"
 author: Siobhan Smith
 tags:
-  - "other"
+  - "news"
 intro: |
   "​​Come join us this Sunday, 1st April, as we celebrate the hope of life in Jesus Christ, the God-man risen from the dead!"
 ---
