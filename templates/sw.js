@@ -11,7 +11,7 @@ workbox.precaching.precacheAndRoute([
 workbox.routing.setDefaultHandler(workbox.strategies.staleWhileRevalidate({}));
 
 workbox.routing.registerRoute(
-  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  /static\/.*\.(?:png|gif|jpg|jpeg|svg)$/,
   workbox.strategies.cacheFirst({
     cacheName: 'images',
     plugins: [
@@ -23,7 +23,14 @@ workbox.routing.registerRoute(
   }),
 );
 
+// cache fonts
 workbox.routing.registerRoute(
   new RegExp('^https://fonts.(?:googleapis|gstatic).com/(.*)'),
+  workbox.strategies.cacheFirst(),
+);
+
+// cache leaflet js
+workbox.routing.registerRoute(
+  new RegExp('^https://unpkg.com/(.*)'),
   workbox.strategies.cacheFirst(),
 );
