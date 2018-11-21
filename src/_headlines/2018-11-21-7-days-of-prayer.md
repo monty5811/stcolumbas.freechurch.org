@@ -15,41 +15,35 @@ intro: >-
   [stcsfc.org/7dop](https://stcs.elvanto.eu/pages/7-days-of-prayer/) for the
   additional daily themes.
 ---
-****
+- - -
 
 **Sunday 25 November (After evening service)**
 
-Spotlight at our evening service with a plan to help us share our faith
+Spotlight at our evening service with a plan to help us share our faith.
 
-Prayer in the Lower Hall after the service
-
-
+Prayer in the Lower Hall after the service.
 
 **Monday 26 November**
 
-07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes
-
-
+07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes.
 
 **Tuesday 27 November**
 
-07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes
-
-
+07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes.
 
 **Wednesday 28 November**
 
-07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes
+07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes.
 
-19:30 - 20:30 The Engine Room - Theme of Prayer
+19:30 - 20:30 The Engine Room - theme of Prayer.
 
 **Thursday 29 November**
 
-07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes
+07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes.
 
 **Friday 30 November**
 
-07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes
+07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes.
 
 All Day: National Day of Prayer, joining with the whole Free Church.
 
@@ -59,8 +53,8 @@ individuals or small groups that arrange to meet for prayer.
 
 **Saturday 01 December**
 
-08:00-10:00 Prayer breakfast at the Lamonts’ (135 Warrender Park Road)
+08:00-10:00 Prayer breakfast at the Lamonts’ (135 Warrender Park Road).
 
 11:00-13:00 Special cleaning force for the church kitchen!
 
-Outside our Spring and Autumn 7 Days of Prayer, you can also join in with the prayer life of the congregation by using the PrayerMate App on your smartphone (stcsfc.org/prayermate)and subscribing to St Columba's Free Church or by visiting stcsfc.org/prayer to view or download our daily prayer points.
+Outside our Spring and Autumn 7 Days of Prayer, you can also join in with the prayer life of the congregation by using the PrayerMate App on your smartphone ([stcsfc.org/prayermate](http://prayermate.s3.amazonaws.com/1/feed_65.html)) and subscribing to St Columba's Free Church or by visiting [stcsfc.org/prayer](https://stcs.elvanto.eu/pages/prayer1) to view or download our daily prayer points.
