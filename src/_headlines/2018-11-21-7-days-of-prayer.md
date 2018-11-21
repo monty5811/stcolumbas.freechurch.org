@@ -15,6 +15,8 @@ intro: >-
   [stcsfc.org/7dop](https://stcs.elvanto.eu/pages/7-days-of-prayer/) for the
   additional daily themes.
 ---
+****
+
 **Sunday 25 November (After evening service)**
 
 Spotlight at our evening service with a plan to help us share our faith
@@ -41,13 +43,9 @@ Prayer in the Lower Hall after the service
 
 19:30 - 20:30 The Engine Room - Theme of Prayer
 
-
-
 **Thursday 29 November**
 
 07:00 - 08:00 Prayer time in the Lower Hall based on bookmark themes
-
-
 
 **Friday 30 November**
 
@@ -59,14 +57,10 @@ The Church Office will be open all day for accessing the building for any
 
 individuals or small groups that arrange to meet for prayer.
 
-
-
 **Saturday 01 December**
 
 08:00-10:00 Prayer breakfast at the Lamonts’ (135 Warrender Park Road)
 
 11:00-13:00 Special cleaning force for the church kitchen!
-
-
 
 Outside our Spring and Autumn 7 Days of Prayer, you can also join in with the prayer life of the congregation by using the PrayerMate App on your smartphone (stcsfc.org/prayermate)and subscribing to St Columba's Free Church or by visiting stcsfc.org/prayer to view or download our daily prayer points.
