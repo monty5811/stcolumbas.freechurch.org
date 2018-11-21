@@ -1,6 +1,6 @@
 ---
 layout: headline
-title: 7 Days of Prayer
+title: 7 Days of Prayer - Autumn 2018
 author: Siobhan Smith
 date: 2018-11-21T20:19:45.858Z
 thumbnail: /static/uploads/7dop.jpg
