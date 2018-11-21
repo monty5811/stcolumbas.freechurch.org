@@ -15,8 +15,6 @@ intro: >-
   can visit [stcsfc.org/7dop](https://stcs.elvanto.eu/pages/7-days-of-prayer/)
   for the additional daily themes.
 ---
-- - -
-
 ​From Sunday 25th November - Saturday 1st December 2018, we will be praying as a church family for the work of the gospel in our own churches as well as others. We will be holding prayer meetings during the week and will join the rest of the Free Church in the annual National Day of Prayer on Friday 30th November. You will also receive a bookmark (available in the church) or you can visit [stcsfc.org/7dop](https://stcs.elvanto.eu/pages/7-days-of-prayer/) for the additional daily themes.
 
 **Sunday 25 November **
