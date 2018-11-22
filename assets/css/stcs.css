@@ -1048,18 +1048,21 @@ h3 {
   transform: translate(-29%, 0%);
 }
 .visit-time > h3 {
-  margin: 8% 0px 0px 0px;
+  margin: 8% 0px 0px 5%;
   float: left;
   transform: translate(-15%, 0%);
 }
 @media (max-width: 992px) and (min-width: 769px) {
   .visit-time > h3 {
-    margin: 7% 0px 0px 0px;
+    margin: 7% 0px 0px 5%;
   }
 }
 @media (max-width: 769px) {
   .visit-time > img {
     transform: translate(-17%, 0%);
+  }
+  .visit-time > h3 {
+    padding-left: 4rem;
   }
 }
 .content .getting-here .row {
