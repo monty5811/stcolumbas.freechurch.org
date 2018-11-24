@@ -6,13 +6,13 @@ html_times:
     <div class="visit-times">
     <div class="container">
     <div class="row">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-6 col-lg-6">
+    <div class="col-xs-11 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-6 col-lg-6">
     <div class="visit-time">
     <img src="/static/images/icons/sun-icon.png" class="media-object" alt="Sunday Morning Service 11am">
     <h3 class="visit-time-icon">Sunday Morning Service 11am</h3>
     </div>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-6 col-lg-6">
+    <div class="col-xs-11 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-6 col-lg-6">
     <div class="visit-time">
     <img src="/static/images/icons/moon-icon.png" class="media-object" alt="Sunday Evening Service 5.30pm">
     <h3 class="visit-time-icon">Sunday Evening Service 5.30pm</h3>
