@@ -16,4 +16,6 @@ Carols by Candlelight is a highlight in our church calendar and a great event to
 
 If you have Spotify, you can listen again to some of our songs from Carols by Candlelight from the last few years: [stcsfc.org/spotifymus](https://open.spotify.com/artist/2bzsEFYcAwSaRcJfbwpCCm)
 
+Join the event on Facebook: <https://stcsfc.org/carols18>
+
 See you there, at 5.30pm on Sunday 16th December.
