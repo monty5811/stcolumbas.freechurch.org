@@ -8,11 +8,10 @@
     </div>
   </div>
 </div>
-{% for group in members|group_into(6) %}
 <div class="our-staff">
   <div class="container">
     <div class="row">
-      {% for member in group %}
+      {% for member in members %}
       <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
         <div class="thumbnail">
           {{ member.picture|render_image(alt_text=member.name) }}
@@ -26,4 +25,3 @@
     </div>
   </div>
 </div>
-{% endfor %}
