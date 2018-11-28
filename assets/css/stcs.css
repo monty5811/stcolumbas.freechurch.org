@@ -49,8 +49,17 @@
 .jumbotron-dark {
   background-color: #3a3a3a;
   margin-bottom: 60px !important;
-  height: 150px;
   border-bottom: 1px solid #ebebec;
+}
+@media (max-width: 767px) {
+  .jumbotron-dark {
+    min-height: 150px;
+  }
+}
+@media (min-width: 768px) {
+  .jumbotron-dark {
+    height: 150px;
+  }
 }
 .jumbotron-dark p {
   font-size: 16px;
