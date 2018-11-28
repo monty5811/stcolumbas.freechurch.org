@@ -81,4 +81,11 @@
 {% endblock %}
 {% block extra_js %}
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.6&amp;sensor=true"></script>
+<script>
+  var urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('subject')) {
+    var sub = urlParams.get('subject');
+    $('#subject')[0].value = urlParams.get('subject');
+  }
+</script>
 {% endblock %}

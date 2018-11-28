@@ -142,7 +142,8 @@ def render_activities_list(value):
     return render_template("blocks/activities_list.html", value)
 
 
-def render_activity_contact(value):
+def render_activity_contact(value, subject):
+    value['subject'] = subject
     return render_template("blocks/activity_contact.html", value)
 
 
@@ -150,7 +151,7 @@ def render_one_wide_row(value):
     return render_template("blocks/one_wide_row.html", value)
 
 
-def render_content(value) -> str:
+def render_content(value, *args) -> str:
     if isinstance(value, list):
         return "\n".join([render_content(v) for v in value])
 
@@ -177,7 +178,7 @@ def render_content(value) -> str:
     except KeyError:
         raise NotImplementedError(f"{type_} not implemented")
 
-    return render_fn(value)
+    return render_fn(value, *args)
 
 
 def infer_image_type(src):

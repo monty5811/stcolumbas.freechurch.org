@@ -6,7 +6,7 @@
       {{ A.picture|render_image }}
       <h3>{{ A.name }}</h3>
       <p>{{ A.content|md }}</p>
-      {{ A.contact|render_content }}
+      {{ A.contact|render_content(A.name) }}
     </div>
     {% endfor %}
   </div>
