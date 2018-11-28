@@ -1,8 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js');
 
 workbox.skipWaiting();
-workbox.clientsClaim();
-
 workbox.precaching.precacheAndRoute([
   {% for k in manifest %}{url: '{{ k }}', revision: '{{ manifest[k] }}'},
   {% endfor %}
@@ -10,6 +8,7 @@ workbox.precaching.precacheAndRoute([
 
 workbox.routing.setDefaultHandler(workbox.strategies.staleWhileRevalidate({}));
 
+// cache images, but make sure to not cache leaflet tiles
 workbox.routing.registerRoute(
   /static\/.*\.(?:png|gif|jpg|jpeg|svg)$/,
   workbox.strategies.cacheFirst({
@@ -34,3 +33,5 @@ workbox.routing.registerRoute(
   new RegExp('^https://unpkg.com/(.*)'),
   workbox.strategies.cacheFirst(),
 );
+
+workbox.clientsClaim();
