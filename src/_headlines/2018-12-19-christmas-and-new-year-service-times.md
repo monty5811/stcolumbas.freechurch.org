@@ -3,7 +3,7 @@ layout: headline
 title: Christmas and New Year Service Times
 author: Siobhan Smith
 date: 2018-12-19T22:40:43.251Z
-thumbnail: /static/uploads/stock-27-of-39-.jpg
+thumbnail: /static/uploads/christmas.jpg
 tags:
   - ''
 intro: >-
