@@ -132,10 +132,6 @@ teams:
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/noor.jpg
-      - name: "Sara Gordon"
-        title: "Gilmerton"
-        type_: "team_head"
-        picture: /static/uploads/people/sara.jpg
       - name: "Sophie Johnston"
         title: "Mentoring"
         type_: "team_head"
@@ -176,10 +172,6 @@ teams:
         title: "Fountainbridge"
         type_: "team_head"
         picture: /static/uploads/people/kirsty-thompson.jpg
-      - name: "Laura Watt"
-        title: "Winchburgh"
-        type_: "team_head"
-        picture: /static/uploads/people/laura-watt.jpg
   - title: "Cornerstone Church Plant"
     type_: "team_list"
     members:
