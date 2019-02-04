@@ -34,8 +34,8 @@ ministries:
        There are a couple of coordinators who arrange some hosts for any given weekend, and then it’s just up to you, if you feel like going to someone’s for a meal and to get to know them better, to sign up.
     contact:
       type_: "activity_contact"
-      name: "Sara Gordon"
-      picture: "/static/uploads/people/sara.jpg"
+      name: "Gill Simison"
+      picture: "/static/uploads/people/gill_simison.jpg"
   - type_: "activity"
     name: "Old Farm Court"
     picture: "/static/uploads/old_farm_court.jpg"
