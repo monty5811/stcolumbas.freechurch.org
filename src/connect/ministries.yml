@@ -23,8 +23,8 @@ ministries:
        It is a chance for young teens to share their faith, meet others their own age and to ask any questions they may have about Christianity or the different issues they may be facing.
     contact:
       type_: "activity_contact"
-      name: "Jennifer Urquhart"
-      picture: "/static/uploads/people/jen.jpg"
+      name: "Anne Norrie"
+      picture: "/static/uploads/people/anne-norrie.jpg"
   - type_: "activity"
     name: "Connect Meals"
     picture: "/static/uploads/connect_meals.jpg"
