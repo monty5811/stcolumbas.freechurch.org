@@ -58,6 +58,6 @@ _Our Price £2_
 All of these books will be available to buy after the Sunday services on Sunday 16th March.
 We have ordered several dozen books on a sale or return basis, so there will be plenty available for you to buy for yourself, or as a gift for a friend.
 Payment will be cash only.
-If you’d like a book but won’t be around that day, email <mailto:books@stcsfc.org> to make alternative arrangements.
+If you’d like a book but won’t be around that day, email [books@stcsfc.org](mailto:books@stcsfc.org) to make alternative arrangements.
 
 Free Church Books have worked with us to provide these books - for more book reviews and their online shop, visit [books.freechurch.org](https://books.freechurch.org).
