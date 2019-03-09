@@ -18,7 +18,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "headline"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "select", options: ["Siobhan Smith"]}
+      - {label: "Author", name: "author", widget: "select", options: ["Siobhan Smith", "Miriam Montgomery"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
