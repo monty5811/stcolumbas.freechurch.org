@@ -10,6 +10,8 @@ intro: >-
   The first Brilliant Books spotlight is coming up on Sunday 16th March, and
   we’ll have three great books for you to buy at bargain prices.
 ---
+The first Brilliant Books spotlight is coming up on Sunday 16th March, and we’ll have three great books for you to buy at bargain prices.
+
 Whether you naturally enjoy reading or not, good Christian books can make a huge difference to your walk with God. They can add to what we hear in sermons or look at in City Groups, and they don’t have to be heavy or boring. This is why every three months we’ll be having a Brilliant Books spotlight; to highlight some of the best Christian books available, and to give you a chance to buy them at rock bottom prices!
 
 Here are the books we've got for you this time:
