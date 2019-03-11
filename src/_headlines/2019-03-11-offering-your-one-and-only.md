@@ -3,6 +3,8 @@ layout: headline
 title: Offering your one and only
 author: Siobhan Smith
 date: 2019-03-11T23:00:53.683Z
+tags:
+  - other
 thumbnail: /static/uploads/headlines-one-only.jpg
 intro: >-
   We are blessed with a wonderful community of believers at St Columba’s, all
