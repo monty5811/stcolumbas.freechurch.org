@@ -759,7 +759,7 @@ a:focus {
   text-decoration: none;
 }
 .navbar-toggle span,
-p {
+p, ul {
   font-size: 16px;
   color: #909194;
 }

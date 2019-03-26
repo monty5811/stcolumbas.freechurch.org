@@ -143,12 +143,39 @@ def render_activities_list(value):
 
 
 def render_activity_contact(value, subject):
-    value['subject'] = subject
+    value["subject"] = subject
     return render_template("blocks/activity_contact.html", value)
 
 
 def render_one_wide_row(value):
     return render_template("blocks/one_wide_row.html", value)
+
+
+def add_num_text_to_str(content, prefix=""):
+    return f'{prefix}{content}'
+
+def add_num_text_to_sections(sections, prefix=None):
+    num = 1 # start numbering at 1
+    for section in sections:
+        if prefix is None:
+            section["num_text"] = f"{num}."
+        else:
+            section["num_text"] = f"{prefix}{num}"
+
+        sub_num = 1
+        content = []
+        for c in section["content"]:
+            content.append(add_num_text_to_str(c, prefix=f"{section['num_text']}{sub_num}. "))
+            sub_num += 1 # increment sub level number
+
+        section["content"] = content
+        num += 1 # increment top level number
+    return sections
+
+
+def render_numbered_sections(value):
+    value["sections"] = add_num_text_to_sections(value["sections"])
+    return render_template("blocks/numbered_sections.html", value)
 
 
 def render_content(value, *args) -> str:
@@ -172,6 +199,7 @@ def render_content(value, *args) -> str:
         "activities_list": render_activities_list,
         "activity_contact": render_activity_contact,
         "one_wide_row": render_one_wide_row,
+        "numbered_sections": render_numbered_sections,
     }
     try:
         render_fn = render_fns[type_]
