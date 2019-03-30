@@ -14,9 +14,7 @@ intro: >-
 ---
 Is the whole life and message of Jesus unbelievable? We would love you to come and join us to look at the life and claims of Jesus, especially based around the last week of his life. He has changed, and is changing our lives today. Is it unbelievable, or is He real?
 
-We'll be going through a series of six sermons - morning and night in the three weeks leading up to and on Easter Sunday.
-
-
+We'll be going through a series of six sermons - morning and night in the three weeks leading up to and on Easter Sunday.
 
 **April 7th**
 
@@ -24,15 +22,11 @@ Is the whole life and message of Jesus unbelievable? We would love you to come a
 
 5.30pm Evening Service: Are You Hurting?
 
-
-
 **April 14th**
 
 11am Morning Service: Is Jesus a Bigot?
 
 5.30pm Evening Service: Are You Empty?
-
-
 
 **April 21st**
 
