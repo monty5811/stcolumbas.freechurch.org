@@ -16,17 +16,23 @@ Is the whole life and message of Jesus unbelievable? We would love you to come a
 
 We'll be going through a series of six sermons - morning and night in the three weeks leading up to and on Easter Sunday.
 
+
+
 **April 7th**
 
 11am Morning Service: Is Jesus Real?
 
 5.30pm Evening Service: Are You Hurting?
 
+
+
 **April 14th**
 
 11am Morning Service: Is Jesus a Bigot?
 
 5.30pm Evening Service: Are You Empty?
+
+
 
 **April 21st**
 
