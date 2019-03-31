@@ -12,11 +12,13 @@ intro: >-
   the last week of his life. He has changed, and is changing our lives today. Is
   it unbelievable, or is He real?
 ---
-Is the whole life and message of Jesus unbelievable? We would love you to come and join us to look at the life and claims of Jesus, especially based around the last week of his life. He has changed, and is changing our lives today. Is it unbelievable, or is He real?
+Is the whole life and message of Jesus unbelievable? We would love you to come and join us to look at the life and claims of Jesus, especially based around the last week of his life. He has changed us, and is changing our lives today. Is it unbelievable, or is He real?
 
-We'll be going through a series of six sermons - morning and night in the three weeks leading up to and on Easter Sunday.
+We'll be going through a series of six sermons - morning and evening in the three weeks leading up to and on Easter Sunday.
 
+Tea and coffee is served after every service.
 
+We would love you to join us!
 
 **April 7th**
 
@@ -24,24 +26,14 @@ We'll be going through a series of six sermons - morning and night in the three 
 
 5.30pm Evening Service: Are You Hurting?
 
-
-
 **April 14th**
 
 11am Morning Service: Is Jesus a Bigot?
 
 5.30pm Evening Service: Are You Empty?
 
-
-
 **April 21st**
 
 11am Morning Service: Is Jesus Good?
 
 5.30pm Evening Service: Are You Hopeless?
-
-
-
-Tea and coffee served after both services
-
-We would love you to join us!
