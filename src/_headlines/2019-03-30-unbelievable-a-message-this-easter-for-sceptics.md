@@ -37,3 +37,9 @@ We would love you to join us!
 11am Morning Service: Is Jesus Good?
 
 5.30pm Evening Service: Are You Hopeless?
+
+- - -
+
+**Please share this with your friends!** 
+
+See our [Twitter post](https://twitter.com/stcsfreechurch/status/1113190495910547457), [Facebook post](https://www.facebook.com/stcolumbasfreechurch/posts/2254201824639698?sfnsw=cl), or our electronic flyer available here: PDF version: ([view](https://drive.google.com/file/d/1Sq5dZEFvMypDL5fdE_1JWQ2auPs0ygnS/view) or [download](https://drive.google.com/uc?export=download&id=1Sq5dZEFvMypDL5fdE_1JWQ2auPs0ygnS)) and JPEG version ([view](https://drive.google.com/file/d/1SnNpwz2p3hAr26H538M4NvkDf55DVP8t/view) or [download](https://drive.google.com/uc?export=download&id=1SnNpwz2p3hAr26H538M4NvkDf55DVP8t)).
