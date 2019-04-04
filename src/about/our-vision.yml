@@ -1,5 +1,96 @@
 layout: "content_page"
 title: "Our Vision"
+html:
+  type_: "raw_html"
+  html: |
+    <style>
+    .vision_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white !important;
+    font-size: xx-large !important;
+
+    padding: 0 6em;
+    }
+    #vision__vision {
+    background-image: url("/static/uploads/vision/vision.jpg");
+    width: 100%;
+    min-height: 75vh;
+    }
+    #vision__priorities {
+    background-image: url("/static/uploads/vision/priorities.jpg");
+    width: 100%;
+    min-height: 75vh;
+    }
+    #vision__goal {
+    background-image: url("/static/uploads/vision/goal.jpg");
+    width: 100%;
+    min-height: 75vh;
+    }
+    #vision__commitments {
+    background-image: url("/static/uploads/vision/commitments.jpg");
+    width: 100%;
+    min-height: 75vh;
+    }
+    .vision_title {
+      margin-bottom: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: xxx-large;
+    }
+    .vision_body {
+      text-align: center;
+    }
+    </style>
+    <div class="container">
+    <div id="vision__vision" class="vision_image">
+      <div class="vision_title">Our Vision</div>
+      <div class="vision_body">
+        We are a city-centre church committed to the Gospel of Jesus Christ in worship, mission, community and discipleship with a vision to plant churches in and around Edinburgh.
+      </div>
+    </div>
+    <div id="vision__goal" class="vision_image">
+      <div class="vision_title">Our Goal</div>
+      <div class="vision_body">
+          To live out the <u>Grace</u>
+          of God, through the
+          <u>Gospel</u> of God by
+          <u>Growing</u> together
+          as Christians, to the
+          <u>Glory</u> of God.
+      </div>
+    </div>
+    <div id="vision__priorities" class="vision_image">
+      <div class="vision_title">Our Priorities</div>
+      <div class="vision_body">
+        Living <b>Worship</b><br>
+        Relational <b>Mission</b><br>
+        Servant <b>Community</b><br>
+        Equipping <b>Discipleship</b><br>
+        Multiplying <b>Churches</b><br>
+        Training Future <b>Leaders</b><br>
+      </div>
+    </div>
+    <div id="vision__commitments" class="vision_image">
+      <div class="vision_title">Our Commitments</div>
+      <div class="vision_body">
+        <b>The Bible</b> — Our Rule of Faith and Life<br>
+        <b>Prayer</b> — Our Hope is in God<br>
+        <b>Mission</b> — Equip, Send, Plant<br>
+        <b>Excellence</b> — To the Glory of God<br>
+        <b>Simplicity</b> — Doing Less, Better<br>
+        <b>Friendship</b> — Real, Spiritual and Committed<br>
+        <b>Generosity</b> — Sharing Life, Showing Mercy<br>
+      </div>
+    </div>
+    </div>
 row1:
   right: |
     ![](/static/uploads/edinburgh_image_1.jpg "")
@@ -9,9 +100,6 @@ row1:
 
     Our vision is to have a strong city centre church that meets to worship God, equipping its people to live for Christ and share their faith. We aim to be a strong presence in Edinburgh, starting new churches in local communities through existing core groups. We believe in the radical transforming power of the Gospel. By following Christ in grace dependant communities throughout the city we can be a powerful witness to the Gospel, to the Glory of God.
   type_: "text_text_row"
-tagline:
-  content: "We are a city-centre church committed to the Gospel of Jesus Christ in worship, mission, community and discipleship with a vision to plant churches in and around Edinburgh."
-  type_: "tagline"
 row2:
   left: |
     ![](/static/uploads/stcs_image_1_1.jpg "")
