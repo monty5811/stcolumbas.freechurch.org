@@ -1,5 +1,6 @@
 layout: "content_page"
 title: "Our Vision"
+skip_jumbotron: true
 html:
   type_: "raw_html"
   html: |
@@ -15,70 +16,69 @@ html:
     justify-content: center;
 
     color: white !important;
-    font-size: xx-large !important;
+    font-size: x-large !important;
 
-    padding: 0 6em;
+    padding: 1.25% 2.5%;
     }
     #vision__vision {
     background-image: url("/static/uploads/vision/vision.jpg");
-    width: 100%;
-    min-height: 75vh;
+    min-height: 65vh;
     }
     #vision__priorities {
     background-image: url("/static/uploads/vision/priorities.jpg");
-    width: 100%;
-    min-height: 75vh;
+    min-height: 65vh;
     }
     #vision__goal {
     background-image: url("/static/uploads/vision/goal.jpg");
-    width: 100%;
-    min-height: 75vh;
+    min-height: 65vh;
     }
     #vision__commitments {
     background-image: url("/static/uploads/vision/commitments.jpg");
-    width: 100%;
-    min-height: 75vh;
+    min-height: 65vh;
     }
     .vision_title {
       margin-bottom: 2rem;
       font-weight: bold;
       text-transform: uppercase;
-      font-size: xxx-large;
+      font-size: xx-large;
     }
     .vision_body {
       text-align: center;
     }
+    .vision-row {
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+      margin: 0 !important;
+    }
     </style>
-    <div class="container">
-    <div id="vision__vision" class="vision_image">
+    <div class="row vision-row">
+    <div id="vision__vision" class="vision_image col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="vision_title">Our Vision</div>
       <div class="vision_body">
         We are a city-centre church committed to the Gospel of Jesus Christ in worship, mission, community and discipleship with a vision to plant churches in and around Edinburgh.
       </div>
     </div>
-    <div id="vision__goal" class="vision_image">
+    <div id="vision__goal" class="vision_image col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="vision_title">Our Goal</div>
       <div class="vision_body">
-          To live out the <u>Grace</u>
-          of God, through the
-          <u>Gospel</u> of God by
-          <u>Growing</u> together
-          as Christians, to the
-          <u>Glory</u> of God.
+          To live out the <u>Grace</u> of God, through the <u>Gospel</u> of God by <u>Growing</u> together as Christians, to the <u>Glory</u> of God.
       </div>
     </div>
-    <div id="vision__priorities" class="vision_image">
+    </div>
+    <div class="row vision-row" style="margin-bottom: 15px!important;">
+    <div id="vision__priorities" class="vision_image col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="vision_title">Our Priorities</div>
       <div class="vision_body">
-        Living <b>Worship</b><br>
-        Relational <b>Mission</b><br>
-        Servant <b>Community</b><br>
-        Equipping <b>Discipleship</b><br>
-        Multiplying <b>Churches</b><br>
-        Training Future <b>Leaders</b><br>
+    Living <b>Worship</b><br>
+    Relational <b>Mission</b><br>
+    Servant <b>Community</b><br>
+    Equipping <b>Discipleship</b><br>
+    Multiplying <b>Churches</b><br>
+    Training Future&nbsp;<b>Leaders</b><br>
       </div>
     </div>
-    <div id="vision__commitments" class="vision_image">
+    <div id="vision__commitments" class="vision_image col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="vision_title">Our Commitments</div>
       <div class="vision_body">
         <b>The Bible</b> — Our Rule of Faith and Life<br>
