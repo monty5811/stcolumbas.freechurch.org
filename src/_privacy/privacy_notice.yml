@@ -1,0 +1,126 @@
+---
+layout: "content_page"
+title: Privacy Notice
+privacy_notice:
+  type_: "raw_html"
+  html: |
+    <style>
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+      details summary::after {
+        content: "(show more)";
+        color: #909194;
+      }
+      details[open] summary::after {
+        content: "(show less)";
+        color: #909194;
+      }
+      h2 {
+        margin-top: 1em;
+      }
+      .container {
+        font-size: 16px;
+      }
+    </style>
+    <div class="container">
+      <div class="row">
+        <h2>How we use your personal information</h2>
+        This privacy notice explains the way in which St Columba’s Free Church of Scotland Congregation uses, or “processes” personal information.
+        Personal information is any information, held either in paper records or electronically, from which you can be identified.
+        Examples of personal information are your name, address, email address, telephone number, IP address, photograph or video image.
+        The processing of personal information is governed by data protection law.
+        “Processing” is anything that is done with personal information, from collection onwards.
+      </div>
+      <div class="row">
+        <h2>The information we hold and why we hold it</h2>
+        <ol>
+          <li>
+            <b>Contact Details and Communication</b><br>
+            <details>
+              <summary>
+                St Columba's holds contact details on Elvanto so that the church leadership can get in touch with you.
+              </summary>
+              Possible reasons for this include but are not limited to City Groups, Kids' Church/Crèche (if applicable), information about specific events (e.g. a conference) or communication related to serving on a rota (e.g. catering).
+              If you have opted in to using and appearing in the congregational directory, anyone else in the directory can also view those contact details.
+              You can change the details which are visible to others at any time by logging in to your account.
+              Please be assured that if you do not have a login for Elvanto any contact details we have for you are not visible to anyone except the church leadership.
+              If you have opted in to our in-house text service, your name and mobile phone number are also stored there, and can be accessed by a limited number of the church leadership/staff.
+              We use our text service to allow you to sign up to events and to communicate urgent information instantly. An example of this was a prayer meeting cancelled due to adverse weather conditions.
+            </details>
+          </li>
+          <li>
+            <b>Safeguarding</b><br>
+            <details>
+              <summary>
+              Both the Free Church of Scotland and St Columba's are legally required to keep an up-to-date record of those in our congregation who volunteer or work with children or vulnerable adults.
+              </summary>
+              This list is stored in a secure location and is managed by the Safeguarding Coordinator(s). It is available to the Elders and Deacons, and may also be shared with the Kids' Church Coordinator and Crèche Coordinator. If you are a member of the PVG Scheme through St Columba's your name is included on this list. We also keep a record of the Kids' Church and Crèche rotas, and which children attended on which dates, for Safeguarding purposes.
+            </details>
+          </li>
+          <li>
+            <b>Membership and Baptism</b><br>
+            If you are a member of St Columba's, your name and address appear on our Communicant Members Roll. This is shared with the Free Church of Scotland. If you or your child have been baptised at St Columba's a record of this is also kept and may be shared with the Free Church of Scotland.
+          </li>
+          <li>
+            <b>Donations and Gift Aid</b><br>
+            <details>
+              <summary>
+                If you give to the church in a way which is not anonymous (including but not limited to by BACS, standing order, weekly envelope, cheque or Stripe) your name and donation(s) amounts will be securely stored on our Finance Software, which is accessible to the Treasurer(s).
+              </summary>
+              Depending on the method of donation it may also be held in paper form in securely locked storage within the church. If you have completed a Gift Aid declaration then your name, address and amounts of Gift Aid-eligible givings must also be shared with the Free Church of Scotland, who submit Gift Aid claims on our behalf; and HMRC, from whom our Gift Aid payments are received. Our auditor can also access this information while carrying out our annual financial audit (a legal requirement). 
+              One off Gift Aid declarations are held for 7 years. Declarations which have the “any future donations” box ticked are held indefinitely or until the donor gives instruction otherwise. Records of general legacies will be held for 6 years. Record of a permanent legacy would be held permanently. Most other categories of financial information held by the church are retained for 6 years.
+            </details>
+          </li>
+          <li>
+            <b>Volunteers and Employees</b><br>
+            <details>
+              <summary>
+                If you serve on any of our rotas we will also have a record of the fact that you do so and your name will appear on the rota(s). This will be visible on Elvanto to the church leadership and anyone else who serves on a rota at St Columba's.
+              </summary>
+              Rotas can only be viewed when individuals are logged in to Elvanto. This information (like all the information described in this form) is not available publicly. Employees' details (the information on your New Employee Form) are shared with the Free Church of Scotland, who administer payroll on our behalf. Staff contracts are securely stored locally and can be accessed only by the Administrator.
+            </details>
+          </li>
+          <li>
+            <b>CCTV</b><br>
+            TODO: Fill in here after follow up meeting
+          </li>
+          <li>
+            <b>Events</b><br>
+            From time to time we run events or meals at St Columba's which require prior sign-up. Examples of this include but are not limited to Connect Meals, Women of the Word events and Men's Curry Nights. A record of expected attendees will be kept prior to the event to enable adequate preparation.
+          </li>
+          <li>
+            <b>Children</b><br>
+            <details>
+              <summary>
+                We keep a record of the names of the children who are in each Kids' Church class and Crèche to enable us to plan, prepare and "staff" (with volunteers!) the relevant groups adequately.
+              </summary>
+              We keep a record of the dates of birth of those children whose parents have specifically provided us with this so that we are better able to plan and resource our children's ministry as the church continues to grow. We also use the list of children to ensure that no-one misses out on a gift during our annual Family Service. Records of attendance of children’s attendance at Creche and Kid’s Church will be retained until they are 21 years of age. Leaders’ and volunteers’ attendance will be held for 7 years after they cease to teach.
+            </details>
+          </li>
+        </ol>
+      </div>
+      <div class="row">
+        <h2>How we collect your personal information</h2>
+        St Columba’s will ordinarily only collect and process data obtained via the online form at <a href="stcsfc.org/new">stcsfc.org/new</a>. Where an individual does not have access to the form, a paper version will be provided, which the person will also be asked to add their signature to. This form will then be scanned to pdf and retained by St Columba’s in the same manner as an electronic form submission.
+
+        The following should also be noted with reference to the collection of data:
+
+        <ul>
+          <li>In situations where information is ambiguous or not clear, the person will be contacted and asked to re-submit a form or provide clarity via email, which will be retained as a pdf by St Columba’s</li>
+          <li>St Columba’s will not accept the submission of an adult’s personal information by another person and will only accept the details of one adult per form submission.</li>
+          <li>Where two parents submit conflicting ‘permissions’ pertaining to their children, the lowest level of permission will apply and the parents will be contacted for clarification.</li>
+        </ul>
+      </div>
+      <div class="row">
+        <h2>Security and retention of personal information</h2>
+        We are committed to ensuring that personal information is held and retained securely and in accordance with data protection principles. More specifically, we keep data in accordance with the guidance set out in our Data Retention Policy, a copy of which is available at our website, or by asking for a copy from the church office (0131 225 3505, <a href="mailto:office@stcolubmas.freechurch.org">office@stcolubmas.freechurch.org</a>).
+        St Columba’s endeavours to remove unnecessary data as quickly as possible where we are permitted to within our legal obligations. Personal data will be deleted from our records when we are informed of a person leaving the church. Annual reviews of our data will be carried out to remove any related to persons that we have become aware have left the congregation without informing the church office.
+      </div>
+      <div class="row">
+        <h2>You have the right to make certain requests in relation to your personal data</h2>
+        You can request copies of the personal data which we hold about you, by contacting the church office (0131 225 3505, <a href="mailto:office@stcolubmas.freechurch.org">office@stcolubmas.freechurch.org</a>).
+        If you believe that any information we hold about you is inaccurate or incomplete, please let us know so that we can have this rectified.
+        You can request that we erase your data if there is no longer any need for us to keep it, although we may still need to retain it if the reasons why it was obtained still exist. If the only legal basis on which we hold the data is your consent, and you withdraw that consent, then we will erase your data on request.
+      </div>
+    </div>
