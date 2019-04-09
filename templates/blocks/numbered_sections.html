@@ -7,14 +7,14 @@
   </div>
 </div>
 {% for section in sections %}
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h2 class="heading">{{ section.num_text }} {{ section.title }}</h2>
-      {% for c in section.content %}
-      {{ c|md }}
-      {% endfor %}
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="heading">{{ section.num_text }} {{ section.title }}</h2>
+        {% for c in section.content %}
+          {{ c|md }}
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
 {% endfor %}

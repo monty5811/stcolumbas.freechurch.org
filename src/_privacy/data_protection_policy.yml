@@ -69,19 +69,19 @@ numbered_sections:
         content:
           - >
             A data breach is where there is accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data. The most likely causes of a breach will be:
-              ● Physical intrusion in the office. Everything is locked away, so it should be obvious if this happens.
-              ● An issue with one of our service providers. GDPR require them to inform us. Security settings are active on our Google account.
-              ● Poor personal security. See 5.1-16
-          - Should a data security breach occur, and if the breach is likely to result in a risk to the rights and freedoms of individuals, then we will notify the Information Commissioner’s Office (ICO) without undue delay and, where possible, within 72 hours of the time we become aware of the breach. Notification will be coordinated by the church administrator, Donna Macleod (0131 225 3505, office@stcolumbas.freechurchc.org). If it is judged that the breach does not present a significant risk to the rights and freedoms of any individual, the ICO will not be informed but the event and the reasons for not reporting it will be documented.
+              * Physical intrusion in the office. Everything is locked away, so it should be obvious if this happens.
+              * An issue with one of our service providers. GDPR requires them to inform us. Security settings are active on our Google account.
+              * Poor personal security. See 5:1-16
+          - Should a data security breach occur, and if the breach is likely to result in a risk to the rights and freedoms of individuals, then we will notify the Information Commissioner’s Office (ICO) without undue delay and, where possible, within 72 hours of the time we become aware of the breach. Notification will be coordinated by the church administrator, Donna Macleod (0131 225 3505, <a href="mailto:office@stcolumbas.freechurch.org">office@stcolumbas.freechurch.org</a>). If it is judged that the breach does not present a significant risk to the rights and freedoms of any individual, the ICO will not be informed but the event and the reasons for not reporting it will be documented.
       - title: Subject access requests
         content:
-          - Individuals who are data subjects may ask us for copies of the personal information we hold about them. This request must be made in writing to the church administrator, Donna Macleod (office@stcolumbas.freechurchsfc.org) who will coordinate a response within the necessary time limit (maximum 30 days).
+          - Individuals who are data subjects may ask us for copies of the personal information we hold about them. This request must be made in writing to the church administrator, Donna Macleod (<a href="mailto:office@stcolumbas.freechurch.org">office@stcolumbas.freechurch.org</a>) who will coordinate a response within the necessary time limit (maximum 30 days).
           - It is a criminal offence to conceal or destroy personal data which is part of a subject access request.
       - title: Rights of Data subjects
         content:
           - Data subjects have certain other rights under the GDPR and the 2018 Act. These include the right to know what personal data we are processing, the purposes of such processing, and the legal basis or bases for the processing.
           - Data subjects also have the right to request that we have any inaccurate or incomplete personal information rectified, and to have their personal data erased if we are not entitled by law to process it or it is no longer necessary for us to process it for the purpose for which it was collected. In situations where consent is the only legal basis which we have for processing then personal information should be erased if and when the individual revokes that consent.
-          - All requests to have personal data corrected or erased should be passed to the church   administrator, Donna Macleod (0131 225 3505, office@stcolumbas.freechurch.org) who will be responsible for responding to them.
+          - All requests to have personal data corrected or erased should be passed to the church   administrator, Donna Macleod (0131 225 3505, <a href="mailto:office@stcolumbas.freechurch.org">office@stcolumbas.freechurch.org</a>) who will be responsible for responding to them.
       - title: Training
         content:
           - We will require all those engaged in processing personal information to confirm that they have read and accept this policy.
@@ -91,7 +91,10 @@ numbered_sections:
       - title: Data Protection Policy Review
         content:
           - This policy will be reviewed and updated from time to time.
+separator:
+  type_: "separator"
 afterword:
   type_: one_wide_row
   content: |
-    This Data Protection Policy was adopted on 2019-03-25. ​The charity trustees will be responsible for the implementation of this Policy in the Congregation.
+    This Data Protection Policy was adopted on 2019-03-25.
+    The charity trustees will be responsible for the implementation of this Policy in the Congregation.
