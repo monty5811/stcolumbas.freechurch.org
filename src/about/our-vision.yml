@@ -1,10 +1,6 @@
 layout: "content_page"
 title: "Our Vision"
-skip_jumbotron: true
-spacer:
-  type_: raw_html
-  html: |
-    <div style="margin-bottom: 60px;"></div>
+skip_jumbotron: false
 intro:
   type_: "text_text_row"
   left: |
