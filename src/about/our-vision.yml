@@ -1,7 +1,27 @@
 layout: "content_page"
 title: "Our Vision"
 skip_jumbotron: true
-html:
+spacer:
+  type_: raw_html
+  html: |
+    <div style="margin-bottom: 60px;"></div>
+intro:
+  type_: "text_text_row"
+  left: |
+    If you join with us at St Columba’s, you will find that, with God’s help, we have a vision that feeds our goal, establishing our priorities and commitments.
+
+    We recognise that in some ways, this is a moveable feast. We are always fine tuning and seeking to be better at who we are, allowing the transforming power of God’s Grace to shape our church character and heart. We make lots of mistakes, but we seek to encourage, build up, forgive, and grow together.
+
+    It is not easy. Life is busy, and because of our demographic, the church community is very transient. It helps us all to have a focus, a clear picture of the kind of church Community we aspire to be, and our vision helps us to formulate that.
+  right: |
+    We are dependant on God’s grace, the work of the Holy Spirit in our hearts, and each other to see our vision flourish.
+
+    If you are interested in coming along to visit us, we would love to see you - You might be a Christian who has moved to the city and is looking for a church family, or someone who doesn't yet believe - maybe an atheist or agnostic - but are curious to know more. We would love to welcome you, hear your questions and give you the opportunity to get to know us, as we would love to get to know you, and introduce you to our friend, our Lord and Saviour, Jesus Christ.
+spacer2:
+  type_: raw_html
+  html: |
+    <div style="margin-bottom: 60px;"></div>
+visuals:
   type_: "raw_html"
   html: |
     <style>
