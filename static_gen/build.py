@@ -1,4 +1,5 @@
 import os
+import multiprocessing as mp
 import shutil
 from distutils.dir_util import copy_tree
 from hashlib import sha256
@@ -22,6 +23,7 @@ def write_files(env, pages):
         content = data.copy()
         content.pop("layout", None)
         content.pop("title", None)
+        content.pop("skip_jumbotron", False)
         result = env.get_template(data["layout"] + ".html").render(
             data=data, content=content, uri=p.replace(SRC_DIR, "").replace(".yml", "")
         )
@@ -110,6 +112,10 @@ def build():
     clean_folder(DIST_DIR)
     copy_public_files()
     copy_static_files()
-    blog.write_blog_index(env, load_files(sub_dir="_headlines"))
+
+    # blog.write_blog_index(env, load_files(sub_dir="_headlines"))
+    p = mp.Process(target=blog.write_blog_index, args=(env, load_files(sub_dir="_headlines"),))
+    p.start()
     manifest = write_files(env, load_files())
+    p.join()
     write_sw(env, manifest)

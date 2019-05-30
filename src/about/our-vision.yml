@@ -1,36 +1,101 @@
 layout: "content_page"
 title: "Our Vision"
-row1:
-  right: |
-    ![](/static/uploads/edinburgh_image_1.jpg "")
-
-  left: |
-    ### Our Vision
-
-    Our vision is to have a strong city centre church that meets to worship God, equipping its people to live for Christ and share their faith. We aim to be a strong presence in Edinburgh, starting new churches in local communities through existing core groups. We believe in the radical transforming power of the Gospel. By following Christ in grace dependant communities throughout the city we can be a powerful witness to the Gospel, to the Glory of God.
+skip_jumbotron: false
+intro:
   type_: "text_text_row"
-tagline:
-  content: "We are a city-centre church committed to the Gospel of Jesus Christ in worship, mission, community and discipleship with a vision to plant churches in and around Edinburgh."
-  type_: "tagline"
-row2:
   left: |
-    ![](/static/uploads/stcs_image_1_1.jpg "")
+    If you [join with us](/connect/visit) at St Columba’s, you will find that, with God’s help, we have a vision that feeds our goal, establishing our priorities and commitments.
+
+    We recognise that in some ways, this is a moveable feast. We are always fine tuning and seeking to be better at who we are, allowing the transforming power of God’s Grace to shape our church character and heart. We make lots of mistakes, but we seek to encourage, build up, forgive, and grow together.
+
+    It is not easy. Life is busy, and because of our demographic, the church community is very transient. It helps us all to have a focus, a clear picture of the kind of church Community we aspire to be, and our vision helps us to formulate that.
   right: |
-    ### Our Pillars
+    We are dependant on God’s grace, the work of the Holy Spirit in our hearts, and each other to see our vision flourish.
 
-    **Gospel**
+    If you are interested in [coming along to visit us](/connect/visit), we would love to see you - you might be a Christian who has moved to the city and is looking for a church family, or someone who doesn't yet believe - maybe an atheist or agnostic - but are curious to know more. We would love to welcome you, hear your questions and give you the opportunity to get to know us, as we would love to get to know you, and introduce you to our friend, our Lord and Saviour, [Jesus Christ](/jesus).
+spacer2:
+  type_: raw_html
+  html: |
+    <div style="margin-bottom: 60px;"></div>
+visuals:
+  type_: "raw_html"
+  html: |
+    <style>
+    .content {
+      margin-bottom: 0px;
+    }
+    .vision_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-    This is the biblical revelation of the message of Jesus Christ who came to be our saviour. This Gospel underpins all our beliefs and is the motivation for all we do. Knowing this gospel personally, and making it known to colleagues, friends and neighbours is what we’re all about.
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    **Grace**
+    color: white !important;
+    font-size: x-large !important;
 
-    We are recipients of Grace, and so we want to live grace-filled lives. This means we serve as we have been served by Jesus. Though we don’t have too many events and programmes, there are plenty of ways you can serve, from all the elements that come together to make a Sunday service happen, to social care partnerships, to being family together and serving one another in love.
+    padding: 2.5% 5%;
+    margin: 0px;
 
-    **Glory**
-
-    We want to give glory to God because of all he has done for us. We are called to do this personally, and our collective times of worship are the regular services on Sundays at 11 and 5.30. Also, a big part of our fellowship is our city groups - smaller local mid-week gatherings.
-
-    **Growth**
-
-    We want the church to grow by Christians getting to know God better, and more and more people coming to know God as their saviour. To do this, we have a range of ‘pathways’ because we know people are at different points in their own discovery of the person and significance of Jesus.
-  type_: "text_text_row"
+    min-height: 80vh;
+    }
+    #vision__vision {
+    background-image: url("/static/uploads/vision/vision.jpg");
+    }
+    #vision__priorities {
+    background-image: url("/static/uploads/vision/priorities.jpg");
+    }
+    #vision__goal {
+    background-image: url("/static/uploads/vision/goal.jpg");
+    }
+    #vision__commitments {
+    background-image: url("/static/uploads/vision/commitments.jpg");
+    }
+    .vision_title {
+      margin-bottom: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: xx-large;
+    }
+    .vision_body {
+      text-align: center;
+    }
+    </style>
+      <div id="vision__vision" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="vision_title">Our Vision</div>
+        <div class="vision_body">
+          We are a city-centre church committed to the Gospel of Jesus Christ in worship, mission, community and discipleship with a vision to plant churches in and around Edinburgh.
+        </div>
+      </div>
+      <div id="vision__goal" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="vision_title">Our Goal</div>
+        <div class="vision_body">
+          To live out the <u>Grace</u> of God, through the <u>Gospel</u> of God by <u>Growing</u> together as Christians, to the <u>Glory</u> of God.
+        </div>
+      </div>
+      <div id="vision__priorities" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="vision_title">Our Priorities</div>
+        <div class="vision_body">
+          Living <b>Worship</b><br>
+          Relational <b>Mission</b><br>
+          Servant <b>Community</b><br>
+          Equipping <b>Discipleship</b><br>
+          Multiplying <b>Churches</b><br>
+          Training Future&nbsp;<b>Leaders</b><br>
+        </div>
+      </div>
+      <div id="vision__commitments" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="vision_title">Our Commitments</div>
+        <div class="vision_body">
+          <b>The Bible</b> — Our Rule of Faith and Life<br>
+          <b>Prayer</b> — Our Hope is in God<br>
+          <b>Mission</b> — Equip, Send, Plant<br>
+          <b>Excellence</b> — To the Glory of God<br>
+          <b>Simplicity</b> — Doing Less, Better<br>
+          <b>Friendship</b> — Real, Spiritual and Committed<br>
+          <b>Generosity</b> — Sharing Life, Showing Mercy<br>
+        </div>
+      </div>

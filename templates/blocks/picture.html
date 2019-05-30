@@ -2,5 +2,5 @@
   <source srcset="{{ src_webp }}" type="image/webp">
   <!-- <source srcset="{{ src_jpeg2000 }}" type="image/jp2"> -->
   <source srcset="{{ src }}" type="{{ src_type }}">
-  <img src="{{ src }}" {% if alt_text %}alt="{{ alt_text }}"{% endif %} {% if class_text %}class="{{ class_text }}"{% endif %}>
+  <img src="{{ src }}" loading="lazy" {% if alt_text %}alt="{{ alt_text }}"{% endif %} {% if class_text %}class="{{ class_text }}"{% endif %}>
 </picture>

@@ -199,8 +199,15 @@ def convert_to_webp(src):
     out_file_uri = out_file_uri + ".webp"
     path_to_webp_file = DIST_DIR + out_file_uri
 
-    im = Image.open(path_to_src_file)
-    im.save(path_to_webp_file, "WEBP")
+    try:
+        # save repeated calls for the same image
+        should_run = os.path.getmtime(path_to_src_file) > os.path.getmtime(path_to_webp_file)
+    except FileNotFoundError:
+        should_run = 1
+
+    if should_run:
+        im = Image.open(path_to_src_file)
+        im.save(path_to_webp_file, "WEBP")
 
     return out_file_uri
 
