@@ -10,8 +10,10 @@ intro: >-
   We were so delighted with the response to our first Brilliant Books spotlight
   in March - thank you! We’re back again this Sunday (9th June) with three more
   excellent books for you. This time our books are all on the theme of personal,
-  practical theology. Here they are:
+  practical theology.
 ---
+We were so delighted with the response to our first Brilliant Books spotlight in March - thank you! We’re back again this Sunday (9th June) with three more excellent books for you. This time our books are all on the theme of personal, practical theology. Here they are:
+
 <img 
 class="img-responsive"
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
