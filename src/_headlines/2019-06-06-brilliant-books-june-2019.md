@@ -54,8 +54,8 @@ The latest in the ‘Every Child Should Know’ series, this book picks up on th
 
 _Our Price: £5 (50% off RRP)_
 
--------
+----------------
 
-_All of these books will be available to buy in the Sunday services on Sunday 9th June. We have ordered several dozen books on a sale or return basis, so there will be plenty available for you to buy for yourself, or as a gift for a friend.  Payment will be cash only. If you’d like a book but won’t be around that day, email books@stcsfc.org to make alternative arrangements._
+_All of these books will be available to buy in the Sunday services on Sunday 9th June. We have ordered several dozen books on a sale or return basis, so there will be plenty available for you to buy for yourself, or as a gift for a friend.  Payment will be cash only. If you’d like a book but won’t be around that day, email [books@stcsfc.org](mailto:books@stcsfc.org) to make alternative arrangements._
 
 _Free Church Books have worked with us to provide these books - for more book reviews and their online shop, visit_ [_books.freechurch.org_](https://books.freechurch.org)_._
