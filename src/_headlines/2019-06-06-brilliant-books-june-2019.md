@@ -3,14 +3,20 @@ layout: headline
 title: 'Brilliant Books: June 2019'
 author: Miriam Montgomery
 date: 2019-06-06T19:24:45.160Z
-thumbnail: /static/uploads/neonbrand-307860-unsplash.jpg
+thumbnail: /static/uploads/susan-yin-647448-unsplash.jpg
 intro: >-
   We were so delighted with the response to our first Brilliant Books spotlight
-  in March - thank you! We’re back again on Sunday 9th June with three more
+  in March - thank you! We’re back again this Sunday (9th June) with three more
   excellent books for you. This time our books are all on the theme of personal,
   practical theology. Here they are:
 ---
-![](/static/uploads/prayerericalexander.jpg)
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/prayerericalexander.jpg" 
+alt="Prayer, Eric Alexander"
+/>
+
 
 **Prayer, Eric Alexander**
 
@@ -19,8 +25,13 @@ We talk a lot about talking to God, but sometimes it can be daunting to get beyo
 _Our Price: £4.50 (21% off RRP)_
 
 
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/beforeyouopenyourbible.jpg" 
+alt="Before You Open Your Bible"
+/>
 
-![](/static/uploads/beforeyouopenyourbible.jpg)
 
 **Before You Open Your Bible, Matt Smethurst**
 
@@ -28,9 +39,12 @@ This brand new pocket-sized book is approachable, grounded, witty and excellent.
 
 _Our Price: £1.50 (50% off RRP)_
 
-
-
-![](/static/uploads/whateverychildshouldknowprayer.jpg)
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/whateverychildshouldknowprayer.jpg" 
+alt="What Every Child Should Know About Prayer"
+/>
 
 **What Every Child Should Know About Prayer, Nancy Guthrie & Jenny Brake**
 
@@ -38,7 +52,7 @@ The latest in the ‘Every Child Should Know’ series, this book picks up on th
 
 _Our Price: £5 (50% off RRP)_
 
-__
+-------
 
 _All of these books will be available to buy in the Sunday services on Sunday 9th June. We have ordered several dozen books on a sale or return basis, so there will be plenty available for you to buy for yourself, or as a gift for a friend.  Payment will be cash only. If you’d like a book but won’t be around that day, email books@stcsfc.org to make alternative arrangements._
 
