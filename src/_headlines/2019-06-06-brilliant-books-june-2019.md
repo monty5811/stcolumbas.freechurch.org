@@ -4,6 +4,8 @@ title: 'Brilliant Books: June 2019'
 author: Miriam Montgomery
 date: 2019-06-06T19:24:45.160Z
 thumbnail: /static/uploads/susan-yin-647448-unsplash.jpg
+tags:
+  - books
 intro: >-
   We were so delighted with the response to our first Brilliant Books spotlight
   in March - thank you! We’re back again this Sunday (9th June) with three more
