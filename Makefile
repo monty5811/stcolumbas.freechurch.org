@@ -1,14 +1,35 @@
-build:
-	python build.py
+VENV_NAME?=venv
+VENV_ACTIVATE=. $(VENV_NAME)/bin/activate
+PYTHON=${VENV_NAME}/bin/python3
 
-watch:
+.PHONY: deps-compile deps-sync watch server deploy dev-setup pay_deploy ci ci-setup js-build js-watch css-build py-format
+
+venv: $(VENV_NAME)/bin/activate
+$(VENV_NAME)/bin/activate: requirements*.in
+	test -d $(VENV_NAME) || python -m venv $(VENV_NAME)
+	${PYTHON} -m pip install -U pip
+	${PYTHON} -m pip install -U pip-tools
+	make deps-compile deps-sync
+	touch $(VENV_NAME)/bin/activate
+
+deps-sync:
+	${VENV_NAME}/bin/pip-sync requirements.txt
+
+deps-compile:
+	${VENV_NAME}/bin/pip-compile requirements.in
+	${VENV_NAME}/bin/pip-compile requirements_dev.in
+
+build: venv
+	${PYTHON} build.py
+
+watch: dev-setup
 	find src templates static_gen/*.py *.py | entr make build
 
-serve:
-	python server.py
+serve: dev-setup
+	${PYTHON} server.py
 
-dev-setup:
-	pipenv install -d
+dev-setup: venv
+	${VENV_NAME}/bin/pip-sync requirements*.txt
 
 deploy:
 	netlify deploy
