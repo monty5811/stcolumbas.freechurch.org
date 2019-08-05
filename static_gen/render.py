@@ -106,8 +106,8 @@ def render_image(url):
     return render_template("blocks/simple_image.html", {"url": url})
 
 
-def render_giving_form():
-    return render_template("blocks/giving_form.html", {})
+def render_giving_form(cancelled=False):
+    return render_template("blocks/giving_form.html", {"cancelled": cancelled})
 
 
 def render_text_text_row(value):
@@ -123,7 +123,7 @@ def render_text_text_row_with_sep(value):
 
 
 def render_giving_row(value):
-    left = render_giving_form()
+    left = render_giving_form(cancelled=value["left"].get("cancelled", False))
     right = render_text(value["right"])
     data = {"left_col": left, "right_col": right}
 
@@ -143,7 +143,7 @@ def render_activities_list(value):
 
 
 def render_activity_contact(value, subject):
-    value['subject'] = subject
+    value["subject"] = subject
     return render_template("blocks/activity_contact.html", value)
 
 
@@ -201,11 +201,14 @@ def convert_to_webp(src):
 
     try:
         # save repeated calls for the same image
-        should_run = os.path.getmtime(path_to_src_file) > os.path.getmtime(path_to_webp_file)
+        should_run = os.path.getmtime(path_to_src_file) > os.path.getmtime(
+            path_to_webp_file
+        )
     except FileNotFoundError:
         should_run = 1
 
     if should_run:
+        print(f"Converting {src} to webp")
         im = Image.open(path_to_src_file)
         im.save(path_to_webp_file, "WEBP")
 
