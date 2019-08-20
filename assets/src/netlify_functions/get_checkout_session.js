@@ -6,9 +6,6 @@ const headers = {
 };
 
 exports.handler = function(event, context, callback) {
-  var branch = process.env.BRANCH;
-  branch = branch.replace("_", "-"); // netlify replaces _ with - in url
-
   if (event.httpMethod !== "POST" || !event.body) {
     callback(null, {
       statusCode: 400,
@@ -31,19 +28,11 @@ exports.handler = function(event, context, callback) {
 
     return;
   }
-  if (branch == "master") {
-    var success_url =
-      "https://stcolumbas.freechurch.org/connect/giving/success";
-    var cancel_url = "https://stcolumbas.freechurch.org/connect/giving/cancel";
-  } else {
-    var success_url = `https://${branch}--stcsfc.netlify.com/connect/giving/success`;
-    var cancel_url = `https://${branch}--stcsfc.netlify.com/connect/giving/cancel`;
-  }
 
   stripe.checkout.sessions.create(
     {
-      success_url: success_url,
-      cancel_url: cancel_url,
+      success_url: "https://stcolumbas.freechurch.org/connect/giving/success",
+      cancel_url: "https://stcolumbas.freechurch.org/connect/giving/cancel",
       payment_method_types: ["card"],
       billing_address_collection: "required",
       payment_method_types: ["card"],
