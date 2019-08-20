@@ -31,8 +31,8 @@ exports.handler = function(event, context, callback) {
 
   stripe.checkout.sessions.create(
     {
-      success_url: "https://stcolumbas.freechurch.org/connect/giving/success",
-      cancel_url: "https://stcolumbas.freechurch.org/connect/giving/cancel",
+      success_url: "https://stcolumbas.freechurch.org/connect/giving-success",
+      cancel_url: "https://stcolumbas.freechurch.org/connect/giving-cancel",
       payment_method_types: ["card"],
       billing_address_collection: "required",
       payment_method_types: ["card"],
