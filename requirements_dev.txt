@@ -27,3 +27,6 @@ toml==0.10.0              # via black
 traitlets==4.3.2          # via ipython
 urllib3==1.25.3           # via selenium
 wcwidth==0.1.7            # via prompt-toolkit
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools==41.0.1        # via ipdb, ipython

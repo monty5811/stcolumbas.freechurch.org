@@ -1,78 +1,53 @@
-var Elm = require('./Payments.elm');
+var errorText = "Failed. You have not been charged.";
 
 function init() {
-  var elmContainer = document.getElementById('elmContainer');
-  var submitButton = document.getElementById('giving-button');
+  var submitButton = document.getElementById("giving-button");
 
-  if (elmContainer !== null) {
-    var app = Elm.Elm.Payments.init({node: elmContainer});
+  var stripe = Stripe("pk_live_20VpW3kP9MacCmc5m49T6kwY");
 
-    function stripeTokenHandler(result) {
-      app.ports.stripeResult.send({
-        result: result,
-        name: document.getElementById('name').value,
-        amount: document.getElementById('amount').value,
-        email: document.getElementById('email').value,
-        fund: document.getElementById('fund').value,
-      });
-    }
+  var form = document.getElementById("payment-form");
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const buttonText = submitButton.innerText;
+    submitButton.innerText = "Working...";
 
-    var stripe = Stripe('pk_live_20VpW3kP9MacCmc5m49T6kwY');
-    var elements = stripe.elements();
-    var card = elements.create('card', {
-      style: {
-        base: {
-          lineHeight: '1.429',
-        },
-      },
-    });
+    var data = {
+      amount: document.getElementById("giving-amount").valueAsNumber * 100,
+      description: document.getElementById("giving-fund").value
+    };
 
-    card.mount('#card-element');
-
-    // pass name to stripe:
-    var nameField = document.getElementById('name');
-    nameField.addEventListener('change', function(event) {
-      card.update({ value: { name: event.target.value } });
-    });
-
-    // Handle real-time validation errors from the card Element.
-    card.addEventListener('change', function(event) {
-      var displayError = document.getElementById('card-errors');
-      if (event.error) {
-        displayError.textContent = event.error.message;
-        submitButton.disabled = true;
-      } else {
-        displayError.textContent = '';
-        submitButton.disabled = false;
-      }
-    });
-
-    var form = document.getElementById('payment-form');
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-
-      const buttonText = submitButton.innerText;
-      submitButton.innerText = 'Working...';
-      // create stripe token
-      stripe.createToken(card).then(function(result) {
-        if (result.error) {
-          if (result.error.type === 'validation_error') {
-            // change text back to donate as stripe will handle this error for us
-            submitButton.innerText = buttonText;
-          } else {
-            // Inform the user if there was an error
-            var errorElement = document.getElementById('card-errors');
-            errorElement.textContent = result.error.message;
-          }
-        } else {
-          submitButton.remove();
-          app.ports.startLoading.send(null);
-          // Send the token to the server
-          stripeTokenHandler(result);
+    // create stripe session
+    $.ajax({
+      type: "POST",
+      url: "/.netlify/functions/get_checkout_session/",
+      data: JSON.stringify(data),
+      success: function(data) {
+        switch (data.status) {
+          case "session-created":
+            stripe
+              .redirectToCheckout({
+                sessionId: data.sessionId
+              })
+              .then(function(result) {
+                submitButton.innerText = result.error.message;
+              });
+            break;
+          case "bad-payload":
+            submitButton.innerText = errorText;
+            break;
+          case "missing-information":
+            submitButton.innerText = errorText;
+            break;
+          case "session-create-failed":
+            submitButton.innerText = errorText;
+            break;
+          default:
+            submitButton.innerText = errorText;
         }
-      });
+      },
+      dataType: "json"
     });
-  }
+  });
 }
 
 module.exports.init = init;

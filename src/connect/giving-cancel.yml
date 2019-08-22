@@ -32,7 +32,7 @@ separator:
 giving_row:
   type_: "giving_row"
   left:
-    cancelled: false
+    cancelled: true
   right: |
     ## Giving Offline
 

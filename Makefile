@@ -6,6 +6,7 @@ PYTHON=${VENV_NAME}/bin/python3
 
 venv: $(VENV_NAME)/bin/activate
 $(VENV_NAME)/bin/activate: requirements*.in
+	curl https://bootstrap.pypa.io/get-pip.py | python
 	test -d $(VENV_NAME) || python -m venv $(VENV_NAME)
 	${PYTHON} -m pip install -U pip
 	${PYTHON} -m pip install -U pip-tools
@@ -23,7 +24,7 @@ build: venv
 	${PYTHON} build.py
 
 watch: dev-setup
-	find src templates static_gen/*.py *.py | entr make build
+	find src templates static_gen/*.py *.py | entr ./try_quick_build.sh
 
 serve: dev-setup
 	${PYTHON} server.py
@@ -34,10 +35,11 @@ dev-setup: venv
 deploy:
 	netlify deploy
 
-pay_deploy:
-	cd payments && ./build.sh
-
-ci: js-build css-build build
+ci:
+	make js-build
+	make css-build
+	python build.py
+	make netlify-functions
 
 ci-setup:
 	npm install -g yarn
@@ -54,3 +56,9 @@ css-build:
 
 py-format:
 	black **/*.py
+
+netlify-functions:
+	./assets/node_modules/netlify-lambda/bin/cmd.js build assets/src/netlify_functions/
+
+local-netlify-functions:
+	./assets/node_modules/netlify-lambda/bin/cmd.js serve assets/src/netlify_functions/

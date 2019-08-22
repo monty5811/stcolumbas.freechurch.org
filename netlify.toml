@@ -1,3 +1,4 @@
 [build]
   publish = "dist"
   command = "make ci-setup ci"
+  functions = "dist/netlify_functions"
