@@ -6,6 +6,9 @@ function init() {
   var stripe = Stripe("pk_live_20VpW3kP9MacCmc5m49T6kwY");
 
   var form = document.getElementById("payment-form");
+  if (form === null) {
+    return;
+  }
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     const buttonText = submitButton.innerText;
