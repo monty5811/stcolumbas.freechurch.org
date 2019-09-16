@@ -62,3 +62,6 @@ netlify-functions:
 
 local-netlify-functions:
 	./assets/node_modules/netlify-lambda/bin/cmd.js serve assets/src/netlify_functions/
+
+percy:
+	npx percy snapshot dist/
