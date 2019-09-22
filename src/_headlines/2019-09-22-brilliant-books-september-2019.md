@@ -61,5 +61,5 @@ All of these books will be available to buy in the services on Sunday 29th Septe
 If you’d like a book but won’t be around that day, email us at <mailto:books@stcsfc.org> to make other arrangements. Alternatively, you can order the books directly in the Free Church Books [online shop](https://www.10ofthose.com/uk/affiliates/freechurchbooks).
 
 <p style="background-color: #f9f9f9;padding: 30px 30px 15px;">
-<b>Don’t Miss:</b> If you take notes during sermons, you may be interested in the ESV Scripture Journal for Joshua, the book we’ll be studying in our evening services this term. With the Biblical text printed alongside blank lined pages for your notes, this a great way to follow the story of the book as we go along. Available for only £3.69 per copy at <a href="https://thefree.church/joshua-journal">https://thefree.church/joshua-journal</a>. 
+<b>Don’t Miss:</b> If you take notes during sermons, you may be interested in the ESV Scripture Journal for Joshua, the book we’ll be studying in our evening services this term. With the Biblical text printed alongside blank lined pages for your notes, this a great way to follow the story of the book as we go along. Available for only £3.69 per copy at <a  target="_blank" href="https://thefree.church/joshua-journal">https://thefree.church/joshua-journal</a>. 
 </p>
