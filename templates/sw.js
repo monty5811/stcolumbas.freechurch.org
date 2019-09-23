@@ -6,7 +6,7 @@ workbox.precaching.precacheAndRoute([
   {% endfor %}
 ]);
 
-workbox.routing.setDefaultHandler(new workbox.strategies.StaleWhileRevalidate({}));
+workbox.routing.setDefaultHandler(new workbox.strategies.NetworkFirst({}));
 
 // cache images, but make sure to not cache leaflet tiles
 workbox.routing.registerRoute(
