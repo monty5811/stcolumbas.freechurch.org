@@ -2,18 +2,18 @@ import React from 'react';
 
 const ActivityContact = ({ contact }) => {
   return (
-    <div class="team-contact">
+    <div class="">
       <a html="#">
-        <div class="media">
-          <div class="media-left media-middle">
+        <div class="">
+          <div class="">
             <img
               className="media-object img-circle"
               src={contact.getIn(['picture']).toString()}
             />
           </div>
-          <div class="media-body">
+          <div class="">
             <p>Contact</p>
-            <h3 class="media-heading">{contact.getIn(['name'])}</h3>
+            <h3 class="">{contact.getIn(['name'])}</h3>
           </div>
         </div>
       </a>

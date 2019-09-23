@@ -17,12 +17,12 @@ const OurVisionPreview = createClass({
           </div>
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="line" />
+              <div class="" />
               <h4 style={{ textAlign: 'center' }} />
               <h2 style={{ textAlign: 'center' }}>
                 {entry.getIn(['data', 'tagline', 'content'])}
               </h2>
-              <div class="line" />
+              <div class="" />
             </div>
           </div>
           <div className="row">

@@ -1,6 +1,6 @@
 import os
 from http.server import HTTPServer, SimpleHTTPRequestHandler
-
+import sys
 
 class NiceUrls(SimpleHTTPRequestHandler):
 
@@ -55,6 +55,6 @@ class NiceUrls(SimpleHTTPRequestHandler):
 
 if __name__ == '__main__':
     os.chdir('dist')
-    server_address = ('', 4001)
+    server_address = ('', int(sys.argv[1]))
     httpd = HTTPServer(server_address, NiceUrls)
     httpd.serve_forever()

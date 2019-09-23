@@ -15,7 +15,7 @@ intro: >-
 We were so delighted with the response to our first Brilliant Books spotlight in March - thank you! We’re back again this Sunday (9th June) with three more excellent books for you. This time our books are all on the theme of personal, practical theology. Here they are:
 
 <img 
-class="img-responsive"
+class=""
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
 src="/static/uploads/prayerericalexander.jpg" 
 alt="Prayer, Eric Alexander"
@@ -30,7 +30,7 @@ _Our Price: £4.50 (21% off RRP)_
 
 
 <img 
-class="img-responsive"
+class=""
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
 src="/static/uploads/beforeyouopenyourbible.jpg" 
 alt="Before You Open Your Bible"
@@ -44,7 +44,7 @@ This brand new pocket-sized book is approachable, grounded, witty and excellent.
 _Our Price: £1.50 (50% off RRP)_
 
 <img 
-class="img-responsive"
+class=""
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
 src="/static/uploads/whateverychildshouldknowprayer.jpg" 
 alt="What Every Child Should Know About Prayer"

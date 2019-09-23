@@ -7,17 +7,15 @@
 {% block footer %}{% endblock %}
 
 {% block content %}
-<div id="carousel-stcs" class="carousel fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="item active">
-      {{ data.photo.url|render_bg_image }}
-      <div class="carousel-caption">
-        <h1>{{ data.heading }}</h1>
-        <a href="{{ data.link.href }}" class="btn btn-home">{{ data.link.text }}</a>
-      </div>
+  {{ data.photo.url|render_bg_image_style }}
+  <div class="bg-center bg-cover bg-no-repeat flex flex-col min-h-screen h-full justify-center text-center text-white w-full {{ data.photo.url|render_bg_image_class }}">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="font-semibold mb-8 text-4xl">{{ data.heading }}</h1>
+      <a href="/connect/im_new" class="bg-white font-semibold px-4 py-2 text-lg text-red-stcs">
+        {{ data.link.text }}
+      </a>
     </div>
   </div>
-</div>
 {% endblock %}
 {% block extra_js %}
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

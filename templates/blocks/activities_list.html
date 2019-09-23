@@ -1,10 +1,10 @@
 {% for group in activities|group_into(group_into) %}
 <div class="container">
-  <div class="row">
+  <div class="flex flex-wrap lg:flex-nowrap">
     {% for A in group %}
-    <div class="col-xs-12 col-sm-{{12//group_into}} col-md-{{12//group_into}} col-lg-{{12//group_into}}">
+    <div class="px-8 flex flex-col px-8 lg:flex-1 justify-between mb-16">
       {{ A.picture|render_image }}
-      <h3>{{ A.name }}</h3>
+      <h3 class="text-md ">{{ A.name }}</h3>
       <p>{{ A.content|md }}</p>
       {{ A.contact|render_content(A.name) }}
     </div>

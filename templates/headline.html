@@ -1,17 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 headline-image">
-  <div style="width:970.8px">
+<div class="container w-3/5">
+  <div class="mb-20">
     {{ content.thumbnail|render_image }}
   </div>
 </div>
-<div class="">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        {{ content.body|md }}
-      </div>
-    </div>
-  </div>
+<div class="container content w-3/5 pb-32">
+  {{ content.body|md }}
 </div>
 {% endblock %}

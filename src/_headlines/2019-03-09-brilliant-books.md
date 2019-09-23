@@ -17,7 +17,7 @@ Whether you naturally enjoy reading or not, good Christian books can make a huge
 Here are the books we've got for you this time:
 
 <img 
-class="img-responsive"
+class=""
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
 src="/static/uploads/enjoying-god.jpg"
 alt="Are We Nearly There Yet?"
@@ -30,7 +30,7 @@ As Christians, our joy in God should be at the heart of everything we do and say
 _Our Price: £5_
 
 <img 
-class="img-responsive"
+class=""
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
 src="/static/uploads/ncc-devotional.jpg"
 alt="Are We Nearly There Yet?"
@@ -43,7 +43,7 @@ We are already going through the 52 questions of the New City Catechism in our S
 _Our Price: £12_
 
 <img 
-class="img-responsive"
+class=""
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
 src="/static/uploads/are-we-nearly-there-yet.jpg" 
 alt="Are We Nearly There Yet?"

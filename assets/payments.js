@@ -20,6 +20,7 @@ function init() {
     };
 
     // create stripe session
+    // TODO: replace jquery call
     $.ajax({
       type: "POST",
       url: "/.netlify/functions/get_checkout_session/",

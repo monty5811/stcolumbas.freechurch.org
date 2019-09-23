@@ -1,12 +1,12 @@
-<div class="team-contact">
+<div class="mt-4">
   <a href="/about/contact-us/?subject={{ subject }}#contact">
-    <div class="media">
-      <div class="media-left media-middle">
-        {{ picture|render_image(alt_text=name, class_text="media-object img-circle") }}
+    <div class="flex">
+      <div class="mr-4">
+        {{ picture|render_image(alt_text=name, class_text="h-16 w-16 rounded-full") }}
       </div>
-      <div class="media-body">
+      <div class="flex flex-col">
         <p>Contact</p>
-        <h3 class="media-heading">{{ name }}</h3>
+        <h4 class="my-0">{{ name }}</h4>
       </div>
     </div>
   </a>

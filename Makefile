@@ -1,6 +1,7 @@
 VENV_NAME?=venv
 VENV_ACTIVATE=. $(VENV_NAME)/bin/activate
 PYTHON=${VENV_NAME}/bin/python3
+PORT?=4001
 
 .PHONY: deps-compile deps-sync watch server deploy dev-setup pay_deploy ci ci-setup js-build js-watch css-build py-format
 
@@ -24,10 +25,10 @@ build: venv
 	${PYTHON} build.py
 
 watch: dev-setup
-	find src templates static_gen/*.py *.py | entr ./try_quick_build.sh
+	find src templates static static_gen/*.py *.py | entr ./try_quick_build.sh
 
 serve: dev-setup
-	${PYTHON} server.py
+	${PYTHON} server.py $(PORT)
 
 dev-setup: venv
 	${VENV_NAME}/bin/pip-sync requirements*.txt
@@ -53,6 +54,9 @@ js-watch:
 
 css-build:
 	cd assets && yarn css:build
+
+css-watch:
+	cd assets && find css tailwind.config.js | entr yarn css:build
 
 py-format:
 	black **/*.py

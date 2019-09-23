@@ -1,51 +1,61 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="headline-tabs">
-  <div class="col-md-8">
-    <ul class="nav nav-tabs col-md-9 col-md-offset-3">
-      <li class="tl-tag tl-tag-weight5">
-        <a href="/headlines/" {% if tag == None %}class="headlines-selected"{% endif %}>Latest</a>
+  <div class="border-b mb-16 uppercase">
+    <ul class="container flex">
+      <li class="-mb-px mr-1">
+        <a href="/headlines/" class="headline-category{% if tag == None %}-active{% endif %}">
+          Latest
+        </a>
       </li>
-      <li class="tl-tag tl-tag-weight5">
-        <a href="/headlines/tags/news" {% if tag == 'news' %}class="headlines-selected"{% endif %}>News</a>
+      <li class="-mb-px mr-1">
+        <a href="/headlines/tags/news" class="headline-category{% if tag == 'news' %}-active{% endif %}">
+          News
+        </a>
       </li>
-      <li class="tl-tag tl-tag-weight5">
-        <a href="/headlines/tags/other" {% if tag == 'other' %}class="headlines-selected"{% endif %}>Other</a>
+      <li class="-mb-px mr-1">
+        <a href="/headlines/tags/other" class="headline-category{% if tag == 'other' %}-active{% endif %}">
+          Other
+        </a>
       </li>
     </ul>
   </div>
-</div>
 
-<div id="news-page">
-  <div id="news-grid" class="col-md-8">
+<div id="news-page" class="container text-gray-400">
+  <div id="news-grid" class="w-3/5">
     {% for post in pagination['posts'] %}
-    <div class="latest-post col-md-9 col-md-offset-3">
-      <div class="featured-image">
+    <div class="">
+      <div class="">
         <div>
           <a href="/{{ post.path }}">
             {{ post|header_image }}
           </a>
         </div>
       </div>
-      <h2><a href="/{{ post.path }}">{{ post.title }}</a></h2>
-      <div class="entry">
+      <h2 class="mb-4 text-gray-500"><a href="/{{ post.path }}">{{ post.title }}</a></h2>
+      <div class="">
         {{ post.intro|render_text }}
 
-        <p><a href="/{{ post.path }}">Continue reading...</a></p>
-        <p class="published-date">Published by {{ post.author }} on {{ post.date }}</p>
+        <a class="mt-8" href="/{{ post.path }}">Continue reading...</a>
+        <p class="mt-4">Published by {{ post.author }} on {{ post.date }}</p>
       </div>
-      <hr>
+      <div class="w-full py-12"><hr class="border-gray-100"></hr></div>
     </div>
     {% endfor %}
     {% if pagination.prev or pagination.next %}
-    <nav aria-label="...">
-      <ul class="pager">
+    <nav aria-label="pagination controls">
+      <ul class="flex justify-between mb-8">
         {% if pagination.prev %}
-        <li><a href="{{ pagination.prev }}">Newer</a></li>
+          <li class="py-2 px-4 border rounded hover:border-red-stcs">
+            <a href="{{ pagination.prev }}">Newer</a>
+          </li>
+        {% else %}
+          <div class=""></div>
         {% endif %}
         {% if pagination.next %}
-        <li><a href="{{ pagination.next}}">Older</a></li>
+          <li class="py-2 px-4 border rounded hover:border-red-stcs">
+            <a href="{{ pagination.next}}">Older</a>
+          </li>
         {% endif %}
       </ul>
     </nav>

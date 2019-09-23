@@ -21,9 +21,6 @@ visuals:
   type_: "raw_html"
   html: |
     <style>
-    .content {
-      margin-bottom: 0px;
-    }
     .vision_image {
     background-repeat: no-repeat;
     background-size: cover;

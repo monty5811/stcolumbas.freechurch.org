@@ -58,7 +58,8 @@ def setup_jinja():
     env.filters["group_into"] = group_into
     env.filters["md"] = markdown
     env.filters["render_image"] = render_image
-    env.filters["render_bg_image"] = render_bg_image
+    env.filters["render_bg_image_style"] = render_bg_image_style
+    env.filters["render_bg_image_class"] = render_bg_image_class
     env.globals["maybe_active"] = render_maybe_active
     return env
 
@@ -239,13 +240,18 @@ def resize_image(src, sz):
     return out_file_uri
 
 
-def render_bg_image(src):
+def render_bg_image_style(src):
     class_hash = sha256(src.encode()).hexdigest()[:8]
     resized_images = resize_images(src)
     return render_template(
         "blocks/bg_image.html",
         {"src": src, "resized_images": resized_images, "class_hash": "h-" + class_hash},
     )
+
+
+def render_bg_image_class(src):
+    class_hash = sha256(src.encode()).hexdigest()[:8]
+    return f"h-{class_hash}"
 
 
 def render_image(src, alt_text="", class_text=""):

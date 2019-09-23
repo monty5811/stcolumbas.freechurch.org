@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="en-gb" class="h-full">
   <head>
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,19 +15,16 @@
       {% block extra_css %}{% endblock %}
   </head>
 
-  <body class="{% block body_class %}{% endblock %}" id="{% block body_id %}{% endblock %}">
+  <body class="text-gray-500 {% block body_class %}min-h-screen{% endblock %}" id="{% block body_id %}{% endblock %}">
       {% block header %}{% include 'header.html' %}{% endblock %}
-      <div id="offline-indicator"></div>
       {% block section_start %}
-      <section class="content">
+      <section class="min-h-screen">
       {% endblock %}
       {% block jumbotron %}
         {% if data.skip_jumbotron %}
         {% else %}
-          <div class="jumbotron jumbotron-dark">
-            <div class="container">
-              <h1 class="banner-h1-stcs">{{ data.title }}</h1>
-            </div>
+          <div class="w-full text-center text-white font-semibold bg-gray-500 h-24 mb-16 flex justify-center items-center flex-col">
+            <h1 class="">{{ data.title }}</h1>
           </div>
         {% endif %}
       {% endblock %}
