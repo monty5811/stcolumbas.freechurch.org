@@ -71,7 +71,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/alasdair-black.jpg
       - name: "Patrick Flanagan"
-        title: "Fountainbridge"
+        title: "Inverleith"
         type_: "team_head"
         picture: /static/uploads/people/patrick-elder.jpg
       - name: "Alastair Simison"
