@@ -4605,6 +4605,11 @@ lie@3.1.1:
   dependencies:
     immediate "~3.0.5"
 
+livereload-js@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/livereload-js/-/livereload-js-3.0.2.tgz#05746bf69e935304d9c5e6d28321460f86f1cb7e"
+  integrity sha512-08Tw+2bf3nBFYaKlYtwjv17MTWItLsNm/NioIsb77gt8rbu9fLBV+XCfgM5bwp5McqNPEEDqcI869wkYD82GOg==
+
 loader-runner@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"

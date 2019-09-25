@@ -24,6 +24,9 @@ deps-compile:
 build: venv
 	${PYTHON} build.py
 
+build-quick: dev-setup
+	./try_quick_build.sh
+
 watch: dev-setup
 	find src templates static static_gen/*.py *.py | entr ./try_quick_build.sh
 
@@ -32,6 +35,7 @@ serve: dev-setup
 
 dev-setup: venv
 	${VENV_NAME}/bin/pip-sync requirements*.txt
+	cd assets && yarn
 
 deploy:
 	netlify deploy

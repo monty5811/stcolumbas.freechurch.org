@@ -3,7 +3,10 @@ title: "Community"
 bible_verse:
   type_: "one_wide_row"
   content: |
-    <h4 style="text-align: center;">'Above all, love one another deeply... offer hospitality to one another...'<br></h4><p style="text-align: center;">1 Peter 4:8-9</p><p style="text-align: center;"><br></p>
+    <div class="text-center mb-8">
+      <h4 class="mb-1 mt-0 font-semibold">'Above all, love one another deeply... offer hospitality to one another...'</h4>
+      <p class="-mt-1 italic">1 Peter 4:8-9</p>
+    </div>
 intro:
   type_: "text_text_row"
   left: |

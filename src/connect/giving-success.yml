@@ -3,12 +3,8 @@ title: "Thank You!"
 intro_row:
   type_: "raw_html"
   html: |
-    <div class="">
-    <div class="">
-    <div class="">
-    <p>Thank you very much for your donation! If you have any questions or would like a receipt, please email <a href="mailto:finance@stcsfc.org">finance@stcsfc.org</a> and we will be glad to help.</p>
+    <div class="container lg:w-2/5 mx-auto content">
+      <p>Thank you very much for your donation! If you have any questions or would like a receipt, please email <a href="mailto:finance@stcsfc.org">finance@stcsfc.org</a> and we will be glad to help.</p>
 
-    <p>Please continue browsing the website, or return to the <a href="/connect/giving/">Giving page</a>.</p>
-    </div>
-    </div>
+      <p>Please continue browsing the website, or return to the <a href="/connect/giving/">Giving page</a>.</p>
     </div>

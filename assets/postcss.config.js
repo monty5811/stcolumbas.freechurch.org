@@ -16,13 +16,13 @@ module.exports = {
     require("tailwindcss"),
     ...(process.env.NODE_ENV === "production"
       ? [
-          require("autoprefixer"),
           CSSnano({
             autoprefixer: true,
             safe: true
           }),
           purgecss
         ]
-      : [])
+      : []),
+    require("autoprefixer")
   ]
 };

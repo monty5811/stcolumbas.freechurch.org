@@ -21,20 +21,38 @@ function menu() {
   var $target = document.getElementById(target);
   button.addEventListener("click", function(event) {
     var content = button.innerText.toLocaleLowerCase();
-    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-    button.classList.toggle("is-active");
-    $target.classList.toggle("menu-active");
     if (content === "menu") {
+      $target.classList.add("menu-t");
       button.innerText = "CLOSE";
     } else {
+      $target.classList.remove("menu-t");
       button.innerText = "MENU";
     }
+    $target.classList.toggle("menu-active");
   });
+}
+
+function transcript() {
+  var showButton = document.getElementById("show-transcript");
+  var hideButton = document.getElementById("hide-transcript");
+  var target = document.getElementById("transcript");
+  if (showButton != null) {
+    showButton.addEventListener("click", function(event) {
+      target.classList.toggle("hidden");
+    });
+  }
+  if (hideButton != null) {
+    hideButton.addEventListener("click", function(event) {
+      target.classList.toggle("hidden");
+    });
+  }
 }
 
 function init() {
   // menu
   menu();
+  // transcript
+  transcript();
   // payments
   pay.init();
   // maps

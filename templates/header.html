@@ -1,10 +1,10 @@
   <nav
-    class="bg-stcs-nav-bg flex flex-col font-semibold h-20 lg:flex-row lg:h-24 lg:hover:h-full lg:justify-between lg:pb-16 lg:sticky lg:top-0 menu-t overflow-hidden pt-4 px-4 text-gray-400 top-0 w-full z-100"
+    class="bg-stcs-nav-bg flex flex-col font-semibold h-20 lg:flex-row lg:h-24 lg:hover:h-full lg:justify-between lg:pb-16 lg:sticky lg:top-0 menu-t overflow-hidden pt-4 px-4 text-gray-400 top-0 w-full z-1000"
     id="navbarMenu"
     >
     <div class="">
       <div class="flex items-center justify-between lg:hidden">
-        <a>
+        <a href="/">
           <img src="/static/images/stcolumbas-logo.png" class="" style="height: 50px;">
         </a>
         <div class="uppercase" data-target="navbarMenu" id="menu-button">
@@ -15,11 +15,13 @@
         <img src="/static/images/stcolumbas-logo.png" class="logo1" style="height: 60px;" alt="St Columba's Free Church">
       </a>
     </div>
-    <div class="pt-2 lg:pt-6 flex-1 lg:flex-initial" style="flex-basis: 50%;">
+    <div class="pt-2 lg:pt-6 flex-1 lg:flex-initial text-xl lg:text-base" style="flex-basis: 50%;">
       <ul class="navmenu-grid lg:flex mt-4 lg:mt-0 text-center lg:text-left">
-        <li class="nav-left1 text-lg lg:flex-1 lg:w-auto uppercase hover:text-red-stcs"><a href="/jesus">Jesus</a></li>
+        <li class="nav-left1 text-lg lg:flex-1 lg:w-auto uppercase hover:text-red-stcs text-2xl lg:text-xl">
+          <a href="/jesus">Jesus</a>
+        </li>
         <li class="nav-left2 lg:flex-1 lg:w-auto group">
-          <a href="/about/" class="text-lg uppercase group-hover:text-red-stcs">About</a>
+          <div class="text-lg uppercase group-hover:text-red-stcs text-2xl lg:text-xl">About</div>
           <ul class="mt-1 lg:mt-8 font-normal">
             <li><a class="hover:text-red-stcs hover:underline" href="/about/our-vision">Our Vision</a></li>
             <li><a class="hover:text-red-stcs hover:underline" href="/about/our-team" title="Our Team">Our Team</a></li>
@@ -28,7 +30,7 @@
           </ul>
         </li>
         <li class="nav-left3 lg:flex-1 lg:w-auto group">
-          <a href="/connect/" class="text-lg uppercase group-hover:text-red-stcs">Connect</a>
+          <div class="text-lg uppercase group-hover:text-red-stcs text-2xl lg:text-xl">Connect</div>
           <ul class="mt-1 lg:mt-8 font-normal">
             <li><a class="hover:text-red-stcs hover:underline" href="/connect/visit" title="Visit">Visit</a></li>
             <li><a class="hover:text-red-stcs hover:underline" href="/connect/community" title="Community">Community</a></li>
@@ -38,18 +40,18 @@
             <li><a class="hover:text-red-stcs hover:underline" href="https://stcsfc.org/connect">Connect Meals</a></li>
           </ul>
         </li>
-        <li class="nav-right1 lg:flex-1 lg:w-auto text-lg uppercase hover:text-red-stcs">
+        <li class="nav-right1 lg:flex-1 lg:w-auto text-lg uppercase hover:text-red-stcs text-2xl lg:text-xl">
           <a href="/headlines/" title="Headlines">Headlines</a>
         </li>
         <li class="nav-right2 lg:flex-1 lg:w-auto group">
-          <a class="text-lg uppercase group-hover:text-red-stcs">Resources</a>
+          <a class="text-lg uppercase group-hover:text-red-stcs text-2xl lg:text-xl">Resources</a>
           <ul class="mt-1 lg:mt-8 font-normal">
             <li><a href="https://sermons.stcolumbas.freechurch.org/">Sermons</a></li>
             <li><a href="https://stcs.elvanto.eu/pages/resources">Internal Resources</a></li>
           </ul>
         </li>
         <li class="nav-right3 lg:flex-1 lg:w-auto group lg:hidden">
-          <a class="text-lg uppercase group-hover:text-red-stcs">Contact</a>
+          <a href="/about/contact-us" class="text-lg uppercase group-hover:text-red-stcs text-2xl lg:text-xl">Contact</a>
           <ul class="mt-1 lg:mt-8 font-normal">
             <li class="">
               <a href="mailto:office@stcsfc.org">Email</a>
@@ -79,7 +81,7 @@
           </a>
         </li>
         <li class="mx-2">
-          <a href="http://elvanto.stcsfc.org" target="_blank" rel="noopener">
+          <a href="https://elvanto.stcsfc.org" target="_blank" rel="noopener">
             <img width="16px" src="/static/images/icons/elvanto-icon.svg" style="width: 16px;">
           </a>
         </li>

@@ -1,60 +1,35 @@
-import os
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+#!/usr/bin/env python
 import sys
 
-class NiceUrls(SimpleHTTPRequestHandler):
+from livereload.server import Server, shell
+from livereload.handlers import StaticFileHandler
+from tornado.web import HTTPError
 
-    def send_head(self):
-        """Common code for GET and HEAD commands.
-
-        This sends the response code and MIME headers.
-
-        Return value is either a file object (which has to be copied
-        to the outputfile by the caller unless the command was HEAD,
-        and must be closed by the caller under all circumstances), or
-        None, in which case the caller has nothing further to do.
-
-        """
-        path = self.translate_path(self.path)
-        f = None
-        if os.path.isdir(path):
-            if not self.path.endswith('/'):
-                # redirect browser - doing basically what apache does
-                self.send_response(301)
-                self.send_header("Location", self.path + "/")
-                self.end_headers()
-                return None
-            for index in "index.html", "index.htm":
-                index = os.path.join(path, index)
-                if os.path.exists(index):
-                    path = index
-                    break
-            else:
-                return self.list_directory(path)
-        ctype = self.guess_type(path)
+class NiceStaticFileHandler(StaticFileHandler):
+    def validate_absolute_path(self, root: str, absolute_path: str):
         try:
-            # Always read in binary mode. Opening files in text mode may cause
-            # newline translations, making the actual size of the content
-            # transmitted *less* than the content-length!
-            f = open(path, 'rb')
-        except IOError:
-            try:
-                f = open(path + '.html', 'rb')
-                path = path + '.html'
-                ctype = self.guess_type(path)
-            except IOError:
-                self.send_error(404, "File not found")
-                return None
-        self.send_response(200)
-        self.send_header("Content-type", ctype)
-        fs = os.fstat(f.fileno())
-        self.send_header("Content-Length", str(fs[6]))
-        self.send_header("Last-Modified", self.date_time_string(fs.st_mtime))
-        self.end_headers()
-        return f
+            return super().validate_absolute_path(root, absolute_path)
+        except HTTPError as e:
+            print(e)
+            if e.status_code == 404:
+                return super().validate_absolute_path(root, absolute_path + '.html')
+            else:
+                raise(e)
+
+class NiceUrlsServer(Server):
+    def get_web_handlers(self, script):
+        return [
+            (r'/(.*)', NiceStaticFileHandler, {
+                'path': self.root or '.',
+                'default_filename': 'index.html',
+            }),
+        ]
+
 
 if __name__ == '__main__':
-    os.chdir('dist')
-    server_address = ('', int(sys.argv[1]))
-    httpd = HTTPServer(server_address, NiceUrls)
-    httpd.serve_forever()
+    server = NiceUrlsServer()
+    server.watch('templates/', shell("make build-quick", shell="/bin/bash"))
+    server.watch('src/', shell("make build-quick", shell="/bin/bash"))
+    server.watch('public/', shell("make build-quick", shell="/bin/bash"))
+    server.watch('assets/', shell("make css-build js-build build-quick", shell="/bin/bash"), delay=1)
+    server.serve(host="0.0.0.0", root="dist", port=int(sys.argv[1]))

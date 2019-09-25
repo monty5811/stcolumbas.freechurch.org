@@ -110,8 +110,12 @@ def clean_folder(folder_path):
 def build():
     env = render.setup_jinja()
     if QUICK_BUILD:
-        copy_tree(os.path.join(STATIC_DIR, 'css'), os.path.join(DIST_DIR, STATIC_DIR, 'css'))
-        copy_tree(os.path.join(STATIC_DIR, 'js'), os.path.join(DIST_DIR, STATIC_DIR, 'js'))
+        copy_tree(
+            os.path.join(STATIC_DIR, "css"), os.path.join(DIST_DIR, STATIC_DIR, "css")
+        )
+        copy_tree(
+            os.path.join(STATIC_DIR, "js"), os.path.join(DIST_DIR, STATIC_DIR, "js")
+        )
     else:
         clean_folder(DIST_DIR)
         copy_public_files()

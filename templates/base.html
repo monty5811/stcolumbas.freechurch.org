@@ -4,7 +4,7 @@
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <title>
-          {% block title %}{{ data.title }}{% endblock %}{% block title_suffix %} - St Columba's Free Church{% endblock %}
+        {% block title %}{{ data.title }}{% endblock %}{% block title_suffix %}{% if data.title %} - {% endif %}St Columba's Free Church{% endblock %}
       </title>
       <meta name="description" content="St Columba's Free Church of Scotland - We are a city-centre church committed to the Gospel of Jesus Christ" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,7 +28,8 @@
           </div>
         {% endif %}
       {% endblock %}
-      {% block content %}{% endblock %}
+      {% block content %}
+      {% endblock %}
       {% block section_end %}
       </section>
       {% endblock %}

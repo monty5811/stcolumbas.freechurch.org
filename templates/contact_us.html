@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
-  <div id="map-container" class="w-full h-128 -mt-8"></div>
+  <div id="map-container" class="w-full h-128 -mt-16"></div>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
                          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
                          crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
           integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
           crossorigin=""></script>
-  <div class="container mx-auto md:flex">
+  <div class="container mx-auto md:flex mb-16">
     <div class="flex-1 pt-16">
       <p class="font-semibold">Email</p>
       <p>
@@ -23,56 +23,49 @@
       </p>
     </div>
     <div class="flex-1 pt-16">
-      <div class="bg-gray-100">
-        <span id="contact"></span>
-        <form id="contact-form" class="p-4" netlify>
-          <div class="">
-            <div class="">
-              <h3 class="font-semibold">Contact Form</h3>
-              <p>Fill in the contact box below and we will get back to you as soon as we can. Thanks</p>
-            </div>
+      <div class="bg-stcs-nav-bg">
+        <form id="contact-form" class="p-8" netlify>
+          <div class="my-4">
+            <h3 class="font-semibold">Contact Form</h3>
+            <p>Fill in the contact box below and we will get back to you as soon as we can. Thanks</p>
           </div>
-          <div class="flex">
-            <div class="flex-1">
+          <div class="md:flex">
+            <div class="flex-1 pr-2 my-4">
               <label for="name">
-              <span>Name *</span>
-              <input name="name" type="text" required tabindex="1" class="form-input w-full">
+              <span class="font-medium required">Name</span>
+              <input name="name" type="text" required tabindex="1" class="form-input w-full mt-1">
               </label>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 pr-2 my-4">
               <label for="email">
-                <span>Email address *</span>
-                <input name="email" type="email" required tabindex="2" class="form-input w-full">
+                <span class="font-medium required">Email address</span>
+                <input name="email" type="email" required tabindex="2" class="form-input w-full mt-1">
               </label>
             </div>
           </div>
-          <div class="w-full">
+          <div class="w-full my-4">
             <label for="subject">
-              <span>Subject *</span>
-              <input name="subject" type="text" required tabindex="3" class="form-input w-full">
+              <span class="font-medium required">Subject</span>
+              <input name="subject" type="text" required tabindex="3" class="form-input w-full mt-1">
             </label>
           </div>
-          <div class="">
+          <div class="my-4">
             <label for="message">
-              <span>Message *</span>
-              <textarea name="message" class="form-textarea block w-full"></textarea>
+              <span class="font-medium required">Message</span>
+              <textarea name="message" class="form-textarea block w-full mt-1" rows="8"></textarea>
             </label>
             <p style="display: none;">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
           </div>
-          <div class="">
-            <div class="">
-              <div class="">
-                <div data-netlify-recaptcha></div>
-              </div>
-            </div>
+          <div class="my-4">
+            <div data-netlify-recaptcha></div>
           </div>
-          <div class="">
-            <div class="">
-              <button type="submit" class="bg-white font-semibold px-4 py-2 text-lg text-red-stcs">Submit</button>
-            </div>
-          </div>
+          <button
+            type="submit"
+            class="bg-white font-medium mt-4 px-2 py-1 text-lg text-white bg-gray-500">
+            Submit
+          </button>
         </form>
       </div>
     </div>

@@ -15,6 +15,7 @@ ipython-genutils==0.2.0   # via traitlets
 ipython==7.5.0
 isort==4.3.20
 jedi==0.13.3              # via ipython
+livereload==2.6.1
 parso==0.4.0              # via jedi
 pexpect==4.7.0            # via ipython
 pickleshare==0.7.5        # via ipython
@@ -22,11 +23,12 @@ prompt-toolkit==2.0.9     # via ipython
 ptyprocess==0.6.0         # via pexpect
 pygments==2.4.2           # via ipython
 selenium==3.141.0
-six==1.12.0               # via prompt-toolkit, traitlets
+six==1.12.0               # via livereload, prompt-toolkit, traitlets
 toml==0.10.0              # via black
+tornado==6.0.3            # via livereload
 traitlets==4.3.2          # via ipython
 urllib3==1.25.3           # via selenium
 wcwidth==0.1.7            # via prompt-toolkit
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.0.1        # via ipdb, ipython
+# setuptools==41.2.0        # via ipdb, ipython

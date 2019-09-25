@@ -3,3 +3,4 @@ ipython
 isort
 selenium
 black
+livereload

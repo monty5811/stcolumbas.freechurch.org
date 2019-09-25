@@ -3,13 +3,13 @@ title: "Visit"
 html_times:
   type_: "raw_html"
   html: |
-    <div class="container flex justify-between">
+    <div class="container md:flex justify-between">
     <div class="flex items-center flex-1">
-      <img src="/static/images/icons/sun-icon.png" class="h-16 w-16 mr-8">
+      <img src="/static/images/icons/sun-icon.png" class="h-16 w-16 mr-2 lg:mr-4">
       <span class="font-semibold text-lg">Sunday Morning Service 11am</span>
     </div>
     <div class="flex items-center flex-1">
-      <img src="/static/images/icons/moon-icon.png" class="h-16 w-16 mr-8">
+      <img src="/static/images/icons/moon-icon.png" class="h-16 w-16 mr-2 lg:mr-4">
       <span class="font-semibold text-lg">Sunday Evening Service 5.30pm</span>
     </div>
     </div>
@@ -44,20 +44,20 @@ html_getting_here:
     <div class="container">
       <h2 class="">Getting Here</h2>
     </div>
-    <div class="container flex">
-      <div class="flex-1 mr-8">
+    <div class="container md:flex">
+    <div class="flex-1 mx-8 md:ml-0 mb-2">
         <img src="/static/images/icons/car-icon.png" alt="car image" class="h-24 w-24 mx-auto">
-        <h4 class="mt-4">Travelling by car</h4>
+        <h4 class="mt-2 md:mt-4">Travelling by car</h4>
         <p>There are often spaces available on Victoria Street or Johnston Terrace, where parking is free of charge on a Sunday.</p>
       </div>
-      <div class="flex-1 mx-8">
+      <div class="flex-1 mx-8 mb-2">
         <img src="/static/images/icons/bus-icon.png" alt="bus image for travelling" class="h-24 w-24 mx-auto">
-        <h4 class="mt-4">Travelling by bus</h4>
+        <h4 class="mt-2 md:mt-4">Travelling by bus</h4>
         <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes <strong>23</strong>, <strong>27</strong>, <strong>41</strong> & <strong>42</strong>.</p>
       </div>
-      <div class="flex-1 ml-8">
+      <div class="flex-1 mx-8 md:mr-0 mb-2">
         <img src="/static/images/icons/train-icon.png" alt="train icon" class="h-24 w-24 mx-auto">
-        <h4 class="mt-4">Travelling by train</h4>
+        <h4 class="mt-2 md:mt-4">Travelling by train</h4>
         <p><del></del>You can walk to the church from Waverley station in less than 10 minutes.</p>
       </div>
     </div>

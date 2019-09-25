@@ -3,21 +3,21 @@ title: "I'm New"
 html_times:
   type_: "raw_html"
   html: |
-    <div class="flex items-center h-screen max-w-full w-full bg-center bg-cover bg-no-repeat px-32" style="background-image: url('/static/uploads/im_new-1.jpg');">
-    <div class="flex flex-1 items-center text-white min-h-300px text-center" style="background-color: #183353;">
-        <a href="/jesus">
+    <div class="flex flex-col md:flex-row items-center h-screen max-w-full w-full bg-center bg-cover bg-no-repeat lg:px-8 xl:px-24" style="background-image: url('/static/uploads/im_new-1.jpg');">
+      <div class="flex flex-1 items-center text-white min-h-300px text-center" style="background-color: #183353;">
+        <a class="hover:text-white" href="/jesus">
           <h1 class="text-3xl font-semibold">Jesus</h1>
           <p class="text-lg px-4">Jesus is central to our lives and everything we do at St&#160;Columba's. Click here to find out more!</p>
         </a>
       </div>
-      <div class="flex flex-1 items-center text-white min-h-300px text-center mx-32" style="background-color: #e22850;">
-        <a href="/connect/visit">
+      <div class="flex flex-1 items-center text-white min-h-300px text-center lg:mx-8 xl:mx-24" style="background-color: #e22850;">
+        <a class="hover:text-white" href="/connect/visit">
           <h1 class="text-3xl font-semibold">Visit</h1>
           <p class="text-lg px-4">We would love you to worship with us this Sunday. Learn more about what to expect and how to get here.</p>
         </a>
       </div>
       <div class="flex flex-1 items-center text-white min-h-300px text-center" style="background-color: #56beeb;">
-        <a href="/about/contact-us">
+        <a class="hover:text-white" href="/about/contact-us">
           <h1 class="text-3xl font-semibold">Get In Touch</h1>
           <p class="text-lg px-4">If you have any questions, or want to know more, please feel free to click here to get in touch.</p>
         </a>

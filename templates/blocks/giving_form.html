@@ -1,9 +1,9 @@
 <h2 class="">Giving Online</h2>
-<div class="">
-  <form action="/charge" method="post" id="payment-form">
-    <div class="">
+<div class="bg-stcs-nav-bg">
+  <form action="/charge" method="post" id="payment-form" class="p-8">
+    <div class="my-4 content">
       {% if cancelled %}
-        <div class="">
+        <div class="bg-red-200 text-red-900 py-4 px-2 mb-4">
           <p>
           It looks like you cancelled your Donation (or maybe something else went wrong?).
           </p>
@@ -15,41 +15,38 @@
           </p>
         </div>
       {% else %}
-      <p>
-      If you would like to give online, please fill out the form below.
-      </p>
+        <p>
+        If you would like to give online, please fill out the form below.
+        </p>
       {% endif %}
       <p>
       Once you click the "Donate!" button you will be redirected to our payment processor where you can fill in your details.
       </p>
     </div>
-    <div class="">
-      <div class="">
-        <div class="">
-          <label for="amount">I would like to give</label>
-          <input required type="number" min="1" tabindex="3" class="">
-        </div>
-      </div>
-      <div class="">
-        <div class="">
-          <label for="fund">Fund</label>
-          <select name="fund" class="">
-            <option>General</option>
-            <option>Church Planting - Cornerstone</option>
-            <option>Church Planting - Esk Valley</option>
-            <option>Church Planting - Haddington</option>
-            <option>Weekend Away</option>
-            <option>Esk Valley - Weekend Away</option>
-          </select>
-        </div>
-      </div>
+    <div class="my-4 w-full">
+      <label for="amount">
+        <span class="font-medium required">I would like to give</span>
+        <input required type="number" min="1" tabindex="3" placeholder="£" class="form-input w-full mt-1">
+      </label>
     </div>
-    <div class="">
-      <div class="">
-        <button type="submit" class="">
-          Donate!
-        </button>
-      </div>
+    <div class="my-4 w-full">
+      <label for="fund">
+        <span class="font-medium required">Fund</span>
+        <select name="fund" class="form-select w-full mt-1 block">
+          <option>General</option>
+          <option>Church Planting - Cornerstone</option>
+          <option>Church Planting - Esk Valley</option>
+          <option>Church Planting - Haddington</option>
+          <option>Weekend Away</option>
+          <option>Esk Valley - Weekend Away</option>
+        </select>
+      </label>
     </div>
+    <label class="block mt-4">
+    <button type="submit"
+            class="bg-white font-medium mt-4 px-2 py-1 text-lg text-white bg-gray-500"
+            >
+            Donate!
+    </button>
   </form>
 </div>
