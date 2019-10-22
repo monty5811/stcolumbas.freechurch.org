@@ -9,7 +9,7 @@ jinja2==2.9.4
 lxml==4.3.3               # via feedgen
 markupsafe==1.1.1         # via jinja2
 mistune==0.8.3
-pillow==6.0.0
+pillow==6.2.0
 python-dateutil==2.8.0    # via feedgen
 pyyaml==5.1
 six==1.12.0               # via python-dateutil
