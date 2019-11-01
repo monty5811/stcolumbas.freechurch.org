@@ -80,17 +80,6 @@ span.required::after {
   padding-bottom: 56.25%;
 }
 
-/* index */
-.index-bg-h {
-  min-height: calc(100vh - theme("spacing.20"));
-}
-
-@responsive {
-  .index-bg-h2 {
-    min-height: calc(100vh - theme("spacing.24"));
-  }
-}
-
 /* navbar */
 
 .menu-active {
@@ -141,8 +130,8 @@ span.required::after {
 @media (min-width: 1024px) {
   .menu-t {
     transition-property: height;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
   }
 }
 

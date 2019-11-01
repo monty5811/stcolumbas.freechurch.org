@@ -8,7 +8,7 @@
 
 {% block content %}
   {{ data.photo.url|render_bg_image_style }}
-  <div class="bg-center bg-cover bg-no-repeat flex flex-col index-bg-h lg:index-bg-h2 h-full justify-center text-center text-white w-full {{ data.photo.url|render_bg_image_class }}">
+  <div class="bg-center bg-cover bg-no-repeat flex flex-col h-screen justify-center text-center text-white w-full {{ data.photo.url|render_bg_image_class }}">
     <div class="max-w-2xl mx-auto">
       <h1 class="font-semibold mb-8 text-4xl">{{ data.heading }}</h1>
       <a href="/connect/im_new" class="bg-white font-semibold px-4 py-2 text-lg text-red-stcs">
