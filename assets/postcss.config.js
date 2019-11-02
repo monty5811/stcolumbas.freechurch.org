@@ -5,7 +5,8 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
     "../src/**/*.yml",
     "../src/**/*.md",
     "../templates/**/*.html",
-    "**/*/.js"
+    "*.js",
+    "./**/*/.js"
   ],
 
   // Include any special characters you're using in this regular expression
