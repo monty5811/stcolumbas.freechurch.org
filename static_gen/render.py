@@ -14,6 +14,10 @@ from .utils import group_into
 markdown = mistune.Markdown()
 
 
+def md(text):
+    return f'<div class="markdown">{markdown(text)}</div>'
+
+
 def datetimeformat(value, format="%H:%M  %d-%b-%Y") -> str:
     return value.strftime(format)
 
@@ -56,7 +60,7 @@ def setup_jinja():
     env.filters["header_image"] = header_image
     env.filters["render_text"] = render_text
     env.filters["group_into"] = group_into
-    env.filters["md"] = markdown
+    env.filters["md"] = md
     env.filters["render_image"] = render_image
     env.filters["render_bg_image_style"] = render_bg_image_style
     env.filters["render_bg_image_class"] = render_bg_image_class
