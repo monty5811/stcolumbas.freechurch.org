@@ -185,4 +185,7 @@ span.required::after {
       @apply pl-10;
     }
   }
+  & img {
+    @apply my-2;
+  }
 }
