@@ -128,5 +128,4 @@ def build():
     p.start()
     manifest = write_files(env, load_files())
     p.join()
-    # TODO: enable again
-    # write_sw(env, manifest)
+    write_sw(env, manifest)
