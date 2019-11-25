@@ -32,9 +32,17 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/ali-image.jpg
       - name: "Calum Cameron"
-        title: "Ministry Apprentice"
+        title: "Minister in Training"
         type_: "team_head"
         picture: /static/uploads/people/calum_cam.png
+      - name: "Rowan Corrigan"
+        title: "Ministry Apprentice"
+        type_: "team_head"
+        picture: /static/uploads/people/rowan.png
+      - name: "Jon Watson"
+        title: "Minister in Training"
+        type_: "team_head"
+        picture: /static/uploads/people/jon.png
   - title: "Elders"
     type_: "team_list"
     members:
@@ -59,7 +67,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/ewan-image.jpg
       - name: "Ross Graham"
-        title: "Corstorphine"
+        title: "Haddington Church Plant"
         type_: "team_head"
         picture: /static/uploads/people/ross-image.jpg
       - name: "Dean Montgomery"
