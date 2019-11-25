@@ -1,13 +1,12 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
 workbox.core.skipWaiting();
-workbox.precaching.precacheAndRoute([
+workbox.precaching.precache([
   {% for k in manifest %}{url: '{{ k }}', revision: '{{ manifest[k] }}'},
   {% endfor %}
 ]);
 
-workbox.routing.setDefaultHandler(new workbox.strategies.NetworkFirst({}));
-
+workbox.routing.registerRoute('^/.*', new workbox.strategies.NetworkFirst({}));
 // cache images, but make sure to not cache leaflet tiles
 workbox.routing.registerRoute(
   /static\/.*\.(?:png|gif|jpg|jpeg|svg)$/,
