@@ -26,13 +26,13 @@
     <div class="my-4 w-full">
       <label for="amount">
         <span class="font-medium required">I would like to give</span>
-        <input required type="number" min="1" tabindex="3" placeholder="£" class="form-input w-full mt-1">
+        <input required type="number" min="1" tabindex="3" placeholder="£" class="form-input w-full mt-1" id="giving-amount">
       </label>
     </div>
     <div class="my-4 w-full">
       <label for="fund">
         <span class="font-medium required">Fund</span>
-        <select name="fund" class="form-select w-full mt-1 block">
+        <select name="fund" class="form-select w-full mt-1 block" id="giving-fund">
           <option>General</option>
           <option>Church Planting - Cornerstone</option>
           <option>Church Planting - Esk Valley</option>
@@ -45,6 +45,7 @@
     <label class="block mt-4">
     <button type="submit"
             class="bg-white font-medium mt-4 px-2 py-1 text-lg text-white bg-gray-500"
+            id="giving-button"
             >
             Donate!
     </button>
