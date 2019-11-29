@@ -28,6 +28,7 @@ function init() {
       },
       body: JSON.stringify(data)
     })
+      .then(json)
       .then(function(data) {
         switch (data.status) {
           case "session-created":
