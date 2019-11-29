@@ -29,9 +29,10 @@ function init() {
       body: JSON.stringify(data)
     })
       .then(function(response) {
-        response.json();
+        return response.json();
       })
       .then(function(data) {
+        console.log(data);
         switch (data.status) {
           case "session-created":
             stripe
@@ -56,6 +57,7 @@ function init() {
         }
       })
       .catch(function(error) {
+        console.log(error);
         submitButton.innerText = errorText;
       });
   });
