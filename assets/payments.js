@@ -20,12 +20,15 @@ function init() {
     };
 
     // create stripe session
-    // TODO: replace jquery call
-    $.ajax({
-      type: "POST",
-      url: "/.netlify/functions/get_checkout_session/",
-      data: JSON.stringify(data),
-      success: function(data) {
+    fetch("/.netlify/functions/get_checkout_session/", {
+      method: "post",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+      .then(function(data) {
         switch (data.status) {
           case "session-created":
             stripe
@@ -48,9 +51,10 @@ function init() {
           default:
             submitButton.innerText = errorText;
         }
-      },
-      dataType: "json"
-    });
+      })
+      .catch(function(error) {
+        submitButton.innerText = errorText;
+      });
   });
 }
 
