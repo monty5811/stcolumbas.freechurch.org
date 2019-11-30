@@ -3,7 +3,7 @@ layout: headline
 title: 'Meet the St Columba''s Interns '
 author: Siobhan Smith
 date: 2019-11-25T21:20:10.127Z
-thumbnail: /static/uploads/CsOId80WAAA62Fw - Edited.jpg
+thumbnail: /static/uploads/dsc03527.jpg
 tags:
   - Internship
 intro: >-
