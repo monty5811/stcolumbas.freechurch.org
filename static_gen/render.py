@@ -10,7 +10,7 @@ from jinja2 import Environment, FileSystemLoader
 import mistune
 from PIL import Image
 
-from .constants import DIST_DIR
+from .constants import CACHE_DIR, DIST_DIR
 from .utils import group_into
 
 markdown = mistune.Markdown()
@@ -217,23 +217,26 @@ def infer_image_type(src):
 
 
 def convert_to_webp(src):
+    # get paths:
     path_to_src_file = DIST_DIR + src
     out_file_uri, _ = os.path.splitext(src)
     out_file_uri = out_file_uri + ".webp"
     path_to_webp_file = DIST_DIR + out_file_uri
+    # generate cache path:
+    with open(path_to_src_file, "rb") as f:
+        src_hash = sha256(f.read()).hexdigest()[:8]
 
+    path_to_cached_file = CACHE_DIR + out_file_uri + f".{src_hash}"
     try:
-        # save repeated calls for the same image
-        should_run = os.path.getmtime(path_to_src_file) > os.path.getmtime(
-            path_to_webp_file
-        )
-    except FileNotFoundError:
-        should_run = 1
-
-    if should_run:
+        # copy from cache
+        shutil.copy(path_to_cached_file, path_to_webp_file)
+    except Exception:
+        # generate & cache
         print(f"Converting {src} to webp")
         im = Image.open(path_to_src_file)
         im.save(path_to_webp_file, "WEBP")
+        os.makedirs(os.path.dirname(path_to_cached_file), exist_ok=True)
+        shutil.copy(path_to_webp_file, path_to_cached_file)
 
     return out_file_uri
 

@@ -24,11 +24,8 @@ deps-compile:
 build: venv
 	${PYTHON} build.py
 
-build-quick: dev-setup
-	./try_quick_build.sh
-
 watch: dev-setup
-	find src templates static static_gen/*.py *.py | entr ./try_quick_build.sh
+	find src templates static static_gen/*.py *.py | entr make build
 
 serve: dev-setup
 	${PYTHON} server.py $(PORT)
