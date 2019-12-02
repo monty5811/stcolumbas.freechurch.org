@@ -46,7 +46,7 @@
           <div class="w-full my-4">
             <label for="subject">
               <span class="font-medium required">Subject</span>
-              <input name="subject" type="text" required tabindex="3" class="form-input w-full mt-1">
+              <input name="subject" type="text" required tabindex="3" class="form-input w-full mt-1" id="subject">
             </label>
           </div>
           <div class="my-4">
@@ -72,12 +72,12 @@
   </div>
 {% endblock %}
 {% block extra_js %}
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.6&amp;sensor=true"></script>
 <script>
   var urlParams = new URLSearchParams(window.location.search);
   if (urlParams.has('subject')) {
     var sub = urlParams.get('subject');
-    $('#subject')[0].value = urlParams.get('subject');
+    var el = document.getElementById('subject');
+    el.value = urlParams.get('subject');
   }
 </script>
 {% endblock %}
