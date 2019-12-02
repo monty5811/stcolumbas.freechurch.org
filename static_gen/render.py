@@ -1,11 +1,13 @@
 import os
 import re
+import shutil
 import unicodedata
 from datetime import datetime as dt
 from hashlib import sha256
 
-import mistune
 from jinja2 import Environment, FileSystemLoader
+
+import mistune
 from PIL import Image
 
 from .constants import DIST_DIR
@@ -51,9 +53,25 @@ def render_maybe_active(href, uri):
         return ""
 
 
+def static(uri):
+    path = os.path.join(DIST_DIR, uri.lstrip("/"))
+    with open(path, "rb") as f:
+        hash = sha256(f.read()).hexdigest()[:8]
+
+    s, e = os.path.splitext(uri)
+    new_uri = f"{s}.{hash}.{e}"
+
+    new_path = os.path.join(DIST_DIR, new_uri.lstrip("/"))
+
+    shutil.copyfile(path, new_path)
+
+    return new_uri
+
+
 def setup_jinja():
     # setup templates
     env = Environment(loader=FileSystemLoader("templates"))
+    env.filters["static"] = static
     env.filters["datetimeformat"] = datetimeformat
     env.filters["slugify"] = slugify
     env.filters["render_content"] = render_content

@@ -6,7 +6,7 @@ workbox.precaching.precache([
   {% endfor %}
 ]);
 
-workbox.routing.registerRoute('^/.*', new workbox.strategies.NetworkFirst({}));
+workbox.routing.registerRoute('/.*', new workbox.strategies.NetworkFirst({}));
 // cache images, but make sure to not cache leaflet tiles
 workbox.routing.registerRoute(
   /static\/.*\.(?:png|gif|jpg|jpeg|svg)$/,
