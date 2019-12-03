@@ -10,10 +10,9 @@ tags:
   - buy
   - bargains
 intro: >-
-  For our final Brilliant Books spotlight of this year, we’ve picked three books
-  we think you’ll love. The two adult titles are excellent for your personal
-  use, but also to give as gifts, whilst the kids’ book is a delightful look at
-  God’s plan for Christmas through a child’s eyes.
+  It's our final Brilliant Books spotlight of the year this Sunday, 8th
+  December. Our three books are all great to give as gifts, or buy as a treat
+  for yourself.
 ---
 For our final Brilliant Books spotlight of this year, we’ve picked three books we think you’ll love. The two adult titles are excellent for your personal use, but also to give as gifts, whilst the kids’ book is a delightful look at God’s plan for Christmas through a child’s eyes. Here’s a taster...
 
