@@ -17,7 +17,19 @@ intro: >-
 ---
 For our final Brilliant Books spotlight of this year, we’ve picked three books we think you’ll love. The two adult titles are excellent for your personal use, but also to give as gifts, whilst the kids’ book is a delightful look at God’s plan for Christmas through a child’s eyes. Here’s a taster...
 
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/is-god-green.jpg"
+alt="Is God Green" 
+/>
 
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/a-meal-with-jesus.jpg"
+alt="A Meal With Jesus" 
+/>
 
 **Is God Green?, Lionel Windsor**
 
