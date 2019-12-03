@@ -24,18 +24,18 @@ src="/static/uploads/is-god-green.jpg"
 alt="Is God Green" 
 />
 
-<img 
-class="img-responsive"
-style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
-src="/static/uploads/a-meal-with-jesus.jpg"
-alt="A Meal With Jesus" 
-/>
-
 **Is God Green?, Lionel Windsor**
 
 This is a really fantastic book that gives a solid, biblical and hopeful framework through which to look at the current environmental issues of the world. It gives us reasons for why we as Christians should not despair at the state of our world, neither be complacent about the clear brokenness around us. Perfect to challenge your thinking, or to give as a gift to someone who has a particular care for environmental issues.
 
 _Our Price: £4.50 (25% off RRP)_
+
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/do-you-pray.jpg"
+alt="Do You Pray" 
+/>
 
 **Do You Pray?, J.C. Ryle (with Mary Davis)**
 
@@ -43,10 +43,17 @@ This timeless book from a giant of the faith is short, easy to read, and great f
 
 _Our Price: £1 (75% off RRP!)_
 
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/if-I-were-in-charge-of-Christmas.jpg"
+alt="If I were in charge of Christmas" 
+/>
+
 **If I were in charge of Christmas, Helen Buckley & Jenny Brake**
 
 Imagine if you had the chance to arrange the birth of the Saviour of the world. You’d make it flawless, right? No dirt, only well-behaved donkeys, and definitely a softer cradle. So why didn’t God do it that way? This cheery little book is the perfect way to give young children a fresh perspective on the nativity.
 
 _Our Price: £2_
 
-__
+All of these books will be available to buy in the services this Sunday, 8th December. We have ordered 25 copies of each book on a sale or return basis, so there will be plenty available for you to buy for yourself, or as a gift for a friend. Payment will be cash only. If you’d like a book but won’t be around that day, email <mailto:books@stcsfc.org> to make alternative arrangements.
