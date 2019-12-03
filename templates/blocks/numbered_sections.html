@@ -1,0 +1,17 @@
+<div class="container w-4/5 lg:w-2/5">
+  <div class="">
+    <h1 class="">{{ title }}</h1>
+  </div>
+</div>
+{% for section in sections %}
+  <div class="container w-4/5 lg:w-2/5">
+    <div class="mt-8">
+      <h2 class="">{{ section.num_text }} {{ section.title }}</h2>
+      {% for c in section.content %}
+        <div class="mt-4">
+          {{ c|md }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
