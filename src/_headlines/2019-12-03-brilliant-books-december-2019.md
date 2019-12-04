@@ -55,4 +55,4 @@ Imagine if you had the chance to arrange the birth of the Saviour of the world. 
 
 _Our Price: £2_
 
-All of these books will be available to buy in the services this Sunday, 8th December. We have ordered 25 copies of each book on a sale or return basis, so there will be plenty available for you to buy for yourself, or as a gift for a friend. Payment will be cash only. If you’d like a book but won’t be around that day, email <mailto:books@stcsfc.org> to make alternative arrangements.
+All of these books will be available to buy in the services this Sunday, 8th December. We have ordered 25 copies of each book on a sale or return basis, so there will be plenty available for you to buy for yourself, or as a gift for a friend. Payment will be cash only. If you’d like a book but won’t be around that day, email [books@stcsfc.org](mailto:books@stcsfc.org) to make alternative arrangements.
