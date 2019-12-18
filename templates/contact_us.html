@@ -73,11 +73,13 @@
 {% endblock %}
 {% block extra_js %}
 <script>
-  var urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.has('subject')) {
-    var sub = urlParams.get('subject');
-    var el = document.getElementById('subject');
-    el.value = urlParams.get('subject');
+  if (!(URLSearchParams===undefined)) {
+    var urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('subject')) {
+      var sub = urlParams.get('subject');
+      var el = document.getElementById('subject');
+      el.value = urlParams.get('subject');
+    }
   }
 </script>
 {% endblock %}

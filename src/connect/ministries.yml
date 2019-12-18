@@ -16,15 +16,14 @@ ministries:
       picture: "/static/uploads/people/donna.jpg"
       type_: "activity_contact"
   - type_: "activity"
-    name: "The Den"
+    name: "The Den and iDen"
     picture: "/static/uploads/the_den.jpg"
     content: |
-       The Den, is an informal time together to relax, have fun, and to enjoy some Krispy Kremes and frappuccinos, on Sunday evenings.
-       It is a chance for young teens to share their faith, meet others their own age and to ask any questions they may have about Christianity or the different issues they may be facing.
+        The Den and iDen are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
     contact:
       type_: "activity_contact"
-      name: "Anne Norrie"
-      picture: "/static/uploads/people/anne-norrie.jpg"
+      name: "Rowan Corrigan"
+      picture: "/static/uploads/people/rowan.png"
   - type_: "activity"
     name: "Connect Meals"
     picture: "/static/uploads/connect_meals.jpg"
