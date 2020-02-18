@@ -45,5 +45,4 @@ Our Price: £5 *(45% off RRP)*
 
 We don’t have a kids’ book for sale this time, but if you would like to recommend one for next time, please do let us know.
 
-**\
-We will have twenty five copies of each available, and would love to sell them all! Payment will be cash only. If you’d like a book but won’t be around that day, email [books@stcsfc.org](mailto:books@stcsfc.org) to make alternative arrangements.**
+**We will have twenty five copies of each available, and would love to sell them all! Payment will be cash only. If you’d like a book but won’t be around that day, email [books@stcsfc.org](mailto:books@stcsfc.org) to make alternative arrangements.**
