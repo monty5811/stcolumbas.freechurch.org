@@ -20,7 +20,7 @@ Here's a taster...
 <img 
 class="img-responsive"
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
-src="/static/uploads/questioning-evangelism.jpg"
+src="/static/uploads/questioning%20evangelism.jpg"
 alt="Questioning Evangelism" 
 />
 
@@ -33,7 +33,7 @@ Jesusâ€™s evangelistic style was remarkable. The one who knows all things didnâ€
 <img 
 class="img-responsive"
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
-src="/static/uploads/the-creaking-on-the-stair.jpg"
+src="/static/uploads/the%20creaking%20on%20the%20stair.jpg"
 alt="The Creaking on the Stairs" 
 />
 
