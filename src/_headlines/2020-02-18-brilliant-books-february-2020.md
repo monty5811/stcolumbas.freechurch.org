@@ -20,8 +20,8 @@ Here's a taster...
 <img 
 class="img-responsive"
 style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
-src="/static/uploads/is-god-green.jpg"
-alt="Is God Green" 
+src="/static/uploads/questioning-evangelism.jpg"
+alt="Questioning Evangelism" 
 />
 
 ***Questioning Evangelism*, Randy Newman (2018)**
@@ -29,6 +29,13 @@ alt="Is God Green"
 Jesus’s evangelistic style was remarkable. The one who knows all things didn’t bombard with answers; he asked questions. So why don’t we? In this updated edition of Randy Newman’s remarkable book, the author uses Jesus’ example to challenge us, as Christians and evangelists, to engage meaningfully with those we long to bring to Jesus. If it’s new to you, buy it. If you read it a while ago and aren’t sure where your copy is, buy it again.
 
 *Our price: £10*
+
+<img 
+class="img-responsive"
+style="max-height: 400px; width: auto;margin-right: auto;margin-left: auto;"
+src="/static/uploads/the-creaking-on-the-stair.jpg"
+alt="The Creaking on the Stairs" 
+/>
 
 ***The Creaking on the Stairs,* Mez McConnell (2019)**
 
