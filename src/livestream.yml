@@ -4,7 +4,7 @@ html:
   type_: "raw_html"
   html: |
     <div class="container">
-      <div class="max-w-2xl mx-auto">
+      <div class="max-w-5xl mx-auto">
         <div class="embed-responsive embed-responsive-16by9">
           <!--
           Coming soon!
