@@ -178,6 +178,9 @@ span.required::after {
   & blockquote {
     @apply border-l-4 border-gray-300 pl-4 italic;
   }
+  & ul {
+    list-style: initial;
+  }
   & ul,
   & ol {
     @apply pl-5;
