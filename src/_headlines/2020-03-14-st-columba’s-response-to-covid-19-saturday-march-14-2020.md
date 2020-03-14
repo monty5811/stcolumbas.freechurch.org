@@ -15,9 +15,7 @@ The elders wish to give an update for everyone in circumstances that are rapidly
 
 **This Sunday 15 March (Tomorrow)**
 
-We will meet as planned, but please remember the guidelines we have already issued with
-
-some further advice added.
+We will meet as planned, but please remember the guidelines we have already issued with some further advice added.  
 
 * Do lots of rigorous handwashing
 * There will be no handshaking on arrival – just smiles and welcoming words
@@ -38,8 +36,8 @@ Pastoral teams for each City Group area will be given separate advice and sugges
 
 In all of this, may we call out to God in prayer, remember that in His sovereign love he has not abandoned us but loves us, and that this is a time for trust and not unbridled fear – a time to serve others as best we can as we show them where our hope lies.
 
-Pastoral teams will have details of who to contact within their area, but if you seek further assurances or need assistance in any way, prayerful or practical, please contact Derek (07741304410)
+Pastoral teams will have details of who to contact within their area, but if you seek further assurances or need assistance in any way, prayerful or practical, please contact Derek (derek@stcsfc.org).
 
-**St Columba’s Elders**
+*St Columba’s Elders*
 
 **‘Surely I am with you always, even to the very end of the age’ Matt 28 v 20**
