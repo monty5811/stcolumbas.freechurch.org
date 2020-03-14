@@ -1,6 +1,6 @@
 ---
 layout: headline
-title: 'St Columba’s Response to Covid-19: Saturday  14th March 2020'
+title: 'St Columba’s Response to Covid-19: Saturday 14th March 2020'
 author: Siobhan Smith
 date: 2020-03-14T15:41:10.101Z
 thumbnail: /static/uploads/christmas.jpg
