@@ -13,8 +13,6 @@ intro: >-
 ---
 The elders wish to give an update for everyone in circumstances that are rapidly changing.
 
-
-
 **This Sunday 15 March (Tomorrow)**
 
 We will meet as planned, but please remember the guidelines we have already issued with
@@ -27,12 +25,8 @@ some further advice added.
 * No tea and coffee will be served
 * Seating will be spaced out.
 * Kids church and crèche will be on as normal, but contact will be kept to a minimum
-* Those who are elderly or who have underlying health issues are discouraged from
-* attending. We will endeavour to keep in contact and help in any way we can. A link is
-* available to watch the service live ([stcsfc.org/livestream](https://stcolumbas.freechurch.org/livestream))
+* Those who are elderly or who have underlying health issues are discouraged from attending. We will endeavour to keep in contact and help in any way we can. A link is available to watch the service live ([stcsfc.org/livestream](https://stcolumbas.freechurch.org/livestream))
 * Extra cleaning has been done this week in the church building to ensure the best hygiene.
-
-
 
 **Moving Forward**
 
@@ -46,10 +40,6 @@ In all of this, may we call out to God in prayer, remember that in His sovereign
 
 Pastoral teams will have details of who to contact within their area, but if you seek further assurances or need assistance in any way, prayerful or practical, please contact Derek (07741304410)
 
-
-
 **St Columba’s Elders**
-
-
 
 **‘Surely I am with you always, even to the very end of the age’ Matt 28 v 20**
