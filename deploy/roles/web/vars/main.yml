@@ -1,0 +1,15 @@
+---
+swap_file_path: /swapfile
+swap_file_size_gb: 1
+# caddy
+caddy_user: "stcs"
+caddy_group: stcs
+caddy_version: 1.0.0
+caddy_dl_dir: /caddy
+caddy_tar_file: "{{ caddy_dl_dir}}/caddy_{{ caddy_version }}.tar.gz"
+caddy_untar_loc: "{{ caddy_dl_dir }}/{{ caddy_version }}"
+caddy_dir: /etc/caddy
+caddy_ssl_dir: /etc/ssl/caddy
+caddy_caddyfile: "{{ caddy_dir }}/Caddyfile"
+caddy_access_log_file: "{{ logs_path }}/caddy_access.log"
+caddy_error_log_file: "{{ logs_path }}/caddy_error.log"

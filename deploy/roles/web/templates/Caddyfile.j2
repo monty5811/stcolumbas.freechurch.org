@@ -1,0 +1,21 @@
+https://stcolumbas.freechurch.org {
+    gzip
+    root {{ root_path }}/live
+
+    ext .html
+
+    header /static {
+        Cache-Control "public, max-age=31536000"
+    }
+
+    header / {
+        -Server
+    }
+
+    tls {
+        max_certs 100
+    }
+
+    log / {{ caddy_access_log_file }} "{combined}"
+    errors {{ caddy_error_log_file }}
+}

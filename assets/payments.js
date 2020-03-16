@@ -20,7 +20,7 @@ function init() {
     };
 
     // create stripe session
-    fetch("/.netlify/functions/get_checkout_session/", {
+      fetch("https://stcsfc.netlify.com/.netlify/functions/get_checkout_session/", {
       method: "post",
       headers: {
         Accept: "application/json",

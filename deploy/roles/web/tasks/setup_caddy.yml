@@ -1,0 +1,87 @@
+---
+- name: ensure logs folder exists
+  file:
+    path: "{{ logs_path }}"
+    state: directory
+
+- name: Ensure that the caddy log files exist
+  file:
+    path: "{{ item }}"
+    owner: "{{ caddy_user }}"
+    group: "{{ caddy_group }}"
+    state: touch
+  with_items:
+    - "{{ caddy_access_log_file }}"
+    - "{{ caddy_error_log_file }}"
+
+- name: create caddy dir
+  file:
+    path: "{{ caddy_dl_dir }}"
+    state: directory
+
+- name: download caddy
+  get_url:
+    url: "https://github.com/mholt/caddy/releases/download/v{{ caddy_version }}/caddy_v{{ caddy_version }}_linux_amd64.tar.gz"
+    dest: "{{ caddy_tar_file }}"
+    force: no
+
+- name: untar caddy
+  file:
+    path: "{{ caddy_untar_loc }}"
+    state: directory
+
+- name: untar caddy
+  unarchive:
+    remote_src: yes
+    src: "{{ caddy_tar_file }}"
+    dest: "{{ caddy_untar_loc }}"
+
+- name: copy caddy binary
+  copy:
+    remote_src: yes
+    src: "{{ caddy_untar_loc }}/caddy"
+    dest: /usr/local/bin/caddy
+  become: yes
+
+- name: set caddy permissions
+  file:
+    path: /usr/local/bin/caddy
+    owner: root
+    group: root
+    mode: 0755
+
+- name: Set cap_sys_chroot+ep on /foo
+  capabilities:
+    path: /usr/local/bin/caddy
+    capability: cap_net_bind_service+ep
+    state: present
+
+- name: create caddy dir
+  file:
+    path: "{{ caddy_dir }}"
+    state: directory
+
+- name: create caddy ssl dir
+  file:
+    path: "{{ caddy_ssl_dir }}"
+    owner: "{{ caddy_user }}"
+    group: "{{ caddy_group }}"
+    state: directory
+
+- name: create Caddyfile
+  template:
+    src: Caddyfile.j2
+    dest: "{{ caddy_caddyfile }}"
+    backup: yes
+
+- name: Create the caddy systemd configuration file
+  template: src=caddy.service.j2
+    dest=/etc/systemd/system/caddy.service
+    backup=no
+
+- name: restart caddy
+  systemd:
+    name: caddy
+    state: restarted
+    enabled: yes
+    daemon_reload: yes

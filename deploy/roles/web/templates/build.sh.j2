@@ -1,0 +1,23 @@
+#!/bin/bash
+set -Eeuo pipefail
+
+# setup
+cd /webapps/stcs/repo
+REMOTE=$(git rev-parse master)
+LOCAL=$(git rev-parse @)
+if [ $LOCAL = $REMOTE ]; then
+    echo "No changes on remote, skipping"
+    exit 0
+fi
+
+git pull origin master
+HASH=$(git rev-parse HEAD)
+# build
+make js-build css-build build
+# move site
+mkdir -p ../versions
+mv dist/ ../versions/${HASH}
+# move symlink
+cd /webapps/stcs
+ln -sfrn versions/${HASH} live
+# site is live!

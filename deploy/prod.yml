@@ -1,0 +1,11 @@
+- hosts: web1
+  roles:
+    - web
+  vars:
+    application_name: stcs
+    git_repo_url: https://github.com/monty5811/stcolumbas.freechurch.org.git
+    root_path: "/webapps/stcs"
+    git_checkout_path: "{{ root_path }}/repo"
+    logs_path: "{{ root_path }}/logs"
+    virtualenv_path: "{{ git_checkout_path }}/venv"
+    caddy_email: "dean.montgomery@stcsfc.org"

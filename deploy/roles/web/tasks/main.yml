@@ -1,0 +1,31 @@
+---
+
+- include: create_swap.yml
+- include: setup_packages.yml
+- include: create_users_and_groups.yml
+- include: set_file_permissions.yml
+
+
+# - name: checkout repo
+#   git:
+#     repo: "{{ git_repo_url }}"
+#     dest: "{{ git_checkout_path }}"
+#     version: "master"
+#     depth: 1
+#     accept_hostkey: yes
+
+- include: setup_caddy.yml
+
+- name: setup build job
+  cron:
+    name: build site
+    minute: "*/2"
+    state: present
+    job: "/webapps/stcs/build.sh"
+
+- template:
+    src: build.sh.j2
+    dest: "{{ root_path }}/build.sh"
+    owner: "{{ caddy_user }}"
+    group: "{{ caddy_group }}"
+    mode: "a+x"

@@ -7,11 +7,11 @@ PORT?=4001
 
 venv: $(VENV_NAME)/bin/activate
 $(VENV_NAME)/bin/activate: requirements*.in
-	curl https://bootstrap.pypa.io/get-pip.py | python
-	test -d $(VENV_NAME) || python -m venv $(VENV_NAME)
+	curl https://bootstrap.pypa.io/get-pip.py | python3
+	test -d $(VENV_NAME) || python3 -m venv $(VENV_NAME)
 	${PYTHON} -m pip install -U pip
 	${PYTHON} -m pip install -U pip-tools
-	make deps-compile deps-sync
+	make deps-sync
 	touch $(VENV_NAME)/bin/activate
 
 deps-sync:
@@ -47,26 +47,29 @@ ci-setup:
 	npm install -g yarn
 	cd assets && yarn && cd ..
 
-js-build:
+js-build: assets/node_modules
 	cd assets && yarn build
 
-js-watch:
+js-watch: assets/node_modules
 	cd assets && yarn watch
 
-css-build:
+css-build: assets/node_modules
 	cd assets && yarn css:build
 
-css-watch:
+css-watch: assets/node_modules
 	cd assets && find css tailwind.config.js | entr yarn css:build
 
 py-format:
 	black **/*.py
 
-netlify-functions:
+netlify-functions: assets/node_modules
 	./assets/node_modules/netlify-lambda/bin/cmd.js build assets/src/netlify_functions/
 
-local-netlify-functions:
+local-netlify-functions: assets/node_modules
 	./assets/node_modules/netlify-lambda/bin/cmd.js serve assets/src/netlify_functions/
+
+assets/node_modules: assets/yarn.lock assets/package.json
+	cd assets && yarn
 
 percy:
 	npx percy snapshot dist/
