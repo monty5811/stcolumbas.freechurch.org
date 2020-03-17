@@ -3,7 +3,7 @@ set -Eeuo pipefail
 
 # setup
 cd /webapps/stcs/repo
-REMOTE=$(git rev-parse origin/master)
+REMOTE=$(git ls-remote | head -n 1 | cut -f 1)
 LOCAL=$(git rev-parse @)
 if [ $LOCAL = $REMOTE ]; then
     echo "No changes on remote, skipping"
