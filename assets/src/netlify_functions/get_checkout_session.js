@@ -9,6 +9,9 @@ exports.handler = function(event, context, callback) {
   if (event.httpMethod === "HEAD") {
     callback(null, { statusCode: 200, headers, body: JSON.stringify(null) });
   }
+  if (event.httpMethod === "OPTIONS") {
+    callback(null, { statusCode: 200, headers, body: JSON.stringify(null) });
+  }
   if (event.httpMethod !== "POST" || !event.body) {
     callback(null, {
       statusCode: 400,
