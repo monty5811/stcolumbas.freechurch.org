@@ -13,7 +13,8 @@ fi
 git pull origin master
 HASH=$(git rev-parse HEAD)
 # build
-make js-build css-build build
+rm -rf dist
+NODE_ENV=production make js-build css-build build
 # move site
 mkdir -p ../versions
 mv dist/ ../versions/${HASH}

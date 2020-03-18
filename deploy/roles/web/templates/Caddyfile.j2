@@ -8,6 +8,13 @@ https://stcolumbas.freechurch.org {
         Cache-Control "public, max-age=31536000"
     }
 
+    rewrite {
+        if {path} not /
+        if {path} ends_with /
+        r ^/(.*)/$
+        to /{1}
+    }
+
     header / {
         -Server
     }
