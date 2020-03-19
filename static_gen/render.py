@@ -59,7 +59,7 @@ def static(uri):
         hash = sha256(f.read()).hexdigest()[:8]
 
     s, e = os.path.splitext(uri)
-    new_uri = f"{s}.{hash}.{e}"
+    new_uri = f"{s}.{hash}{e}"
 
     new_path = os.path.join(DIST_DIR, new_uri.lstrip("/"))
 
@@ -310,9 +310,26 @@ def render_bg_image_class(src):
     return f"h-{class_hash}"
 
 
+def rewrite_image_path_with_content_hash(src):
+    path_to_src_file = DIST_DIR + src
+    # generate cache path:
+    with open(path_to_src_file, "rb") as f:
+        src_hash = sha256(f.read()).hexdigest()[:8]
+
+    s, e = os.path.splitext(src)
+    new_uri = f"{s}.{src_hash}{e}"
+
+    path_to_new_file = DIST_DIR + new_uri
+    shutil.copy(path_to_src_file, path_to_new_file)
+    return new_uri
+
+
 def render_image(src, alt_text="", class_text=""):
     src_webp = convert_to_webp(src)
     src_type = infer_image_type(src)
+
+    src = rewrite_image_path_with_content_hash(src)
+    src_webp = rewrite_image_path_with_content_hash(src_webp)
 
     return render_template(
         "blocks/picture.html",

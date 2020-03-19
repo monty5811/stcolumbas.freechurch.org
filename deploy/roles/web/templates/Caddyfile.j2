@@ -1,5 +1,7 @@
 https://stcolumbas.freechurch.org {
     gzip
+    push
+
     root {{ root_path }}/live
 
     ext .html
@@ -24,5 +26,7 @@ https://stcolumbas.freechurch.org {
     }
 
     log / {{ caddy_access_log_file }} "{combined}"
-    errors {{ caddy_error_log_file }}
+    errors {{ caddy_error_log_file }} {
+        404 {{ root_path }}/live/404.html
+    }
 }

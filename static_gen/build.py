@@ -1,5 +1,4 @@
 import os
-import multiprocessing as mp
 import shutil
 from distutils.dir_util import copy_tree
 from hashlib import sha256
@@ -113,11 +112,6 @@ def build():
     copy_public_files()
     copy_static_files()
 
-    # blog.write_blog_index(env, load_files(sub_dir="_headlines"))
-    p = mp.Process(
-        target=blog.write_blog_index, args=(env, load_files(sub_dir="_headlines"))
-    )
-    p.start()
+    blog.write_blog_index(env, load_files(sub_dir="_headlines"))
     manifest = write_files(env, load_files())
-    p.join()
     write_sw(env, manifest)
