@@ -18,11 +18,11 @@
   <meta content="{{ content.title }}" name="twitter:title">
   {% if content.thumbnail %}
     <meta content="summary_large_image" name="twitter:card">
-    <meta content="{{ content.thumbnail }}" name="twitter:image">
+    <meta content="https://stcolumbas.freechurch.org{{ content.thumbnail }}" name="twitter:image">
     <meta name="twitter:image:width" content="{{ content.thumbnail|width }}">
     <meta name="twitter:image:height" content="{{ content.thumbnail|height }}">
 
-    <meta content="{{ content.thumbnail }}" property="og:image">
+    <meta content="https://stcolumbas.freechurch.org{{ content.thumbnail }}" property="og:image">
     <meta content="{{ content.thumbnail|width }}" property="og:image:width">
     <meta content="{{ content.thumbnail|height }}" property="og:image:height">
   {% else %}
