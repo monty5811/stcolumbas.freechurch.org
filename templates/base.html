@@ -19,6 +19,7 @@
       
       <script src="/instant.page.3.0.0.js" type="module" defer ></script>
       <script defer src="https://js.stripe.com/v3/"></script>
+      {% block extra_head %}{% endblock %}
   </head>
 
   <body class="text-gray-500 {% block body_class %}min-h-screen{% endblock %}" id="{% block body_id %}{% endblock %}">

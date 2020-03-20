@@ -68,6 +68,20 @@ def static(uri):
     return new_uri
 
 
+def image_width(src):
+    path_to_src_file = DIST_DIR + src
+    im = Image.open(path_to_src_file)
+    width, height = im.size
+    return width
+
+
+def image_height(src):
+    path_to_src_file = DIST_DIR + src
+    im = Image.open(path_to_src_file)
+    width, height = im.size
+    return height
+
+
 def setup_jinja():
     # setup templates
     env = Environment(loader=FileSystemLoader("templates"))
@@ -82,6 +96,8 @@ def setup_jinja():
     env.filters["render_image"] = render_image
     env.filters["render_bg_image_style"] = render_bg_image_style
     env.filters["render_bg_image_class"] = render_bg_image_class
+    env.filters["width"] = image_width
+    env.filters["height"] = image_height
     env.globals["maybe_active"] = render_maybe_active
     return env
 
