@@ -1,6 +1,6 @@
 ---
 layout: headline
-title: 'COVID-19:Pastoral Update 3'
+title: 'COVID-19: Pastoral Update 3'
 author: Siobhan Smith
 date: 2020-04-03T20:15:20.273Z
 thumbnail: /static/uploads/pastoral-update.jpg
