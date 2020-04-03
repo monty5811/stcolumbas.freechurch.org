@@ -6,13 +6,14 @@ html:
     <div class="container">
       <div class="max-w-5xl mx-auto">
         <div class="embed-responsive embed-responsive-16by9">
-          <!--
           Check back soon for the livestream.
+          <!--
+          <iframe src="//www.youtube.com/embed/lwFKGsOKwco" frameborder="0" allowfullscreen=""></iframe>
           -->
-          <iframe src="//www.youtube.com/embed/rD87OWNOuJo" frameborder="0" allowfullscreen=""></iframe>
         </div>
       </div>
     </div>
+    <!--
     <div class="container max-w-5xl mt-16">
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
@@ -24,3 +25,4 @@ html:
         <iframe src="https://docs.google.com/document/d/1x9uz5c1u2hghYe9RfvslEkgtV1PCUNag_RIplXjkuiI/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
       </div>
     </div>
+    -->
