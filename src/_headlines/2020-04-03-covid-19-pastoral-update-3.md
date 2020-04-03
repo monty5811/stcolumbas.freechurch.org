@@ -15,6 +15,6 @@ Thomas provides the third of our weekly, pastoral update videos that we hope to 
 
 <div class="max-w-2xl mx-auto mt-8">
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe src="//www.youtube.com/embed/JtLWwOscaus" frameborder="0" allowfullscreen=""></iframe>
+      <iframe src="//www.youtube.com/embed/lwFKGsOKwco" frameborder="0" allowfullscreen=""></iframe>
     </div>
 </div>
