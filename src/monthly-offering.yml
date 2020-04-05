@@ -3,7 +3,7 @@ title: "Monthly Offering"
 html:
   type_: "raw_html"
   html: |
-    <div class="container mx-auto">
+    <div class="container mx-auto mb-16">
       <div class="bg-stcs-nav-bg max-w-2xl mx-auto">
         <form action="/charge" method="post" id="payment-form" class="p-8">
           <div class="my-4 content">
