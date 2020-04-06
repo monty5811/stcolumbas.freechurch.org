@@ -4,7 +4,7 @@ html:
   type_: "raw_html"
   html: |
     <div class="container mx-auto mb-16">
-      <div class="bg-stcs-nav-bg max-w-2xl mx-auto">
+      <div class="max-w-2xl mx-auto bg-stcs-nav-bg">
         <form action="/charge" method="post" id="payment-form" class="p-8">
           <div class="my-4 content">
             <p>
@@ -19,23 +19,23 @@ html:
             This month we are collecting for <a herf="https://safefamilies.uk/" targe="_blank" rel="noopener">Safe Families</a> - more information in the Wednesday email or during this Sunday's service (5th April).
             </p>
           </div>
-          <div class="my-4 w-full">
+          <div class="w-full my-4">
             <label for="amount">
               <span class="font-medium required">I would like to give</span>
-              <input required type="number" min="1" tabindex="3" placeholder="£" class="form-input w-full mt-1" id="giving-amount">
+              <input required type="text" inputmode="numeric" pattern="^£[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
             </label>
           </div>
-          <div class="my-4 w-full hidden">
+          <div class="hidden w-full my-4">
             <label for="fund">
               <span class="font-medium required">Fund</span>
-              <select name="fund" class="form-select w-full mt-1 block" id="giving-fund">
+              <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
                 <option>Monthly Offering</option>
               </select>
             </label>
           </div>
           <label class="block mt-4">
           <button type="submit"
-                  class="bg-white font-medium mt-4 px-2 py-1 text-lg text-white bg-gray-500"
+                  class="px-2 py-1 mt-4 text-lg font-medium text-white bg-white bg-gray-500"
                   id="giving-button"
                   >
                   Donate!

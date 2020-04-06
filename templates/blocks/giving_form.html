@@ -3,7 +3,7 @@
   <form action="/charge" method="post" id="payment-form" class="p-8">
     <div class="my-4 content">
       {% if cancelled %}
-        <div class="bg-red-200 text-red-900 py-4 px-2 mb-4">
+        <div class="px-2 py-4 mb-4 text-red-900 bg-red-200">
           <p>
           It looks like you cancelled your Donation (or maybe something else went wrong?).
           </p>
@@ -23,16 +23,16 @@
       Once you click the "Donate!" button you will be redirected to our payment processor where you can fill in your details.
       </p>
     </div>
-    <div class="my-4 w-full">
+    <div class="w-full my-4">
       <label for="amount">
         <span class="font-medium required">I would like to give</span>
-        <input required type="number" min="1" tabindex="3" placeholder="£" class="form-input w-full mt-1" id="giving-amount">
+        <input required type="text" inputmode="numeric" pattern="^£[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
       </label>
     </div>
-    <div class="my-4 w-full">
+    <div class="w-full my-4">
       <label for="fund">
         <span class="font-medium required">Fund</span>
-        <select name="fund" class="form-select w-full mt-1 block" id="giving-fund">
+        <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
           <option>General</option>
           <option>Church Planting - Cornerstone</option>
           <option>Church Planting - Esk Valley</option>
@@ -44,7 +44,7 @@
     </div>
     <label class="block mt-4">
     <button type="submit"
-            class="bg-white font-medium mt-4 px-2 py-1 text-lg text-white bg-gray-500"
+            class="px-2 py-1 mt-4 text-lg font-medium text-white bg-white bg-gray-500"
             id="giving-button"
             >
             Donate!

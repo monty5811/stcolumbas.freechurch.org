@@ -46,7 +46,7 @@ exports.handler = function(event, context, callback) {
       line_items: [
         {
           name: data.description,
-          amount: data.amount,
+          amount: Math.round(data.amount),
           currency: "gbp",
           quantity: 1
         }
