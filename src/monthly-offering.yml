@@ -22,7 +22,7 @@ html:
           <div class="w-full my-4">
             <label for="amount">
               <span class="font-medium required">I would like to give</span>
-              <input required type="text" inputmode="numeric" pattern="^£[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
+              <input required type="text" inputmode="numeric" pattern="^£?[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
             </label>
           </div>
           <div class="hidden w-full my-4">
