@@ -1,7 +1,7 @@
 var errorText = "Failed. You have not been charged. Please try again.";
 
 function createStripeSession(submitButton, data, retryOnFailure) {
-  fetch("https://stcsfc.netlify.com/.netlify/functions/get_checkout_session/", {
+  fetch("https://stcsfc.netlify.app/.netlify/functions/get_checkout_session/", {
     method: "post",
     headers: {
       Accept: "application/json",
