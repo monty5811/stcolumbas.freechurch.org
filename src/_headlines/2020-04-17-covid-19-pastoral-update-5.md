@@ -8,10 +8,10 @@ tags:
   - covid-19
   - coronavirus
 intro: Derek provides the fifth of our pastoral update videos encouraging us to
-  persevere and consider perseverance as a Christian attribute we can seek to
-  develop through this crisis.
+  persevere and consider perseverance as a Christian attribute that we can seek
+  to develop through this crisis.
 ---
-Derek provides the fifth of our pastoral update videos encouraging us to persevere and consider perseverance as a Christian attribute we can seek to develop through this crisis.
+Derek provides the fifth of our pastoral update videos encouraging us to persevere and consider perseverance as a Christian attribute that we can seek to develop through this crisis.
 
 <div class="max-w-2xl mx-auto mt-8">
     <div class="embed-responsive embed-responsive-16by9">
