@@ -28,7 +28,9 @@ src="/static/uploads/living-without-worry.jpg"
 alt="Living Without Worry" 
 />
 
-**Living Without Worry, Tim Lane (2015) Our Price: £6.63** This easygoing and warmhearted book is exactly what most of us need right now, as Tim Lane uses scripture and pastoral insight to encourage Christians to place our anxious burdens on Jesus and accept his peace instead.
+**Living Without Worry, Tim Lane (2015)**
+
+This easygoing and warmhearted book is exactly what most of us need right now, as Tim Lane uses scripture and pastoral insight to encourage Christians to place our anxious burdens on Jesus and accept his peace instead.
 
 *Our Price: £6.63*
 
@@ -41,7 +43,9 @@ src="/static/uploads/sophie-heidelberg-cat.jpg"
 alt="Sophie Heidelberg Cat" 
 />
 
-***Sophie & the Heidelberg Cat*, Andrew Wilson (2019)**  The first question of the Heidelberg Catechism, ‘What is your only comfort in life and death?’, forms the unlikely heart of this whimsical rhyming book about a young girl learning the gospel of grace from a cat. Newly published last year, this is a book to lift the hearts of children and adults alike.
+***Sophie & the Heidelberg Cat*, Andrew Wilson (2019)**
+
+The first question of the Heidelberg Catechism, *‘What is your only comfort in life and death?’*, forms the unlikely heart of this whimsical rhyming book about a young girl learning the gospel of grace from a cat. Newly published last year, this is a book to lift the hearts of children and adults alike.
 
 *Our Price: £5 (55% off RRP!)*
 
@@ -68,4 +72,4 @@ If you would like to buy these books, but would like help in ordering them, plea
 
 *One more thing...*  
 
-By ordering these books online, you will not only be receiving encouragement and good gospel teaching, but you will also be providing much needed support to Free Church Books and their bookshop partners, 10ofthose. We are able to get such incredible prices for these books because of 10ofthose’s deep desire to see people reading the best books about Jesus, and this passion for the gospel means that they don’t have a lot of spare operating cash for a season like this. By buying these books for ourselves, and potentially others, we will be helping them to continue to do such important gospel work in the future.
+By ordering these books online, you will not only be receiving encouragement and good gospel teaching, but you will also be providing much needed support to [Free Church Books](https://books.freechurch.org) and their bookshop partners, [10ofthose](https://thefree.church/shop). We are able to get such incredible prices for these books because of 10ofthose’s deep desire to see people reading the best books about Jesus, and this passion for the gospel means that they don’t have a lot of spare operating cash for a season like this. By buying these books for ourselves, and potentially others, we will be helping them to continue to do such important gospel work in the future.
