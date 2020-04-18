@@ -2,7 +2,7 @@
 layout: headline
 title: "Brilliant Books: April 2020"
 author: Miriam Montgomery
-date: 2020-04-17T19:22:58.852Z
+date: 2020-04-18T19:22:58.852Z
 thumbnail: /static/uploads/susan-yin-647448-unsplash.jpg
 tags:
   - books
