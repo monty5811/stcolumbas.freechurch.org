@@ -68,7 +68,7 @@ Buy it here: <https://stcsfc.org/bb-virus>
 
 <hr>
 
-If you would like to buy these books, but would like help in ordering them, please email books@stcsfc.org. Don’t miss out in silence - we are here to help!
+If you would like to buy these books, but would like help in ordering them, please email [books@stcsfc.org](mailto:books@stcsfc.org). Don’t miss out in silence - we are here to help!
 
 *One more thing...*  
 
