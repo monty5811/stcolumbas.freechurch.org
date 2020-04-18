@@ -66,6 +66,6 @@ Buy it here: <https://stcsfc.org/bb-virus>
 
 If you would like to buy these books, but would like help in ordering them, please email books@stcsfc.org. Don’t miss out in silence - we are here to help!
 
-*One more thing...* 
+*One more thing...*  
 
 By ordering these books online, you will not only be receiving encouragement and good gospel teaching, but you will also be providing much needed support to Free Church Books and their bookshop partners, 10ofthose. We are able to get such incredible prices for these books because of 10ofthose’s deep desire to see people reading the best books about Jesus, and this passion for the gospel means that they don’t have a lot of spare operating cash for a season like this. By buying these books for ourselves, and potentially others, we will be helping them to continue to do such important gospel work in the future.
