@@ -47,11 +47,9 @@ alt="Sophie Heidelberg Cat"
 
 The first question of the Heidelberg Catechism, *‘What is your only comfort in life and death?’*, forms the unlikely heart of this whimsical rhyming book about a young girl learning the gospel of grace from a cat. Newly published last year, this is a book to lift the hearts of children and adults alike.
 
-*Our Price: £5 (55% off RRP!)*
+*Our Price: £5 (use the discount code **SOPHIE5** at checkout to get our special price)*
 
 Buy it here: <https://stcsfc.org/bb-heidelberg>
-
-(use the discount code **SOPHIE5** at checkout to get our special price)
 
 <img 
 class="img-responsive"
@@ -67,6 +65,8 @@ John Lennox is a remarkable author, and we would encourage you to read any book 
 *Our Price: £2.48*
 
 Buy it here: <https://stcsfc.org/bb-virus> 
+
+<hr>
 
 If you would like to buy these books, but would like help in ordering them, please email books@stcsfc.org. Don’t miss out in silence - we are here to help!
 
