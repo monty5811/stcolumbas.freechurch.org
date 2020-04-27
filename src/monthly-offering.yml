@@ -16,7 +16,7 @@ html:
             You will be redirected to our payment processor where you can pay by credit card, debit card, Google Pay or Android Pay.
             </p>
             <p>
-            This month we are collecting for <a herf="https://safefamilies.uk/" targe="_blank" rel="noopener">Safe Families</a> - more information in the Wednesday email or during this Sunday's service (5th April).
+            This month we are collecting for our Hardship Fund - more information in the Wednesday email or during this Sunday's service (3rd May).
             </p>
           </div>
           <div class="w-full my-4">
@@ -29,7 +29,7 @@ html:
             <label for="fund">
               <span class="font-medium required">Fund</span>
               <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
-                <option>Monthly Offering</option>
+                <option>Hardship Fund</option>
               </select>
             </label>
           </div>
