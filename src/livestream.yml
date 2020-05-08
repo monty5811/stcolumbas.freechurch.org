@@ -7,9 +7,9 @@ html:
       <div class="max-w-5xl mx-auto">
         <div class="embed-responsive embed-responsive-16by9">
           <!--
-          Check back soon for the livestream.
-          -->
           <iframe src="//www.youtube.com/embed/GBtSMYzjARk" frameborder="0" allowfullscreen=""></iframe>
+          -->
+          Check back soon for the livestream.
         </div>
       </div>
     </div>
