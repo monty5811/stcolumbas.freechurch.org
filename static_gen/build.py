@@ -1,5 +1,6 @@
 import os
 import shutil
+from datetime import datetime
 from distutils.dir_util import copy_tree
 from hashlib import sha256
 
@@ -70,6 +71,34 @@ def write_sw(env, manifest):
         f.write(result)
 
 
+def write_sitemap(env, manifest):
+    links = manifest.keys()
+
+    def clean_link(l):
+        if l.endswith(".html"):
+            l = l.replace(".html", "")
+        if l.endswith("/index"):
+            return l.replace("/index", "/")
+        return l
+
+    def filter_link(l):
+        if l.endswith("404"):
+            return
+        if l.endswith("contact-us-thanks"):
+            return
+        if l.endswith("giving-cancel") or l.endswith("giving-success"):
+            return
+        return l
+
+    links = [clean_link(l) for l in links]
+    links = [filter_link(l) for l in links]
+    links = [l for l in links if l]
+    today = datetime.today().date()
+    result = env.get_template("sitemap.xml").render({"links": links, "today": today})
+    with open(os.path.join(DIST_DIR, "sitemap.xml"), "w") as f:
+        f.write(result)
+
+
 def load_files(sub_dir=None):
     if sub_dir is not None:
         path = os.path.join(SRC_DIR, sub_dir)
@@ -114,4 +143,5 @@ def build():
 
     blog.write_blog_index(env, load_files(sub_dir="_headlines"))
     manifest = write_files(env, load_files())
+    write_sitemap(env, manifest)
     write_sw(env, manifest)

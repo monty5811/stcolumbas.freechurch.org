@@ -54,7 +54,7 @@ def load_post(fname):
     raw_frontmatter = parts[0]
     body = parts[1]
 
-    frontmatter = yaml.load(raw_frontmatter)
+    frontmatter = yaml.load(raw_frontmatter, Loader=yaml.FullLoader)
     frontmatter["body"] = body
 
     # change datetimes to date:
