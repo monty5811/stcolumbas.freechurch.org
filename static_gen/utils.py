@@ -20,7 +20,7 @@ yaml.add_constructor(_mapping_tag, dict_constructor)
 def load_yaml(p):
     with open(p, "r") as f:
         raw = f.read()
-    return yaml.load(raw)
+    return yaml.load(raw, Loader=yaml.FullLoader)
 
 
 def group_into(l, n=6):

@@ -1,15 +1,19 @@
 layout: "content_page"
 title: "Live Stream"
-html:
-  type_: "raw_html"
-  html: |
+livestream:
+  type_: "raw_template"
+  embed_code: "ISH2F-i20xE"
+  bulletin_id: "1vZyqg6-7IQ6ZdeKIAswjxdo1w5kNi7d2QNisIxwGlvg"
+  show_coming_soon: false
+  template: |
     <div class="container">
       <div class="max-w-5xl mx-auto">
         <div class="embed-responsive embed-responsive-16by9">
-          <!--
-          Check back soon for the livestream.
-          -->
-          <iframe src="//www.youtube.com/embed/ISH2F-i20xE" frameborder="0" allowfullscreen=""></iframe>
+          {% if show_coming_soon %}
+            Check back soon for the livestream.
+          {% else %}
+            <iframe src="//www.youtube.com/embed/{{ embed_code }}" frameborder="0" allowfullscreen=""></iframe>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -17,10 +21,12 @@ html:
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
     </div>
+    {% if bulletin_id %}
     <div class="container">
       <div class="max-w-5xl mx-auto my-16">
         <h3 class="mt-8 text-3xl">Bulletin</h3>
-        <a href="https://docs.google.com/document/d/1vZyqg6-7IQ6ZdeKIAswjxdo1w5kNi7d2QNisIxwGlvg/preview" target="_blank" rel="noopener">View separately</a>
-        <iframe src="https://docs.google.com/document/d/1vZyqg6-7IQ6ZdeKIAswjxdo1w5kNi7d2QNisIxwGlvg/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
+        <a href="https://docs.google.com/document/d/{{ bulletin_id }}/preview" target="_blank" rel="noopener">View separately</a>
+        <iframe src="https://docs.google.com/document/d/{{ bulletin_id }}/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
       </div>
     </div>
+    {% endif %}

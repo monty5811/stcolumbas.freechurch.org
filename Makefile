@@ -22,7 +22,7 @@ deps-compile:
 	${VENV_NAME}/bin/pip-compile requirements_dev.in
 
 build: venv
-	${PYTHON} build.py
+	time ${PYTHON} build.py
 
 watch: dev-setup
 	find src templates static static_gen/*.py *.py | entr make build

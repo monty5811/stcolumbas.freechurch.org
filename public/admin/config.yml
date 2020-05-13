@@ -1,7 +1,6 @@
 backend:
-  name: git-gateway
-  accept-roles:
-    - editor
+  name: test-repo
+
 
 publish_mode: editorial_workflow
 
@@ -258,3 +257,26 @@ collections:
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Picture", name: "picture", widget: "image"}
                       - {label: "Type", name: "type_", widget: "hidden", default: "activity_contact"}
+      - name: "livestream"
+        label: "Livestream"
+        file: "src/livestream.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "content_page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Livestream"
+            name: "livestream"
+            widget: "object"
+            fields:
+              - label: "template"
+                name: "template"
+                widget: "string"
+                hidden: true
+              - label: "YouTube Embed Code"
+                name: "embed_code"
+                widget: "string"
+              - label: "Bulletin Google ID"
+                name: "bulletin_id"
+                widget: "string"
+              - label: "Show Coming Soon"
+                name: "show_coming_soon"
+                widget: "boolean"

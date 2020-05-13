@@ -82,32 +82,11 @@ def image_height(src):
     return height
 
 
-def setup_jinja():
-    # setup templates
-    env = Environment(loader=FileSystemLoader("templates"))
-    env.filters["static"] = static
-    env.filters["datetimeformat"] = datetimeformat
-    env.filters["slugify"] = slugify
-    env.filters["render_content"] = render_content
-    env.filters["header_image"] = header_image
-    env.filters["render_text"] = render_text
-    env.filters["group_into"] = group_into
-    env.filters["md"] = md
-    env.filters["render_image"] = render_image
-    env.filters["render_bg_image_style"] = render_bg_image_style
-    env.filters["render_bg_image_class"] = render_bg_image_class
-    env.filters["width"] = image_width
-    env.filters["height"] = image_height
-    env.globals["maybe_active"] = render_maybe_active
-    return env
-
-
 def header_image(post):
     return render_image(post["thumbnail"])
 
 
 def render_template(templ, data):
-    env = setup_jinja()
     return env.get_template(templ).render(**data)
 
 
@@ -220,6 +199,12 @@ def render_numbered_sections(value):
     return render_template("blocks/numbered_sections.html", value)
 
 
+def render_raw_template(value):
+    template_string = value.pop("template")
+    template = env.from_string(template_string)
+    return template.render(**value)
+
+
 def render_content(value, *args) -> str:
     if isinstance(value, list):
         return "\n".join([render_content(v) for v in value])
@@ -233,6 +218,7 @@ def render_content(value, *args) -> str:
     render_fns = {
         "tagline": render_tagline,
         "raw_html": lambda value: value["html"],
+        "raw_template": render_raw_template,
         "text_text_row": render_text_text_row,
         "text_text_row_with_sep": render_text_text_row_with_sep,
         "giving_row": render_giving_row,
@@ -357,3 +343,26 @@ def render_image(src, alt_text="", class_text=""):
             "src_webp": src_webp,
         },
     )
+
+
+def setup_jinja():
+    # setup templates
+    env = Environment(loader=FileSystemLoader("templates"))
+    env.filters["static"] = static
+    env.filters["datetimeformat"] = datetimeformat
+    env.filters["slugify"] = slugify
+    env.filters["render_content"] = render_content
+    env.filters["header_image"] = header_image
+    env.filters["render_text"] = render_text
+    env.filters["group_into"] = group_into
+    env.filters["md"] = md
+    env.filters["render_image"] = render_image
+    env.filters["render_bg_image_style"] = render_bg_image_style
+    env.filters["render_bg_image_class"] = render_bg_image_class
+    env.filters["width"] = image_width
+    env.filters["height"] = image_height
+    env.globals["maybe_active"] = render_maybe_active
+    return env
+
+
+env = setup_jinja()
