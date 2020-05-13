@@ -1,6 +1,7 @@
 backend:
-  name: test-repo
-
+  name: git-gateway
+  accept-roles:
+    - editor
 
 publish_mode: editorial_workflow
 
