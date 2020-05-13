@@ -27,10 +27,6 @@ teams:
         title: "Administrator & Treasurer"
         type_: "team_head"
         picture: /static/uploads/people/donna.jpg
-      - name: "Ali Oliver"
-        title: "Part Time Operations Manager"
-        type_: "team_head"
-        picture: /static/uploads/people/ali-image.jpg
       - name: "Calum Cameron"
         title: "Minister in Training"
         type_: "team_head"
@@ -85,7 +81,7 @@ teams:
       - name: "Alastair Simison"
         title: "Meadows"
         type_: "team_head"
-        picture: /static/uploads/people/alastair-simison.jpg
+        picture: /static/uploads/people/alastair-simison-1.jpg
   - title: "Deacons"
     type_: "team_list"
     members:
@@ -132,16 +128,12 @@ teams:
         title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/esther-black.jpg
-      - name: "Helen Brannigan"
-        title: "Blackford"
-        type_: "team_head"
-        picture: /static/uploads/people/helen.jpg
       - name: "Noor Gammoh"
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/noor.jpg
       - name: "Sophie Johnston"
-        title: "Mentoring"
+        title: "Discipleship"
         type_: "team_head"
         picture: /static/uploads/people/sophie-johnston.jpg
       - name: "Catriona Lamont"
