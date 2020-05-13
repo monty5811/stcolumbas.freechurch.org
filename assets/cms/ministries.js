@@ -1,5 +1,5 @@
-import React from 'react';
-import ActivitiesList from './components/activities_list';
+import React from "react";
+import ActivitiesList from "./components/activities_list";
 
 const MinistriesPreview = createClass({
   render: function() {
@@ -7,17 +7,17 @@ const MinistriesPreview = createClass({
     return (
       <div className="content">
         <div className="container">
-          <h1>{entry.getIn(['data', 'title'])}</h1>
-          <div className="row">
+          <h1>{entry.getIn(["data", "title"])}</h1>
+          <div className="md:flex">
             <ActivitiesList
-              acts={this.props.widgetsFor('ministries')}
+              acts={this.props.widgetsFor("ministries")}
               groupInto={2}
             />
           </div>
         </div>
       </div>
     );
-  },
+  }
 });
 
 export { MinistriesPreview };

@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
 function members(team) {
-  return team.getIn(['data', 'members']).map(function(member, idx) {
+  return team.getIn(["data", "members"]).map(function(member, idx) {
     return (
-      <div className="col-xs-6 col-sm-4 col-md-3 col-lg-2" key={idx}>
-        <div className="thumbnail">
-          <img src={member.get('picture')} />
+      <div className="w-1/2 px-4 md:w-1/3 lg:w-1/6" key={idx}>
+        <div className="mb-4">
+          <img src={member.get("picture")} />
         </div>
-        <div className="caption">
-          <h3>{member.get('name')}</h3>
-          <p>{member.get('title')}</p>
+        <div className="mb-8 leading-tight">
+          <h3 className="pb-0 mb-0 font-medium">{member.get("name")}</h3>
+          <p className="pb-0 mb-0 text-gray-400">{member.get("title")}</p>
         </div>
       </div>
     );
@@ -19,18 +19,18 @@ function members(team) {
 const OurTeamPreview = createClass({
   render: function() {
     const entry = this.props.entry;
-    const rows = this.props.widgetsFor('teams').map(function(team, index) {
+    const rows = this.props.widgetsFor("teams").map(function(team, index) {
       return (
         <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <h2 className="heading">{team.getIn(['data', 'title'])}</h2>
+          <div className="md:flex">
+            <div className="flex-1 md:mr-8 content">
+              <h2 className="heading">{team.getIn(["data", "title"])}</h2>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6" />
+            <div className="flex-1 md:mr-8 content" />
           </div>
           <div className="our-staff">
             <div className="container">
-              <div className="row">{members(team)}</div>
+              <div className="flex flex-wrap">{members(team)}</div>
             </div>
           </div>
         </div>
@@ -40,27 +40,27 @@ const OurTeamPreview = createClass({
     return (
       <div className="content">
         <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              {this.props.widgetsFor('heading').getIn(['widgets', 'left'])}
+          <div className="md:flex">
+            <div className="flex-1 md:mr-8 content">
+              {this.props.widgetsFor("heading").getIn(["widgets", "left"])}
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              {this.props.widgetsFor('heading').getIn(['widgets', 'right'])}
+            <div className="flex-1 md:ml-8 content">
+              {this.props.widgetsFor("heading").getIn(["widgets", "right"])}
             </div>
           </div>
-          <div className="row">
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              {this.props.widgetsFor('intro').getIn(['widgets', 'left'])}
+          <div className="md:flex">
+            <div className="flex-1 md:mr-8 content">
+              {this.props.widgetsFor("intro").getIn(["widgets", "left"])}
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              {this.props.widgetsFor('intro').getIn(['widgets', 'right'])}
+            <div className="flex-1 md:ml-8 content">
+              {this.props.widgetsFor("intro").getIn(["widgets", "right"])}
             </div>
           </div>
           {rows}
         </div>
       </div>
     );
-  },
+  }
 });
 
 export { OurTeamPreview };

@@ -5,12 +5,11 @@ const ActivitiesList = ({ acts, groupInto }) => {
   return acts.getIn(['data', 'activities']).map(function(activity, idx) {
     return (
       <div
-        className={`col-xs-12 col-sm-${12 / groupInto} col-md-${12 /
-          groupInto} col-lg-${12 / groupInto}`}
+        className="flex flex-col justify-between px-8 mb-16 lg:flex-1"
         key={idx}
       >
         <img src={activity.getIn(['picture']).toString()} />
-        <h3>{activity.getIn(['name'])}</h3>
+        <h3 className="text-md">{activity.getIn(['name'])}</h3>
         <p>{activity.getIn(['content'])}</p>
         <ActivityContact contact={activity.getIn(['contact'])} />
       </div>
