@@ -2,7 +2,7 @@
 layout: headline
 title: Women of the Word - Contentment
 author: Siobhan Smith
-date: 2019-11-30T01:52:43.509Z
+date: 2020-05-14T00:52:43.509Z
 thumbnail: /static/uploads/womenoftheword-slide-1080.jpg
 tags:
   - women of the word conference
