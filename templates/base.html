@@ -8,15 +8,16 @@
       </title>
       <meta name="description" content="St Columba's Free Church of Scotland - We are a city-centre church committed to the Gospel of Jesus Christ" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="preload" href={{ "/static/css/stcs.css"|static }} as="style">
-      <link rel="preload" href={{ "/static/js/stcs.js"|static }} as="script">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preload" href={{ "/static/css/stcs.css"|static }} as="style" />
+      <link rel="preload" href={{ "/static/js/stcs.js"|static }} as="script" />
 
       {% include 'favicons.html' %}
       {# Global stylesheets #}
       <link rel="stylesheet" type="text/css" href={{ "/static/css/stcs.css"|static }}>
-      
+
       {% block extra_css %}{% endblock %}
-      
+
       <script src="/instant.page.3.0.0.js" type="module" defer ></script>
       <script defer src="https://js.stripe.com/v3/"></script>
       {% block extra_head %}{% endblock %}

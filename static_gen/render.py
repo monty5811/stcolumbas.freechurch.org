@@ -245,11 +245,15 @@ def infer_image_type(src):
         return "jpg"
     if src.endswith(".gif"):
         return "gif"
+    if src.endswith(".svg"):
+        return "svg"
 
     raise NotImplementedError(f"No image type for {src}")
 
 
 def convert_to_webp(src):
+    if src.endswith(".svg"):
+        return
     # get paths:
     path_to_src_file = DIST_DIR + src
     out_file_uri, _ = os.path.splitext(src)
@@ -327,12 +331,20 @@ def rewrite_image_path_with_content_hash(src):
 
 
 def render_image(src, alt_text="", class_text=""):
+    if src.endswith(".svg"):
+        with open(DIST_DIR + src, "r") as f:
+            return render_template(
+                "blocks/picture_svg.html",
+                {"svg": f.read(), "alt_text": alt_text, "class_text": class_text,},
+            )
+
     src_webp = convert_to_webp(src)
     src_type = infer_image_type(src)
 
     src = rewrite_image_path_with_content_hash(src)
-    src_webp = rewrite_image_path_with_content_hash(src_webp)
-
+    src_webp = (
+        rewrite_image_path_with_content_hash(src_webp) if src_webp is not None else None
+    )
     return render_template(
         "blocks/picture.html",
         {

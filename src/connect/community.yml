@@ -53,7 +53,7 @@ communities:
       contact:
         type_: "activity_contact"
         name: "Caroline Muir"
-        picture: "/static/uploads/placeholder_175x175.png"
+        picture: "/static/uploads/people/placeholder.svg"
     - type_: "activity"
       name: "Men's Fellowship Meeting"
       picture: "/static/uploads/mens_fellowship.jpg"

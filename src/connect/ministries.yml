@@ -58,8 +58,8 @@ ministries:
        Our teachers and helpers are all PVG checked, trained and are enthusiastic participants who work together in teams to look after the kids.
     contact:
       type_: "activity_contact"
-      name: "Ross Graham"
-      picture: "/static/uploads/people/ross-image.jpg"
+      name: "Graham Thompson"
+      picture: "/static/uploads/people/graham-t.jpg"
   - type_: "activity"
     name: "Identity"
     picture: "/static/uploads/identity.jpg"
@@ -70,8 +70,8 @@ ministries:
       Each session involves eating together, the chance to build and develop friendships, and a talk which aims to answer a ‘big question’ or issue facing young Christians in today’s world, with follow up discussion on the topic.
     contact:
       type_: "activity_contact"
-      name: "Laura Watt"
-      picture: "/static/uploads/people/laura-watt.jpg"
+      name: "Kirsten Macdonald"
+      picture: "/static/uploads/people/kirsten-mac.jpg"
   - type_: "activity"
     name: "Discipleship & Mentoring"
     picture: "/static/uploads/core_discipleship.jpg"

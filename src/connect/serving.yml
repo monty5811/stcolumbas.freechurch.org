@@ -17,7 +17,7 @@ intro:
     If you are interested in helping, please have a look at the different options below. Of course, service is not a requirement!
     Our primary goal is to worship God, and to glorify Him in the best way each of us can.
 
-    We fully appreciate that for some people, committing to one of our regular Sunday morning opportunities for service may be too much to ask.
+    We fully appreciate that for some people, committing to one of our regular Sunday opportunities for service may be too much to ask.
     We are all at different stages and seasons of life, with varying capacities and energies.
     If you feel like this might be you, we would like to encourage you to prayerfully consider some of the other types of service we are involved in as a church, including our social justice and outreach work.
     Details of these projects can be found on the Ministries page.
@@ -41,8 +41,8 @@ serving_areas:
         Our Kids’ Church programme serves all the young people aged 3 to 14, of which there are an ever growing number!
         Our young people are the future of our church, and we are always looking for willing volunteers to join our teaching teams and help prepare these young people to live the Christian life in today’s often challenging world.
       contact:
-        name: "Ross Graham"
-        picture: "/static/uploads/people/ross-image.jpg"
+        name: "Graham Thompson"
+        picture: "/static/uploads/people/graham-t.jpg"
         type_: "activity_contact"
     - type_: "activity"
       name: "Crèche Team"
@@ -51,8 +51,8 @@ serving_areas:
         We look after the smallest members of our church family (those aged under 3).
         If you have a loving heart and a ready smile, we would love for you to join us in making sure that the first memories these little ones have of church are happy and welcoming.
       contact:
-        name: "Helen Brannigan"
-        picture: "/static/uploads/people/helen.jpg"
+        name: "Lauren Collman"
+        picture: "/static/uploads/people/placeholder.svg"
         type_: "activity_contact"
     - type_: "activity"
       name: "Production Team"
@@ -90,6 +90,6 @@ serving_areas:
       content: |
         We like to share hospitality together as a congregation, whether as a hot drink after the service or a meal together. If you would be willing to give up a small amount of your time every few weeks to help provide this hospitality on a Sunday, we would be be very grateful. It isn’t difficult or glamorous work, but it makes a huge difference to the fellowship we can share as a congregation.
       contact:
-        name: "Georgie Armstrong"
-        picture: "/static/uploads/people/georgie.jpg"
+        name: "Kathleen MacSween"
+        picture: "/static/uploads/people/kathleen.jpg"
         type_: "activity_contact"
