@@ -185,6 +185,8 @@ collections:
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Picture", name: "picture", widget: "image"}
                       - {label: "Type", name: "type_", widget: "hidden", default: "activity_contact"}
+                  - {label: "Show Covid Paused", name: "show_covid_paused", widget: "boolean"}
+                  - {label: "Show Covid Online", name: "show_covid_online", widget: "boolean"}
       - name: "ministries"
         label: "Ministries"
         file: "src/connect/ministries.yml"

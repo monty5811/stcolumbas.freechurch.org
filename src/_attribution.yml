@@ -1,0 +1,9 @@
+layout: "content_page"
+title: "Credits"
+credits:
+  type_: "raw_template"
+  template: |
+    <div class="container max-w-5xl mt-16">
+    <p>
+    Virus icon: <a href="https://fontawesome.com/license">License</a>. Used under under the Creative Commons Attribution 4.0 International. No changes were made.
+    </p>

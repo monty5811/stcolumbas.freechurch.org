@@ -30,6 +30,8 @@ communities:
         type_: "activity_contact"
         name: "Donna Macleod"
         picture: "/static/uploads/people/donna.jpg"
+      show_covid_paused: false
+      show_covid_online: true
     - type_: "activity"
       name: "Open Book"
       picture: "/static/uploads/open_book.jpg"
@@ -43,6 +45,8 @@ communities:
         type_: "activity_contact"
         name: "Louise Gillies"
         picture: "/static/uploads/people/louise_g.jpg"
+      show_covid_paused: false
+      show_covid_online: true
     - type_: "activity"
       name: "Edinburgh Ladies’ Fellowship"
       picture: "/static/uploads/ladies_fellowship.jpg"
@@ -54,6 +58,8 @@ communities:
         type_: "activity_contact"
         name: "Caroline Muir"
         picture: "/static/uploads/people/placeholder.svg"
+      show_covid_paused: true
+      show_covid_online: false
     - type_: "activity"
       name: "Men's Fellowship Meeting"
       picture: "/static/uploads/mens_fellowship.jpg"
@@ -65,3 +71,5 @@ communities:
         type_: "activity_contact"
         name: "Billy Graham"
         picture: "/static/uploads/people/billy-image.jpg"
+      show_covid_paused: true
+      show_covid_online: false
