@@ -374,6 +374,7 @@ def setup_jinja():
     env.filters["width"] = image_width
     env.filters["height"] = image_height
     env.globals["maybe_active"] = render_maybe_active
+    env.globals["is_netlify_build"] = os.environ.get("NETLIFY", None)
     return env
 
 
