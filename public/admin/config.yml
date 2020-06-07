@@ -134,7 +134,7 @@ collections:
             fields:
               - {label: "Type", name: "type_", widget: "hidden", default: "separator"}
           - label: "Giving Information"
-            name: "intro_row"
+            name: "giving_row"
             widget: "object"
             fields:
               - {label: "Online Form (auto populated)", name: "left", widget: "string", default: "!giving_form"}
