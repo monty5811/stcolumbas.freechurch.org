@@ -4,7 +4,7 @@ livestream:
   type_: raw_template
   embed_code: FGFUox7w-MI
   bulletin_id: 1k6RAqy1KvNty4UXhHF9MkPJb0BlB7eDVPoYdAiLXO5s
-  show_coming_soon: true
+  show_coming_soon: false
   template: >
     <div class="container">
       <div class="max-w-5xl mx-auto">
