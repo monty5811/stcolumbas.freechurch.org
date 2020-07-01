@@ -3,11 +3,11 @@ VENV_ACTIVATE=. $(VENV_NAME)/bin/activate
 PYTHON=${VENV_NAME}/bin/python3
 PORT?=4001
 
-.PHONY: deps-compile deps-sync watch server deploy dev-setup pay_deploy ci ci-setup js-build js-watch css-build py-format
+.PHONY: deps-compile deps-sync watch serve deploy dev-setup pay_deploy ci ci-setup js-build js-watch css-build py-format
 
 venv: $(VENV_NAME)/bin/activate
 $(VENV_NAME)/bin/activate: requirements*.in
-	curl https://bootstrap.pypa.io/get-pip.py | python3
+	# curl https://bootstrap.pypa.io/get-pip.py | python3
 	test -d $(VENV_NAME) || python3 -m venv $(VENV_NAME)
 	${PYTHON} -m pip install -U pip
 	${PYTHON} -m pip install -U pip-tools
