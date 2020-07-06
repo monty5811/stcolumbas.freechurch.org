@@ -2,7 +2,7 @@
 layout: headline
 title: "Covid 19: Pastoral Updates "
 author: Siobhan Smith
-date: 2020-05-09T11:00:24.865Z
+date: 2020-07-06T11:00:24.865Z
 thumbnail: /static/uploads/pastoral-update.jpg
 tags:
   - coronavirus
