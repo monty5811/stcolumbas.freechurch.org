@@ -16,33 +16,49 @@ Pastoral Update 13 - 26th June 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_DXQgE3oOTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
 Pastoral Update 12 - 12th June 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/69bpWaJdLFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 Pastoral Update 11 - 29th May 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LqYs5m979cc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
 Pastoral Update 10 - 22nd May 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RydOnOKNhG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 Pastoral Update 9 - 15th May 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eXJ1gbzp1LQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
 Pastoral Update 8 - 8th May 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bahhhxdxxao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 Pastoral Update 7 - 1st May 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TLnlFpNpU7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
 Pastoral Update 6 - 24th April 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TLnlFpNpU7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 Pastoral Update 5 - 17th April 2020
 
@@ -52,6 +68,8 @@ Pastoral Update 5 - 17th April 2020
     </div>
 </div>
 
+
+
 Pastoral Update 4 - 10th April 2020
 
 <div class="max-w-2xl mx-auto mt-8">
@@ -59,6 +77,8 @@ Pastoral Update 4 - 10th April 2020
       <iframe src="//www.youtube.com/embed/D1jHhC8TnGQ" frameborder="0" allowfullscreen=""></iframe>
     </div>
 </div>
+
+
 
 Pastoral Update 3 - 3rd April 2020
 
@@ -68,6 +88,8 @@ Pastoral Update 3 - 3rd April 2020
     </div>
 </div>
 
+
+
 Pastoral Update 2 - 27th March 2020
 
 <div class="max-w-2xl mx-auto mt-8">
@@ -75,6 +97,8 @@ Pastoral Update 2 - 27th March 2020
       <iframe src="//www.youtube.com/embed/JtLWwOscaus" frameborder="0" allowfullscreen=""></iframe>
     </div>
 </div>
+
+
 
 Pastoral Update 1 - 20th March 2020
 
