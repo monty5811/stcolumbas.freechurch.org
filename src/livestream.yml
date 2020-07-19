@@ -2,29 +2,10 @@ layout: content_page
 title: Live Stream
 livestream:
   type_: raw_template
-  embed_code: H0bTotVf1aY
-  bulletin_id: 1o3QHfVi9w6-RIeJBeE5s4la2OaqKqxTKf7XuhwSfHq8
+  embed_code: KLudN7qtWIk
+  bulletin_id: 1yoHfdE15mncSCxx3qGtACMEPu0hdOmDNANsSfVow3Zo
   show_coming_soon: false
   template: >
-    <div class="max-w-5xl mx-auto flex items-center px-8 md:px-16">
-      <div class="mx-auto mr-6 text-red-stcs">
-      <svg class="h-24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-      </div>
-      <div class="">
-      <div class="markdown">
-        <p>
-        We're taking a two week break from broadcasting our live stream - we'll be back again on the 19th of July.
-        </p>
-        <p>
-        We would love it if you joined another church for their online service instead! You can find details of some of the other churches in our presbytery by clicking below.
-        </p>
-      </div>
-        <a class="bg-stcs-footer-bg1 bg-stcs-gray inline-block px-4 py-4 shadow-2xl text-white mt-12 text-2xl" href="https://freechurch.org/online-services/edinburgh-perth" rel="noopener" target="_blank">
-          Find a Service
-        </a>
-      </div>
-    </div>
-    {#
     <div class="container">
       <div class="max-w-5xl mx-auto">
         <div class="embed-responsive embed-responsive-16by9">
@@ -36,14 +17,12 @@ livestream:
         </div>
       </div>
     </div>
-
     <div class="container max-w-5xl mt-16">
+      <p>Come back tonight for our new series "Who are you Jesus?"</p>
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
     </div>
-
     {% if bulletin_id %}
-
     <div class="container">
       <div class="max-w-5xl mx-auto my-16">
         <h3 class="mt-8 text-3xl">Bulletin</h3>
@@ -52,4 +31,3 @@ livestream:
       </div>
     </div>
     {% endif %}
-    #}
