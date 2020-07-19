@@ -2,8 +2,8 @@ layout: content_page
 title: Live Stream
 livestream:
   type_: raw_template
-  embed_code: KLudN7qtWIk
-  bulletin_id: 1yoHfdE15mncSCxx3qGtACMEPu0hdOmDNANsSfVow3Zo
+  embed_code: KGf4-hfQfa0
+  bulletin_id: ""
   show_coming_soon: false
   template: >
     <div class="container">
@@ -18,9 +18,13 @@ livestream:
       </div>
     </div>
     <div class="container max-w-5xl mt-16">
-      <p class="text-2xl mb-8">Come back tonight for our new series "Who are you Jesus?"</p>
+      <a class="text-2xl mb-8" href="https://stcsfc.org/more" target="_blank">
+        Sign up to find out more
+      </a>
+      <!--<p class="text-2xl mb-8">Come back tonight for our new series "Who are you Jesus?"</p>
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
+      -->
     </div>
     {% if bulletin_id %}
     <div class="container">
