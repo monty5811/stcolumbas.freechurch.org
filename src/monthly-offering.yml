@@ -6,7 +6,7 @@ html:
     <div class="container mx-auto mb-16">
       <div class="max-w-2xl mx-auto bg-stcs-nav-bg">
         <form action="/charge" method="post" id="payment-form" class="p-8">
-          <div class="my-4 content">
+        <div class="my-4 prose lg:prose-xl">
             <p>
             We usually take an offering each month to give to a different project or charity or other good cause. Since we are unable to meet in person due to COVID-19 restrictions we have moved this offering online.
             </p>

@@ -17,7 +17,7 @@ markdown = mistune.Markdown()
 
 
 def md(text):
-    return f'<div class="markdown">{markdown(text)}</div>'
+    return f'<div class="prose">{markdown(text)}</div>'
 
 
 def datetimeformat(value, format="%H:%M  %d-%b-%Y") -> str:
