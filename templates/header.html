@@ -1,5 +1,5 @@
   <nav
-    class="bg-stcs-nav-bg flex flex-col font-semibold h-20 lg:flex-row lg:h-24 lg:hover:h-96 lg:justify-between lg:pb-16 menu-t overflow-hidden pt-4 px-4 text-gray-400 top-0 w-full z-1000 absolute"
+    class="absolute top-0 flex flex-col w-full h-20 px-4 pt-4 overflow-hidden font-semibold text-gray-400 bg-stcs-nav-bg lg:flex-row lg:h-24 lg:hover:h-96 lg:justify-between lg:pb-16 menu-t z-1000"
     id="navbarMenu"
     >
     <div class="">
@@ -15,23 +15,25 @@
         <img src="/static/images/stcolumbas-logo.png" class="logo1" style="height: 60px;" alt="St Columba's Free Church">
       </a>
     </div>
-    <div class="pt-2 lg:pt-6 flex-1 lg:flex-initial text-xl lg:text-base" style="flex-basis: 50%;">
-      <ul class="navmenu-grid lg:flex mt-4 lg:-mt-2 text-center lg:text-left">
-        <li class="nav-left1 text-lg lg:flex-1 lg:w-auto uppercase hover:text-red-stcs text-2xl lg:text-xl">
-          <a href="/jesus">Jesus</a>
+    <div class="flex-1 pt-2 text-xl lg:pt-6 lg:flex-initial lg:text-base" style="flex-basis: 50%;">
+      <ul class="mt-4 text-center navmenu-grid lg:flex lg:-mt-2 lg:text-left">
+        <li class="text-2xl uppercase nav-left1 lg:flex-1 lg:w-auto hover:text-red-stcs lg:text-xl lg:px-2">
+          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
+            <a href="/jesus">Jesus</a>
+          </div>
         </li>
-        <li class="nav-left2 lg:flex-1 lg:w-auto group">
-          <div class="uppercase group-hover:text-red-stcs text-2xl lg:text-xl">About</div>
-          <ul class="mt-1 lg:mt-8 font-normal">
+        <li class="nav-left2 lg:flex-1 lg:w-auto group lg:px-2">
+          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">About</div>
+          <ul class="mt-1 font-normal lg:mt-8">
             <li><a class="hover:text-red-stcs hover:underline" href="/about/our-vision">Our Vision</a></li>
             <li><a class="hover:text-red-stcs hover:underline" href="/about/our-team" title="Our Team">Our Team</a></li>
             <li><a class="hover:text-red-stcs hover:underline" href="/about/church-plants" title="Church Plants">Church Plants</a></li>
             <li><a class="hover:text-red-stcs hover:underline" href="/about/contact-us">Contact Us</a></li>
           </ul>
         </li>
-        <li class="nav-left3 lg:flex-1 lg:w-auto group">
-          <div class="uppercase group-hover:text-red-stcs text-2xl lg:text-xl">Connect</div>
-          <ul class="mt-1 lg:mt-8 font-normal">
+        <li class="nav-left3 lg:flex-1 lg:w-auto group lg:px-2">
+          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">Connect</div>
+          <ul class="mt-1 font-normal lg:mt-8">
             <li><a class="hover:text-red-stcs hover:underline" href="/connect/visit" title="Visit">Visit</a></li>
             <li><a class="hover:text-red-stcs hover:underline" href="/connect/community" title="Community">Community</a></li>
             <li><a class="hover:text-red-stcs hover:underline" href="/connect/giving" title="Giving">Giving</a></li>
@@ -40,19 +42,21 @@
             <li><a class="hover:text-red-stcs hover:underline" href="https://stcsfc.org/connect">Connect Meals</a></li>
           </ul>
         </li>
-        <li class="nav-right1 lg:flex-1 lg:w-auto text-lg uppercase hover:text-red-stcs text-2xl lg:text-xl">
-          <a href="/headlines" title="Headlines">Headlines</a>
+        <li class="text-2xl uppercase nav-right1 lg:flex-1 lg:w-auto hover:text-red-stcs lg:text-xl lg:px-2">
+          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
+            <a href="/headlines" title="Headlines">Headlines</a>
+          </div>
         </li>
-        <li class="nav-right2 lg:flex-1 lg:w-auto group">
-          <a class="uppercase group-hover:text-red-stcs text-2xl lg:text-xl">Resources</a>
-          <ul class="mt-1 lg:mt-8 font-normal">
+        <li class="nav-right2 lg:flex-1 lg:w-auto group lg:px-2">
+          <a class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">Resources</a>
+          <ul class="mt-1 font-normal lg:mt-8">
             <li><a href="https://sermons.stcolumbas.freechurch.org/" rel="noopener" target="_blank">Sermons</a></li>
             <li><a href="https://stcs.elvanto.eu/pages/resources" rel="noopener" target="_blank">Internal Resources</a></li>
           </ul>
         </li>
         <li class="nav-right3 lg:flex-1 lg:w-auto group lg:hidden">
-          <a href="/about/contact-us" class="uppercase group-hover:text-red-stcs text-2xl lg:text-xl">Contact</a>
-          <ul class="mt-1 lg:mt-8 font-normal">
+          <a href="/about/contact-us" class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">Contact</a>
+          <ul class="mt-1 font-normal lg:mt-8">
             <li class="">
               <a href="mailto:office@stcsfc.org">Email</a>
             </li>
