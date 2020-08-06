@@ -24,14 +24,16 @@ intro: Catch up with the latest of our Pastoral Updates that Derek and Thomas
 
 We are planning to start our morning services on Sunday 6th September.
 
-In line with government guidelines we will be limited to a maximum of
-50 people initially but we hope to be able to increase numbers and available
-services in October subject to any changes in the government guidelines.
+In line with government guidelines, we will initially be limited to a maximum of
+50 people per service. There will be no evening services during September, but
+we hope to be able to increase numbers and available services from October,
+subject to any changes in the government guidelines.
 
-As all of this is new and challenging - we are starting of with a staged
-approach to get used to the various protocols that need to be followed. There
-will be no Kids’ Church and Crèche provision in September. But we hope that by
-October there will be Kids' Church, Crèche and an in person evening service.
+All of this is new and challenging, so we are starting off with a staged
+approach to get used to the various protocols that need to be followed. As such,
+there will be no Kids’ Church and Crèche provision in September. But we hope
+that by October there will be Kids' Church, Crèche and an in-person evening
+service.
 
 Despite all these restrictions, we are so looking forward to welcoming you in
 church and to having the opportunity, at last, to worship with at least some of
@@ -39,7 +41,8 @@ the St Columba’s family. God is good all the time!
 
 We will be continuing to live stream services in the morning and the evening,
 and we would encourage you to meet in homes to worship together on the weeks
-that you are not in the building itself. We have always encouraged this idea of
+that you are not in the building itself (please do remember to keep to the
+government guidelines). We have always encouraged this idea of
 church being much more than simply the gathering in the building on a Sunday -
 it is about people, and doing life together. 
 
