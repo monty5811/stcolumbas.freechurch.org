@@ -2,8 +2,8 @@ layout: content_page
 title: Live Stream
 livestream:
   type_: raw_template
-  embed_code: qNxRDyRXhzQ
-  bulletin_id: "1Oe00Q2X7EfAUONzn4tmozIIRHb3yowB8OWhglCYY0aQ"
+  embed_code: wygIkotPId4
+  bulletin_id: ""
   show_coming_soon: false
   template: >
     <div class="container">
@@ -18,17 +18,17 @@ livestream:
       </div>
     </div>
     <div class="container max-w-5xl mt-12">
-    <!--
       <a class="bg-stcs-footer-bg1 bg-stcs-gray inline-block px-4 py-4 shadow-2xl text-white text-2xl" href="https://stcsfc.org/more" target="_blank">
         Sign up to find out more
       </a>
-      -->
       <p class="mt-2">Services are returning to the building in September.
-      <a href="https://stcolumbas.freechurch.org/headlines/2020/08/07/return-to-the-building" rel="noopener" target="_blank">Find out more and sign up!</a>
+        <a href="https://stcolumbas.freechurch.org/headlines/2020/08/07/return-to-the-building" rel="noopener" target="_blank">Find out more and sign up!</a>
       </p>
+    <!--
       <p class="">Come back tonight for our series "Who are you Jesus?"</p>
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
+      -->
     </div>
     {% if bulletin_id %}
     <div class="container">
