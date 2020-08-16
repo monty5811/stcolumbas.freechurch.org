@@ -41,8 +41,8 @@ the years ahead.
             class="h-16 w-16 rounded-full">
       </div>
       <div class="flex flex-col">
-        <p>Assistant Minister</p>
-        <h4 class="my-0">Thomas Davis</h4>
+        <p style="margin-top: 0; margin-bottom: 0;">Assistant Minister</p>
+        <h4 style="margin-top: 0;">Thomas Davis</h4>
       </div>
     </div>
 </div>
