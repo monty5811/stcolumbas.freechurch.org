@@ -16,12 +16,15 @@
 
 /* global */
 
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
 a {
   @apply font-semibold;
 }
 
 a:hover {
-  @apply text-red-stcs underline;
+  @apply underline text-red-stcs;
 }
 
 h1 {
