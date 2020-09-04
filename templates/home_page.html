@@ -11,9 +11,18 @@
   <div class="bg-center bg-cover bg-no-repeat flex flex-col h-screen justify-center text-center text-white w-full {{ data.photo.url|render_bg_image_class }}">
     <div class="max-w-2xl mx-auto">
       <h1 class="font-semibold mb-8 text-4xl">{{ data.heading }}</h1>
-      <a href="/connect/im_new" class="bg-white font-semibold px-4 py-2 text-lg text-red-stcs">
-        {{ data.link.text }}
-      </a>
+      <div class="flex flex-col space-y-10">
+        <div>
+          <a href="/connect/im_new" class="bg-white font-semibold px-4 py-2 text-lg text-red-stcs">
+            I'm New
+          </a>
+        </div>
+        <div>
+          <a href="/headlines/2020/08/07/return-to-the-building" class="bg-white font-semibold px-4 py-2 text-lg text-red-stcs">
+            COVID Latest
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="absolute bg-stcs-nav-bg bottom-0 px-4 py-6 text-center text-lg w-full">
