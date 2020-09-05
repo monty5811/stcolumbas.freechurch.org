@@ -12,6 +12,12 @@ intro: Catch up with the latest of our Pastoral Updates that Derek and Thomas
 ---
 Catch up with the latest of our Pastoral Updates that Derek and Thomas are providing throughout the current coronavirus situation. 
 
+
+
+Pastoral Update 14 - 14th August 2020
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3FseiD_RAls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Pastoral Update 13 - 26th June 2020
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_DXQgE3oOTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
