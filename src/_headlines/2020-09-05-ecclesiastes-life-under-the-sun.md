@@ -10,12 +10,10 @@ tags:
 intro: >-
   Ecclesiastes is a very modern-feeling book. It grapples plainly with questions
   that we grapple with, too. What is the purpose of this short life? Why not
-  just chase after pleasure while we can? Why does God allow such suffering - in
-  fact, why do the worst people seem to succeed and the best sort find
-  themselves just barely getting by? 
+  just chase after pleasure while we can?
 
 
-  This October, join us at St Columba’s for a new six-week sermon series in the evenings: Ecclesiastes: Life Under the Sun.
+  This October, join us at St Columba’s for a new six-week sermon series in the evenings: Ecclesiastes: Life Under the Sun.  We’ll explore these questions honestly together, and see where the Lord takes us.
 ---
 Every season (I’m speaking of weather) has something to admire, but I’m convinced that Autumn is the queen of them all. The weather is just chilly enough for jumpers and caps, but no so cold as to chill the bones. And the trees - the trees! I could feast my eyes on the colours of the leaves for hours on end. There could be no Autumn too long for me. 
 
