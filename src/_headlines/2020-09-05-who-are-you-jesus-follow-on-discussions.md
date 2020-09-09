@@ -2,7 +2,7 @@
 layout: headline
 title: "Who are you Jesus? - Follow on discussions "
 author: Siobhan Smith
-date: 2020-09-05T16:24:21.028Z
+date: 2020-09-02T16:24:21.028Z
 thumbnail: /static/uploads/draft-whoareyoujesus-slide.jpg
 tags:
   - Jesus
