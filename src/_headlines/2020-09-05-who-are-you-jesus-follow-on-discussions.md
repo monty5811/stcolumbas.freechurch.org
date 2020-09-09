@@ -31,7 +31,7 @@ The four people Jesus met that we will be looking at are:
 
 **Venue**
 
-This will depend on restrictions, numbers and preference but we'll be i touch with you about that. 
+This will depend on restrictions, numbers and preference but we'll be in touch with you about that. 
 
 We will meet either in:
 
