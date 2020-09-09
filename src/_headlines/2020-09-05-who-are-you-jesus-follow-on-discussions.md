@@ -20,14 +20,14 @@ To sign up go to: [stcsfc.org/more](https://stcs.elvanto.eu/form/?id=8598e2dc-a9
 
 The four people Jesus met that we will be looking at are:
 
-* Scared (Nicodemus ch 3)
-* Isolated (Woman at the well ch4)
-* Cynical (Pilate ch 18)
-* Doubting (Thomas ch 20)
+* Scared (Nicodemus: John Chapter 3)
+* Isolated (Woman at the wel: John Chapter 4)
+* Cynical (Pilate: John Chapter 18)
+* Doubting (Thomas: John Chapter 20)
 
 **Time**
 
-7.30pm on Sunday 20th September, 27th September, 4th October and 11th October
+7.30pm on Sundays: 20th September, 27th September, 4th October and 11th October
 
 **Venue**
 
