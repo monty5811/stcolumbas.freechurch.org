@@ -14,9 +14,9 @@ intro: If you have been watching the* [Who are you
   September and October to look at four people Jesus met and what it means to
   respond (or not) to the claims of Jesus.
 ---
-If you have been watching the* [Who are you Jesus?](https://www.youtube.com/playlist?list=PLF73r3ezO-0ridr5Sle2jT-IeUygnu0at)* series, why not sign up to join Derek and others for four Sunday evenings in September and October to look at four people Jesus met and what it means to respond (or not) to the claims of Jesus. Feel free to take a friend along with you. 
+If you have been watching our recent* [Who are you Jesus?](https://www.youtube.com/playlist?list=PLF73r3ezO-0ridr5Sle2jT-IeUygnu0at)* series (or even if you haven't!), why not sign up to join Derek and others for four Sunday evenings during September and October to look at four people Jesus met and what it means to respond (or not) to the claims of Jesus. Feel free to take a friend along with you!
 
-To sign up go to: [stcsfc.org/more](https://stcs.elvanto.eu/form/?id=8598e2dc-a9d3-460b-b45f-314215955fe9) When you sign up, we will give you a journal copy of John’s Gospel to read and scribble on!
+To sign up go to: [stcsfc.org/more](https://stcs.elvanto.eu/form/?id=8598e2dc-a9d3-460b-b45f-314215955fe9) to let us know and when you sign up, we will give you a journal copy of John’s Gospel to read and scribble on!
 
 The four people Jesus met that we will be looking at are:
 
@@ -27,18 +27,18 @@ The four people Jesus met that we will be looking at are:
 
 **Time**
 
-7.30pm on Sunday Sept 20, 27, Oct 4 and 11
+7.30pm on Sunday 20th September, 27th September, 4th October and 11th October
 
 **Venue**
 
-This will depend on restrictions, numbers and preference. Contact [derek@stcolumbas.freechurch.org]([derek@stcolumbas.freechurch.org](mailto:derek@stcolumbas.freechurch.org)) with your preference and Derek will get in touch with you once the updated COVID restrictions are clearer for that time.
+This will depend on restrictions, numbers and preference but we'll be i touch with you about that. 
 
 We will meet either in:
 
-Derek’s Living Room (Warrender Park Road, Edinburgh)
+Derek’s Living Room (Marchmont, Edinburgh)
 
-St Columba’s Church Hall (Johnston Terrace, EH12PW)
+St Columba’s Church Hall (Johnston Terrace, EH1 2PW)
 
 By Zoom (Invitation will be sent out)
 
-Look forward to seeing you!
+We look forward to seeing you!
