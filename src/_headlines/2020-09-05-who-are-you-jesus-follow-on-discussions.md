@@ -31,14 +31,6 @@ The four people Jesus met that we will be looking at are:
 
 **Venue**
 
-This will depend on restrictions, numbers and preference but we'll be in touch with you about that. 
-
-We will meet either in:
-
-Derek’s Living Room (Marchmont, Edinburgh)
-
-St Columba’s Church Hall (Johnston Terrace, EH1 2PW)
-
-By Zoom (Invitation will be sent out)
+With the tighter restrictions, we will now meet on Zoom (sorry!). Contact [derek@stcsfc.org](mailto:derek@stcsfc.org) if you plan to attend and we will send you a Zoom Invitation link.
 
 We look forward to seeing you!
