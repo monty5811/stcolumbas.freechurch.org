@@ -3,8 +3,8 @@ title: Live Stream
 livestream:
   type_: raw_template
   embed_code: 6GCXtht6cI0
-  bulletin_id: "1j6Fp3YGFBhDTdu9uZ9zfYyZp_vQAkPbdQUF8U4BRJl4"
-  show_coming_soon: false
+  bulletin_id: 1j6Fp3YGFBhDTdu9uZ9zfYyZp_vQAkPbdQUF8U4BRJl4
+  show_coming_soon: true
   template: >
     <div class="container">
       <div class="max-w-5xl mx-auto">
@@ -16,22 +16,16 @@ livestream:
           {% endif %}
         </div>
       </div>
-    </div>
-    <div class="container max-w-5xl mt-12">
+    </div> <div class="container max-w-5xl mt-12">
       <p class="mt-4">
         Services are returning to the building in September. If you were expecting an email this week, but did not receive one, please get in touch with <a href="mailto:help@stcsfc.org">help@stcsfc.org</a>.
       </p>
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
-    <!--
-    -->
-    </div>
-    {% if bulletin_id %}
-    <div class="container">
+    <!-- --> </div> {% if bulletin_id %} <div class="container">
       <div class="max-w-5xl mx-auto my-16">
         <h3 class="mt-8 text-3xl">Bulletin</h3>
         <a href="https://docs.google.com/document/d/{{ bulletin_id }}/preview" target="_blank" rel="noopener">View separately</a>
         <iframe src="https://docs.google.com/document/d/{{ bulletin_id }}/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
       </div>
-    </div>
-    {% endif %}
+    </div> {% endif %}
