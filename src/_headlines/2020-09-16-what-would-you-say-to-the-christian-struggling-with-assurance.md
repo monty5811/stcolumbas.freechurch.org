@@ -3,7 +3,7 @@ layout: headline
 title: "What would you say to the Christian struggling with assurance? "
 author: Siobhan Smith
 date: 2020-09-16T16:23:24.474Z
-thumbnail: /static/uploads/question-time.jpg
+thumbnail: /static/uploads/qt.jpg
 tags:
   - faith
   - assurance
