@@ -3,20 +3,17 @@ layout: headline
 title: "What would you say to the Christian struggling with assurance? "
 author: Siobhan Smith
 date: 2020-09-16T16:23:24.474Z
-thumbnail: /static/uploads/question-time.jpg
+thumbnail: /static/uploads/qt.jpg
 tags:
   - faith
   - assurance
   - jesus
   - gospel
   - bible
-intro: >-
-  As we aren't able to answer all the questions we receive for our Question Time
-  service due to time restrictions, we will seek to answer any submitted
-  questions that are outstanding on here. 
-
-
-  In this Q&A, we consider the question "What would you say to a Christian struggling with assurance?"
+intro: As we aren't able to answer all the questions we receive for our Question
+  Time service due to time restrictions, we will seek to answer any submitted
+  questions that are outstanding on here. In this Q&A, we consider the question
+  "What would you say to a Christian struggling with assurance?"
 ---
 **Question: “What would you say to the Christian struggling with assurance?”**
 
@@ -28,9 +25,9 @@ Let’s start by breaking this down into two smaller questions: 1) How do I know
 
 When we speak of salvation we mean it both negatively and positively: saved from something, and saved to something. The Bible is clear that what is on offer from Jesus is salvation from **judgment**. God is the righteous judge of the universe, and to him we must all, one day, give an account. (See Ecclesiastes 12:14, 2 Corinthians 5:10, for instance.) That doesn’t sound so bad, until we understand that not one of us can stand upright before this judge. We all have blemishes on our record. The Apostle Paul says that “all have sinned and fall short of the glory of God”(Romans 3:23). And Jesus himself indicted us all as murderers and more, when he “upped the ante” on the sermon on the mount: 
 
-*“You have heard that it was said to those of old, ‘You shall not murder; and whoever murders will be liable to judgment.’ But I say to you that everyone who is angry with his brother will be liable to judgment; whoever insults his brother will be liable to the council; and whoever says, ‘You fool!’ will be liable to the hell of fire.” (Matthew 5:21–22)*
-
-*“You have heard that it was said, ‘You shall not commit adultery.’ But I say to you that everyone who looks at a woman with lustful intent has already committed adultery with her in his heart.” (Matthew 5:27–28)*
+> *“You have heard that it was said to those of old, ‘You shall not murder; and whoever murders will be liable to judgment.’ But I say to you that everyone who is angry with his brother will be liable to judgment; whoever insults his brother will be liable to the council; and whoever says, ‘You fool!’ will be liable to the hell of fire.” (Matthew 5:21–22)*
+>
+> *“You have heard that it was said, ‘You shall not commit adultery.’ But I say to you that everyone who looks at a woman with lustful intent has already committed adultery with her in his heart.” (Matthew 5:27–28)*
 
 Who could stand unashamed before that high moral standard? So we see that we must be saved from this judgment. That’s the first aspect of “salvation.” 
 
@@ -44,11 +41,9 @@ Here is where we finally get to the question of “assurance.” How do I know t
 
 It’s a serious question. It was a serious question to the Apostle John, who wrote 1 John, and he was careful to give the recipients of his letter one or two specific tools to establish a basis for their assurance. It goes something like this:
 
-1) God is love
-
-2) Everyone who loves (truly loves, like Jesus) is “of God”
-
-3) If I truly love, like Jesus, then I am of God — i.e. I have *assurance*. (See 1 John 3:14)
+1. God is love
+2. Everyone who loves (truly loves, like Jesus) is “of God”
+3. If I truly love, like Jesus, then I am of God — i.e. I have *assurance*. (See 1 John 3:14)
 
 That’s *a* way, not *the* way, to think about and find assurance. For a fuller answer which we don’t have space for here, see chapter 12 in Donald Macleod’s book, *A Faith to Live By.*
 
@@ -66,7 +61,7 @@ Turning *from* our sin and to God (the Bible’s word for that is “repentance�
 
 I leave you with a thought from Dr. Macleod: 
 
-*”The quality of our witness, our worship, and our whole service of God depends on the depth and power of our feelings and affections; and primary among these is this fact of assurance. Our service is driven by the persuasion that God loves us.”*
+> *”The quality of our witness, our worship, and our whole service of God depends on the depth and power of our feelings and affections; and primary among these is this fact of assurance. Our service is driven by the persuasion that God loves us.”*
 
 **Upcoming Q&A Service**
 
