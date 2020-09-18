@@ -1,14 +1,15 @@
 ---
 layout: headline
-title: "Return to the Building!"
+title: Return to the Building!
 author: Rowan Corrigan
 date: 2020-08-07T11:00:24.865Z
 thumbnail: /static/uploads/christmas.jpg
 tags:
   - coronavirus
   - covid-19
-intro: Catch up with the latest of our Pastoral Updates that Derek and Thomas
-  are providing throughout the current coronavirus situation.
+intro: We are planning to start our morning services on Sunday 6th September. In
+  line with government guidelines, we will initially be limited to a maximum of
+  50 people per service.
 ---
 
 <div class="bg-stcs-footer-bg1 flex mb-4 px-4 py-2 text-white shadow shadow-lg items-center">
