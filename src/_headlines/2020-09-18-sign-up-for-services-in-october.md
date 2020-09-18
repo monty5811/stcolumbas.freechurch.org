@@ -9,10 +9,9 @@ tags:
   - church. gospel
   - jesus
   - service
-intro: In October we will continue to be limiting service attendance to a
-  maximum of 50 people in line with government guidelines. If you wish to attend
-  a service in October, it's important that you fill in the form at
-  [stcsfc/october
+intro: In October we will continue to limit service attendance to a maximum of
+  50 people in line with government guidelines. If you wish to attend a service
+  in October, it's important that you fill in the form at [stcsfc/october
   ](https://stcs.elvanto.eu/form/607f0268-4a0c-4e5b-96a9-9d3ef7902673)to let us
   know your availability.
 ---
