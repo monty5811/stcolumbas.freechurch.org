@@ -9,9 +9,9 @@ tags:
   - church. gospel
   - jesus
   - service
-intro: In October, in line with government guidelines, we will continue to be
-  limiting attendance to a maximum of 50 people per service. If you wish to
-  attend a service in October, it's important that you fill in the form at
+intro: In October we will continue to be limiting service attendance to a
+  maximum of 50 people in line with government guidelines. If you wish to attend
+  a service in October, it's important that you fill in the form at
   [stcsfc/october
   ](https://stcs.elvanto.eu/form/607f0268-4a0c-4e5b-96a9-9d3ef7902673)to let us
   know your availability.
@@ -37,7 +37,7 @@ We will keep to live streaming services in the morning and the evening, and we w
 
 In the meantime, can we ask you to complete the form below (contact help@stcsfc.org if you have any difficulties accessing it) **by the end of the day on 27th September**. It’s really important that you return this form if you wish to worship with us in person. We would love to welcome you to church, and so please return the form below whether you are a regular at St Columba’s, if you are new to the city or if you are visiting us for the first time.
 
-We are looking forward to seeing you soon![stcsfc.org/october](https://stcs.elvanto.eu/form/607f0268-4a0c-4e5b-96a9-9d3ef7902673)
+We're looking forward to seeing you soon!
 
 <a
     class="inline-block px-4 py-3 hover:shadow-2xl text-3xl hover:bg-stcs-footer-bg1" 
