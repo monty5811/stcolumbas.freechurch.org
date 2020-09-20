@@ -16,8 +16,6 @@ intro: If you have been watching the* [Who are you
 ---
 If you have been watching our recent* [Who are you Jesus?](https://www.youtube.com/playlist?list=PLF73r3ezO-0ridr5Sle2jT-IeUygnu0at)* series (or even if you haven't!), why not sign up to join Derek and others for four Sunday evenings during September and October to look at four people Jesus met and what it means to respond (or not) to the claims of Jesus. Feel free to take a friend along with you!
 
-To sign up go to: [stcsfc.org/more](https://stcs.elvanto.eu/form/?id=8598e2dc-a9d3-460b-b45f-314215955fe9) to let us know and when you sign up, we will give you a journal copy of John’s Gospel to read and scribble on!
-
 The four people Jesus met that we will be looking at are:
 
 * Scared (Nicodemus: John Chapter 3)
@@ -31,14 +29,8 @@ The four people Jesus met that we will be looking at are:
 
 **Venue**
 
-This will depend on restrictions, numbers and preference but we'll be in touch with you about that. 
+With the tighter restrictions, we will now meet on Zoom (sorry!). Contact [derek@stcsfc.org](mailto:derek@stcsfc.org) if you plan to attend and we will send you a Zoom Invitation link. 
 
-We will meet either in:
-
-Derek’s Living Room (Marchmont, Edinburgh)
-
-St Columba’s Church Hall (Johnston Terrace, EH1 2PW)
-
-By Zoom (Invitation will be sent out)
+When you sign up, we will give you a journal copy of John’s Gospel to read and scribble on.
 
 We look forward to seeing you!
