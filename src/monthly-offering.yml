@@ -8,7 +8,7 @@ html:
         <form action="/charge" method="post" id="payment-form" class="p-8">
         <div class="my-4 prose lg:prose-xl">
             <p>
-            We usually take an offering each month to give to a different project or charity or other good cause. Since we are unable to meet in person due to COVID-19 restrictions we have moved this offering online.
+            We usually take an offering each month to give to a different project or charity or other good cause. Due to COVID-19 restrictions we have moved this offering online.
             </p>
 
             <p>
@@ -16,11 +16,13 @@ html:
             You will be redirected to our payment processor where you can pay by credit card, debit card, Google Pay or Apple Pay.
             </p>
             <p>
-            This month we are collecting for <a href="https://www.bethanychristiantrust.com/" target="_blank" rel="noopener">Bethany Christian Trust</a>.
+            This month we are collecting for <a href="https://www.uccf.org.uk/" target="_blank" rel="noopener">UCCF</a>.
             </p>
             <p>
-            The Trust provides high quality services and accommodation for people who are at risk of becoming homeless, people who are currently homeless and people who have been homeless but now have their own home.
-            They support people in a broad range of ways - further information can be found on their <a href="https://www.bethanychristiantrust.com/" target="_blank" rel="noopener">website</a>.
+            UCCF support students in Christian Unions in their leadership of mission in universities. As well as employing full time staff workers to work with CUs and individuals, UCCF operates an internship programme (Relay) for graduates to spend a year in mission, discipleship and training. Their <a href="https://www.uccf.org.uk/" target="_blank" rel="noopener">website gives further details of their work</a>.
+            </p>
+            <p>
+            At this uncertain time, UCCF is supporting students and Christian Unions to keep a visible presence on campus and act boldly and creatively to continue making disciples of Christ.
             </p>
           </div>
           <div class="w-full my-4">
