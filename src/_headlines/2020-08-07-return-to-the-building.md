@@ -1,7 +1,7 @@
 ---
 layout: headline
 title: Return to the Building!
-author: Rowan Corrigan
+author: Rowan Logan
 date: 2020-08-07T11:00:24.865Z
 thumbnail: /static/uploads/christmas.jpg
 tags:
