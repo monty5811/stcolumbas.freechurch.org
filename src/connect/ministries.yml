@@ -21,7 +21,7 @@ ministries:
     picture: "/static/uploads/social_action.jpg"
     content: |
        In St Columba’s we don’t run our own programmes but link up with existing charities to help bring relief and comfort to those who are disadvantaged and in need.
-       Currently we help with [Bethany Christian Trust](http://www.bethanychristiantrust.com/), [The Care Van](http://edinburghcitymission.org.uk/ministries/carevan/), [Safe Families for Children](https://www.safefamiliesforchildren.com/) and the [SE Edinburgh Foodbank](http://edinburghse.foodbank.org.uk/).
+       Currently we help with [Bethany Christian Trust](http://www.bethanychristiantrust.com/), [The Care Van](https://www.bethanychristiantrust.com/services/crisis-intervention/), [Safe Families](safefamilies.uk) and the [SE Edinburgh Foodbank](http://edinburghse.foodbank.org.uk/).
        If you would like to know more or get involved helping, please get in touch!
     contact:
       type_: "activity_contact"
@@ -47,8 +47,8 @@ ministries:
         The Den and iDen are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
     contact:
       type_: "activity_contact"
-      name: "Rowan Logan"
-      picture: "/static/uploads/people/rowan.png"
+      name: "Mairi Murchison"
+      picture: "/static/uploads/people/placeholder.svg"
     show_covid_paused: false
     show_covid_online: true
   - type_: "activity"
