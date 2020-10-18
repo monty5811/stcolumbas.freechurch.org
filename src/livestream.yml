@@ -2,9 +2,9 @@ layout: content_page
 title: Live Stream
 livestream:
   type_: raw_template
-  embed_code: pagvJvuv9_I
+  embed_code: isJALE88-E4
   bulletin_id: "1Tk87DQP8kM8QgoXSpte4BiYGTxyC2aSIoTY1gF0Y-uM"
-  show_coming_soon: true
+  show_coming_soon: false
   template: >
     <div class="container">
       <div class="max-w-5xl mx-auto">
