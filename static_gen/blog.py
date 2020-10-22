@@ -7,18 +7,6 @@ from .feed import write_feed
 from .utils import group_into, load_yaml, yaml
 
 
-def extract_tags(posts):
-    tags = [_extract_tags(p) for p in posts]
-    # flatten lists:
-    tags = [item for sublist in tags for item in sublist]
-    return list(set(tags))
-
-
-def _extract_tags(post):
-    tags = [t.strip() for t in post["tags"]]
-    return tags
-
-
 def generate_post_path(orig_path):
     # extract only the filename
     fname = os.path.basename(orig_path)
@@ -118,33 +106,13 @@ def write_blog_index(env, files):
     posts = sorted(posts, key=lambda p: p["date"])
     posts = list(reversed(posts))
 
-    tags = extract_tags(posts)
     pagination = paginate(posts)
 
     # write index:
     for idx, paged_data in enumerate(pagination):
         _write_blog_index(
-            env,
-            idx,
-            {"data": {"title": "Headlines"}, "tags": tags, "pagination": paged_data},
+            env, idx, {"data": {"title": "Headlines"}, "pagination": paged_data},
         )
-    # write tag index pages:
-    for tag in tags:
-        tagged_posts = [p for p in posts if tag in p["tags"]]
-        for idx, paged_data in enumerate(
-            paginate(tagged_posts, prefix=f"headlines/tags/{tag}")
-        ):
-            _write_blog_index(
-                env,
-                idx,
-                {
-                    "data": {"title": "Headlines"},
-                    "tags": tags,
-                    "pagination": paged_data,
-                },
-                tag_page=True,
-                tag=tag,
-            )
 
     # write rss:
     write_feed(posts)

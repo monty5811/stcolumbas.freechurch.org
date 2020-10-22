@@ -3,8 +3,8 @@ title: "Community"
 bible_verse:
   type_: "one_wide_row"
   content: |
-    <div class="text-center mb-8">
-      <h4 class="mb-1 mt-0 font-semibold">'Above all, love one another deeply... offer hospitality to one another...'</h4>
+    <div class="mb-8 text-center">
+      <h4 class="mt-0 mb-1 font-semibold">'Above all, love one another deeply... offer hospitality to one another...'</h4>
       <p class="-mt-1 italic">1 Peter 4:8-9</p>
     </div>
 intro:
@@ -71,5 +71,5 @@ communities:
         type_: "activity_contact"
         name: "Billy Graham"
         picture: "/static/uploads/people/billy-image.jpg"
-      show_covid_paused: true
-      show_covid_online: false
+      show_covid_paused: false
+      show_covid_online: true

@@ -1,26 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="border-b mb-16 uppercase">
-    <ul class="container flex">
-      <li class="-mb-px mr-1">
-        <a href="/headlines/" class="headline-category{% if tag == None %}-active{% endif %}">
-          Latest
-        </a>
-      </li>
-      <li class="-mb-px mr-1">
-        <a href="/headlines/tags/news" class="headline-category{% if tag == 'news' %}-active{% endif %}">
-          News
-        </a>
-      </li>
-      <li class="-mb-px mr-1">
-        <a href="/headlines/tags/other" class="headline-category{% if tag == 'other' %}-active{% endif %}">
-          Other
-        </a>
-      </li>
-    </ul>
-  </div>
-
 <div id="news-page" class="container text-gray-400">
   <div id="news-grid" class="w-4/5">
     {% for post in pagination['posts'] %}
@@ -46,14 +26,14 @@
     <nav aria-label="pagination controls">
       <ul class="flex justify-between mb-8">
         {% if pagination.prev %}
-          <li class="py-2 px-4 border rounded hover:border-red-stcs">
+          <li class="px-4 py-2 border rounded hover:border-red-stcs">
             <a href="{{ pagination.prev }}">Newer</a>
           </li>
         {% else %}
           <div class=""></div>
         {% endif %}
         {% if pagination.next %}
-          <li class="py-2 px-4 border rounded hover:border-red-stcs">
+          <li class="px-4 py-2 border rounded hover:border-red-stcs">
             <a href="{{ pagination.next}}">Older</a>
           </li>
         {% endif %}

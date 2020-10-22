@@ -41,10 +41,10 @@ ministries:
     show_covid_paused: true
     show_covid_online: false
   - type_: "activity"
-    name: "The Den and iDen"
+    name: "The Den"
     picture: "/static/uploads/the_den.jpg"
     content: |
-        The Den and iDen are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
+        The Den are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
     contact:
       type_: "activity_contact"
       name: "Mairi Murchison"
