@@ -16,8 +16,8 @@ from .utils import load_yaml
 def write_files(env, pages):
     manifest = {}
     for p in pages:
-        # ignore headlines:
-        if "_headlines" in p:
+        # ignore updates:
+        if "_updates" in p:
             continue
         data = load_yaml(p)
         content = data.copy()
@@ -47,7 +47,7 @@ def write_files(env, pages):
 
 def write_sw(env, manifest):
     # add css and js:
-    files = ["/static/css/stcs.css", "/static/js/stcs.js", "/headlines.html"]
+    files = ["/static/css/stcs.css", "/static/js/stcs.js", "/updates.html"]
 
     for f_ in files:
         with open(DIST_DIR + f_, "rb") as f:
@@ -141,7 +141,7 @@ def build():
     copy_public_files()
     copy_static_files()
 
-    blog.write_blog_index(env, load_files(sub_dir="_headlines"))
+    blog.write_blog_index(env, load_files(sub_dir="_updates"))
     manifest = write_files(env, load_files())
     write_sitemap(env, manifest)
     write_sw(env, manifest)

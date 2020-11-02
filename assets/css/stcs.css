@@ -139,7 +139,7 @@ span.required::after {
   }
 }
 
-/* headlines */
+/* updates */
 .headline-category {
   @apply inline-block pb-1 mx-4 font-semibold;
   @apply text-gray-400;

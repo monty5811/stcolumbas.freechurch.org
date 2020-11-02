@@ -1,2 +1,3 @@
 http://stcsfc.netlify.com/* https://stcsfc.netlify.com/:splat 301!
 http://stcolumbas.freechurch.org/* https://stcolumbas.freechurch.org/:splat 301!
+/headlines/* /updates/:splat 301!

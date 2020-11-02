@@ -16,7 +16,7 @@ def generate_post_path(orig_path):
     slug = "-".join(rest)
     slug = slug.replace(".md", "")
     # assemble new path
-    new_path = os.path.join("headlines", year, month, day, slug)
+    new_path = os.path.join("updates", year, month, day, slug)
 
     return new_path
 
@@ -52,7 +52,7 @@ def load_post(fname):
     return frontmatter
 
 
-def paginate(posts, prefix="headlines"):
+def paginate(posts, prefix="updates"):
     groups = group_into(posts, 5)
     pagination = []
     for idx, g in enumerate(groups):
@@ -75,18 +75,18 @@ def paginate(posts, prefix="headlines"):
 def _write_blog_index(env, idx, data, tag_page=False, tag=None):
     if idx == 0:
         if tag_page:
-            path = os.path.join(DIST_DIR, "headlines", "tags", f"{tag}.html")
+            path = os.path.join(DIST_DIR, "updates", "tags", f"{tag}.html")
         else:
-            path = os.path.join(DIST_DIR, "headlines.html")
+            path = os.path.join(DIST_DIR, "updates.html")
     else:
         if tag_page:
-            path = os.path.join(DIST_DIR, "headlines", "tags", tag, f"{str(idx)}.html")
+            path = os.path.join(DIST_DIR, "updates", "tags", tag, f"{str(idx)}.html")
         else:
-            path = os.path.join(DIST_DIR, "headlines", f"{str(idx)}.html")
+            path = os.path.join(DIST_DIR, "updates", f"{str(idx)}.html")
 
     data["uri"] = path.replace(DIST_DIR, "").replace(".html", "")
     data["tag"] = tag
-    result = env.get_template("headlines.html").render(data)
+    result = env.get_template("updates.html").render(data)
 
     os.makedirs(os.path.dirname(path), exist_ok=True)
     print(path)
@@ -111,7 +111,7 @@ def write_blog_index(env, files):
     # write index:
     for idx, paged_data in enumerate(pagination):
         _write_blog_index(
-            env, idx, {"data": {"title": "Headlines"}, "pagination": paged_data},
+            env, idx, {"data": {"title": "Updates"}, "pagination": paged_data},
         )
 
     # write rss:

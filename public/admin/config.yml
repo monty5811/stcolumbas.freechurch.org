@@ -9,16 +9,16 @@ media_folder: "static/uploads"
 public_folder: "/static/uploads"
 
 collections:
-  - name: "headline" # Used in routes, e.g., /admin/collections/blog
-    label: "Headlines" # Used in the UI
-    folder: "src/_headlines"
+  - name: "update" # Used in routes, e.g., /admin/collections/blog
+    label: "Updates" # Used in the UI
+    folder: "src/_updates"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "headline"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "update"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "select", options: ["Siobhan Smith", "Miriam Montgomery"]}
+      - {label: "Author", name: "author", widget: "select", options: ["Siobhan Smith", "Miriam Montgomery", "Rowan Logan"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}

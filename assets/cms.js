@@ -4,7 +4,7 @@ import { MinistriesPreview } from "./cms/ministries";
 import { OurTeamPreview } from "./cms/our-team";
 import { OurVisionPreview } from "./cms/our-vision";
 import { ServingPreview } from "./cms/serving";
-import { HeadlinePreview } from "./cms/headline";
+import { UpdatePreview } from "./cms/update";
 
 CMS.registerPreviewStyle("/static/css/stcs.css");
 CMS.registerPreviewTemplate("church-plants", ChurchPlantsPreview);
@@ -13,4 +13,4 @@ CMS.registerPreviewTemplate("ministries", MinistriesPreview);
 CMS.registerPreviewTemplate("our-team", OurTeamPreview);
 CMS.registerPreviewTemplate("our-vision", OurVisionPreview);
 CMS.registerPreviewTemplate("serving", ServingPreview);
-CMS.registerPreviewTemplate("headline", HeadlinePreview);
+CMS.registerPreviewTemplate("update", UpdatePreview);

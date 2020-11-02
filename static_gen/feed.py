@@ -11,13 +11,13 @@ markdown = mistune.Markdown()
 
 def write_feed(posts):
     fg = FeedGenerator()
-    fg.id(f"{BASE_URL}/headlines/")
-    fg.title("St Columbas's - Headlines")
+    fg.id(f"{BASE_URL}/updates/")
+    fg.title("St Columbas's - Updates")
     fg.author(name="St Columba's Free Church", email="help@stcsfc.org")
-    fg.link(href=f"{BASE_URL}/headlines")
+    fg.link(href=f"{BASE_URL}/updates")
     fg.logo(f"{BASE_URL}/static/images/stcolumbas-logo-small.png")
     fg.language("en")
-    fg.description("St Columba's Free Church Headlines")
+    fg.description("St Columba's Free Church Updates")
 
     for p in posts:
         fe = fg.add_entry()
@@ -28,8 +28,8 @@ def write_feed(posts):
         fe.summary(p["intro"])
         fe.content(markdown(p["body"]))
 
-    rss_path = os.path.join(DIST_DIR, "headlines", "rss.xml")
-    atom_path = os.path.join(DIST_DIR, "headlines", "atom.xml")
+    rss_path = os.path.join(DIST_DIR, "updates", "rss.xml")
+    atom_path = os.path.join(DIST_DIR, "updates", "atom.xml")
     print(rss_path)
     fg.rss_file(rss_path)
     print(atom_path)
