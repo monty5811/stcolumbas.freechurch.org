@@ -17,7 +17,7 @@ Over the past two years, St Columba's has been developing a training programme f
 
 Here, our new interns, Mairi and William, tell us a bit about themselves and their roles. 
 
-
+![mairi](/static/uploads/img-20200924-wa0005-edited-1-.jpg "mairi")
 
 Mairi Murchison (Ministry Apprentice) 
 
@@ -27,7 +27,7 @@ One of my main responsibilities will be working with the Den, our ministry for y
 
 My hope is that I will be humble and teachable, taking this opportunity to learn from the godly, wise people I am surrounded with and becoming more like Jesus. I pray that I will be able to serve St Columba’s faithfully throughout my time here, living wholeheartedly for God and seeking his glory in all I do.” 
 
-
+![william](/static/uploads/whatsapp-image-2020-09-03-at-12.30.18-1-.jpeg "william")
 
 William MacSween (Ministry Apprentice)
 
@@ -38,7 +38,5 @@ Like many, Covid-19 meant that my plans for 2020 had to change significantly. I 
 Over the course of the year, my role will be focused on helping to develop the music and worship, but as well as that I’ll be helping out with Kids’ church and Identity. I’ve been a part of both the music team and Identity throughout my time in St Cs so far, and so I’m delighted to be able to continue my involvement there. I’m also excited to serve in Kids church, which will be a new experience for me!
 
 I’ve been especially aware of God’s presence with me over the past few months, particularly through answered prayers. My hope is that I’m able to use this year for his glory - that I would grow and mature as a Christian, and that I would use every opportunity I’m given to serve others and the church.”
-
-
 
 Please keep both Mairi, William and the rest of the staff in St Columba’s in your prayers, as they seek to glorify God and navigate serving in the church community during the pandemic.
