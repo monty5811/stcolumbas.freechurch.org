@@ -19,7 +19,7 @@ Here, our new interns, Mairi and William, tell us a bit about themselves and the
 
 ![mairi](/static/uploads/img-20200924-wa0005-edited-1-.jpg "mairi")
 
-Mairi Murchison (Ministry Apprentice) 
+### Mairi Murchison (Ministry Apprentice) 
 
 “I have been in Edinburgh the last four years, completing an undergraduate degree in Linguistics & English Language. During that time I have loved being a part of St Columba’s Free Church. The ministry apprenticeship is such a wonderful opportunity for me to be taught and mentored, to study and to serve. I am so grateful to be here for the next two years and I am looking forward to all that lies ahead!
 
@@ -29,7 +29,7 @@ My hope is that I will be humble and teachable, taking this opportunity to learn
 
 ![william](/static/uploads/whatsapp-image-2020-09-03-at-12.30.18-1-.jpeg "william")
 
-William MacSween (Ministry Apprentice)
+### **William MacSween (Ministry Apprentice)**
 
 “I’m William, I’m 22 years old, and I’m originally from a village called Dunkeld in Highland Perthshire. I moved to Edinburgh in 2016 to study a music degree, and joined St Columba’s shortly after, where I have been since! 
 
