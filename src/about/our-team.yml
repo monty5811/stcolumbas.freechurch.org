@@ -38,11 +38,11 @@ teams:
       - name: "William MacSween"
         title: "Ministry Apprentice"
         type_: "team_head"
-        picture: /static/uploads/william.png
+        picture: /static/uploads/william.jpg
       - name: "Mairi Murchison"
         title: "Ministry Apprentice"
         type_: "team_head"
-        picture: /static/uploads/mairi.png
+        picture: /static/uploads/mairi.jpg
   - title: "Elders"
     type_: "team_list"
     members:
