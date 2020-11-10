@@ -31,7 +31,7 @@ My hope is that I will be humble and teachable, taking this opportunity to learn
 
 ### **William MacSween (Ministry Apprentice)**
 
-<img alt="William MacSween" src="/static/uploads/people/william.jpg"
+<img alt="William MacSween" src="/static/uploads/william.jpg"
     loading="lazy"
     class="w-32 h-32 rounded-full">
 

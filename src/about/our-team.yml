@@ -27,10 +27,6 @@ teams:
         title: "Administrator & Treasurer"
         type_: "team_head"
         picture: /static/uploads/people/donna.jpg
-      - name: "Calum Cameron"
-        title: "Minister in Training"
-        type_: "team_head"
-        picture: /static/uploads/people/calum_cam.png
       - name: "Rowan Logan"
         title: "Ministry Apprentice"
         type_: "team_head"
@@ -39,6 +35,14 @@ teams:
         title: "Minister in Training"
         type_: "team_head"
         picture: /static/uploads/people/jon.png
+      - name: "William MacSween"
+        title: "Ministry Apprentice"
+        type_: "team_head"
+        picture: /static/uploads/william.png
+      - name: "Mairi Murchison"
+        title: "Ministry Apprentice"
+        type_: "team_head"
+        picture: /static/uploads/mairi.png
   - title: "Elders"
     type_: "team_list"
     members:
