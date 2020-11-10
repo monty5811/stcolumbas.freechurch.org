@@ -19,7 +19,7 @@ Here, our new interns, Mairi and William, tell us a bit about themselves and the
 
 ### Mairi Murchison (Ministry Apprentice) 
 
-<img alt="William MacSween" src="/static/uploads/mairi.jpg"
+<img alt="Mairi Murchison" src="/static/uploads/mairi.jpg"
     loading="lazy"
     class="w-32 h-32 rounded-full">
 
