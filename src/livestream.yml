@@ -3,8 +3,8 @@ title: Live Stream
 livestream:
   type_: raw_template
   embed_code: _Q0J7pGbZls
-  bulletin_id: "1_kC0nybBKj3AMk212XyK1x7RnO8JP3B9aWyIizUaVTQ"
-  show_coming_soon: false
+  bulletin_id: "1afFPR36jnOmSCrHVElMNNWm6w3J97eutgR9XC20pf_Q"
+  show_coming_soon: true
   template: >
     <div class="container">
       <div class="max-w-5xl mx-auto">
