@@ -81,8 +81,8 @@ serving_areas:
         You can be the first person people meet at St Columba's! First impressions are always powerful, and the same is true here in church - so we want ours to be kind, helpful and open-hearted.
         You don’t need a good memory for names or faces; just a willingness to welcome every individual as if you are welcoming Christ himself!
       contact:
-        name: "David Morris"
-        picture: "/static/uploads/people/david-image.jpg"
+        name: "Catriona Lamont"
+        picture: "/static/uploads/people/catriona-lamont.jpg"
         type_: "activity_contact"
     - type_: "activity"
       name: "Hospitality Team"

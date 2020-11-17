@@ -148,10 +148,6 @@ teams:
         title: "Newington"
         type_: "team_head"
         picture: /static/uploads/people/dayspring-macleod.jpg
-      - name: "Lois Macleod"
-        title: "Inverleith"
-        type_: "team_head"
-        picture: /static/uploads/people/lois-macleod.jpg
       - name: "Anna Macrae"
         title: "Newington"
         type_: "team_head"
@@ -176,6 +172,14 @@ teams:
         title: "Fountainbridge"
         type_: "team_head"
         picture: /static/uploads/people/kirsty-thompson.jpg
+      - name: "Anne Norrie"
+        title: "Corstorphine"
+        type_: "team_head"
+        picture:  /static/uploads/people/anne-norrie.jpg
+      - name: "Lizzie Alexander"
+        title: "Inverleith"
+        type_: "team_head"
+        picture: /static/uploads/people/lizzie-alexander.png
   - title: "Cornerstone Church Plant"
     type_: "team_list"
     members:
