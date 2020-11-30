@@ -1,8 +1,8 @@
 ---
 layout: update
-title: "Sign up for services in December"
+title: Sign up for services in December
 author: Rowan Logan
-date: 2020-10-20T20:21:19.543Z
+date: 2020-11-22T21:21:19.543Z
 thumbnail: /static/uploads/Stock_39_of_39.jpg
 tags:
   - edinburgh
@@ -12,7 +12,7 @@ tags:
   - service
 intro: In December we will continue to limit service attendance to a maximum of
   50 people in line with government guidelines. If you wish to attend a service
-  in December or the first two weeks in January, it's important that you fill in 
+  in December or the first two weeks in January, it's important that you fill in
   the form at https://stcsfc.org/dec-jan to let us know your availability.
 ---
 <div class="flex items-center px-4 py-2 mb-4 text-white shadow-lg bg-stcs-footer-bg1">
