@@ -26,6 +26,12 @@ intro: In December we will continue to limit service attendance to a maximum of
   </div>
 </div>
 
+The end of the year is just around the corner and so we are planning for our December services, including Christmas and New Year's Day, as well as the first two weeks of January (3rd & 10th). During this time, we will have a virtual carol service, as well as our normal in-person services. These services will still be limited to 50 people, in line with government guidance and so your willingness to indicate your availability is hugely appreciated and has made the last months of limited services run as smoothly as possible.
+
+We will continue to be livestreaming the services with the exceptions of Christmas Day and New Year's Day, which will not have a live stream. Due to limited numbers allowed at both, it may only be possible to assign you to one of the two and so when filling out the form, it would be helpful if you could indicate your preferred service to attend (Christmas Day or New Year's Day).
+
+Please note that we will also be having a virtual Carol Service on the evening of Sunday 20th December. This will be done fully by the live stream, with no attendance in person. There will also be no services on the evenings of the 27th December and the 3rd January. For all of the information about the next six weeks worth of services, please see the November Congregational Update or the bulletin.
+
 We would love to worship in person with you this month, whether you have been coming to St Columba’s all your life or have never been before. In order to attend an in person service, we need you to fill out the form by the end of the day on **Sunday 29th November**. If you have any problems with the form, please contact <a href="mailto:help@stcsfc.org">help@stcsfc.org</a>.
 
 After the deadline, and once all the services have been allocated, the form will re-open so you can sign up for the waiting list. If the form is closed, please contact <a href="mailto:help@stcsfc.org">help@stcsfc.org</a>.
