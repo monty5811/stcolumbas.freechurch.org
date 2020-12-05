@@ -3,7 +3,7 @@ layout: update
 title: "Real Life, Real Hope - New Growth Christian Counselling "
 author: Siobhan Smith
 date: 2020-11-29T13:22:01.646Z
-thumbnail: /static/uploads/new-growth.jpg
+thumbnail: /static/uploads/20160816_134358-v2.jpg
 tags:
   - Christian Counselling
   - bible
