@@ -24,6 +24,10 @@ Many of you already know them, but for those of you who may not, here’s a shor
 
 Craig Nicolson 
 
+<img alt="craig-image" src="/static/uploads/craig-image.jpg"
+    loading="lazy"
+    class="w-32 h-32 rounded-full">
+
 Craig grew up in the north of Scotland and has been part of St Columba’s since moving to Edinburgh. He is married to Jenny and has two children. Craig has been involved in different areas of service at St Cs including youth ministry, the Bethany Care Van and has led the team supporting the Bethany Care Shelter. He has served on the Deacons’ Court since 2011. Jenny is involved in the Women’s Pastoral Team.  Craig and family are part of the core team currently working towards planting a church in West Lothian. 
 
 Philip Brown
@@ -37,7 +41,5 @@ Neil is married to Ruth and they have two daughters, Sophie and Rosa. Neil was b
 Andy Johnston 
 
 Andy grew up in Northern Ireland and became a Christian shortly after he turned 18. He moved to Scotland to attend university in St Andrews, where he met Sophie and was a member of the Free Church there. In Sept 2013, the opportunity to teach in the Central Belt arose and Andy moved to Edinburgh and began attending St Columba’s. Since then, Andy has been involved in serving in the youth ministries at both Kids’ Church and Identity level; co-ordinating the Money Count rota; working with the AV Team; participating in (and occasionally leading) City Group and, most recently, assisting with the Mens’ Bible Studies over Zoom. He married Sophie in 2015 and in February 2020 they were blessed with the birth of Sarah. Whilst Covid-19 has had many horrible aspects, Andy feels hugely blessed by the amount of time he was able to spend with Sarah and Sophie during lockdown and how they were able to grow as a family. Andy is looking forward to seeing the plans God has for him and his family unfold over the upcoming years and to (re)introducing a much bigger Sarah to the Church family.
-
-
 
 You can watch the ordination this Sunday, 13th December at 11am on livestream [www.stcsfc.org/livestream](http://www.stcsfc.org/livestream)
