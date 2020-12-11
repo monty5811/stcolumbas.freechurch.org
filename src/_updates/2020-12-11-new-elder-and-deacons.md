@@ -24,10 +24,6 @@ Many of you already know them, but for those of you who may not, here’s a shor
 
 Craig Nicolson 
 
-<img alt="craig-image" src="/static/uploads/craig-image.jpg"
-    loading="lazy"
-    class="w-32 h-32 rounded-full">
-
 Craig grew up in the north of Scotland and has been part of St Columba’s since moving to Edinburgh. He is married to Jenny and has two children. Craig has been involved in different areas of service at St Cs including youth ministry, the Bethany Care Van and has led the team supporting the Bethany Care Shelter. He has served on the Deacons’ Court since 2011. Jenny is involved in the Women’s Pastoral Team.  Craig and family are part of the core team currently working towards planting a church in West Lothian. 
 
 Philip Brown
