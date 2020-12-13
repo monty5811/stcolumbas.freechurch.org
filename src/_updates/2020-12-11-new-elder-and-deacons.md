@@ -18,15 +18,9 @@ intro: >-
 
   Many of you already know them, but for those of you who may not, here’s a short introduction to Craig, Philip, Neil and Andy.
 ---
-As a church c
-
-. This Sunday, 13th December, we look forward to welcoming three new Deacons and a new Elder to our leadership team. 
+As a church committed to growth and church planting, we see many changes both in the congregation and leadership. This Sunday, 13th December, we look forward to welcoming three new Deacons and a new Elder to our leadership team. 
 
 Many of you already know them, but for those of you who may not, here’s a short introduction to Craig, our new Elder; and our three new Deacons, Philip, Neil and Andy.
-
-<img alt="craig-image" src="/static/uploads/craig-image.jpg"
-    loading="lazy"
-    class="w-32 h-32 rounded-full">
 
 **Craig Nicolson**
 
