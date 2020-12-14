@@ -86,6 +86,10 @@ teams:
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/alastair-simison-1.jpg
+      - name: "Craig Nicolson"
+        title: "Winchburgh"
+        type_: "team_head"
+        picture: /static/uploads/people/craig-image.jpg
   - title: "Deacons"
     type_: "team_list"
     members:
@@ -105,10 +109,6 @@ teams:
         title: "Gilmerton"
         type_: "team_head"
         picture: /static/uploads/people/ken-image.jpg
-      - name: "Craig Nicolson"
-        title: "Winchburgh"
-        type_: "team_head"
-        picture: /static/uploads/people/craig-image.jpg
       - name: "David Morris"
         title: "Fountainbridge"
         type_: "team_head"
@@ -121,6 +121,18 @@ teams:
         title: "Newington"
         type_: "team_head"
         picture: /static/uploads/people/pher-image.jpg
+      - name: "Philip Brown"
+        title: "Inverleith"
+        type_: "team_head"
+        picture: /static/uploads/people/philip-brown.jpg
+      - name: "Neil MacRae"
+        title: "Corstorphine"
+        type_: "team_head"
+        picture: /static/uploads/people/neil-macrae.jpg
+      - name: "Andy Johnston"
+        title: "Newington"
+        type_: "team_head"
+        picture: /static/uploads/people/andy-johnston.jpg
   - title: "Women's Pastoral Team"
     type_: "team_list"
     members:
