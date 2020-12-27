@@ -2,8 +2,8 @@ layout: content_page
 title: Live Stream
 livestream:
   type_: raw_template
-  embed_code: iv8NNpS83-c
-  bulletin_id: "1Nz09cILeJSxcZrKSXtBE8oO2mtrpa-XBLitxVqFKNlo"
+  embed_code: wgTKpX0xzNE
+  bulletin_id: ""
   show_coming_soon: false
   template: >
     <div class="container">
@@ -16,16 +16,21 @@ livestream:
           {% endif %}
         </div>
       </div>
-    </div> <div class="container max-w-5xl mt-12">
+    </div>
+    <div class="container max-w-5xl mt-12">
       <p class="mt-4">
         Services have returned to the building. If you were expecting an email about this, but did not receive one, please get in touch with <a href="mailto:help@stcsfc.org">help@stcsfc.org</a>.
       </p>
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
-    <!-- --> </div> {% if bulletin_id %} <div class="container">
-      <div class="max-w-5xl mx-auto my-16">
-        <h3 class="mt-8 text-3xl">Bulletin</h3>
-        <a href="https://docs.google.com/document/d/{{ bulletin_id }}/preview" target="_blank" rel="noopener">View separately</a>
-        <iframe src="https://docs.google.com/document/d/{{ bulletin_id }}/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
+      <p class="mt-4">The bulletin will return on the 10th of January</p>
+    </div>
+    {% if bulletin_id %}
+      <div class="container">
+        <div class="max-w-5xl mx-auto my-16">
+          <h3 class="mt-8 text-3xl">Bulletin</h3>
+          <a href="https://docs.google.com/document/d/{{ bulletin_id }}/preview" target="_blank" rel="noopener">View separately</a>
+          <iframe src="https://docs.google.com/document/d/{{ bulletin_id }}/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
+        </div>
       </div>
-    </div> {% endif %}
+    {% endif %}
