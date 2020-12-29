@@ -6,7 +6,7 @@
     <a style="height: 60px;" href="/">
       <img src="/static/images/stcolumbas-logo.png" class="object-scale-down" style="height: 60px;" alt="St Columba's Free Church">
     </a>
-    <div class="uppercase" @click="{ open = !open}">
+    <div class="uppercase" @click="{ open = !open}" x-text="open ? '' : 'Menu'">
       Menu
     </div>
   </div>
