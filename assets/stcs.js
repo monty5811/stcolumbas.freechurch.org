@@ -15,23 +15,6 @@ function lMap() {
   L.marker([55.948757558814606, -3.194131548552832]).addTo(map);
 }
 
-function menu() {
-  var button = document.getElementById("menu-button");
-  var target = button.dataset.target;
-  var $target = document.getElementById(target);
-  button.addEventListener("click", function(event) {
-    var content = button.innerText.toLocaleLowerCase();
-    if (content === "menu") {
-      $target.classList.add("menu-t");
-      button.innerText = "CLOSE";
-    } else {
-      $target.classList.remove("menu-t");
-      button.innerText = "MENU";
-    }
-    $target.classList.toggle("menu-active");
-  });
-}
-
 function transcript() {
   var showButton = document.getElementById("show-transcript");
   var hideButton = document.getElementById("hide-transcript");
@@ -49,8 +32,6 @@ function transcript() {
 }
 
 function init() {
-  // menu
-  menu();
   // transcript
   transcript();
   // payments

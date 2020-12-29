@@ -1,93 +1,105 @@
-  <nav
-    class="absolute top-0 flex flex-col w-full h-20 px-4 pt-4 overflow-hidden font-semibold text-gray-400 bg-stcs-nav-bg lg:flex-row lg:h-24 lg:hover:h-96 lg:justify-between lg:pb-16 menu-t z-1000"
-    id="navbarMenu"
-    >
-    <div class="">
-      <div class="flex items-center justify-between lg:hidden">
-        <a href="/">
-          <img src="/static/images/stcolumbas-logo.png" class="" style="height: 50px;" alt="St Columba's Logo">
-        </a>
-        <div class="uppercase" data-target="navbarMenu" id="menu-button">
-          Menu
+<nav
+  class="absolute top-0 hidden w-full h-24 px-4 py-4 overflow-hidden font-semibold text-gray-400 transition-all duration-200 xl:block bg-stcs-nav-bg z-1000"
+  :class=" {'h-96': open }" id="navbarMenu" x-data="{ open: false }" @click.away="open = false"
+  @mouseenter="open = true" @mouseleave="open = false">
+  <div class="flex items-center justify-between">
+    <a style="height: 60px;" href="/">
+      <img src="/static/images/stcolumbas-logo.png" class="object-scale-down" style="height: 60px;" alt="St Columba's Free Church">
+    </a>
+    <div class="uppercase" @click="{ open = !open}">
+      Menu
+    </div>
+  </div>
+  <div class="w-full h-full pt-4" :class="{'flex': open, 'flex-col': open}">
+    <ul class="grid max-w-5xl grid-cols-6 gap-4 mx-auto">
+      <li class="group">
+        <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
+          <a href="/jesus">Jesus</a>
         </div>
-      </div>
-      <a class="hidden lg:block" href="/">
-        <img src="/static/images/stcolumbas-logo.png" class="logo1" style="height: 60px;" alt="St Columba's Free Church">
-      </a>
-    </div>
-    <div class="flex-1 pt-2 text-xl lg:pt-6 lg:flex-initial lg:text-base" style="flex-basis: 50%;">
-      <ul class="mt-4 text-center navmenu-grid lg:flex lg:-mt-2 lg:text-left">
-        <li class="text-2xl uppercase nav-left1 lg:flex-1 lg:w-auto hover:text-red-stcs lg:text-xl lg:px-2">
-          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
-            <a href="/jesus">Jesus</a>
+      </li>
+      <li class="group">
+        <div class="relative">
+          <button class="text-2xl font-semibold uppercase cursor-default group-hover:text-red-stcs lg:text-xl">About</button>
+          <div class="w-screen max-w-xs px-2 mt-3 transform z-1000 left-1/2 sm:px-0" x-cloak x-show="open">
+            <div class="overflow-hidden">
+              <div class="relative grid gap-2 py-1">
+                <a class="hover:text-red-stcs hover:underline" href="/about/our-vision">Our Vision</a>
+                <a class="hover:text-red-stcs hover:underline" href="/about/our-team" title="Our Team">Our Team</a>
+                <a class="hover:text-red-stcs hover:underline" href="/about/church-plants" title="Church Plants">Church
+                  Plants</a>
+                <a class="hover:text-red-stcs hover:underline" href="/about/contact-us">Contact Us</a>
+              </div>
+            </div>
           </div>
-        </li>
-        <li class="nav-left2 lg:flex-1 lg:w-auto group lg:px-2">
-          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">About</div>
-          <ul class="mt-1 font-normal lg:mt-8">
-            <li><a class="hover:text-red-stcs hover:underline" href="/about/our-vision">Our Vision</a></li>
-            <li><a class="hover:text-red-stcs hover:underline" href="/about/our-team" title="Our Team">Our Team</a></li>
-            <li><a class="hover:text-red-stcs hover:underline" href="/about/church-plants" title="Church Plants">Church Plants</a></li>
-            <li><a class="hover:text-red-stcs hover:underline" href="/about/contact-us">Contact Us</a></li>
-          </ul>
-        </li>
-        <li class="nav-left3 lg:flex-1 lg:w-auto group lg:px-2">
-          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">Connect</div>
-          <ul class="mt-1 font-normal lg:mt-8">
-            <li><a class="hover:text-red-stcs hover:underline" href="/connect/visit" title="Visit">Visit</a></li>
-            <li><a class="hover:text-red-stcs hover:underline" href="/connect/community" title="Community">Community</a></li>
-            <li><a class="hover:text-red-stcs hover:underline" href="/connect/giving" title="Giving">Giving</a></li>
-            <li><a class="hover:text-red-stcs hover:underline" href="/connect/ministries" title="Ministries">Ministries</a></li>
-            <li><a class="hover:text-red-stcs hover:underline" href="/connect/serving" title="Serving">Serving</a></li>
-          </ul>
-        </li>
-        <li class="text-2xl uppercase nav-right1 lg:flex-1 lg:w-auto hover:text-red-stcs lg:text-xl lg:px-2">
-          <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
-            <a href="/updates" title="Updates">Updates</a>
+        </div>
+      </li>
+      <li class="group">
+        <div class="relative">
+          <button class="text-2xl font-semibold uppercase cursor-default group-hover:text-red-stcs lg:text-xl">Connect</button>
+          <div class="w-screen max-w-xs px-2 mt-3 transform z-1000 left-1/2 sm:px-0" x-cloak x-show="open">
+            <div class="overflow-hidden">
+              <div class="relative grid gap-2 py-1">
+                <a class="hover:text-red-stcs hover:underline" href="/connect/visit" title="Visit">Visit</a>
+                <a class="hover:text-red-stcs hover:underline" href="/connect/community" title="Community">Community</a>
+                <a class="hover:text-red-stcs hover:underline" href="/connect/giving" title="Giving">Giving</a>
+                <a class="hover:text-red-stcs hover:underline" href="/connect/ministries"
+                  title="Ministries">Ministries</a>
+                <a class="hover:text-red-stcs hover:underline" href="/connect/serving" title="Serving">Serving</a>
+              </div>
+            </div>
           </div>
-        </li>
-        <li class="nav-right2 lg:flex-1 lg:w-auto group lg:px-2">
-          <a class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">Resources</a>
-          <ul class="mt-1 font-normal lg:mt-8">
-            <li><a href="https://sermons.stcolumbas.freechurch.org/" rel="noopener" target="_blank">Sermons</a></li>
-            <li><a href="https://stcs.elvanto.eu/pages/resources" rel="noopener" target="_blank">Internal Resources</a></li>
-          </ul>
-        </li>
-        <li class="nav-right3 lg:flex-1 lg:w-auto group lg:hidden">
-          <a href="/about/contact-us" class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">Contact</a>
-          <ul class="mt-1 font-normal lg:mt-8">
-            <li class="">
-              <a href="mailto:office@stcsfc.org">Email</a>
-            </li>
-            <li class="">
-              <a href="tel:+441312253505">0131 225 3505</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div class="py-2 lg:pb:0 lg:pt-6">
-      <ul class="flex items-center justify-center">
-        <li class="mx-2">
-          <a href="https://www.twitter.com/stcsfreechurch" target="_blank" rel="noopener">
-            <img src="/static/images/icons/twitter-icon.png" alt="Twitter: @stcsfreechurch" style="width: 16px;">
-          </a>
-        </li>
-        <li class="mx-2">
-          <a href="https://www.facebook.com/stcolumbasfreechurch/" target="_blank" rel="noopener">
-            <img src="/static/images/icons/facebook-icon.png" alt="Facebook: St Columba's Free Church" style="width: 16px;">
-          </a>
-        </li>
-        <li class="mx-2">
-          <a href="https://www.youtube.com/user/stcolumbasfreechurch" target="_blank" rel="noopener">
-            <img src="/static/images/icons/youtube-icon.png" alt="YouTube" style="width: 16px;">
-          </a>
-        </li>
-        <li class="mx-2">
-          <a href="https://elvanto.stcsfc.org" target="_blank" rel="noopener">
-            <img width="16px" src="/static/images/icons/elvanto-icon.svg" style="width: 16px;" alt="Elvanto">
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+        </div>
+      </li>
+      <li class="group">
+        <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
+          <a href="/updates" title="Updates">Updates</a>
+        </div>
+      </li>
+      <li class="group">
+        <div class="relative">
+          <button class="text-2xl font-semibold uppercase cursor-default group-hover:text-red-stcs lg:text-xl">Resources</button>
+          <div class="w-screen max-w-xs px-2 mt-3 transform z-1000 left-1/2 sm:px-0" x-cloak x-show="open">
+            <div class="overflow-hidden">
+              <div class="relative grid gap-2 py-1">
+                <a href="https://sermons.stcolumbas.freechurch.org/" rel="noopener" target="_blank">Sermons</a>
+                <a href="https://stcs.elvanto.eu/pages/resources" rel="noopener" target="_blank">Internal Resources</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="group">
+        <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
+          <a href="/livestream" title="Live Stream">Live</a>
+        </div>
+      </li>
+    </ul>
+    <ul class="flex items-center justify-center mt-8" x-cloak x-show="open">
+      <li class="mx-2">
+        <a href="https://www.twitter.com/stcsfreechurch" target="_blank" rel="noopener">
+          <img src="/static/images/icons/twitter-icon.png" alt="Twitter: @stcsfreechurch" style="width: 16px;">
+        </a>
+      </li>
+      <li class="mx-2">
+        <a href="https://www.facebook.com/stcolumbasfreechurch/" target="_blank" rel="noopener">
+          <img src="/static/images/icons/facebook-icon.png" alt="Facebook: St Columba's Free Church" style="width: 16px;">
+        </a>
+      </li>
+      <li class="mx-2">
+        <a href="https://www.youtube.com/user/stcolumbasfreechurch" target="_blank" rel="noopener">
+          <img src="/static/images/icons/youtube-icon.png" alt="YouTube" style="width: 16px;">
+        </a>
+      </li>
+      <li class="mx-2">
+        <a href="https://www.instagram.com/stcsfreechurch/" target="_blank" rel="noopener">
+          <img width="16px" src="/static/images/icons/instagram-icon.svg" style="width: 16px;" alt="Instagram">
+        </a>
+      </li>
+      <li class="mx-2">
+        <a href="https://elvanto.stcsfc.org" target="_blank" rel="noopener">
+          <img width="16px" src="/static/images/icons/elvanto-icon.svg" style="width: 16px;" alt="Elvanto">
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
