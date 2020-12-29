@@ -1,6 +1,6 @@
 <nav
   class="absolute top-0 flex flex-col justify-between w-full px-4 py-4 overflow-hidden font-semibold text-gray-400 transition-all duration-200 bg-stcs-nav-bg z-1000 xl:hidden"
-  :class=" {'relative -mb-20 min-h-screen': open, 'h-20': !open }" id="navbarMenu" x-data="{ open: false }" @click.away="open = false"
+  :class=" {'relative -mb-20 min-h-screen': open, 'h-20': !open }" x-data="{ open: false }" @click.away="open = false"
   >
   <div class="flex items-center justify-between">
     <a href="/">

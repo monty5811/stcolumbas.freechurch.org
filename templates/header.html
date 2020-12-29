@@ -1,6 +1,6 @@
 <nav
   class="absolute top-0 hidden w-full h-24 px-4 py-4 overflow-hidden font-semibold text-gray-400 transition-all duration-200 xl:block bg-stcs-nav-bg z-1000"
-  :class=" {'h-96': open }" id="navbarMenu" x-data="{ open: false }" @click.away="open = false"
+  :class=" {'h-96': open }" x-data="{ open: false }" @click.away="open = false"
   @mouseenter="open = true" @mouseleave="open = false">
   <div class="flex items-center justify-between">
     <a style="height: 60px;" href="/">
