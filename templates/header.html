@@ -1,17 +1,14 @@
 <nav
-  class="absolute top-0 hidden w-full h-24 px-4 py-4 overflow-hidden font-semibold text-gray-400 transition-all duration-200 xl:block bg-stcs-nav-bg z-1000"
-  :class=" {'h-96': open }" x-data="{ open: false }" @click.away="open = false"
-  @mouseenter="open = true" @mouseleave="open = false">
-  <div class="flex items-center justify-between">
+  class="absolute top-0 items-start hidden w-full px-4 py-4 font-semibold text-gray-400 xl:flex bg-stcs-nav-bg z-1000" :class=" {'h-24 overflow-hidden': !open }"
+  x-data="{ open: false }"
+  @click.away="open = false" @mouseenter="open = true" @mouseleave="open = false">
+  <div class="flex items-center">
     <a style="height: 60px;" href="/">
       <img src="/static/images/stcolumbas-logo.png" class="object-scale-down" style="height: 60px;" alt="St Columba's Free Church">
     </a>
-    <div class="uppercase" @click="{ open = !open}" x-text="open ? '' : 'Menu'">
-      Menu
-    </div>
   </div>
-  <div class="w-full h-full pt-4" :class="{'flex': open, 'flex-col': open}">
-    <ul class="grid max-w-5xl grid-cols-6 gap-4 mx-auto">
+  <div class="w-full h-full pt-4 pl-24" :class="{'flex': open, 'flex-col': open}">
+    <ul class="grid grid-cols-6 gap-4">
       <li class="group">
         <div class="text-2xl uppercase group-hover:text-red-stcs lg:text-xl">
           <a href="/jesus">Jesus</a>
@@ -74,7 +71,7 @@
         </div>
       </li>
     </ul>
-    <ul class="flex items-center justify-center mt-8" x-cloak x-show="open">
+    <ul class="flex items-center justify-end mt-8" x-cloak x-show="open">
       <li class="mx-2">
         <a href="https://www.twitter.com/stcsfreechurch" target="_blank" rel="noopener">
           <img src="/static/images/icons/twitter-icon.png" alt="Twitter: @stcsfreechurch" style="width: 16px;">
