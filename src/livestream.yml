@@ -23,7 +23,6 @@ livestream:
       </p>
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
-      <p class="mt-4">The bulletin will return on the 10th of January</p>
     </div>
     {% if bulletin_id %}
       <div class="container">
