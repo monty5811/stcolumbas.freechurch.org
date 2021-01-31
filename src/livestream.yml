@@ -4,13 +4,13 @@ livestream:
   type_: raw_template
   embed_code: qAOuUFFU640
   bulletin_id: "1JrqP6hZIWKyYPf1IDYranWhgNgGgTAvMqYlkhkYWqfI"
-  show_coming_soon: false
+  show_coming_soon: true
   template: >
     <div class="container">
       <div class="max-w-5xl mx-auto">
         <div class="embed-responsive embed-responsive-16by9">
           {% if show_coming_soon %}
-            Check back soon for the livestream.
+            <span class="text-2xl">Virgin Media in the City Centre is down today - we will not have a live stream. The service will appear here around 13:30 today. Check back then.</span>
           {% else %}
             <iframe src="//www.youtube.com/embed/{{ embed_code }}" frameborder="0" allowfullscreen=""></iframe>
           {% endif %}
