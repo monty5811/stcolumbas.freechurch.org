@@ -45,10 +45,15 @@
     </div>
     <label class="block mt-4">
     <button type="submit"
-            class="px-2 py-1 mt-4 text-lg font-medium text-white bg-white bg-gray-500"
+            class="px-2 py-1 mt-4 text-lg font-medium text-white bg-gray-500"
             id="giving-button"
             >
             Donate!
     </button>
+    {% if show_give_to_specific %}
+      <p class="mt-2 text-xs">
+      If you would like to designate your donation to another category, please email <a href="mailto:finance@stcsfc.org">finance@stcsfc.org</a>.
+      </p>
+    {% endif %}
   </form>
 </div>

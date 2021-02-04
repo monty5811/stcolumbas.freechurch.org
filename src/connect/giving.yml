@@ -33,6 +33,7 @@ giving_row:
   type_: "giving_row"
   left:
     cancelled: false
+    show_give_to_specific: true
   right: |
     ## Giving Offline
 

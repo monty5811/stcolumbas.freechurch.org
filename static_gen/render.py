@@ -124,8 +124,11 @@ def render_image(url):
     return render_template("blocks/simple_image.html", {"url": url})
 
 
-def render_giving_form(cancelled=False):
-    return render_template("blocks/giving_form.html", {"cancelled": cancelled})
+def render_giving_form(cancelled=False, show_give_to_specific=False):
+    return render_template(
+        "blocks/giving_form.html",
+        {"cancelled": cancelled, "show_give_to_specific": show_give_to_specific},
+    )
 
 
 def render_text_text_row(value):
@@ -141,7 +144,10 @@ def render_text_text_row_with_sep(value):
 
 
 def render_giving_row(value):
-    left = render_giving_form(cancelled=value["left"].get("cancelled", False))
+    left = render_giving_form(
+        cancelled=value["left"].get("cancelled", False),
+        show_give_to_specific=value["left"].get("show_give_to_specific", False),
+    )
     right = render_text(value["right"])
     data = {"left_col": left, "right_col": right}
 
