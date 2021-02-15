@@ -59,7 +59,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/don-image.jpg
       - name: "Neil MacLeod"
-        title: "Newington"
+        title: "Calton"
         type_: "team_head"
         picture: /static/uploads/people/neil-dm-image.jpg
       - name: "Ewan McGillivray"
@@ -118,7 +118,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/colin_rm.jpeg
       - name: "Pher Nicolson"
-        title: "Newington"
+        title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/pher-image.jpg
       - name: "Philip Brown"
@@ -130,7 +130,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/neil-macrae.jpg
       - name: "Andy Johnston"
-        title: "Newington"
+        title: "Calton"
         type_: "team_head"
         picture: /static/uploads/people/andy-johnston.jpg
   - title: "Women's Pastoral Team"
@@ -157,11 +157,11 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/catriona-lamont.jpg
       - name: "Dayspring MacLeod"
-        title: "Newington"
+        title: "Calton"
         type_: "team_head"
         picture: /static/uploads/people/dayspring-macleod.jpg
       - name: "Anna Macrae"
-        title: "Newington"
+        title: "Calton"
         type_: "team_head"
         picture: /static/uploads/people/anna-macrae.jpg
       - name: "Kathleen MacSween"
