@@ -2,8 +2,8 @@ layout: content_page
 title: Live Stream
 livestream:
   type_: raw_template
-  embed_code: Z_fTPwoc-7E
-  bulletin_id: "14wOO7hSdkgbzTIQru8t7yTdlhIZK1IAYjB2Q4QXB9kY"
+  embed_code: PFgTQP8hSmQ
+  bulletin_id: "1GGysau7zQyDV-1hQ7tb8CPUN3qU8DO24Y9FMgUEp4CY"
   show_coming_soon: false
   template: >
     <div class="container">
