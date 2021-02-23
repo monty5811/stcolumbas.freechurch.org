@@ -192,6 +192,10 @@ teams:
         title: "Inverleith"
         type_: "team_head"
         picture: /static/uploads/people/lizzie-alexander.png
+      - name: "Lizzie Alexander"
+        title: "Blackford"
+        type_: "team_head"
+        picture: /static/uploads/people/kirsten-mac.jpg
   - title: "Cornerstone Church Plant"
     type_: "team_list"
     members:
