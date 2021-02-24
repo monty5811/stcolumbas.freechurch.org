@@ -18,11 +18,11 @@ html_times:
     <div class="container justify-between md:flex">
     <div class="flex items-center flex-1">
       <img src="/static/images/icons/sun-icon.png" class="w-16 h-16 mr-2 lg:mr-4">
-      <span class="text-lg font-semibold">Sunday Morning Service 11am</span>
+      <span class="text-lg font-semibold">Sunday Morning Service 10:30am</span>
     </div>
     <div class="flex items-center flex-1">
       <img src="/static/images/icons/moon-icon.png" class="w-16 h-16 mr-2 lg:mr-4">
-      <span class="text-lg font-semibold">Sunday Evening Service 5.30pm</span>
+      <span class="text-lg font-semibold">Sunday Evening Service 5:30pm</span>
     </div>
     </div>
 separator1:
@@ -88,7 +88,7 @@ services_row_1:
   left: |
     ##Sunday Services
     
-    Our Sunday morning service is at 11 am and our evening service is at 5.30 pm.
+    Our Sunday morning service is at 10:30 am and our evening service is at 5:30 pm.
     The services follow similar formats, but the content of each will be different.
     We celebrate Communion at 10 different times throughout the year.
     When you arrive at the church a member of the Welcome Team can give you a Bible if you need one, and show you where to go to get a seat if it is busy.
@@ -104,7 +104,7 @@ services_row_2:
   right: |
     ### What about Children?
     
-    Our Kids' Church (age 4 and up) meets during the 11am service.
+    Our Kids' Church (age 4 and up) meets during the 10:30 am service.
     The children come in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song.
     There is a crèche available during the morning service for babies and toddlers up to the age of three.
     We have a large and experienced team of volunteers.
