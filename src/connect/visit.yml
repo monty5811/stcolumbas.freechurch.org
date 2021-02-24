@@ -60,7 +60,7 @@ html_getting_here:
     <div class="flex-1 mx-8 mb-2 md:ml-0">
         <img src="/static/images/icons/car-icon.png" alt="car image" class="w-24 h-24 mx-auto">
         <h4 class="mt-2 md:mt-4">Travelling by car</h4>
-        <p>There are often spaces available on Johnston Terrace, where parking is free of charge on a Sunday.</p>
+        <p>There are often spaces available on Johnston Terrace, where parking is free of charge before 12:30 and after 18:30 on a Sunday.</p>
       </div>
       <div class="flex-1 mx-8 mb-2">
         <img src="/static/images/icons/bus-icon.png" alt="bus image for travelling" class="w-24 h-24 mx-auto">
