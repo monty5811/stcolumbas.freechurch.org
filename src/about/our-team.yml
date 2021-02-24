@@ -16,10 +16,6 @@ teams:
         title: "Senior Minister"
         type_: "team_head"
         picture: /static/uploads/people/derek-image.jpg
-      - name: "Thomas Davis"
-        title: "Assistant Minister"
-        type_: "team_head"
-        picture: /static/uploads/people/thomas_davis.jpg
   - title: "Staff"
     type_: "team_list"
     members:
@@ -27,18 +23,6 @@ teams:
         title: "Administrator & Treasurer"
         type_: "team_head"
         picture: /static/uploads/people/donna.jpg
-      - name: "Rowan Logan"
-        title: "Ministry Apprentice"
-        type_: "team_head"
-        picture: /static/uploads/people/rowan.png
-      - name: "Jon Watson"
-        title: "Minister in Training"
-        type_: "team_head"
-        picture: /static/uploads/people/jon.png
-      - name: "William MacSween"
-        title: "Ministry Apprentice"
-        type_: "team_head"
-        picture: /static/uploads/william.jpg
       - name: "Mairi Murchison"
         title: "Ministry Apprentice"
         type_: "team_head"
@@ -78,10 +62,6 @@ teams:
         title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/alasdair-black.jpg
-      - name: "Patrick Flanagan"
-        title: "Inverleith"
-        type_: "team_head"
-        picture: /static/uploads/people/patrick-elder.jpg
       - name: "Alastair Simison"
         title: "Meadows"
         type_: "team_head"
@@ -109,10 +89,6 @@ teams:
         title: "Gilmerton"
         type_: "team_head"
         picture: /static/uploads/people/ken-image.jpg
-      - name: "David Morris"
-        title: "Fountainbridge"
-        type_: "team_head"
-        picture: /static/uploads/people/david-image.jpg
       - name: "Colin Morrison"
         title: "Fountainbridge"
         type_: "team_head"
