@@ -2,8 +2,8 @@ layout: content_page
 title: Live Stream
 livestream:
   type_: raw_template
-  embed_code: PFgTQP8hSmQ
-  bulletin_id: "1GGysau7zQyDV-1hQ7tb8CPUN3qU8DO24Y9FMgUEp4CY"
+  embed_code: XOgD8eN6Na0
+  bulletin_id: ""
   show_coming_soon: false
   template: >
     <div class="container">
@@ -19,7 +19,7 @@ livestream:
     </div>
     <div class="container max-w-5xl mt-12 mb-48">
       <p class="mt-4">
-        Evening services have moved to Zoom for a few weeks.
+        Evening services have moved to Zoom for a wee while.
       </p>
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
@@ -30,6 +30,12 @@ livestream:
           <h3 class="mt-8 text-3xl">Bulletin</h3>
           <a href="https://docs.google.com/document/d/{{ bulletin_id }}/preview" target="_blank" rel="noopener">View separately</a>
           <iframe src="https://docs.google.com/document/d/{{ bulletin_id }}/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
+        </div>
+      </div>
+    {% else %}
+      <div class="container">
+        <div class="max-w-5xl mx-auto my-16">
+          <p>There will be no bulletin this week.</p>
         </div>
       </div>
     {% endif %}
