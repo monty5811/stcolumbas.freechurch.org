@@ -3,7 +3,7 @@ layout: update
 title: "Brilliant Books: March 2021"
 author: Siobhan Smith
 date: 2021-03-04T19:50:40.473Z
-thumbnail: /static/uploads/book.jpg
+thumbnail: /static/uploads/book-1.jpg
 tags:
   - books
   - freechurchbooks
