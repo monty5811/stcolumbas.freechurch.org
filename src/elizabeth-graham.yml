@@ -1,0 +1,79 @@
+layout: content_page
+title: Elizabeth Graham - Thanksgiving Service
+livestream:
+  type_: raw_template
+  embed_code: ""
+  bulletin_id: ""
+  show_coming_soon: false
+  template: >
+    <div class="container">
+      <div class="max-w-5xl mx-auto ">
+        <div class="text-2xl embed-responsive embed-responsive-16by9">
+          {% if embed_code %}
+            <iframe src="//www.youtube.com/embed/{{ embed_code }}" frameborder="0" allowfullscreen=""></iframe>
+          {% else %}
+            <p>The live stream will be available here on the 11th of March.</p>
+            <p>The service will begin at 13:00.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="container mx-auto my-16">
+      <div class="max-w-2xl mx-auto bg-stcs-nav-bg">
+        <form action="/charge" method="post" id="payment-form" class="p-8">
+        <div class="my-4 prose">
+            <p>
+            As a reflection of Elizabeth's many years of service and dedication to Dumisani Theological Institute the family have requested that donations be made to their work, in lieu of flowers. You can donate using the form below.
+            </p>
+            <p>
+            You can find out more about <a href="http://dumisani.org/home.html" target="_blank">Dumisani Theological Institute here</a>.
+            </p>
+
+            <p>
+            If you wish to make a donation, type in your amount and click the "Donate!" button.
+            You will be redirected to our payment processor where you can pay by credit card, debit card, Google Pay or Apple Pay.
+            </p>
+          </div>
+          <div class="w-full my-4">
+            <label for="amount">
+              <span class="font-medium required">I would like to give</span>
+              <input required type="text" inputmode="numeric" pattern="^£?[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
+            </label>
+          </div>
+          <div class="hidden w-full my-4">
+            <label for="fund">
+              <span class="font-medium required">Fund</span>
+              <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
+                <option>Dumisani</option>
+              </select>
+            </label>
+          </div>
+          <label class="block mt-4">
+          <button type="submit"
+                  class="px-2 py-1 mt-4 text-lg font-medium text-white bg-white bg-gray-500"
+                  id="giving-button"
+                  >
+                  Donate!
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container mx-auto my-16">
+      <div class="max-w-2xl p-8 mx-auto my-4 prose bg-stcs-nav-bg">
+        <h3>Order of service</h3>
+        <ul>
+          <li>Welcome</li>
+          <li>Prayer</li>
+          <li>In Christ Alone</li>
+          <li>First Reading: Psalm 139:1-18 (David Howard)</li>
+          <li>Tribute</li>
+          <li>Second Reading: Romans 8:18-39 (Thomas Davis)</li>
+          <li>Prayer - Thomas Davis</li>
+          <li>Short Address</li>
+          <li>Psalm 16 v 5-8 and v 11 (Sing Psalms)</li>
+          <li>Benediction</li>
+        </ul>
+      </div>
+    </div>
