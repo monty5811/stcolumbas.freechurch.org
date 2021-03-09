@@ -16,6 +16,7 @@ livestream:
             <p>The service will begin at 13:00.</p>
           {% endif %}
         </div>
+        <a class="mt-4 font-semibold" target="_blank" href="/static/uploads/OOS ELIZABETH GRAHAM.pdf">You can view the full service sheet by clicking here.</a>
       </div>
     </div>
     
@@ -63,7 +64,10 @@ livestream:
     <div class="container mx-auto my-16">
       <div class="max-w-2xl p-8 mx-auto my-4 prose bg-stcs-nav-bg">
         <h3>Order of service</h3>
-        <ul>
+
+        <a class="mt-4 font-semibold" target="_blank" href="/static/uploads/OOS ELIZABETH GRAHAM.pdf">You can view the full service sheet by clicking here.</a>
+        
+        <ul class="mt-4">
           <li>Welcome</li>
           <li>Prayer</li>
           <li>In Christ Alone</li>
