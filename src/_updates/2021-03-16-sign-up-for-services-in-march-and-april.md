@@ -24,4 +24,4 @@ In order to facilitate and plan this, we need to have information about your a
 
 It is very important to return this form to us. (contact *[help@stcsfc.org](mailto:help@stcsfc.org)* if you have any difficulties accessing it). If we do not have a form returned, then we cannot allocate a service invitation to you. Please fill in the form even if you have no plans to attend, are unavailable or have been told to self-isolate. We also only require one completed form per household or extended household.
 
-**The deadline for submissions is the end of the day on Friday, 19th March.**
+**The deadline for submissions is the end of the day on Friday 19th March.**
