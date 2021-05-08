@@ -3,48 +3,51 @@ layout: update
 title: "Brilliant Books: May 2021"
 author: Siobhan Smith
 date: 2021-05-08T11:17:14.821Z
-thumbnail: /static/uploads/brilliant-books.jpg
+thumbnail: /static/uploads/untitled-design-1-.jpg
 tags:
   - books
   - freechurchbooks
   - brilliantbooks
   - ""
-intro: Our next Brilliant Books spotlight is this Sunday and we have three
-  wonderful books lined up for you to choose from, all at great prices. Each
-  book is highly recommended, and once again, we’ve made it easy for you to
-  order them straight to your home!
+intro: We’ve got a great selection of books for you to choose from for our next
+  Brilliant Books spotlight which is this coming Sunday. With a focus on mission
+  as well as an excellent book addressing anger, we’re sure there’ll be
+  something you’ll find interesting. Here’s a taster of what’s in store…
 ---
-Our next Brilliant Books spotlight is this Sunday and we have three wonderful books lined up for you to choose from, all at great prices. Each book is highly recommended, and once again, we’ve made it easy for you to order them straight to your home!
+We’ve got a great selection of books for you to choose from for our next Brilliant Books spotlight which is this coming Sunday. With a focus on mission as well as an excellent book addressing anger, we’re sure there’ll be something you’ll find interesting. Here’s a taster of what’s in store…
 
-![](/static/uploads/james-for-you.png)
+![](/static/uploads/stay-salt.png)
 
-**James For You, Sam Alberry (2015)** 
+**Stay Salt, Rebecca Manley Pippert**
 
-Sam Allberry’s book would be an excellent accompaniment to our studies on the book of James. The book explains, illustrates and applies the text to our lives in a clear and easy to understand manner. It is helpful in looking at the more challenging parts of James and provides useful definitions and questions for reflection - definitely one to have on hand over the next few months! 
+Our Price: **£7.64** (15% off RRP)
 
-Our Price: **£8.99** (25% off RRP) 
+This excellent book is an updated version of Pippert’s book ‘Out of the Saltshaker’, reminding us of what we believe and why we believe it - that the Gospel is good news! Through helpful principles and personal stories, this book teaches us what everyday evangelism looks like. Stay Salt shows what it means to confidently carry the Gospel message to those around us, dependent on the Holy Spirit and grounded in Scripture. 
 
-**Buy it here: <https://stcsfc.org/bb-james>**
+**\
+Buy it here: <https://stcsfc.org/bb-staysalt>**
 
-![](/static/uploads/a-neglected-grace.png)
+![](/static/uploads/good-and-angry.png)
 
-**A Neglected Grace, Jason Helopoulos (2014)** 
+**Good & Angry, David Powlison**
 
-This short book looks at the motivations and basis for family worship and encourages us to practice it in our homes. It gives plenty of practical help too: examples of what family worship might look like; answers to various questions and links to different resources. It’s a book that will make you excited about the privilege of worshipping God together in our homes. 
+Our Price: **£9.99** (41% off RRP)
 
-Our Price: **£6.99** (45% off RRP)
+David Powlison addresses anger and its many forms in a way that is practical, personal and biblical. The book aims straight for the heart, not only teaching us about ourselves, but also about God. This book is for all of us as we learn to ask where our heart is when we’re angry and what it means to submit our anger to God.
 
-**Buy it here: <https://stcsfc.org/bb-neglected>**
+**\
+Buy it here: <https://stcsfc.org/bb-goodnangry>**
 
-![](/static/uploads/arol.png)
+![](/static/uploads/the-girl-with-a-missionary-dream.png)
 
-**Arlo and the Great Big Cover-Up, Betsy Childs Howard (2020)**
+**Betsey Stockton, Laura Caputo-Wickham**
 
-This children’s book is perfect for children aged 3 to 7. It’s filled with engaging illustrations and tells the story of Arlo learning that ‘cleaned up is better than covered up.’ It’s an enjoyable read with a clear emphasis on repentance and the forgiveness found only in Jesus.
+Our Price: **£5.94** (15% off RRP)
 
-Our Price: **£6.99** (30% off RRP)
+This book is part of the ‘Do Great Things for God’ series, which explores the lives of inspiring Christians. On gaining her freedom from slavery, Betsey Stockton, began a five-month journey across the Pacific to become a missionary in Hawaii. This engaging mini-biography is perfect to be read to children aged 4-5 and read by children 6+. 
 
-**Buy it here: <https://stcsfc.org/bb-arlo>**
+**\
+Buy it here: <https://stcsfc.org/bb-betsey>**
 
 
 
