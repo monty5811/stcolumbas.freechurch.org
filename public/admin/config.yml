@@ -272,8 +272,7 @@ collections:
             fields:
               - label: "template"
                 name: "template"
-                widget: "string"
-                hidden: true
+                widget: "hidden"
               - label: "YouTube Embed Code"
                 name: "embed_code"
                 widget: "string"
