@@ -1,3 +1,5 @@
 /
   Link: </static/js/stcs.js>; rel=preload; as=script
   Link: </static/css/stcs.css>; rel=preload; as=style
+/*
+  Permissions-Policy: interest-cohort=()
