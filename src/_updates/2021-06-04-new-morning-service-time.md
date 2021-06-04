@@ -25,11 +25,12 @@ A few other things worth noting, some of which you will already be aware of:
 
 **Change in availability:** If your plans change and you become unavailable on any of these dates, or if you have any symptoms and cannot attend, please contact [help@stcsfc.org](mailto:help@stcsfc.org) to let us know.
 
-**Building instructions:** There will be various instructions in place within the building.\
-- Social distancing and a one way system will be in place\
-- Hygiene facilities will be enhanced, and hand sanitising stations in place\
-- Face coverings will be available if you do not have your own and wearing of face coverings is mandatory (unless medically exempt)\
-- Seating will be allocated on arrival
+**Building instructions:** There will be various instructions in place within the building.
+
+* Social distancing and a one way system will be in place
+* Hygiene facilities will be enhanced, and hand sanitising stations in place
+* Face coverings will be available if you do not have your own and wearing of face coverings is mandatory (unless medically exempt)
+* Seating will be allocated on arrival
 
 **Parking:** Please be aware that Victoria Street is currently not accessible for cars, and is now double yellow lined on both sides of the street. Parking is no longer possible there or on George IV Bridge.
 
