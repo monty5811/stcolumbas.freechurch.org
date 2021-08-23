@@ -6,31 +6,10 @@ livestream:
   bulletin_id: "1c6y6o9Wghec-8yQo7qIIWJzd4noAIB1S1iRduqDc1I0"
   show_coming_soon: false
   template: >
-    <div class="container">
-      <div class="max-w-5xl mx-auto">
-        <div class="embed-responsive embed-responsive-16by9">
-          {% if show_coming_soon %}
-            Coming soon!
-          {% else %}
-            <iframe src="//www.youtube.com/embed/{{ embed_code }}" frameborder="0" allowfullscreen=""></iframe>
-          {% endif %}
-        </div>
-      </div>
-    </div> <div class="container max-w-5xl mt-12 mb-32">
+    <div class="container max-w-5xl mt-12 mb-32">
+      <p class="text-2xl leading-loose text-center"><a href="https://www.youtube.com/playlist?list=PLF73r3ezO-0qqbIP8ax0dxTB4zStEtgxa" target="_blank" rel="noopener">Click here for our latest live stream</a></p>
+    </div>
+    <div class="container max-w-5xl mt-12 mb-32 text-center">
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>
       <p><a href="https://sermons.stcolumbas.freechurch.org" target="_blank" rel="noopener">Or listen to one of over 1000 sermons</a></p>
-    </div> {% if bulletin_id %}
-      <div class="container">
-        <div class="max-w-5xl mx-auto my-16">
-          <h3 class="mt-8 text-3xl">Bulletin</h3>
-          <a href="https://docs.google.com/document/d/{{ bulletin_id }}/preview" target="_blank" rel="noopener">View separately</a>
-          <iframe src="https://docs.google.com/document/d/{{ bulletin_id }}/preview" frameborder="0" allowfullscreen="" class="w-full min-h-screen mt-8"></iframe>
-        </div>
-      </div>
-    {% else %}
-      <div class="container">
-        <div class="max-w-5xl mx-auto my-16">
-          <p>There will be no bulletin this week.</p>
-        </div>
-      </div>
-    {% endif %}
+    </div>
