@@ -1,0 +1,43 @@
+layout: "content_page"
+title: "Counselling Donation"
+html:
+  type_: "raw_html"
+  html: |
+    <div class="container mx-auto mb-16">
+      <div class="max-w-2xl mx-auto bg-stcs-nav-bg">
+        <form action="/charge" method="post" id="payment-form" class="p-8">
+        <div class="my-4 prose lg:prose-xl">
+            <p>
+            If you would like to donate towards the counselling sessions run by Louise MacMillan, you can use the form below.
+            </p>
+            <p>
+            Enter the amount (in £/GBP) and click donate. You will be redirected to our payment processor where you can enter your details.
+            </p>
+            <p>
+            Thanks!
+            </p>
+          </div>
+          <div class="w-full my-4">
+            <label for="amount">
+              <span class="font-medium required">I would like to give</span>
+              <input required type="text" inputmode="numeric" pattern="^£?[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
+            </label>
+          </div>
+          <div class="hidden w-full my-4">
+            <label for="fund">
+              <span class="font-medium required">Fund</span>
+              <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
+                <option>Counselling</option>
+              </select>
+            </label>
+          </div>
+          <label class="block mt-4">
+          <button type="submit"
+                  class="px-2 py-1 mt-4 text-lg font-medium text-white bg-white bg-gray-500"
+                  id="giving-button"
+                  >
+                  Donate!
+          </button>
+        </form>
+      </div>
+    </div>
