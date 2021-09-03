@@ -28,8 +28,8 @@ html:
           <div class="hidden w-full my-4">
             <label for="fund">
               <span class="font-medium required">Fund</span>
-              <select name="fund" class="block w-full mt-1 form-select" id="evc-offering">
-                <option>Monthly Offering</option>
+              <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
+                <option>EVC Offering</option>
               </select>
             </label>
           </div>
