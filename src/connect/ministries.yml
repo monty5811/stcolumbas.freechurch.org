@@ -103,7 +103,7 @@ ministries:
       Each session involves eating together, the chance to build and develop friendships, and a talk which aims to answer a ‘big question’ or issue facing young Christians in today’s world, with follow up discussion on the topic.
     contact:
       type_: "activity_contact"
-      name: "Rowan Logan"
-      picture: "/static/uploads/rowan.jpg"
+      name: "Aaron Logan"
+      picture: "/static/uploads/people/placeholder.svg"
     show_covid_paused: false
     show_covid_online: false
