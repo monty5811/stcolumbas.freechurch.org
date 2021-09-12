@@ -38,7 +38,7 @@ ministries:
       name: "Donna Macleod"
       picture: "/static/uploads/people/donna.jpg"
       type_: "activity_contact"
-    show_covid_paused: true
+    show_covid_online: false
     show_covid_online: false
   - type_: "activity"
     name: "The Den"
@@ -50,7 +50,7 @@ ministries:
       name: "Mairi Murchison"
       picture: "/static/uploads/people/placeholder.svg"
     show_covid_paused: false
-    show_covid_online: true
+    show_covid_online: false
   - type_: "activity"
     name: "Connect Meals"
     picture: "/static/uploads/connect_meals.jpg"
@@ -62,7 +62,7 @@ ministries:
       type_: "activity_contact"
       name: "Gill Simison"
       picture: "/static/uploads/people/gill_simison.jpg"
-    show_covid_paused: true
+    show_covid_online: false
     show_covid_online: false
   - type_: "activity"
     name: "Old Farm Court"
@@ -76,7 +76,7 @@ ministries:
       type_: "activity_contact"
       name: "Brian McDowell"
       picture: "/static/uploads/people/brian.jpg"
-    show_covid_paused: true
+    show_covid_online: false
     show_covid_online: false
   - type_: "activity"
     name: "Kids’ Church"
@@ -91,7 +91,7 @@ ministries:
       type_: "activity_contact"
       name: "Graham Thompson"
       picture: "/static/uploads/people/graham-t.jpg"
-    show_covid_paused: true
+    show_covid_online: false
     show_covid_online: false
   - type_: "activity"
     name: "Identity"
@@ -106,4 +106,4 @@ ministries:
       name: "Rowan Logan"
       picture: "/static/uploads/rowan.jpg"
     show_covid_paused: false
-    show_covid_online: true
+    show_covid_online: false
