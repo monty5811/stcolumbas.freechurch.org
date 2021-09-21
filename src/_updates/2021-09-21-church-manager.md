@@ -1,6 +1,6 @@
 ---
 layout: update
-title: "Church Manager "
+title: "Job opportunity - Church Manager "
 author: Siobhan Smith
 date: 2021-09-21T19:44:19.501Z
 thumbnail: /static/uploads/visit-singing-1.jpg
