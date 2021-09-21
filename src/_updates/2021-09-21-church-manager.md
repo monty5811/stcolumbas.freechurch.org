@@ -14,7 +14,7 @@ intro: An exciting new opportunity has arisen to join the team at St Columba’s
   Free Church for Church Manager to help oversee and develop its growing
   financial, administrative and creative management responsibilities.
 ---
-### Church Manager job opportunity 
+### Church Manager job opportunity
 
 An exciting new opportunity has arisen in St Columba’s Free Church - a Gospel focused, city Centre congregation - to help oversee and develop its growing financial, administrative and creative management responsibilities. The leadership regard this as a key ministry role with scope for development. 
 
@@ -22,11 +22,9 @@ The successful candidate will demonstrate evidence of the following experience, 
 
 The job description can be viewed here: [https://stcsfc.org/church-manager-jd ](https://drive.google.com/file/d/1SI5lNpOIKBXO4dZ1VF-4HBKa2yaTJljj/preview)
 
-We invite applicants to send in their CV with a covering letter to [recruitment@stcsfc.org](recruitment@stcsfc.org) with a summary of how they would see themselves fulfilling and developing this ministry role. 
+We invite applicants to send in their CV with a covering letter to recruitment@stcsfc.org with a summary of how they would see themselves fulfilling and developing this ministry role. 
 
 The post will be for 30 Hours (approx) with a salary of £22,000. 
-
-
 
 **Experience** 
 
@@ -37,8 +35,6 @@ The post will be for 30 Hours (approx) with a salary of £22,000.
 ● People management experience                                                                      Desirable 
 
 ● Previous experience of working in a church or third sector environment        Desirable
-
-
 
 **Knowledge and Skills** 
 
@@ -51,7 +47,5 @@ The post will be for 30 Hours (approx) with a salary of £22,000.
 ● IT skills to an intermediate level                                                                        Essential 
 
 ● Multimedia Experience                                                                                      Desirable 
-
-
 
 Please return your application by the end of the day on **tbc**. Interviews will follow shortly thereafter, with the successful candidate negotiating a start date as soon as possible after the job has been offered.
