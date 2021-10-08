@@ -43,8 +43,8 @@ communities:
         We try to provide a crèche with a helper so that mums can come and enjoy the conversation too.
       contact:
         type_: "activity_contact"
-        name: "Louise Gillies"
-        picture: "/static/uploads/people/louise_g.jpg"
+        name: "Jenny Nicolson"
+        picture: "/static/uploads/people/jenny.jpg"
       show_covid_paused: false
       show_covid_online: false
     - type_: "activity"
