@@ -3,52 +3,47 @@ layout: update
 title: "Brilliant Books: October 2021"
 author: Siobhan Smith
 date: 2021-10-09T23:44:17.574Z
-thumbnail: /static/uploads/untitled-design-1-.jpg
+thumbnail: /static/uploads/book-1.jpg
 tags:
   - books
   - freechurchbooks
   - brilliantbooks
   - ""
-intro: We’ve got a great selection of books for you to choose from for our next
-  Brilliant Books spotlight which is this coming Sunday. With a focus on mission
-  as well as an excellent book addressing anger, we’re sure there’ll be
-  something you’ll find interesting. Here’s a taster of what’s in store…
+intro: >-
+  We’re delighted that Brilliant Books is going to be back in person next
+  Sunday! As well as our two
+
+  adult titles, we’ve also got an excellent book for the very young ones as well. Here’s a taster of what
+
+  we’ve got lined up...
 ---
-We’ve got a great selection of books for you to choose from for our next Brilliant Books spotlight which is this coming Sunday. With a focus on mission as well as an excellent book addressing anger, we’re sure there’ll be something you’ll find interesting. Here’s a taster of what’s in store…
+We’re delighted that Brilliant Books is going to be back in person next Sunday! As well as our two
+adult titles, we’ve also got an excellent book for the very young ones as well. Here’s a taster of what
+we’ve got lined up...
 
 ![](/static/uploads/stay-salt.png)
 
-**Stay Salt, Rebecca Manley Pippert**
+**Love Your Church, Tony Merida**
+Our Price: **£6.00** (25% off RRP)
 
-Our Price: **£7.64** (15% off RRP)
+This engaging book by Tony Merida explores God’s vision for the local church, looking at what the church is, why being part of it is exciting and why it is worthy of our love and commitment. This isn’t a book just for those in leadership roles but for all of us as ‘ordinary’ Christians: all of us are called to love and serve our church. By showing us the privilege of belonging to God’s family, Merida helps us to be church members who serve and love each other well.
 
-This excellent book is an updated version of Pippert’s book ‘Out of the Saltshaker’, reminding us of what we believe and why we believe it - that the Gospel is good news! Through helpful principles and personal stories, this book teaches us what everyday evangelism looks like. Stay Salt shows what it means to confidently carry the Gospel message to those around us, dependent on the Holy Spirit and grounded in Scripture. 
 
-**\
-Buy it here: <https://stcsfc.org/bb-staysalt>**
 
 ![](/static/uploads/good-and-angry.png)
 
-**Good & Angry, David Powlison**
+**5 Things to Pray for Your World, Rachel Jones**
+Our Price: **£3.00** (25% off RRP)
 
-Our Price: **£9.99** (41% off RRP)
+Praying for the world around us and people we don’t know can often feel overwhelming. In this short book, Rachel Jones addresses the inadequacy we feel, equipping us to pray powerful and meaningful prayers for the world around us - prayers that make a difference because they are based on God’s Word. It’s a helpful book to use as part of your daily prayers or to pick up whenever a situation arises that is in particular need of prayer.
 
-David Powlison addresses anger and its many forms in a way that is practical, personal and biblical. The book aims straight for the heart, not only teaching us about ourselves, but also about God. This book is for all of us as we learn to ask where our heart is when we’re angry and what it means to submit our anger to God.
 
-**\
-Buy it here: <https://stcsfc.org/bb-goodnangry>**
 
 ![](/static/uploads/the-girl-with-a-missionary-dream.png)
 
-**Betsey Stockton, Laura Caputo-Wickham**
+**The Garden, the Curtain and the Cross Board Book, Carl Laferton**
+Our Price: **£3.00** (40% off RRP)
 
-Our Price: **£5.94** (15% off RRP)
+This wonderful but simple board book condenses the main message of the Bible in a way that very young children can understand. It takes them on the journey from the Garden of Eden all the way through to God’s new creation. The vivid pictures illustrate the story well, helping children to understand the overarching story of the Gospel from a young age. This book is ideal for children up to the age of four.
 
-This book is part of the ‘Do Great Things for God’ series, which explores the lives of inspiring Christians. On gaining her freedom from slavery, Betsey Stockton, began a five-month journey across the Pacific to become a missionary in Hawaii. This engaging mini-biography is perfect to be read to children aged 4-5 and read by children 6+. 
-
-**\
-Buy it here: <https://stcsfc.org/bb-betsey>**
-
-
-
-**If you would like to buy any of these books but would like help in ordering them, please email [books@stcsfc.org](mailto:books@stcsfc.org) and we will be more than happy to help!**
+All of these books will be available to buy at the morning service on **Sunday 10th October**. We have ordered several dozen books on a sale or return basis, so there will be plenty available for you to buy
