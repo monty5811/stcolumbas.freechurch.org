@@ -9,19 +9,13 @@ tags:
   - freechurchbooks
   - brilliantbooks
   - ""
-intro: >-
-  We’re delighted that Brilliant Books is going to be back in person next
-  Sunday! As well as our two
-
-  adult titles, we’ve also got an excellent book for the very young ones as well. Here’s a taster of what
-
-  we’ve got lined up...
+intro: We’re delighted that Brilliant Books is going to be back in person next
+  Sunday! As well as our two adult titles, we’ve also got an excellent book for
+  the very young ones as well. Here’s a taster of what we’ve got lined up...
 ---
-We’re delighted that Brilliant Books is going to be back in person next Sunday! As well as our two
-adult titles, we’ve also got an excellent book for the very young ones as well. Here’s a taster of what
-we’ve got lined up...
+We’re delighted that Brilliant Books is going to be back in person next Sunday! As well as our two adult titles, we’ve also got an excellent book for the very young ones as well. Here’s a taster of what we’ve got lined up...
 
-![](/static/uploads/stay-salt.png)
+![](/static/uploads/love-your-church.jpg)
 
 **Love Your Church, Tony Merida**
 Our Price: **£6.00** (25% off RRP)
@@ -30,7 +24,7 @@ This engaging book by Tony Merida explores God’s vision for the local church, 
 
 
 
-![](/static/uploads/good-and-angry.png)
+![](/static/uploads/5-things-to-pray.jpg)
 
 **5 Things to Pray for Your World, Rachel Jones**
 Our Price: **£3.00** (25% off RRP)
@@ -39,7 +33,7 @@ Praying for the world around us and people we don’t know can often feel overwh
 
 
 
-![](/static/uploads/the-girl-with-a-missionary-dream.png)
+![](/static/uploads/the-garden-the-curtain.jpg)
 
 **The Garden, the Curtain and the Cross Board Book, Carl Laferton**
 Our Price: **£3.00** (40% off RRP)
