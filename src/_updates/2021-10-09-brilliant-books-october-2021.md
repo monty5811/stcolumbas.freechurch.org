@@ -3,7 +3,7 @@ layout: update
 title: "Brilliant Books: October 2021"
 author: Siobhan Smith
 date: 2021-10-09T23:44:17.574Z
-thumbnail: /static/uploads/book-1.jpg
+thumbnail: /static/uploads/neonbrand-307860-unsplash.jpg
 tags:
   - books
   - freechurchbooks
