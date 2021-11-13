@@ -35,6 +35,10 @@ def write_files(env, pages):
         with open(new_path, "w") as f:
             f.write(result)
 
+        if "monthly-offering" in new_path:
+            with open(new_path.replace("monthly-offering", "give-and-pray"), "w") as f:
+                f.write(result)
+
         # todo: do cleaning in write_sw instead
         manifest[
             new_path.replace(DIST_DIR, "")
