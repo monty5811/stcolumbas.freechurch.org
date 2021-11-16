@@ -6,6 +6,43 @@ intro:
   type_: text_text_row
 church_plants:
   - left: >-
+      ## Haddington Community Church
+
+      Haddington Community Church was launched in September 2018 in the heart
+      of East Lothian.
+      This is an area of rapid housing development and growing population,
+      but with only a small number of gospel centred churches.
+      The church seeks to stand on the two pillars of the centrality of the
+      bible and the necessity of prayer, and through that build a community
+      which is welcoming, growing, serving, and joyful.
+      This gospel community looks to care for one another and also reach out
+      to those around them by sharing the good news of Jesus Christ.
+
+
+      Sunday services are currently held at 10:30am in the Town House in the
+      centre of Haddington.
+      For more information please see our
+      [website](https://www.haddingtoncommunitychurch.org/) or contact
+      [Ali Sewell](mailto:ali@haddingtoncommunitychurch.org).
+    right: '![Haddington](/static/uploads/haddington_aerial.jpg)'
+    type_: text_text_row_with_sep
+  - left: '![Esk Valley](/static/uploads/evc.jpg)'
+    right: >-
+      ## Esk Valley Church
+
+      Esk Valley is the second of the St Columba's plants, starting life back in 2015 in Midlothian just South of Edinburgh. EVC was planted by Tom Muir. Tom is married to Sharlene, and they have a couple of young kids. EVC is a part of the Free Church of Scotland, and has partnerships with Generation - the Free Church mission agency, and the City to City church planting network.
+
+
+      At EVC we want people to know that no matter who they are, where they come from or how close they may feel to Jesus, there’s a place for them at Esk Valley Church. We meet on Sundays at 3.30pm in the new Rosewell Steading community facility, but also have various midweek and community groups and events on. We have a range of ages and stages, including plenty of young families, so we invest in children's ministry on a Sunday so the whole family can feel welcome. But whatever a person’s situation, whether retired, working, studying or playing, we want to care for one another as an extended family.
+
+
+      EVC is a place to worship God, grow in knowing Him, serve one another & our communities, and tell of the good news of the gospel of Jesus.
+
+
+      To find out more, please visit the Esk Valley Church
+      [website](http://eskvalleychurch.org/).
+    type_: text_text_row_with_sep
+  - left: >-
       ## Cornerstone
 
       In early 2014, we planted a new church in the Morningside / Bruntsfield
@@ -27,51 +64,4 @@ church_plants:
       To find out more, please visit the Cornerstone
       [website](https://cornerstone-edinburgh.com/).
     right: '![Cornerstone](/static/uploads/cornerstone.jpg)'
-    type_: text_text_row_with_sep
-  - left: '![Esk Valley](/static/uploads/evc.jpg)'
-    right: >-
-      ## Esk Valley Church
-
-
-      Esk Valley Church is the second plant out of St Columba’s. It meets in
-      Midlothian to the immediate south of Edinburgh. Midlothian is an expanding
-      region with newly developed transport links joining up Edinburgh and the
-      Scottish Borders. It’s also an area with a huge need for the gospel, and
-      for new churches to be started.
-
-
-      We launched a couple of years ago, and meet on Sunday mornings in the
-      Scottish Mining Museum in Newtongrange at 10.30am. During the week we meet
-      in people’s homes, to look at the bible, pray, and share life together.
-      Some of us are Christians, some are exploring Christianity, and some
-      coming back to the church after being away for a time. We really want EVC
-      to be a place people can know good friendship, and grow in their
-      understand of who God really is. We are working out what it means to know
-      God & worship Him, grow in our faith, serve others out of love, and
-      witness to the good news about Jesus.
-
-
-      To find out more, please visit the Esk Valley Church
-      [website](http://eskvalleychurch.org/).
-    type_: text_text_row_with_sep
-  - left: >-
-      ## Haddington Community Church
-
-      Haddington Community Church was launched in September 2018 in the heart
-      of East Lothian.
-      This is an area of rapid housing development and growing population,
-      but with only a small number of gospel centred churches.
-      The church seeks to stand on the two pillars of the centrality of the
-      bible and the necessity of prayer, and through that build a community
-      which is welcoming, growing, serving, and joyful.
-      This gospel community looks to care for one another and also reach out
-      to those around them by sharing the good news of Jesus Christ.
-
-
-      Sunday services are currently held at 10:30am in the Town House in the
-      centre of Haddington.
-      For more information please see our
-      [website](https://www.haddingtoncommunitychurch.org/) or contact
-      [Ali Sewell](mailto:ali@haddingtoncommunitychurch.org).
-    right: '![Haddington](/static/uploads/haddington_aerial.jpg)'
     type_: text_text_row_with_sep
