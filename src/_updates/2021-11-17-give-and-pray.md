@@ -15,6 +15,8 @@ intro: Last Sunday (14th November) we launched our new "Give & Pray" initiative.
 
 On Sunday 14th November we launched our fundraising program to target increasing our ordinary income by at least £30,000 a year in order to allow us to invest further Gospel ministry: by expanding our current support structures and by developing new ministry initiatives.
 
+Prefer to listen instead of read? Then: [Watch Colin Armstrong explain everything!](https://youtu.be/PAg0Ql3Fg04?t=873)
+
 ![Giving Outcomes](/static/uploads/giving_outcomes.png)
 
 We would love to be able to employ a church manager to develop and to support all we do as a congregation, as well as investing further in church planting, international mission support, Sparkle Sisters, strategic gospel initiatives that we partner with, and many other things.
