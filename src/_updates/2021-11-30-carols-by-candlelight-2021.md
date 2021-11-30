@@ -20,4 +20,4 @@ You are warmly invited at 5.30pm on Sunday 12th December to join us as we celebr
 
 Carols by Candlelight is a highlight in our church calendar and a great event to invite your friends and family along to. Come and join us as we sing some of our favourite carols together and hear the good news of the coming of Jesus Christ. 
 
-Sigh up to attend via our [Facebook event. ](https://fb.me/e/1T2HJC181)
+Sign up to attend via our [Facebook event. ](https://fb.me/e/1T2HJC181)
