@@ -11,7 +11,7 @@ what:
 
       For up to date information about when and where we are meeting, as well as an up to date timetable, click <a href="https://stcs.elvanto.eu/pages/identity/" target="_blank">here</a>.
 
-    right: '![Identity](/static/uploads/identity-1.jpg)'
+    right: '![Identity](/static/uploads/identity-3.jpg)'
     type_: text_text_row
 host_families:
   - right: >-
@@ -22,5 +22,5 @@ host_families:
       If you have any questions or would like any more information about anything to do with being a student with us at St Columba’s, please contact [welcome@stcsfc.org](mailto:welcome@stcsfc.org) or find Aaron Logan or Katrin Murray on a Sunday.
 
       For up to date information about when and where we are meeting, as well as an up to date timetable, click <a href="https://stcs.elvanto.eu/pages/identity/" target="_blank">here</a>.
-    left: '![Identity](/static/uploads/identity-2.jpg)'
+    left: '![Identity](/static/uploads/identity-4.jpg)'
     type_: text_text_row
