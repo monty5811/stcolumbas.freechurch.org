@@ -1,0 +1,28 @@
+layout: "content_page"
+title: "Monthly Offering - Give & Pray"
+content:
+  type_: raw_html
+  html: |
+    <div class="container mb-8 prose">
+      Give & Pray
+      
+      Today, we are also launching a new goal of raising an extra £30,000 a year in our regular giving for each of the next 3 years.
+      We are prayerfully aiming to raise this amount (on top of our existing income) to further equip the work of St Columba's as we continue to be a city-centre church committed to the Gospel of Jesus Christ.
+
+      You will hopefully have heard a lot more about this at this morning's service (14th November).
+      If you missed it keep an eye out for future communications.
+
+      Today you can do one of three things:
+      
+      <div class="mb-8 prose">
+      <ol>
+      <li>Create a new standing order - contact our <a href="mailto:finance-manager@stcsfc.org">Finance Manager (Kerry)</a> for our bank details</li>
+      <li>Increase your current standing order - you can do this via your bank</li>
+      <li>Make a pledge to start giving regularly or to increase your current giving</li>
+      <ol>
+      </div>
+
+      If you want to make a pledge, just fill in this form:
+
+      <iframe class="mt-4" allowtransparency="true" src="https://stcs.elvanto.eu/form/245d24b2-4435-476a-b448-c167cd5051bc" frameborder="0" style="width:100%; height:1000px; border:none;"></iframe>
+    </div>

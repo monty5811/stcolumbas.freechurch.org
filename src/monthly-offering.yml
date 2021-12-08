@@ -1,65 +1,45 @@
 layout: "content_page"
-title: "Monthly Offering - Give & Pray"
-content:
-  type_: text_text_row
-  left: >
-    # Monthly Offering
-
-    <p>
-    We usually take an offering each month to give to a different project or charity or other good cause. Due to COVID-19 restrictions we have moved this offering online.
-    </p>
-
-    <p>
-    This month’s special collection is to support the calling of the Rev Cory Brock as our Assistant Minister. There are a number of costs associated with Cory, his wife Heather and their 4 kids moving to Edinburgh from America e.g. travel costs, visas, accommodation costs so we are raising funds to support their move. We are very excited to be welcoming the Brocks back to St Columba’s in the first week of December!
-    </p>
-
-    <p>
-    If you wish to make a (one-off) offering, type in your amount and click the "Donate!" button.
-    You will be redirected to our payment processor where you can pay by credit card, debit card, Google Pay or Apple Pay.
-    </p>
-
-    <form action="/charge" method="post" id="payment-form" class="p-8">
-      <div class="w-full my-4">
-        <label for="amount">
-          <span class="font-medium required">I would like to give</span>
-          <input required type="text" inputmode="numeric" pattern="^£?[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
-        </label>
-      </div>
-      <div class="hidden w-full my-4">
-        <label for="fund">
-          <span class="font-medium required">Fund</span>
-          <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
-            <option>Monthly Offering</option>
-          </select>
-        </label>
-      </div>
-      <label class="block mt-4">
-      <button type="submit"
-              class="px-2 py-1 mt-4 text-lg font-medium text-white bg-white bg-gray-500"
-              id="giving-button"
-              >
-              Donate!
-      </button>
-    </form>
-  right: |
-    # Give & Pray
-    
-    Today, we are also launching a new goal of raising an extra £30,000 a year in our regular giving for each of the next 3 years.
-    We are prayerfully aiming to raise this amount (on top of our existing income) to further equip the work of St Columba's as we continue to be a city-centre church committed to the Gospel of Jesus Christ.
-
-    You will hopefully have heard a lot more about this at this morning's service (14th November).
-    If you missed it keep an eye out for future communications.
-
-    Today you can do one of three things:
-    
-    <div class="prose mb-8">
-    <ol>
-    <li>Create a new standing order - contact our <a href="mailto:finance-manager@stcsfc.org">Finance Manager (Kerry)</a> for our bank details</li>
-    <li>Increase your current standing order - you can do this via your bank</li>
-    <li>Make a pledge to start giving regularly or to increase your current giving</li>
-    <ol>
-    </div>
-
-    If you want to make a pledge, just fill in this form:
-
-    <iframe class="mt-4" allowtransparency="true" src="https://stcs.elvanto.eu/form/245d24b2-4435-476a-b448-c167cd5051bc" frameborder="0" style="width:100%; height:1000px; border:none;"></iframe>
+title: "Monthly Offering"
+html:
+  type_: "raw_html"
+  html: |
+    <div class="container mx-auto mb-16">
+      <div class="max-w-2xl mx-auto bg-stcs-nav-bg">
+        <form action="/charge" method="post" id="payment-form" class="p-8">
+        <div class="my-4 prose lg:prose-xl">
+            <p>
+            We usually take an offering each month to give to a different project or charity or other good cause. Due to COVID-19 restrictions we have moved this offering online.
+            </p>
+            <p>
+            If you wish to make an offering, type in your amount and click the "Donate!" button.
+            You will be redirected to our payment processor where you can pay by credit card, debit card, Google Pay or Apple Pay.
+            </p>
+            <p>
+            The monthly offering in December is this coming Sunday, 12th December and is in support of Suraj Kasula in Nepal and the work with which he is involved. Suraj and his wife Roshani, worshipped with us in St Columba's while he studied at ETS. 
+            </p>
+            <p>
+            On returning to Nepal, Suraj has been pastoring a church in Nepal and his congregation has planted a church. In 2017, Suraj founded the Bhakatpur Theological Seminary for the training of future leaders, missionaries and evangelists.
+            </p>
+          </div>
+          <div class="w-full my-4">
+            <label for="amount">
+              <span class="font-medium required">I would like to give</span>
+              <input required type="text" inputmode="numeric" pattern="^£?[0-9]*" tabindex="3" placeholder="£" class="w-full mt-1 form-input" id="giving-amount">
+            </label>
+          </div>
+          <div class="hidden w-full my-4">
+            <label for="fund">
+              <span class="font-medium required">Fund</span>
+              <select name="fund" class="block w-full mt-1 form-select" id="giving-fund">
+                <option>Monthly Offering</option>
+              </select>
+            </label>
+          </div>
+          <label class="block mt-4">
+          <button type="submit"
+                  class="px-2 py-1 mt-4 text-lg font-medium text-white bg-white bg-gray-500"
+                  id="giving-button"
+                  >
+                  Donate!
+          </button>
+        </form>
