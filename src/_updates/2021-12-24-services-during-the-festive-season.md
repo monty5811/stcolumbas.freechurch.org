@@ -12,18 +12,13 @@ With Christmas and the New Year almost upon us, here's a reminder of the church 
 **Saturday 25th December:** 11.00am (please note the different time) - Christmas Day Service (no live stream)
 <br/><br/>
 
-
-**Sunday 26th December:** 10.30am - Morning Service in the Main Hall,
-
-**No evening service**
+**Sunday 26th December:** 10.30am - Morning Service in the Main Hall, **No evening service**
 <br/><br/>
 **Wednesday 29th December:** No formal meeting together
 <br/><br/>
 **Saturday 1st January:** 11.00am (please note the different time) - New Year’s Day Service (no live stream)
 <br/><br/>
-**Sunday 2nd January:** 10.30am Morning Service in the Main Hall,
-
-**No Evening Service**
+**Sunday 2nd January:** 10.30am Morning Service in the Main Hall, **No Evening Service**
 <br/><br/>
 **Wednesday 5th January:** 7.30pm Engine Room in the Main Hall
 <br/><br/>
