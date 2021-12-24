@@ -7,8 +7,12 @@ thumbnail: /static/uploads/CsOId80WAAA62Fw - Edited.jpg
 intro: "With Christmas and the New Year almost upon us, here's a reminder of the
   church services planned over the holidays:"
 ---
+With Christmas and the New Year almost upon us, here's a reminder of the church services planned over the holidays:
+<br/><br/>
 **Saturday 25th December:** 11.00am (please note the different time) - Christmas Day Service (no live stream)
 <br/><br/>
+
+
 **Sunday 26th December:** 10.30am - Morning Service in the Main Hall,
 
 **No evening service**
