@@ -16,17 +16,22 @@ teams:
         title: "Senior Minister"
         type_: "team_head"
         picture: /static/uploads/people/derek-image.jpg
+      - name: "Cory Brock"
+        title: "Assistant Minister"
+        type_: "team_head"
+        picture: /static/uploads/people/cory-image.jpg
   - title: "Staff"
     type_: "team_list"
     members:
-      - name: "Donna Macleod"
-        title: "Administrator & Treasurer"
         type_: "team_head"
-        picture: /static/uploads/people/donna.jpg
       - name: "Mairi Murchison"
         title: "Ministry Apprentice"
         type_: "team_head"
         picture: /static/uploads/mairi.jpg
+      - name: "Jenny Nicolson"
+        title: "Minstry Apprentice"
+        type_: "team_head"
+        picture: /static/uploads/people/jenny.jpg
   - title: "Elders"
     type_: "team_list"
     members:
