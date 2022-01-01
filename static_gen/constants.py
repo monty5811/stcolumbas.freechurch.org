@@ -34,4 +34,3 @@ NAV_LINKS = [
     ),
     NavLink("Updates", "/updates", []),
 ]
-

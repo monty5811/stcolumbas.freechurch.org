@@ -337,6 +337,18 @@ def rewrite_image_path_with_content_hash(src):
 
 
 def render_image(src, alt_text="", class_text=""):
+    if src.startswith("https://"):
+        return render_template(
+            "blocks/picture.html",
+            {
+                "src": src,
+                "src_type": None,
+                "alt_text": None,
+                "class_text": None,
+                "src_webp": None,
+            },
+        )
+
     if src.endswith(".svg"):
         with open(DIST_DIR + src, "r") as f:
             return render_template(
