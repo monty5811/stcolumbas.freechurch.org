@@ -23,7 +23,6 @@ teams:
   - title: "Staff"
     type_: "team_list"
     members:
-        type_: "team_head"
       - name: "Mairi Murchison"
         title: "Ministry Apprentice"
         type_: "team_head"
