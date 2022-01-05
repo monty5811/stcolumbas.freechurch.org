@@ -26,7 +26,7 @@ teams:
       - name: "Kerry Camerson"
         title: "Finance Manager"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=K+C&size=175
+        picture: /static/uploads/people/kerry-cameron.jpg
       - name: "Mairi Murchison"
         title: "Ministry Apprentice"
         type_: "team_head"
