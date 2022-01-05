@@ -199,7 +199,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/ross-image.jpg
       - name: "Angus Macleod"
-        title: "Elder"
+        title: "Minister in Training"
         type_: "team_head"
         picture: /static/uploads/people/angus-macleod.jpg
   - title: "Winchburgh Church Plant"
