@@ -21,7 +21,7 @@ ministries:
     picture: "/static/uploads/social_action.jpg"
     content: |
        In St Columba’s we don’t run our own programmes but link up with existing charities to help bring relief and comfort to those who are disadvantaged and in need.
-       Currently we help with [Bethany Christian Trust](http://www.bethanychristiantrust.com/), [The Care Van](https://www.bethanychristiantrust.com/services/crisis-intervention/), [Safe Families](safefamilies.uk) and the [SE Edinburgh Foodbank](http://edinburghse.foodbank.org.uk/).
+       Currently we help with [Bethany Christian Trust](http://www.bethanychristiantrust.com/), [The Care Van](https://www.bethanychristiantrust.com/services/crisis-intervention/), [Safe Families](https://safefamilies.uk) and the [SE Edinburgh Foodbank](http://edinburghse.foodbank.org.uk/).
        If you would like to know more or get involved helping, please get in touch!
     contact:
       type_: "activity_contact"

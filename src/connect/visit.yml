@@ -53,7 +53,7 @@ html_getting_here:
       <div class="flex-1 mx-8 mb-2">
         <img src="/static/images/icons/bus-icon.png" alt="bus image for travelling" class="w-24 h-24 mx-auto">
         <h4 class="mt-2 md:mt-4">Travelling by bus</h4>
-        <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes <strong>23</strong>, <strong>27</strong>, <strong>41</strong> & <strong>42</strong>.</p>
+        <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes <strong>23</strong>, <strong>27</strong>, <strong>41</strong> & 42 (but not on a Sunday).</p>
       </div>
       <div class="flex-1 mx-8 mb-2 md:mr-0">
         <img src="/static/images/icons/train-icon.png" alt="train icon" class="w-24 h-24 mx-auto">
@@ -108,10 +108,10 @@ services_row_3:
   left: |
     ### Mid-Week Prayer Meeting
     
-    On the 2nd and 4th Wednesday evening of the month we have a Prayer Meeting in our Church Hall.
+    On the 2nd and 4th Wednesday evening of the month we have the Engine Room (our prayer meeting) in our Church Hall.
     This usually means a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together - usually by breaking out into small groups.
     
-    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/community").
+    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/community).
 
   right: |
     ![](/static/uploads/CsOId80WAAA62Fw - Edited.jpg "")
