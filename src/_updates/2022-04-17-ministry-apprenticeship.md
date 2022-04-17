@@ -1,7 +1,7 @@
 ---
 layout: update
 title: Ministry Apprenticeship Advert
-author: Siobhan Smith
+author: Alastair Oliver
 date: 2022-04-17T10:10:27.167Z
 thumbnail: /static/uploads/CsOId80WAAA62Fw - Edited.jpg
 intro: "Learn about a two-year apprentice opportunity at St Columba's"
