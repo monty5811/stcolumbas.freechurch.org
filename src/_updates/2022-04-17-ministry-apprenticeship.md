@@ -7,6 +7,8 @@ thumbnail: /static/uploads/apprentice.jpg
 intro: "Learn about a two-year apprentice opportunity at St Columba's"
 ---
 
+Update: applications are now closed for this opportunity.
+
 St Columba's is accepting applications for a two-year training apprenticeship to start in the late summer of 2022.
 
 This post has a part-time paid component for the church and consists of two parts:
@@ -16,4 +18,3 @@ This post has a part-time paid component for the church and consists of two part
 
 Interested applicants should read the vision document linked available at <a href="https://stcsfc.org/training-vision" target="_blank">stcsfc.org/training-vision</a>.
 
-And submit an enquiry form at <a href="https://stcsfc.org/training-enquiry" target="_blank">stcsfc.org/training-enquiry</a>.
