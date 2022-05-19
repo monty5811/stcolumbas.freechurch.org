@@ -23,7 +23,7 @@ teams:
   - title: "Staff"
     type_: "team_list"
     members:
-      - name: "Kerry Camerson"
+      - name: "Kerry Cameron"
         title: "Finance Manager"
         type_: "team_head"
         picture: /static/uploads/people/kerry-cameron.jpg
@@ -132,10 +132,6 @@ teams:
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/noor.jpg
-      - name: "Sophie Johnston"
-        title: "Discipleship"
-        type_: "team_head"
-        picture: /static/uploads/people/sophie-johnston.jpg
       - name: "Catriona Lamont"
         title: "Meadows"
         type_: "team_head"
@@ -176,6 +172,14 @@ teams:
         title: "Inverleith"
         type_: "team_head"
         picture: /static/uploads/people/lizzie-alexander.png
+      - name: "Rowan Logan"
+        title: "Gilmerton"
+        type_: "team_head"
+        picture: /static/uploads/people/rowan.png
+      - name: "Gill Simison"
+        title: "Gilmerton"
+        type_: "team_head"
+        picture: /static/uploads/people/gill_simison.png
   - title: "Esk Valley Church Plant"
     type_: "team_list"
     members:
