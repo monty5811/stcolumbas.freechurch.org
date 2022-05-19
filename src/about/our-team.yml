@@ -38,7 +38,7 @@ teams:
       - name: "Hunter Nicholson"
         title: "Part Time Minister in Training"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=H+N&size=175
+        picture: /static/uploads/people/hunter.jpg
       - name: "Israel Guerrero"
         title: "Part Time Minister in Training"
         type_: "team_head"
