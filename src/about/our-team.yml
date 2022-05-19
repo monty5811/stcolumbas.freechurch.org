@@ -179,7 +179,7 @@ teams:
       - name: "Gill Simison"
         title: "Gilmerton"
         type_: "team_head"
-        picture: /static/uploads/people/gill_simison.png
+        picture: /static/uploads/people/gill_simison.jpg
   - title: "Esk Valley Church Plant"
     type_: "team_list"
     members:
