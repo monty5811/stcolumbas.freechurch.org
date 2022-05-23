@@ -51,5 +51,5 @@ ministries:
         We like to share hospitality together as a congregation, whether as a hot drink after the service or a meal together. If you would be willing to give up a small amount of your time every few weeks to help provide this hospitality on a Sunday, we would be very grateful. It isn’t difficult or glamorous work, but it makes a huge difference to the fellowship we can share as a congregation.
       contact:
         name: "Paula Burris & Jean Stewart"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64&rounded=true
         type_: "activity_contact"

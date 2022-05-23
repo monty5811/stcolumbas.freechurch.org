@@ -3,7 +3,7 @@ title: "Community Team"
 intro:
   type_: "one_wide_row"
   content: |
-    <div class="mb-8 text-center max-w-2xl mx-auto">
+    <div class="max-w-2xl mx-auto mb-8 text-center">
       <p>
       We recognise the importance of doing practical things well and as efficiently as possible with limited resources.
       We seek to communicate well online and in person, and have effective structures in place to help run the church family in the best way possible.
@@ -30,5 +30,5 @@ ministries:
         TODO
       contact:
         name: "TODO"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=T+D&size=64&rounded=true
         type_: "activity_contact"

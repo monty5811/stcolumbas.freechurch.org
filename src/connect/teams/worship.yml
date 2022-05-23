@@ -3,7 +3,7 @@ title: "Worship Team"
 intro:
   type_: "one_wide_row"
   content: |
-    <div class="mb-8 text-center max-w-2xl mx-auto">
+    <div class="max-w-2xl mx-auto mb-8 text-center">
       <p>
     We exist as Christians to worship God - to glorify and enjoy Him.  We seek to do that every day in our lives, but also as we gather together every Sunday, on the Lord’s Day, which we value as a day set aside for worship and rest.
      </p>
@@ -14,7 +14,7 @@ ministries:
   activities:
     - type_: "activity"
       name: "Sunday Services"
-      picture: "/static/uploads/CsOId80WAAA62Fw - Edited.910f171c.jpg"
+      picture: "/static/uploads/im_new-1.jpg"
       content: |
         We meet every Sunday at 10.30am and 5.30pm. Our church services consist of singing, prayer bible reading and preaching. The morning service lasts about one hour. We have tea and coffee after the service, and encourage sharing of food together in homes after church. Different people participate in the service, but as we gather in church, we want to offer God worship from our heart - well prepared, Holy Spirit dependent and using all the gifts he has given us responsibly and excellently. We love to sing, pray and hear God’s Word read and preached. That is our main  focus - to listen for what God is saying to us through His Living Word - the bible, through the preaching and teaching of the ministry team.
       contact:
@@ -34,7 +34,7 @@ ministries:
         type_: "activity_contact"
     - type_: "activity"
       name: "Prayer"
-      picture: "/static/uploads/placeholder_175x175.png"
+      picture: "/static/uploads/prayer.jpg"
       content: |
         Prayer is at the core of all we do as a church. Our hope is in God and we know that without his help we can’t do anything. We deeply value being able to regularly pray together as a community of God’s people. These are times where we can strengthen and encourage one another, as we bring our prayers before God.
 
@@ -70,7 +70,7 @@ ministries:
         We like to share hospitality together as a congregation, whether as a hot drink after the service or a meal together. If you would be willing to give up a small amount of your time every few weeks to help provide this hospitality on a Sunday, we would be very grateful. It isn’t difficult or glamorous work, but it makes a huge difference to the fellowship we can share as a congregation.
       contact:
         name: "Paula Burris & Jean Stewart"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64&rounded=true
         type_: "activity_contact"
     - type_: "activity"
       name: "Old Farm Court"

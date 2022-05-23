@@ -3,7 +3,7 @@ title: "Discipleship Team"
 intro:
   type_: "one_wide_row"
   content: |
-    <div class="mb-8 text-center max-w-2xl mx-auto">
+    <div class="max-w-2xl mx-auto mb-8 text-center">
       <p>
       Being followers of Jesus is a lifelong journey.  We aim to encourage each individual who is part of the church family  to grow in grace and in their knowledge of the Lord Jesus Christ through intentional worship, teaching, prayer and friendship - both one to one and in small groups.
      </p>
@@ -82,7 +82,7 @@ ministries:
         type_: "activity_contact"
     - type_: "activity"
       name: "Trainees"
-      picture: "/static/uploads/placeholder_175x175.png"
+      picture: "/static/uploads/training.png"
       content: |
         There are two levels of training at St Columba's. The first is aiming to provide a general introduction to ministry in a local church. This is a one or two year programme open to anyone - men, women, young or old! The aim of the training is to involve people with a wide variety of ministry opportunities such as discipleship, teaching, evangelism, youth work, hospitality, pastoral care and church administration.
 

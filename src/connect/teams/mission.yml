@@ -3,7 +3,7 @@ title: "Mission Team"
 intro:
   type_: "one_wide_row"
   content: |
-    <div class="mb-8 text-center max-w-2xl mx-auto">
+    <div class="max-w-2xl mx-auto mb-8 text-center">
       <p>
       Mission is at the heart of who we are and what we do. We are committed to sharing the good news of Jesus Christ with the people around us through our words and actions. In addition to sharing the gospel personally with our friends, families, and neighbours, we are also engaged in making Jesus known through acts of justice and mercy, social action, planting new churches in our city, and by supporting the mission of God’s people internationally.
      </p>
@@ -22,10 +22,10 @@ ministries:
     contact:
       type_: "activity_contact"
       name: "TODO"
-      picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=T+O&size=64
+      picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=T+O&size=64&rounded=true
   - type_: "activity"
     name: "Sparkle Sisters"
-    picture: "/static/uploads/placeholder_175x175.png"
+    picture: "/static/uploads/sparkle.png"
     content: |
       Sparkle Sisters is our ministry for women in Edinburgh who have been affected by homelessness or adverse social circumstances. Our mission is to provide a place where they will experience joy and feel valued. One of the ways we do this is through regular events of pampering, friendship and community. Our hope is to build up lasting and committed friendships that will provide new community for the women of our city.
 
@@ -55,4 +55,4 @@ ministries:
     contact:
       type_: "activity_contact"
       name: "Màiri Macpherson"
-      picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=M+M&size=64
+      picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=M+M&size=64&rounded=true
