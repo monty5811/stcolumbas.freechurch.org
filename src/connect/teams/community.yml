@@ -1,0 +1,55 @@
+layout: "content_page"
+title: "Community Team"
+intro:
+  type_: "one_wide_row"
+  content: |
+    <div class="mb-8 text-center max-w-2xl mx-auto">
+      <p>
+      We recognise the need to build and develop a strong and generous culture as a community together, and part of that involves dividing the church into geographical pastoral areas to regularly meet and eat together, by organising hospitality,  church events, and support for those in need among us.
+     </p>
+    </div>
+ministries:
+  type_: "activities_list"
+  group_into: 2
+  activities:
+    - type_: "activity"
+      name: "City Groups"
+      picture: "/static/uploads/citygroups.jpg"
+      content: |
+        City groups are our midweek house groups where we not only socialise and share hospitality, but we study the Bible together and pray.
+        If the normal Sunday service is ‘big’ church, then this is ‘small’ church.
+        These groups are normally regional throughout the city and overseen pastoral teams led by elders.
+        These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce their wider circle of friends and others to the Christian faith.
+      contact:
+        type_: "activity_contact"
+        name: "Cory Brock"
+        picture: "/static/uploads/people/cory-image.jpg"
+    - type_: "activity"
+      name: "Connect Meals"
+      picture: "/static/uploads/connect_meals.jpg"
+      content: |
+        Connect Meals runs on the first Sunday of the month.
+        These meals give everyone the chance to host people, meet new people and build community in a growing congregation.
+        There are a couple of coordinators who arrange some hosts for any given weekend, and then it’s just up to you, if you feel like going to someone’s for a meal and to get to know them better, to sign up.
+      contact:
+        type_: "activity_contact"
+        name: "Catriona Lamont"
+        picture: /static/uploads/people/catriona-lamont.jpg
+    - type_: "activity"
+      name: "Welcome"
+      picture: "/static/uploads/welcome_team.jpg"
+      content: |
+        You can be the first person people meet at St Columba's! First impressions are always powerful, and the same is true here in church - so we want ours to be kind, helpful and open-hearted. You don’t need a good memory for names or faces; just a willingness to welcome every individual as if you are welcoming Christ himself!
+      contact:
+        name: "Catriona Lamont"
+        picture: "/static/uploads/people/catriona-lamont.jpg"
+        type_: "activity_contact"
+    - type_: "activity"
+      name: "Hospitality"
+      picture: "/static/uploads/hospitality.jpg"
+      content: |
+        We like to share hospitality together as a congregation, whether as a hot drink after the service or a meal together. If you would be willing to give up a small amount of your time every few weeks to help provide this hospitality on a Sunday, we would be very grateful. It isn’t difficult or glamorous work, but it makes a huge difference to the fellowship we can share as a congregation.
+      contact:
+        name: "Paula Burris & Jean Stewart"
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64
+        type_: "activity_contact"

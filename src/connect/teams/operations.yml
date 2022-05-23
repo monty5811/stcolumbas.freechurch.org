@@ -1,0 +1,34 @@
+layout: "content_page"
+title: "Community Team"
+intro:
+  type_: "one_wide_row"
+  content: |
+    <div class="mb-8 text-center max-w-2xl mx-auto">
+      <p>
+      We recognise the importance of doing practical things well and as efficiently as possible with limited resources.
+      We seek to communicate well online and in person, and have effective structures in place to help run the church family in the best way possible.
+     </p>
+    </div>
+ministries:
+  type_: "activities_list"
+  group_into: 2
+  activities:
+    - type_: "activity"
+      name: "Production"
+      picture: "/static/uploads/production_image.jpg"
+      content: |
+        We look after the sound and screens on a Sunday, manage the website and run a few other techie things behind the scenes. Much of what we do is unseen, but we do our best to help the life of the church run smoothly.
+        You don’t need any prior experience to join the team, so please get in touch if you are interested in helping out.
+      contact:
+        name: "Ali Oliver"
+        picture: "/static/uploads/people/ali-image.jpg"
+        type_: "activity_contact"
+    - type_: "activity"
+      name: "Building Management"
+      picture: "/static/uploads/placeholder_175x175.png"
+      content: |
+        TODO
+      contact:
+        name: "TODO"
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64
+        type_: "activity_contact"

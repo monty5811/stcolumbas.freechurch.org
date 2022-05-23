@@ -163,6 +163,8 @@ def render_team_list(value):
 
 
 def render_activities_list(value):
+    if value["group_into"] > 3:
+        raise NotImplementedError("Group into must be less than 4")
     return render_template("blocks/activities_list.html", value)
 
 
