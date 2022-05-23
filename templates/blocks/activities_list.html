@@ -5,12 +5,6 @@
     <div class="flex flex-col px-8 mb-16 lg:flex-1">
       {{ A.picture|render_image }}
       <h3 class="text-md ">{{ A.name }}</h3>
-      {% if A.show_covid_online %}
-        {% include 'blocks/covid_online.html' %}
-      {% endif %}
-      {% if A.show_covid_paused %}
-        {% include 'blocks/covid_paused.html' %}
-      {% endif %}
       <div class="flex-grow">{{ A.content|md }}</div>
       {{ A.contact|render_content(A.name) }}
     </div>
