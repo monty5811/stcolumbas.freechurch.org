@@ -42,7 +42,7 @@ teams:
       - name: "Lewis Macdonald"
         title: "Minstry Apprentice"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=A+S&size=175
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=L+M&size=175
   - title: "Elders"
     type_: "team_list"
     members:
@@ -172,10 +172,18 @@ teams:
         title: "Blackford"
         type_: "team_head"
         picture: /static/uploads/people/gill_simison.jpg
+      - name: "Heather Brock"
+        title: "Fountainbridge"
+        type_: "team_head"
+        picture: /static/uploads/people/heather-brock.jpg
       - name: "Sue Simison"
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/sue-simison.jpg
+      - name: "Annabel Silson"
+        title: "Winchburgh"
+        type_: "team_head"
+        picture: /static/uploads/people/annabel-silson.jpg
   - title: "Esk Valley Church Plant"
     type_: "team_list"
     members:
