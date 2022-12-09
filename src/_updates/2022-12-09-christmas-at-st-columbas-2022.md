@@ -2,7 +2,7 @@
 layout: update
 title: Christmas and New Year at St Columba's 2022
 author: Siobhan Smith
-date: 2022-12-09T14:18:20.433Z
+date: 2022-12-09T15:02:31.841Z
 thumbnail: https://stcs.elvanto.eu/file/image/d5084e0e-9b7c-43c7-ac7a-a99b50e9791e.png
 intro: >-
   <!--StartFragment-->
