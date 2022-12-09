@@ -28,6 +28,7 @@ During our morning services, we will be working our way through a four part seri
 ## **S﻿ervices over the Festive Period**
 
 Please note the following details for services and meetings over the festive period:
+
 <br>
 
 * **Sunday 18th December** - services as normal at 10.30 + 17.30
