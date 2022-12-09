@@ -13,6 +13,8 @@ intro: >-
 Carols by Candlelight is a highlight in our church calendar and a great event to invite your friends and family along to. Come and join us as we sing some of our favourite carols together and hear the good news of the coming of Jesus Christ. Afterwards, we’ll enjoy mince pies, mulled wine, and one another’s company. All within the beautiful candlelit setting of St Columba’s at the top of the Royal Mile.\
 If you have Spotify, you can listen again to some of our songs from Carols by Candlelight from the last few years: [stcsfc.org/spotifymus](http://stcsfc.org/spotifymus)
 
+
+
 **S﻿ongs of Advent**
 
 ![Songs of Advent](https://stcs.elvanto.eu/file/image/ea366e41-6a12-401b-9a84-0a5b804ac93e.undefined)
