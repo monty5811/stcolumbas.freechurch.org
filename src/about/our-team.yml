@@ -27,10 +27,6 @@ teams:
         title: "Finance Manager"
         type_: "team_head"
         picture: /static/uploads/people/kerry-cameron.jpg
-      - name: "Mairi Murchison"
-        title: "Ministry Apprentice"
-        type_: "team_head"
-        picture: /static/uploads/mairi.jpg
       - name: "Jenny Nicolson"
         title: "Minstry Apprentice"
         type_: "team_head"
@@ -39,10 +35,14 @@ teams:
         title: "Part Time Minister in Training"
         type_: "team_head"
         picture: /static/uploads/people/hunter.jpg
-      - name: "Israel Guerrero"
-        title: "Part Time Minister in Training"
+      - name: "Blythe Mackenzie"
+        title: "Office Manager"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=I+G&size=175
+        picture: /static/uploads/people/blythe.jpg
+      - name: "Lewis MacDonald"
+        title: "Minstry Apprentice"
+        type_: "team_head"
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=L+M&size=175
   - title: "Elders"
     type_: "team_list"
     members:
@@ -113,10 +113,6 @@ teams:
         title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/neil-macrae.jpg
-      - name: "Andy Johnston"
-        title: "Calton"
-        type_: "team_head"
-        picture: /static/uploads/people/andy-johnston.jpg
   - title: "Womens' Pastoral Team"
     type_: "team_list"
     members:
@@ -160,10 +156,6 @@ teams:
         title: "Blackford"
         type_: "team_head"
         picture: /static/uploads/people/vikki.jpg
-      - name: "Kirsty Thompson"
-        title: "Fountainbridge"
-        type_: "team_head"
-        picture: /static/uploads/people/kirsty-thompson.jpg
       - name: "Anne Norrie"
         title: "Corstorphine"
         type_: "team_head"
@@ -177,9 +169,21 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/rowan.png
       - name: "Gill Simison"
-        title: "Gilmerton"
+        title: "Blackford"
         type_: "team_head"
         picture: /static/uploads/people/gill_simison.jpg
+      - name: "Heather Brock"
+        title: "Fountainbridge"
+        type_: "team_head"
+        picture: /static/uploads/people/heather-brock.jpg
+      - name: "Sue Simison"
+        title: "Meadows"
+        type_: "team_head"
+        picture: /static/uploads/people/sue-simison.jpg
+      - name: "Annabel Silson"
+        title: "Winchburgh"
+        type_: "team_head"
+        picture: /static/uploads/people/annabel-silson.jpg
   - title: "Esk Valley Church Plant"
     type_: "team_list"
     members:
