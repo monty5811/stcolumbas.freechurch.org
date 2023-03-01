@@ -25,7 +25,7 @@ ministries:
         type_: "activity_contact"
     - type_: "activity"
       name: "Building Management"
-      picture: "/static/uploads/placeholder_175x175.png"
+      picture: "/static/uploads/building-management.png"
       content: |
         TODO
       contact:

@@ -117,7 +117,7 @@ teams:
         title: "Calton"
         type_: "team_head"
         picture: /static/uploads/people/andy-johnston.jpg
-  - title: "Women's Pastoral Team"
+  - title: "Womens' Pastoral Team"
     type_: "team_list"
     members:
       - name: "Georgie Armstrong"

@@ -53,7 +53,7 @@ html_getting_here:
       <div class="flex-1 mx-8 mb-2">
         <img src="/static/images/icons/bus-icon.png" alt="bus image for travelling" class="w-24 h-24 mx-auto">
         <h4 class="mt-2 md:mt-4">Travelling by bus</h4>
-        <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes <strong>23</strong>, <strong>27</strong>, <strong>41</strong> & 42 (but not on a Sunday).</p>
+        <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes 5,7,8,14,23,27,41,45,49. Please check the Edinburgh Bus + Tram app for accurate bus routes and the Sunday timetable.</p>
       </div>
       <div class="flex-1 mx-8 mb-2 md:mr-0">
         <img src="/static/images/icons/train-icon.png" alt="train icon" class="w-24 h-24 mx-auto">
@@ -93,7 +93,7 @@ services_row_2:
     ### What about Children?
 
     Our Kids' Church (age 4 and up) meets during the 10:30 am service.
-    The children come in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song.
+    The children sit in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song.
     There is a crèche available during the morning service for babies and toddlers up to the age of three.
     We have a large and experienced team of volunteers.
     Visitors are very welcome.
@@ -102,16 +102,16 @@ services_row_2:
     All our Créche and Kids' Church volunteers have full [PVG](https://www.disclosurescotland.co.uk/disclosureinformation/pvgscheme.htm) disclosure.
     ### Where do I go?
 
-    You enter the church building through the our main (red) double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.
+    You can enter the church building through the red double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.
 services_row_3:
   type_: "text_text_row"
   left: |
     ### Mid-Week Prayer Meeting
 
-    On the 2nd and 4th Wednesday evening of the month we have the Engine Room (our prayer meeting) in our Church Hall.
-    This usually means a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together - usually by breaking out into small groups.
+    On the 2nd and 4th Wednesday evening of the month we have the Engine Room (our prayer meeting) in the Lower Church Hall.
+    This usually involves a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together in small groups.
 
-    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/teams/community).
+    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/teams/community) where we have a time of fellowship and Bible study.
 
   right: |
     ![](/static/uploads/CsOId80WAAA62Fw - Edited.jpg "")

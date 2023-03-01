@@ -36,7 +36,7 @@ ministries:
       picture: /static/uploads/people/kathleen.jpg
   - type_: "activity"
     name: "Church Planting"
-    picture: ""
+    picture: "/static/uploads/church-planting.png"
     content: |
       We are committed to being a church that plants new churches. We recognise that one of the greatest challenges we face as a church in 21st century Scotland is the huge number of people who have little or no exposure to the good news of Jesus Christ. We believe that planting new churches is an effective and biblical way to bring the message of Jesus to the unreached people of our city and its environs.
 
@@ -49,7 +49,7 @@ ministries:
       picture: /static/uploads/people/derek-image.jpg
   - type_: "activity"
     name: "International Mission"
-    picture: ""
+    picture: "/static/uploads/international-mission.png"
     content: |
       While much of our missional activity is focused on our own doorstep here in Edinburgh, we recognise that as Christians we are also part of something much bigger than ourselves: we are members of the global body of Christ. We are passionate about supporting the mission of the Church internationally, through financial assistance, prayer and encouragement, and by helping to train leaders. Over recent years we have been able to provide help and support to mission work in places such as Nepal, Russia, and South America.
     contact:

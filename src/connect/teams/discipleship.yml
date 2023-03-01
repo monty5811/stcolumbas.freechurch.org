@@ -35,12 +35,12 @@ ministries:
         picture: "/static/uploads/people/cory-image.jpg"
     - type_: "activity"
       name: "Pastoral Teams"
-      picture: "/static/uploads/placeholder_175x175.png"
+      picture: "/static/uploads/pastoral-teams.png"
       content: |
         The church family is divided geographically into Pastoral areas.  The people connected to the church who live in these areas come under the care of a pastoral team.  Where possible, each team consists of an elder, a deacon and two members of the Women's Pastoral team.  These pastoral teams also help run the City Groups connected with their area.
       contact:
         type_: "activity_contact"
-        name: "Derek Lamong"
+        name: "Derek Lamont"
         picture: "/static/uploads/people/derek-image.jpg"
     - type_: "activity"
       name: "Identity"
@@ -62,7 +62,7 @@ ministries:
         picture: "/static/uploads/mairi.jpg"
     - type_: "activity"
       name: "Edinburgh Youth Group"
-      picture: "/static/uploads/placeholder_175x175.png"
+      picture: "/static/uploads/edinburgh-youth-group.png"
       content: |
         The Edinburgh Youth Group is a monthly event for teenagers from across the wider Edinburgh area. Run in partnership with other local churches, the group provides an opportunity for our teens to meet together in a social setting, build friendships and share in fellowship with other young people. We enjoy getting to know each other through a variety of activities and seeing friendships grow through the time we spend together.
       contact:
