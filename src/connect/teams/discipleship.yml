@@ -1,5 +1,5 @@
 layout: "content_page"
-title: "Discipleship Team"
+title: "Discipleship"
 intro:
   type_: "one_wide_row"
   content: |
@@ -16,7 +16,9 @@ ministries:
       name: "Discipleship & Mentoring"
       picture: "/static/uploads/core_discipleship.jpg"
       content: |
-        At St Columba’s we want to support people to grow in their faith and deepen their personal relationship with Jesus at every stage of their lives.  We aim to do this by providing a more in-depth  bible study programme called ‘Abide’ which runs twice a year.  We also encourage one to one discipleship and mentoring informally within City Groups and other groups that exist within the church family.
+        At St Columba’s we want to support people to grow in their faith and deepen their personal relationship with Jesus at every stage of their lives.
+        We aim to do this by providing a more in-depth bible study programme called "Grace Groups" twice a year for men and twice a year for women.
+        We also encourage one to one discipleship and mentoring informally within City Groups and other groups that exist within the church family.
       contact:
         type_: "activity_contact"
         name: "Cory Brock"
@@ -28,7 +30,8 @@ ministries:
         City groups are our midweek house groups where we not only socialise and share hospitality, but we study the Bible together and pray.
         If the normal Sunday service is ‘big’ church, then this is ‘small’ church.
         These groups are normally regional throughout the city and overseen pastoral teams led by elders.
-        These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce their wider circle of friends and others to the Christian faith.
+        These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce 
+        their wider circle of friends and others to the Christian faith.
       contact:
         type_: "activity_contact"
         name: "Cory Brock"
@@ -49,8 +52,8 @@ ministries:
         The opportunity to establish your own identity is part of what makes moving to a new city as a student or young worker so exciting. Identity is our group for students and young adults which aims to equip and explore what it means to live out your identity as a child of God in Edinburgh (Romans 8:16) and to be a disciple maker wherever you are. We meet together every Sunday to discuss a big question or issue facing young Christians in today’s world, as well as to build and develop friendships with one another, and pray together. For up to date information about when and where we are meeting, as well as an up to date timetable, click [here](https://stcs.elvanto.eu/pages/identity/).
       contact:
         type_: "activity_contact"
-        name: "Aaron Logan"
-        picture: "/static/uploads/people/placeholder.svg"
+        name: "Tom Ridout"
+        picture: "https://eu.ui-avatars.com/api/?background=757575&color=fff&name=T+R&size=64"
     - type_: "activity"
       name: "The Den"
       picture: "/static/uploads/the_den.jpg"
@@ -58,8 +61,8 @@ ministries:
         The Den are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
       contact:
         type_: "activity_contact"
-        name: "Mairi Murchison"
-        picture: "/static/uploads/mairi.jpg"
+        name: "Megan Ridout"
+        picture: "https://eu.ui-avatars.com/api/?background=757575&color=fff&name=M+R&size=64"
     - type_: "activity"
       name: "Edinburgh Youth Group"
       picture: "/static/uploads/edinburgh-youth-group.png"
@@ -67,18 +70,22 @@ ministries:
         The Edinburgh Youth Group is a monthly event for teenagers from across the wider Edinburgh area. Run in partnership with other local churches, the group provides an opportunity for our teens to meet together in a social setting, build friendships and share in fellowship with other young people. We enjoy getting to know each other through a variety of activities and seeing friendships grow through the time we spend together.
       contact:
         type_: "activity_contact"
-        name: "Mairi Murchison"
-        picture: "/static/uploads/mairi.jpg"
+        name: "Cory Brock"
+        picture: "/static/uploads/people/cory-image.jpg"
     - type_: "activity"
       name: "Kids' Church & Crèche"
       picture: "/static/uploads/kids_church.jpg"
       content: |
-        There is an ever-growing number of children in the church and we want them to enjoy their time as part of the church family as much as possible. Our young people are the future of our church and we want to care for them, teach them and prepare them to live the Christian life in today’s often challenging world. The smallest members of our church family (those 3 and under) are looked after in our crèche, where the volunteers make sure the first memories these little ones have of church are happy and welcoming. Our kids’ church serves our young people aged 3 to 11 during the morning service. Each class uses age-appropriate resources to illustrate and apply Bible teaching.
+        There is an ever-growing number of children in the church and we want them to enjoy their time as part of the church family as much as possible.
+        Our young people are the future of our church and we want to care for them, teach them and prepare them to live the Christian life in today’s
+        often challenging world. The smallest members of our church family (those 3 and under) are looked after in our crèche, where the volunteers make sure the first memories these little ones have of church are happy and welcoming. Our kids’ church serves our young people aged 3 to 11 during the morning service. Each class uses age-appropriate resources to illustrate and apply Bible teaching.
 
-        Our teachers and helpers are all PVG checked, trained and enthusiastic participants who work together in teams to look after the children. We are always looking for volunteers to join our kids’ church and crèche teams, to love them well and share with them the truth of the Gospel
+        Our teachers and helpers are all PVG checked, trained and enthusiastic participants who work together in 
+        teams to look after the children. We are always looking for volunteers to join our kids’ church and crèche teams, 
+        to love them well and share with them the truth of the Gospel.
       contact:
-        name: "Graham Thompson"
-        picture: "/static/uploads/people/graham-t.jpg"
+        name: "Hunter Nicolson"
+        picture: "/static/uploads/people/hunter.jpg"
         type_: "activity_contact"
     - type_: "activity"
       name: "Trainees"
@@ -97,11 +104,11 @@ ministries:
       name: "Open Book"
       picture: "/static/uploads/open_book.jpg"
       content: |
-        Open Book is a space for women in the congregation to meet, have a cuppa and a discussion, with the help of a well-chosen resource (bible study/article/book).
+        Open Book is a space for women in the congregation to meet, have a cuppa and a discussion and a discussion around a bible study or Christian book.
         Our aim is to provide a time of friendship, support and encouragement as we chat, share and pray together.
-        We meet monthly during term time on a Friday morning, 9.30 - 11.00 am, usually at Annie Graham’s flat.
+        We meet fortnightly during term time on a Friday morning, 9:30 - 11:00 am, currently in Stockbridge.
         Babies and pre-schoolers are very welcome which can make for a ‘lively’ discussion environment!
-        We try to provide a crèche with a helper so that mums can come and enjoy the conversation too.
+        Our aim is to provide a time of friendship, support and encouragement as we chat, share and pray together.
       contact:
         type_: "activity_contact"
         name: "Jenny Nicolson"
@@ -110,10 +117,11 @@ ministries:
       name: "Men's Fellowship Meeting"
       picture: "/static/uploads/mens_fellowship.jpg"
       content: |
-        The Men's Meeting is an informal gathering of men (mostly senior citizens) for discussion and friendship.
-        The meetings take place every two weeks at 2.30pm on a Thursday, usually on Zoom.
+        The Men's Meeting is an informal gathering of men for discussion and friendship.
+        The meetings take place every two weeks at 2.30pm on a Thursday, usually in the St Columba’s lower church hall.
+        Refreshments are shared at the beginning of the meeting.
         Invitations are extended to men from all the city Free Churches and we have discussion topics that cover a wide range of interests.
       contact:
         type_: "activity_contact"
-        name: "Billy Graham"
-        picture: "/static/uploads/people/billy-image.jpg"
+        name: "George Innes"
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=G+I&size=64

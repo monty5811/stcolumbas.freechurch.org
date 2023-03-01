@@ -1,9 +1,9 @@
 layout: "content_page"
-title: "Community Team"
+title: "Community"
 intro:
   type_: "one_wide_row"
   content: |
-    <div class="mb-8 text-center max-w-2xl mx-auto">
+    <div class="max-w-2xl mx-auto mb-8 text-center">
       <p>
       We recognise the need to build and develop a strong and generous culture as a community together, and part of that involves dividing the church into geographical pastoral areas to regularly meet and eat together, by organising hospitality,  church events, and support for those in need among us.
      </p>
@@ -50,6 +50,6 @@ ministries:
       content: |
         We like to share hospitality together as a congregation, whether as a hot drink after the service or a meal together. If you would be willing to give up a small amount of your time every few weeks to help provide this hospitality on a Sunday, we would be very grateful. It isn’t difficult or glamorous work, but it makes a huge difference to the fellowship we can share as a congregation.
       contact:
-        name: "Paula Burris & Jean Stewart"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=B+B&size=64&rounded=true
+        name: "Philip Brown & Jean Stewart"
+        picture: "/static/uploads/people/philip-brown.jpg"
         type_: "activity_contact"
