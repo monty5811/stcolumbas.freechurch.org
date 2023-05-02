@@ -13,7 +13,7 @@ ministries:
   group_into: 2
   activities:
     - type_: "activity"
-      name: "Mecry Ministries"
+      name: "Mercy Ministries"
       picture: "/static/uploads/mercy-ministries.png"
       content: |
         In St Columba’s we don’t run our own programmes but link up with existing charities to help bring relief and comfort to those who are disadvantaged and in need.

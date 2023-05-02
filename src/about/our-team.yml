@@ -28,7 +28,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/kerry-cameron.jpg
       - name: "Jenny Nicolson"
-        title: "Minstry Apprentice"
+        title: "Ministry Apprentice"
         type_: "team_head"
         picture: /static/uploads/people/jenny.jpg
       - name: "Hunter Nicholson"
@@ -40,7 +40,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/blythe.jpg
       - name: "Lewis MacDonald"
-        title: "Minstry Apprentice"
+        title: "Ministry Apprentice"
         type_: "team_head"
         picture: /static/uploads/people/Lewis-MacDonald.png
   - title: "Elders"
