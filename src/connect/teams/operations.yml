@@ -27,8 +27,8 @@ ministries:
       name: "Building Management"
       picture: "/static/uploads/building-management.png"
       content: |
-        TODO
+        Coming soon...
       contact:
-        name: "TODO"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=T+D&size=64&rounded=true
+        name: "Blythe Mackenzie"
+        picture: /static/uploads/people/blythe.jpg
         type_: "activity_contact"

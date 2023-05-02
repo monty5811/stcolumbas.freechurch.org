@@ -53,7 +53,7 @@ ministries:
       contact:
         type_: "activity_contact"
         name: "Tom Ridout"
-        picture: "https://eu.ui-avatars.com/api/?background=757575&color=fff&name=T+R&size=64"
+        picture: "/static/uploads/people/Tom-Ridout.png"
     - type_: "activity"
       name: "The Den"
       picture: "/static/uploads/the_den.jpg"
@@ -62,7 +62,7 @@ ministries:
       contact:
         type_: "activity_contact"
         name: "Megan Ridout"
-        picture: "https://eu.ui-avatars.com/api/?background=757575&color=fff&name=M+R&size=64"
+        picture: "/static/uploads/people/Megan-Ridout.png"
     - type_: "activity"
       name: "Edinburgh Youth Group"
       picture: "/static/uploads/edinburgh-youth-group.png"
@@ -124,4 +124,4 @@ ministries:
       contact:
         type_: "activity_contact"
         name: "George Innes"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=G+I&size=64
+        picture: "/static/uploads/people/George-Innes.png"

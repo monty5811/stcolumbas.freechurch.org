@@ -42,7 +42,7 @@ teams:
       - name: "Lewis MacDonald"
         title: "Minstry Apprentice"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=L+M&size=175
+        picture: /static/uploads/people/Lewis-MacDonald.png
   - title: "Elders"
     type_: "team_list"
     members:
@@ -159,7 +159,7 @@ teams:
       - name: "Anne Norrie"
         title: "Corstorphine"
         type_: "team_head"
-        picture:  /static/uploads/people/anne-norrie.jpg
+        picture: /static/uploads/people/anne-norrie.jpg
       - name: "Lizzie Alexander"
         title: "Inverleith"
         type_: "team_head"
@@ -216,7 +216,7 @@ teams:
       - name: "Robin Silson"
         title: "Church Planter"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=R+S&size=175
+        picture: /static/uploads/people/Robin-Silson.png
       - name: "Craig Nicolson"
         title: "Elder"
         type_: "team_head"
