@@ -22,9 +22,11 @@ what_to_expect_row1:
 
     Many different people visit our church services for different reasons, from people on business, to holiday-makers, to people new to the city and looking to settle down.
     We'd like to give you an idea of what to expect if you visited one of our services.
-    
+
     [Jesus](/jesus) is at the centre of everything that happens at St Columba's, so during the service He is the main focus.
-    Our service consists of a mix of singing, prayer, reading the Bible and preaching (a short talk, or 'sermon'), where a Bible passage is explained and applied.
+    Our services, held at 10:30 and 17:30, consist of a mix of singing, prayer, reading the Bible and preaching (a short talk, or 'sermon'), where a Bible passage is explained and applied.
+    We also celebrate communion 10 times throughout the year.
+
     All our sermons are online so you can [check them out](http://sermons.stcolumbas.freechurch.org/) ahead of time.
   right: |
     ![](/static/uploads/Stock_39_of_39.jpg "")
@@ -35,7 +37,8 @@ what_to_expect_row2:
   right: |
     The service usually lasts for about 1 hour, during which you are free to sit and just observe.
     You don't need to participate in the singing or anything that makes you feel uncomfortable, and you're not required to make any kind of donation.
-    If you have recently started coming to St Columba's and you'd like us to have your details so we can connect you to the life of the congregation and a [City Group](/connect/community), visit [stcsfc.org/new](https://stcsfc.org/new).
+    If you have recently started coming to St Columba's and you'd like us to have your details so we can connect you to the life of the congregation 
+    and a [City Group](/connect/teams/community), please visit [stcsfc.org/new](https://stcsfc.org/new).
 separator2:
   type_: separator
 html_getting_here:
@@ -53,7 +56,7 @@ html_getting_here:
       <div class="flex-1 mx-8 mb-2">
         <img src="/static/images/icons/bus-icon.png" alt="bus image for travelling" class="w-24 h-24 mx-auto">
         <h4 class="mt-2 md:mt-4">Travelling by bus</h4>
-        <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes <strong>23</strong>, <strong>27</strong>, <strong>41</strong> & 42 (but not on a Sunday).</p>
+        <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes 5,7,8,14,23,27,41,45,49. Please check the Edinburgh Bus + Tram app for accurate bus routes and the Sunday timetable.</p>
       </div>
       <div class="flex-1 mx-8 mb-2 md:mr-0">
         <img src="/static/images/icons/train-icon.png" alt="train icon" class="w-24 h-24 mx-auto">
@@ -75,13 +78,13 @@ services_row_1:
   type_: "text_text_row"
   left: |
     ##Sunday Services
-    
+
     Our Sunday morning service is at 10:30 am and our evening service is at 5:30 pm.
     The services follow similar formats, but the content of each will be different.
     We celebrate Communion at 10 different times throughout the year.
     When you arrive at the church a member of the Welcome Team can give you a Bible if you need one, and show you where to go to get a seat if it is busy.
-    
-    Following the morning service, we serve tea and coffee in the Main Hall and you are welcome to stay around for a coffee, ask questions and find out more.
+
+    Following the morning service, we serve tea and coffee in the Main Hall and you are welcome to stay around, chat, ask questions and find out more.
     No charge is made for the tea and coffee.
   right: |
     ![](/static/uploads/visit-singing-1.jpg "")
@@ -91,9 +94,9 @@ services_row_2:
     ![](/static/uploads/visit-opening-1.jpg "")
   right: |
     ### What about Children?
-    
+
     Our Kids' Church (age 4 and up) meets during the 10:30 am service.
-    The children come in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song.
+    The children sit in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song.
     There is a crèche available during the morning service for babies and toddlers up to the age of three.
     We have a large and experienced team of volunteers.
     Visitors are very welcome.
@@ -101,17 +104,17 @@ services_row_2:
     If in doubt, please just ask for directions or follow the signs.
     All our Créche and Kids' Church volunteers have full [PVG](https://www.disclosurescotland.co.uk/disclosureinformation/pvgscheme.htm) disclosure.
     ### Where do I go?
-    
-    You enter the church building through the our main (red) double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.
+
+    You can enter the church building through the red double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.
 services_row_3:
   type_: "text_text_row"
   left: |
     ### Mid-Week Prayer Meeting
-    
-    On the 2nd and 4th Wednesday evening of the month we have the Engine Room (our prayer meeting) in our Church Hall.
-    This usually means a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together - usually by breaking out into small groups.
-    
-    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/community).
+
+    On the 2nd and 4th Wednesday evening of the month we have the Engine Room (our prayer meeting) in the Lower Church Hall.
+    This usually involves a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together in small groups.
+
+    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/teams/community) where we have a time of fellowship and Bible study.
 
   right: |
     ![](/static/uploads/CsOId80WAAA62Fw - Edited.jpg "")

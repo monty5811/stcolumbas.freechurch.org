@@ -1,12 +1,14 @@
 {% for group in activities|group_into(group_into) %}
 <div class="container">
-  <div class="flex flex-wrap lg:flex-nowrap">
+  <div
+    class="grid grid-cols-1 {% if group_into == 2%}md:grid-cols-2{% elif group_into == 3 %}md:grid-cols-3{% endif %}"
+  >
     {% for A in group %}
     <div class="flex flex-col px-8 mb-16 lg:flex-1">
-      {{ A.picture|render_image }}
-      <h3 class="text-md ">{{ A.name }}</h3>
+      {% if A.picture %} {{ A.picture|render_image }} {% endif %}
+      <h3 class="text-md">{{ A.name }}</h3>
       <div class="flex-grow">{{ A.content|md }}</div>
-      {{ A.contact|render_content(A.name) }}
+      {% if A.contact %} {{ A.contact|render_content(A.name) }} {% endif %}
     </div>
     {% endfor %}
   </div>

@@ -1,0 +1,38 @@
+layout: "content_page"
+title: "Ministry Teams"
+row1:
+  type_: "text_text_row"
+  left: |
+    We recognise that every Christian has a gift, and we believe that we are all called to serve God and the Church in some way.
+    But we also recognise that in a busy city-centre community, it can sometimes be hard to keep track of everything that is going on!
+
+    Our Ministry Teams, composed of men and women with various gifts and abilities, help us to structure our various groups, activities and areas of service into clearly defined categories.
+    For example, if you want to find out about our ministry to students and young workers, take a look at the [Discipleship page](/connect/teams/discipleship)! 
+
+    Each team has responsibility for managing, under the oversight of our elders and deacons, their own relevant sub-groups.
+    Our Ministry Teams help us to have some clarity by providing a big picture view of what we do, and enable us to have a clear focus on doing all that we do, from preaching and praise to welcoming visitors and serving coffee, to the glory of God.
+  right: |
+    ![](/static/uploads/visit-opening-1.jpg "")
+row2:
+  type_: "text_text_row"
+  left: |
+    ![](/static/uploads/Stock_39_of_39.jpg "")
+  right: |
+    ## The Teams
+     <ul class="ml-4 grid gap-1 grid-cols-1 list-disc">
+        <li>
+        <a class="hover:text-red-stcs hover:underline" href="/connect/teams/worship" title="Worship">Worship</a>
+        </li>
+        <li>
+        <a class="hover:text-red-stcs hover:underline" href="/connect/teams/mission" title="Mission">Mission</a>
+        </li>
+        <li>
+        <a class="hover:text-red-stcs hover:underline" href="/connect/teams/discipleship" title="Discipleship">Discipleship</a>
+        </li>
+        <li>
+        <a class="hover:text-red-stcs hover:underline" href="/connect/teams/community" title="Community">Community</a>
+        </li>
+        <li>
+        <a class="hover:text-red-stcs hover:underline" href="/connect/teams/operations" title="Operations">Operations</a>
+        </li>
+      </ul>
