@@ -180,10 +180,6 @@ teams:
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/sue-simison.jpg
-      - name: "Annabel Silson"
-        title: "Winchburgh"
-        type_: "team_head"
-        picture: /static/uploads/people/annabel-silson.jpg
   - title: "Esk Valley Church Plant"
     type_: "team_list"
     members:
