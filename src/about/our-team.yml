@@ -42,7 +42,7 @@ teams:
       - name: "Simon Rehberg"
         title: "Ministry Apprentice"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=A+S&size=175
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=S+R&size=175
   - title: "Elders"
     type_: "team_list"
     members:
@@ -202,7 +202,7 @@ teams:
       - name: "Christ Lamont"
         title: "Elder"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=A+S&size=175
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=C+L&size=175
   - title: "Haddington Church Plant"
     type_: "team_list"
     members:
