@@ -52,8 +52,8 @@ ministries:
         The opportunity to establish your own identity is part of what makes moving to a new city as a student or young worker so exciting. Identity is our group for students and young adults which aims to equip and explore what it means to live out your identity as a child of God in Edinburgh (Romans 8:16) and to be a disciple maker wherever you are. We meet together every Sunday to discuss a big question or issue facing young Christians in today’s world, as well as to build and develop friendships with one another, and pray together. For up to date information about when and where we are meeting, as well as an up to date timetable, click [here](https://stcs.elvanto.eu/pages/identity/).
       contact:
         type_: "activity_contact"
-        name: "Tom Ridout"
-        picture: "/static/uploads/people/Tom-Ridout.png"
+        name: "Jack Gamble-Smith"
+        picture: "/static/uploads/people/jack-gamble-smith.png"
     - type_: "activity"
       name: "The Den"
       picture: "/static/uploads/the_den.jpg"
@@ -61,8 +61,8 @@ ministries:
         The Den are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
       contact:
         type_: "activity_contact"
-        name: "Megan Ridout"
-        picture: "/static/uploads/people/Megan-Ridout.png"
+        name: "Lewis MacDonald"
+        picture: "/static/uploads/people/Lewis-MacDonald.png"
     - type_: "activity"
       name: "Edinburgh Youth Group"
       picture: "/static/uploads/edinburgh-youth-group.png"

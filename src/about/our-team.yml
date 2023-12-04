@@ -27,22 +27,22 @@ teams:
         title: "Finance Manager"
         type_: "team_head"
         picture: /static/uploads/people/kerry-cameron.jpg
-      - name: "Jenny Nicolson"
-        title: "Ministry Apprentice"
-        type_: "team_head"
-        picture: /static/uploads/people/jenny.jpg
-      - name: "Hunter Nicholson"
-        title: "Part Time Minister in Training"
-        type_: "team_head"
-        picture: /static/uploads/people/hunter.jpg
       - name: "Blythe Mackenzie"
         title: "Office Manager"
         type_: "team_head"
         picture: /static/uploads/people/blythe.jpg
       - name: "Lewis MacDonald"
-        title: "Ministry Apprentice"
+        title: "Minister in Training"
         type_: "team_head"
         picture: /static/uploads/people/Lewis-MacDonald.png
+      - name: "Jack Gamble-Smith"
+        title: "Minister in Training"
+        type_: "team_head"
+        picture: /static/uploads/people/jack-gamble-smith.png
+      - name: "Simon Rehberg"
+        title: "Ministry Apprentice"
+        type_: "team_head"
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=A+S&size=175
   - title: "Elders"
     type_: "team_list"
     members:
@@ -78,6 +78,22 @@ teams:
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/alastair-simison-1.jpg
+      - name: "Pher Nicolson"
+        title: "Corstorphine"
+        type_: "team_head"
+        picture: /static/uploads/people/pher-image.jpg
+      - name: "George Innes"
+        title: "Corstorphine"
+        type_: "team_head"
+        picture: /static/uploads/people/George-Innes.png
+      - name: "Hamish Alexander"
+        title: "Inverleith"
+        type_: "team_head"
+        picture: /static/uploads/people/hamish-alexander.png
+      - name: "Donald Campbell"
+        title: "Fountainbridge"
+        type_: "team_head"
+        picture: /static/uploads/people/donald-campbell.png
   - title: "Deacons"
     type_: "team_list"
     members:
@@ -101,10 +117,6 @@ teams:
         title: "Fountainbridge"
         type_: "team_head"
         picture: /static/uploads/people/colin_rm.jpeg
-      - name: "Pher Nicolson"
-        title: "Corstorphine"
-        type_: "team_head"
-        picture: /static/uploads/people/pher-image.jpg
       - name: "Philip Brown"
         title: "Inverleith"
         type_: "team_head"
@@ -148,10 +160,6 @@ teams:
         title: "Gilmerton"
         type_: "team_head"
         picture: /static/uploads/people/miriam.jpg
-      - name: "Jenny Nicolson"
-        title: "Winchburgh"
-        type_: "team_head"
-        picture: /static/uploads/people/jenny.jpg
       - name: "Victoria Oliver"
         title: "Blackford"
         type_: "team_head"
@@ -180,6 +188,10 @@ teams:
         title: "Meadows"
         type_: "team_head"
         picture: /static/uploads/people/sue-simison.jpg
+      - name: "Sheena Innes"
+        title: "Corstorphine"
+        type_: "team_head"
+        picture: /static/uploads/people/sheena-innes.png
   - title: "Esk Valley Church Plant"
     type_: "team_list"
     members:
@@ -187,25 +199,25 @@ teams:
         title: "Church Planter"
         type_: "team_head"
         picture: /static/uploads/people/tom-image.jpg
-      - name: "Dave Muir"
+      - name: "Christ Lamont"
         title: "Elder"
         type_: "team_head"
-        picture: /static/uploads/people/dave-muir.jpg
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=A+S&size=175
   - title: "Haddington Church Plant"
     type_: "team_list"
     members:
       - name: "Ali Sewell"
         title: "Church Planter"
         type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=A+S&size=175
+        picture: /static/uploads/people/ali-sewell.png
       - name: "Ross Graham"
         title: "Elder"
         type_: "team_head"
         picture: /static/uploads/people/ross-image.jpg
-      - name: "Angus Macleod"
+      - name: "James Burnett "
         title: "Minister in Training"
         type_: "team_head"
-        picture: /static/uploads/people/angus-macleod.jpg
+        picture: /static/uploads/people/james-burnett.png
   - title: "Winchburgh Church Plant"
     type_: "team_list"
     members:
@@ -217,3 +229,7 @@ teams:
         title: "Elder"
         type_: "team_head"
         picture: /static/uploads/people/craig-image.jpg
+      - name: "Jenny Nicolson"
+        title: "Ministry Worker"
+        type_: "team_head"
+        picture: /static/uploads/people/jenny.jpg
