@@ -12,10 +12,6 @@ teams:
   - title: "Ministers"
     type_: "team_list"
     members:
-      - name: "Derek Lamont"
-        title: "Senior Minister"
-        type_: "team_head"
-        picture: /static/uploads/people/derek-image.jpg
       - name: "Cory Brock"
         title: "Assistant Minister"
         type_: "team_head"
@@ -199,8 +195,8 @@ teams:
         title: "Church Planter"
         type_: "team_head"
         picture: /static/uploads/people/tom-image.jpg
-      - name: "Christ Lamont"
-        title: "Elder"
+      - name: "Chris Lamont"
+        title: "Minister in Training"
         type_: "team_head"
         picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=C+L&size=175
   - title: "Haddington Church Plant"
