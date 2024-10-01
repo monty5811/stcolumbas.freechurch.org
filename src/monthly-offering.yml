@@ -1,5 +1,5 @@
 layout: "content_page"
-title: "Monthly Offering"
+title: "Gospel Partnerships Offering"
 html:
   type_: "raw_html"
   html: |
@@ -8,14 +8,14 @@ html:
         <form action="/charge" method="post" id="payment-form" class="p-8">
         <div class="my-4 prose lg:prose-xl">
             <p>
-            We usually take an offering each month to give to a different project or charity or other good cause. Due to COVID-19 restrictions we have moved this offering online.
+            We take up regular offerings to give to a different partners, charity or other good causes.
             </p>
             <p>
             If you wish to make an offering, type in your amount and click the "Donate!" button.
             You will be redirected to our payment processor where you can pay by credit card, debit card, Google Pay or Apple Pay.
             </p>
             <p>
-            Our monthly offering for May is in support of 20Schemes, specifically Merkinch Free Church. 20Schemes want to see Scotland’s housing schemes transformed by the gospel of Jesus Christ through the revitalisation and planting of gospel-preaching churches, ultimately led by a future generation of indigenous church leaders.
+            Our current offering is for University Ministries, and specifically for the work of Campus Outreach and UCCF. 
             </p>
           </div>
           <div class="w-full my-4">
