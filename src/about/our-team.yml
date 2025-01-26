@@ -19,24 +19,16 @@ teams:
   - title: "Staff"
     type_: "team_list"
     members:
-      - name: "Kerry Cameron"
-        title: "Finance Manager"
-        type_: "team_head"
-        picture: /static/uploads/people/kerry-cameron.jpg
-      - name: "Blythe Mackenzie"
+      - name: "Mairi Beaton"
         title: "Office Manager"
         type_: "team_head"
-        picture: /static/uploads/people/blythe.jpg
+        picture: /static/uploads/people/mairi-beaton.jpg
       - name: "Lewis MacDonald"
         title: "Minister in Training"
         type_: "team_head"
         picture: /static/uploads/people/Lewis-MacDonald.png
-      - name: "Jack Gamble-Smith"
-        title: "Minister in Training"
-        type_: "team_head"
-        picture: /static/uploads/people/jack-gamble-smith.png
       - name: "Simon Rehberg"
-        title: "Ministry Apprentice"
+        title: "Minister in Training"
         type_: "team_head"
         picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=S+R&size=175
   - title: "Elders"
@@ -124,70 +116,66 @@ teams:
   - title: "Womens' Pastoral Team"
     type_: "team_list"
     members:
-      - name: "Georgie Armstrong"
-        title: "Inverleith"
-        type_: "team_head"
-        picture: /static/uploads/people/georgie.jpg
-      - name: "Esther Black"
-        title: "Corstorphine"
-        type_: "team_head"
-        picture: /static/uploads/people/esther-black.jpg
-      - name: "Noor Braden"
-        title: "Meadows"
-        type_: "team_head"
-        picture: /static/uploads/people/noor.jpg
-      - name: "Catriona Lamont"
-        title: "Meadows"
-        type_: "team_head"
-        picture: /static/uploads/people/catriona-lamont.jpg
-      - name: "Dayspring MacLeod"
-        title: "Calton"
-        type_: "team_head"
-        picture: /static/uploads/people/dayspring-macleod.jpg
-      - name: "Anna Macrae"
-        title: "Calton"
-        type_: "team_head"
-        picture: /static/uploads/people/anna-macrae.jpg
-      - name: "Kathleen MacSween"
-        title: "Fountainbridge"
-        type_: "team_head"
-        picture: /static/uploads/people/kathleen.jpg
-      - name: "Miriam Montgomery"
-        title: "Gilmerton"
-        type_: "team_head"
-        picture: /static/uploads/people/miriam.jpg
-      - name: "Victoria Oliver"
-        title: "Blackford"
-        type_: "team_head"
-        picture: /static/uploads/people/vikki.jpg
-      - name: "Anne Norrie"
-        title: "Corstorphine"
-        type_: "team_head"
-        picture: /static/uploads/people/anne-norrie.jpg
-      - name: "Lizzie Alexander"
-        title: "Inverleith"
-        type_: "team_head"
-        picture: /static/uploads/people/lizzie-alexander.png
-      - name: "Rowan Logan"
-        title: "Gilmerton"
-        type_: "team_head"
-        picture: /static/uploads/people/rowan.png
       - name: "Gill Simison"
         title: "Blackford"
         type_: "team_head"
         picture: /static/uploads/people/gill_simison.jpg
-      - name: "Heather Brock"
-        title: "Fountainbridge"
+      - name: "Victoria Oliver"
+        title: "Blackford"
         type_: "team_head"
-        picture: /static/uploads/people/heather-brock.jpg
-      - name: "Sue Simison"
-        title: "Meadows"
-        type_: "team_head"
-        picture: /static/uploads/people/sue-simison.jpg
+        picture: /static/uploads/people/vikki.jpg
       - name: "Sheena Innes"
         title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/sheena-innes.png
+      - name: "Anne Norrie"
+        title: "Corstorphine"
+        type_: "team_head"
+        picture: /static/uploads/people/anne-norrie.jpg
+      - name: "Miriam Montgomery"
+        title: "Gilmerton"
+        type_: "team_head"
+        picture: /static/uploads/people/miriam.jpg
+      - name: "Rosy Fraser"
+        title: "Gilmerton"
+        type_: "team_head"
+        picture: /static/uploads/people/rosy.jpg
+      - name: "Gillian Campbell"
+        title: "Fountainbridge"
+        type_: "team_head"
+        picture: /static/uploads/people/gillian.jpg
+      - name: "Georgie Armstrong"
+        title: "Inverleith"
+        type_: "team_head"
+        picture: /static/uploads/people/georgie.jpg
+      - name: "Lizzie Alexander"
+        title: "Inverleith"
+        type_: "team_head"
+        picture: /static/uploads/people/lizzie-alexander.png
+      - name: "Sue Simison"
+        title: "Meadows"
+        type_: "team_head"
+        picture: /static/uploads/people/sue-simison.jpg
+      - name: "Heather Brock"
+        title: "Meadows"
+        type_: "team_head"
+        picture: /static/uploads/people/heather-brock.jpg
+      - name: "Kelly Akers"
+        title: "Meadows"
+        type_: "team_head"
+        picture: /static/uploads/people/kelly-akers.jpg
+      - name: "Anna Macrae"
+        title: "Stockbridge"
+        type_: "team_head"
+        picture: /static/uploads/people/anna-macrae.jpg
+      - name: "Blythe Mackenzie"
+        title: "Leith"
+        type_: "team_head"
+        picture: /static/uploads/people/blythe.jpg
+      - name: "Mairi Beaton"
+        title: "Leith"
+        type_: "team_head"
+        picture: /static/uploads/people/mairi-beaton.jpg
   - title: "Esk Valley Church Plant"
     type_: "team_list"
     members:
