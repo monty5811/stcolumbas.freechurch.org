@@ -34,13 +34,13 @@ ministries:
       content: |
         The church family is divided geographically into Pastoral areas.  The people connected to the church who live in these areas come under the care of a pastoral team.  Where possible, each team consists of an elder, a deacon and two members of the Women's Pastoral team.  These pastoral teams also help run the City Groups connected with their area.
     - type_: "activity"
-      name: "Identity"
-      picture: "/static/uploads/identity.jpg"
+      name: "Student & Young Workers"
+      picture: "/static/uploads/snf.png"
       content: |
-        The opportunity to establish your own identity is part of what makes moving to a new city as a student or young worker so exciting. Identity is our group for students and young adults which aims to equip and explore what it means to live out your identity as a child of God in Edinburgh (Romans 8:16) and to be a disciple maker wherever you are. We meet together every Sunday to discuss a big question or issue facing young Christians in today’s world, as well as to build and develop friendships with one another, and pray together. For up to date information about when and where we are meeting, as well as an up to date timetable, click [here](https://stcs.elvanto.eu/pages/identity/).
+        Youth Group is for S1-S6 teens in our congregation. We meet together fortnightly during the evening service for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
     - type_: "activity"
-      name: "The Den"
-      picture: "/static/uploads/the_den.jpg"
+      name: "Youth Group"
+      picture: "/static/uploads/youth.png"
       content: |
         The Den are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
     - type_: "activity"
