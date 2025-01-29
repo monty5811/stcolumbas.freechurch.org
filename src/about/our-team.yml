@@ -1,9 +1,5 @@
 layout: "content_page"
 title: "Our Team"
-heading:
-  type_: "text_text_row"
-  left: "## Staff & Volunteers"
-  right: ""
 teams:
   - title: "Ministers"
     type_: "team_list"
