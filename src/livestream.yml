@@ -8,7 +8,6 @@ livestream:
   template: >
     <div class="container max-w-5xl mt-12 mb-32">
       <p class="text-2xl leading-loose text-center"><a href="https://www.youtube.com/playlist?list=PLF73r3ezO-0qqbIP8ax0dxTB4zStEtgxa" target="_blank" rel="noopener">Click here for our latest live stream</a></p>
-      <p class="mt-8 text-lg leading-loose text-center"><a href="https://drive.google.com/drive/folders/1bv_h3G2iCfLqylG9KLenM9tKl4Q6dMkG" target="_blank" rel="noopener">Click here for the bulletin</a></p>
     </div>
     <div class="container max-w-5xl mt-12 mb-32 text-center">
       <p><a href="https://www.youtube.com/user/stcolumbasfreechurch/" target="_blank" rel="noopener">See more videos on our YouTube channel</a></p>

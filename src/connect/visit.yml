@@ -20,12 +20,7 @@ what_to_expect_row1:
   left: |
     ## What To Expect
 
-    Many different people visit our church services for different reasons, from people on business, to holiday-makers, to people new to the city and looking to settle down.
-    We'd like to give you an idea of what to expect if you visited one of our services.
-
-    [Jesus](/jesus) is at the centre of everything that happens at St Columba's, so during the service He is the main focus.
-    Our services, held at 10:30 and 17:30, consist of a mix of singing, prayer, reading the Bible and preaching (a short talk, or 'sermon'), where a Bible passage is explained and applied.
-    We also celebrate communion 10 times throughout the year.
+    We are an intergenerational community with Jesus at the centre of everything we do. Our services consist of singing, prayer, scripture reading and preaching.
 
     All our sermons are online so you can [check them out](http://sermons.stcolumbas.freechurch.org/) ahead of time.
   right: |
@@ -51,17 +46,17 @@ html_getting_here:
     <div class="flex-1 mx-8 mb-2 md:ml-0">
         <img src="/static/images/icons/car-icon.png" alt="car image" class="w-24 h-24 mx-auto">
         <h4 class="mt-2 md:mt-4">Travelling by car</h4>
-        <p>There are often spaces available on Johnston Terrace, where parking is free of charge before 12:30 and after 18:30 on a Sunday.</p>
+        <p>Parking is free of charge on Johnston Terrace before 12:30 and after 18:30 on a Sunday.</p>
       </div>
       <div class="flex-1 mx-8 mb-2">
         <img src="/static/images/icons/bus-icon.png" alt="bus image for travelling" class="w-24 h-24 mx-auto">
         <h4 class="mt-2 md:mt-4">Travelling by bus</h4>
-        <p>The nearest bus stops are a few minutes' walk away on George IV Bridge, and are served by Lothian Buses' routes 5,7,8,14,23,27,41,45,49. Please check the Edinburgh Bus + Tram app for accurate bus routes and the Sunday timetable.</p>
+        <p>The nearest bus stops are a few minutes walk away on George IV Bridge, and are served by Lothian Buses. Please check <a href="https://www.lothianbuses.com/" target="_blank">Lothian Buses</a> for accurate bus routes and the Sunday timetable.</p>
       </div>
       <div class="flex-1 mx-8 mb-2 md:mr-0">
         <img src="/static/images/icons/train-icon.png" alt="train icon" class="w-24 h-24 mx-auto">
         <h4 class="mt-2 md:mt-4">Travelling by train</h4>
-        <p><del></del>You can walk to the church from Waverley station in less than 10 minutes.</p>
+        <p>Waverley station is less than 10 minutes walk from the church.</p>
       </div>
     </div>
 html_map:
@@ -79,13 +74,11 @@ services_row_1:
   left: |
     ##Sunday Services
 
-    Our Sunday morning service is at 10:30 am and our evening service is at 5:30 pm.
-    The services follow similar formats, but the content of each will be different.
-    We celebrate Communion at 10 different times throughout the year.
-    When you arrive at the church a member of the Welcome Team can give you a Bible if you need one, and show you where to go to get a seat if it is busy.
+    Our Sunday morning service is at 10:30 am and our evening service is at 5:30 pm. The services follow similar formats, but the content of each will be different. We celebrate Communion twice a month. When you arrive at the church a member of the Welcome Team can give you a Bible if you need one, and show you to a seat if it is busy.
 
-    Following the morning service, we serve tea and coffee in the Main Hall and you are welcome to stay around, chat, ask questions and find out more.
-    No charge is made for the tea and coffee.
+
+    Following the morning service, we serve tea and coffee in the Main Hall and you are welcome to stay around, chat, ask questions and find out more
+
   right: |
     ![](/static/uploads/visit-singing-1.jpg "")
 services_row_2:
@@ -95,26 +88,18 @@ services_row_2:
   right: |
     ### What about Children?
 
-    Our Kids' Church (age 4 and up) meets during the 10:30 am service.
-    The children sit in for the first 10 to 15 minutes and then leave together with their teachers, usually after the 1st song.
-    There is a crèche available during the morning service for babies and toddlers up to the age of three.
-    We have a large and experienced team of volunteers.
-    Visitors are very welcome.
-    In addition to the crèche facilities there is a feeding room in the church (with a video link) for those who have need of it.
-    If in doubt, please just ask for directions or follow the signs.
-    All our Créche and Kids' Church volunteers have full [PVG](https://www.disclosurescotland.co.uk/disclosureinformation/pvgscheme.htm) disclosure.
-    ### Where do I go?
+    Our Kids' Church (age 4 up to P7) meets during the 10:30am service.
+    There is also a crèche available during the morning service for babies and toddlers up to age 3. We have a large and experienced team of volunteers with full PVG disclosures.
+    
+    In addition to the crèche facilities there is a feeding room for those who have need of it. If in doubt, please just ask for directions or follow the signs
 
-    You can enter the church building through the red double doors on Johnston Terrace where you will be met by a smiling face and shown to a seat.
 services_row_3:
   type_: "text_text_row"
   left: |
-    ### Mid-Week Prayer Meeting
+    ### Mid-Week Meeting
 
-    On the 2nd and 4th Wednesday evening of the month we have the Engine Room (our prayer meeting) in the Lower Church Hall.
-    This usually involves a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together in small groups.
+    On the 2nd and 4th Wednesday evenings of the month we meet in the Main Hall for our midweek meeting. This usually involves a short Bible based message, often with more practical application and interaction, followed by sharing of prayer points and a time of prayer together in small groups.
 
-    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the City in our [City Groups](/connect/teams/community) where we have a time of fellowship and Bible study.
-
+    On the 1st and 3rd Wednesday evenings of the month, we meet in different homes across the city in our [City Groups](/connect/teams/community) where we have a time of fellowship and Bible study.
   right: |
     ![](/static/uploads/CsOId80WAAA62Fw - Edited.jpg "")

@@ -4,7 +4,7 @@ intro_row:
   type_: "raw_html"
   html: |
     <div class="container mx-auto lg:w-2/5 content">
-      <p>Thank you very much for your donation! If you have any questions or would like a receipt, please email <a href="mailto:finance-manager@stcsfc.org">finance-manager@stcsfc.org</a> and we will be glad to help.</p>
+      <p>Thank you very much for your donation! If you have any questions or would like a receipt, please email <a href="mailto:help@stcsfc.org">help@stcsfc.org</a> and we will be glad to help.</p>
 
       <p>Please continue browsing the website, or return to the <a href="/connect/giving/">Giving page</a>.</p>
     </div>

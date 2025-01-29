@@ -10,36 +10,8 @@
   {{ data.photo.url|render_bg_image_style }}
   <div class="bg-center bg-cover bg-no-repeat flex flex-col h-screen justify-center text-center text-white w-full {{ data.photo.url|render_bg_image_class }}">
     <div class="max-w-2xl mx-auto">
-      <h1 class="mb-8 text-4xl font-semibold">{{ data.heading }}</h1>
-      <div class="flex flex-col space-y-10">
-        <div>
-          <a href="/connect/im_new" class="px-4 py-2 text-lg font-semibold bg-white text-red-stcs">
-            I'm New
-          </a>
-        </div>
-      </div>
+      <h1 class="text-5xl font-semibold">{{ data.heading }}</h1>
+      <div class="mt-4 text-xl">{{ data.tagline }}</div>
     </div>
   </div>
-{% endblock %}
-{% block extra_js %}
-  {% if is_netlify_build %}
-    <!-- keep this here so the cms redirect still works -->
-    <script>
-      function initNetlify() {
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", function (user) {
-            if (!user) {
-              window.netlifyIdentity.on("login", function () {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-      }
-    </script>
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-                  onload="initNetlify();"
-                  >
-    </script>
-  {% endif %}
 {% endblock %}

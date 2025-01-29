@@ -19,10 +19,6 @@ ministries:
         At St Columba’s we want to support people to grow in their faith and deepen their personal relationship with Jesus at every stage of their lives.
         We aim to do this by providing a more in-depth bible study programme called "Grace Groups" twice a year for men and twice a year for women.
         We also encourage one to one discipleship and mentoring informally within City Groups and other groups that exist within the church family.
-      contact:
-        type_: "activity_contact"
-        name: "Cory Brock"
-        picture: "/static/uploads/people/cory-image.jpg"
     - type_: "activity"
       name: "City Groups"
       picture: "/static/uploads/citygroups.jpg"
@@ -32,46 +28,26 @@ ministries:
         These groups are normally regional throughout the city and overseen pastoral teams led by elders.
         These are gospel communities whose aim is to share life and faith together in a variety of ways and a great opportunity to introduce 
         their wider circle of friends and others to the Christian faith.
-      contact:
-        type_: "activity_contact"
-        name: "Cory Brock"
-        picture: "/static/uploads/people/cory-image.jpg"
     - type_: "activity"
       name: "Pastoral Teams"
       picture: "/static/uploads/pastoral-teams.png"
       content: |
         The church family is divided geographically into Pastoral areas.  The people connected to the church who live in these areas come under the care of a pastoral team.  Where possible, each team consists of an elder, a deacon and two members of the Women's Pastoral team.  These pastoral teams also help run the City Groups connected with their area.
-      contact:
-        type_: "activity_contact"
-        name: "Derek Lamont"
-        picture: "/static/uploads/people/derek-image.jpg"
     - type_: "activity"
       name: "Identity"
       picture: "/static/uploads/identity.jpg"
       content: |
         The opportunity to establish your own identity is part of what makes moving to a new city as a student or young worker so exciting. Identity is our group for students and young adults which aims to equip and explore what it means to live out your identity as a child of God in Edinburgh (Romans 8:16) and to be a disciple maker wherever you are. We meet together every Sunday to discuss a big question or issue facing young Christians in today’s world, as well as to build and develop friendships with one another, and pray together. For up to date information about when and where we are meeting, as well as an up to date timetable, click [here](https://stcs.elvanto.eu/pages/identity/).
-      contact:
-        type_: "activity_contact"
-        name: "Jack Gamble-Smith"
-        picture: "/static/uploads/people/jack-gamble-smith.png"
     - type_: "activity"
       name: "The Den"
       picture: "/static/uploads/the_den.jpg"
       content: |
         The Den are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
-      contact:
-        type_: "activity_contact"
-        name: "Lewis MacDonald"
-        picture: "/static/uploads/people/Lewis-MacDonald.png"
     - type_: "activity"
       name: "Edinburgh Youth Group"
       picture: "/static/uploads/edinburgh-youth-group.png"
       content: |
         The Edinburgh Youth Group is a monthly event for teenagers from across the wider Edinburgh area. Run in partnership with other local churches, the group provides an opportunity for our teens to meet together in a social setting, build friendships and share in fellowship with other young people. We enjoy getting to know each other through a variety of activities and seeing friendships grow through the time we spend together.
-      contact:
-        type_: "activity_contact"
-        name: "Cory Brock"
-        picture: "/static/uploads/people/cory-image.jpg"
     - type_: "activity"
       name: "Kids' Church & Crèche"
       picture: "/static/uploads/kids_church.jpg"
@@ -83,10 +59,6 @@ ministries:
         Our teachers and helpers are all PVG checked, trained and enthusiastic participants who work together in 
         teams to look after the children. We are always looking for volunteers to join our kids’ church and crèche teams, 
         to love them well and share with them the truth of the Gospel.
-      contact:
-        name: "Hunter Nicolson"
-        picture: "/static/uploads/people/hunter.jpg"
-        type_: "activity_contact"
     - type_: "activity"
       name: "Trainees"
       picture: "/static/uploads/training.png"
@@ -96,23 +68,15 @@ ministries:
         The second level is designed especially for men who are planning to enter full time preaching and pastoral ministry. Our trainees are also studying as part of their programmes; some at Edinburgh Theological Seminary (ETS), others at Cornhill and some studying biblical counselling. In it all we are longing to see people grow in their knowledge of Jesus and in their walk as his disciples.
 
         We hope and pray that these men and women will be well equipped to go and serve in a local church and share the good news of Jesus in the years ahead.
-      contact:
-        name: "Derek Lamont"
-        picture: "/static/uploads/people/derek-image.jpg"
-        type_: "activity_contact"
     - type_: "activity"
       name: "Open Book"
       picture: "/static/uploads/open_book.jpg"
       content: |
         Open Book is a space for women in the congregation to meet, have a cuppa and a discussion and a discussion around a bible study or Christian book.
         Our aim is to provide a time of friendship, support and encouragement as we chat, share and pray together.
-        We meet fortnightly during term time on a Friday morning, 9:30 - 11:00 am, currently in Stockbridge.
+        We meet fortnightly during term time on a Friday morning, 9:30 - 11:00 am.
         Babies and pre-schoolers are very welcome which can make for a ‘lively’ discussion environment!
         Our aim is to provide a time of friendship, support and encouragement as we chat, share and pray together.
-      contact:
-        type_: "activity_contact"
-        name: "Jenny Nicolson"
-        picture: "/static/uploads/people/jenny.jpg"
     - type_: "activity"
       name: "Men's Fellowship Meeting"
       picture: "/static/uploads/mens_fellowship.jpg"
@@ -121,7 +85,3 @@ ministries:
         The meetings take place every two weeks at 2.30pm on a Thursday, usually in the St Columba’s lower church hall.
         Refreshments are shared at the beginning of the meeting.
         Invitations are extended to men from all the city Free Churches and we have discussion topics that cover a wide range of interests.
-      contact:
-        type_: "activity_contact"
-        name: "George Innes"
-        picture: "/static/uploads/people/George-Innes.png"

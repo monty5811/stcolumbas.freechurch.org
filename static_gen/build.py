@@ -4,11 +4,7 @@ from datetime import datetime
 from distutils.dir_util import copy_tree
 from hashlib import sha256
 
-from jinja2 import Environment, FileSystemLoader
-
-import mistune
-
-from . import blog, render
+from . import  render
 from .constants import *
 from .utils import load_yaml
 
@@ -16,9 +12,6 @@ from .utils import load_yaml
 def write_files(env, pages):
     manifest = {}
     for p in pages:
-        # ignore updates:
-        if "_updates" in p:
-            continue
         data = load_yaml(p)
         content = data.copy()
         content.pop("layout", None)
@@ -47,7 +40,7 @@ def write_files(env, pages):
 
 def write_sw(env, manifest):
     # add css and js:
-    files = ["/static/css/stcs.css", "/static/js/stcs.js", "/updates.html"]
+    files = ["/static/css/stcs.css", "/static/js/stcs.js"]
 
     for f_ in files:
         with open(DIST_DIR + f_, "rb") as f:
@@ -141,7 +134,6 @@ def build():
     copy_public_files()
     copy_static_files()
 
-    blog.write_blog_index(env, load_files(sub_dir="_updates"))
     manifest = write_files(env, load_files())
     write_sitemap(env, manifest)
     write_sw(env, manifest)

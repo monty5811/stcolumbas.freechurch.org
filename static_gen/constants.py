@@ -1,6 +1,3 @@
-import os
-from collections import namedtuple
-
 SRC_DIR = "src"
 STATIC_DIR = "static"
 PUBLIC_DIR = "public"

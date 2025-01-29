@@ -15,25 +15,7 @@ function lMap() {
   L.marker([55.948757558814606, -3.194131548552832]).addTo(map);
 }
 
-function transcript() {
-  var showButton = document.getElementById("show-transcript");
-  var hideButton = document.getElementById("hide-transcript");
-  var target = document.getElementById("transcript");
-  if (showButton != null) {
-    showButton.addEventListener("click", function(event) {
-      target.classList.toggle("hidden");
-    });
-  }
-  if (hideButton != null) {
-    hideButton.addEventListener("click", function(event) {
-      target.classList.toggle("hidden");
-    });
-  }
-}
-
 function init() {
-  // transcript
-  transcript();
   // payments
   pay.init();
   // maps

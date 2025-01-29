@@ -4,16 +4,12 @@ heading:
   type_: "text_text_row"
   left: "## Staff & Volunteers"
   right: ""
-intro:
-  type_: "text_text_row"
-  left: "Our leadership comprises Elders and Deacons, who are supported in their work by the Womens Pastoral Team. Each City Group is led by a team which usually includes an Elder, Deacon(s) and a Women's Pastoral Team representative. We are also hugely thankful for all the many volunteers and small number of staff who help to run different aspects of congregational life."
-  right: "The staff, Office Bearers and Women's Pastoral Team members are listed below, with an indication of their area of responsibility and which pastoral area they are attached to. Throughout the website you will also find key contacts for different ministries and areas of congregational life."
 teams:
   - title: "Ministers"
     type_: "team_list"
     members:
       - name: "Cory Brock"
-        title: "Assistant Minister"
+        title: "Minister"
         type_: "team_head"
         picture: /static/uploads/people/cory-image.jpg
   - title: "Staff"
@@ -176,32 +172,6 @@ teams:
         title: "Leith"
         type_: "team_head"
         picture: /static/uploads/people/mairi-beaton.jpg
-  - title: "Esk Valley Church Plant"
-    type_: "team_list"
-    members:
-      - name: "Tom Muir"
-        title: "Church Planter"
-        type_: "team_head"
-        picture: /static/uploads/people/tom-image.jpg
-      - name: "Chris Lamont"
-        title: "Minister in Training"
-        type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=C+L&size=175
-  - title: "Haddington Church Plant"
-    type_: "team_list"
-    members:
-      - name: "Ali Sewell"
-        title: "Church Planter"
-        type_: "team_head"
-        picture: /static/uploads/people/ali-sewell.png
-      - name: "Ross Graham"
-        title: "Elder"
-        type_: "team_head"
-        picture: /static/uploads/people/ross-image.jpg
-      - name: "James Burnett "
-        title: "Minister in Training"
-        type_: "team_head"
-        picture: /static/uploads/people/james-burnett.png
   - title: "Winchburgh Church Plant"
     type_: "team_list"
     members:

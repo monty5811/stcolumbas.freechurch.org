@@ -2,17 +2,11 @@ layout: "content_page"
 title: "Our Vision"
 skip_jumbotron: false
 intro:
-  type_: "text_text_row"
-  left: |
-    If you [join with us](/connect/visit) at St Columba’s, you will find that, with God’s help, we have a vision that feeds our goal, establishing our priorities and commitments.
-
-    We recognise that in some ways, this is a moveable feast. We are always fine tuning and seeking to be better at who we are, allowing the transforming power of God’s Grace to shape our church character and heart. We make lots of mistakes, but we seek to encourage, build up, forgive, and grow together.
-
-    It is not easy. Life is busy, and because of our demographic, the church community is very transient. It helps us all to have a focus, a clear picture of the kind of church Community we aspire to be, and our vision helps us to formulate that.
-  right: |
-    We are dependant on God’s grace, the work of the Holy Spirit in our hearts, and each other to see our vision flourish.
-
-    If you are interested in [coming along to visit us](/connect/visit), we would love to see you - you might be a Christian who has moved to the city and is looking for a church family, or someone who doesn't yet believe - maybe an atheist or agnostic - but are curious to know more. We would love to welcome you, hear your questions and give you the opportunity to get to know us, as we would love to get to know you, and introduce you to our friend, our Lord and Saviour, [Jesus Christ](/jesus).
+  type_: "raw_html"
+  html: |
+    <div class="text-center text-xl max-w-2xl mx-auto">
+      St Columba's and our family of church plants exist to seek a city-wide movement of the gospel by helping people find and follow Jesus, love God and one another, and seek the peace of the city.
+    </div>
 spacer2:
   type_: raw_html
   html: |
@@ -42,14 +36,8 @@ visuals:
     #vision__vision {
     background-image: url("/static/uploads/vision/vision.jpg");
     }
-    #vision__priorities {
-    background-image: url("/static/uploads/vision/priorities.jpg");
-    }
     #vision__goal {
     background-image: url("/static/uploads/vision/goal.jpg");
-    }
-    #vision__commitments {
-    background-image: url("/static/uploads/vision/commitments.jpg");
     }
     .vision_title {
       margin-bottom: 2rem;
@@ -62,37 +50,20 @@ visuals:
     }
     </style>
       <div id="vision__vision" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="vision_title">Our Vision</div>
+        <div class="vision_title">Core Values</div>
         <div class="vision_body">
-          We are a city-centre church committed to the Gospel of Jesus Christ in worship, mission, community and discipleship with a vision to plant churches in and around Edinburgh.
+            Every-Person Ministry & Public Faith<br>
+            Joyful Sundays & Spiritual Formation<br>
+            Christian Friendship & Generous Hospitality<br>
+            Compassionate Mercy & Intentional Training<br>
         </div>
       </div>
       <div id="vision__goal" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="vision_title">Our Goal</div>
         <div class="vision_body">
-          To live out the <u>Grace</u> of God, through the <u>Gospel</u> of God by <u>Growing</u> together as Christians, to the <u>Glory</u> of God.
-        </div>
-      </div>
-      <div id="vision__priorities" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="vision_title">Our Priorities</div>
-        <div class="vision_body">
-          Living <b>Worship</b><br>
-          Relational <b>Mission</b><br>
-          Servant <b>Community</b><br>
-          Equipping <b>Discipleship</b><br>
-          Multiplying <b>Churches</b><br>
-          Training Future&nbsp;<b>Leaders</b><br>
-        </div>
-      </div>
-      <div id="vision__commitments" class="vision_image col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="vision_title">Our Commitments</div>
-        <div class="vision_body">
-          <b>The Bible</b> — Our Rule of Faith and Life<br>
-          <b>Prayer</b> — Our Hope is in God<br>
-          <b>Mission</b> — Equip, Send, Plant<br>
-          <b>Excellence</b> — To the Glory of God<br>
-          <b>Simplicity</b> — Doing Less, Better<br>
-          <b>Friendship</b> — Real, Spiritual and Committed<br>
-          <b>Generosity</b> — Sharing Life, Showing Mercy<br>
+          Prevailing Prayer<br>
+          Christ in all of Scripture<br>
+          Christ for all of Life<br>
+          Planting Churches & Training Leaders<br>
         </div>
       </div>
