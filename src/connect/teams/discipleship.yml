@@ -37,12 +37,12 @@ ministries:
       name: "Student & Young Workers"
       picture: "/static/uploads/snf.png"
       content: |
-        Youth Group is for S1-S6 teens in our congregation. We meet together fortnightly during the evening service for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
+        Our student and young worker group (for school leavers up to 23) meet together every Sunday after the evening service to eat food and enjoy fellowship together.
     - type_: "activity"
       name: "Youth Group"
       picture: "/static/uploads/youth.png"
       content: |
-        The Den are our ministries to teenagers in the congregation. We meet together fortnightly for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
+        Youth Group is for S1-S6 teens in our congregation. We meet together fortnightly during the evening service for a time of friendship, food and discussion over the bible or big topics that are going on in the world today. We believe that high school is one of the crucial times for defining and exploring the faith that will carry teenagers on into life at college, university or the working world. This is why we want to provide a space for asking questions and exploring who Jesus is while also being able to meet others their own age.
     - type_: "activity"
       name: "Edinburgh Youth Group"
       picture: "/static/uploads/edinburgh-youth-group.png"
