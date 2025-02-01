@@ -23,6 +23,10 @@ teams:
         title: "Minister in Training"
         type_: "team_head"
         picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=S+R&size=175
+      - name: "Flynn Duane"
+        title: "Minister in Training"
+        type_: "team_head"
+        picture: /static/uploads/people/flynn.jpg
   - title: "Elders"
     type_: "team_list"
     members:
