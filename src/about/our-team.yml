@@ -90,7 +90,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/colin-image.jpg
       - name: "Alasdair Mackenzie"
-        title: "Winchburgh"
+        title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/puzz-image.jpg
       - name: "Ken Crichton"
@@ -98,7 +98,7 @@ teams:
         type_: "team_head"
         picture: /static/uploads/people/ken-image.jpg
       - name: "Colin Morrison"
-        title: "Fountainbridge"
+        title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/colin_rm.jpeg
       - name: "Philip Brown"
