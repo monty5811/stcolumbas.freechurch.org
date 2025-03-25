@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Calendar</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.4.3/luxon.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div x-data="calendarApp()" x-init="fetchEvents()" x-cloak class="container mx-auto px-4 py-8">
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-center text-gray-800">Church Calendar</h1>
+            <div class="mt-4 flex justify-center space-x-4">
+                <div class="relative">
+                    <input
+                        type="text"
+                        placeholder="Search events..."
+                        x-model="searchTerm"
+                        class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-400 w-full md:w-64"
+                    >
+                    <button
+                        x-show="searchTerm !== ''"
+                        @click="searchTerm = ''"
+                        class="absolute right-3 top-2.5 text-gray-500 hover:text-gray-700"
+                    >
+                        ✕
+                    </button>
+                </div>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="flex flex-wrap justify-center gap-2 mt-4">
+                <template x-for="(category, index) in uniqueCategories" :key="index">
+                    <label class="inline-flex items-center mr-4 mb-2">
+                        <input
+                            type="checkbox"
+                            :value="category.name"
+                            x-model="selectedCategories"
+                            class="form-checkbox h-5 w-5 text-red-600"
+                        >
+                        <span
+                            class="ml-2 text-sm"
+                            :style="`color: ${category.color}`"
+                            x-text="category.name"
+                        ></span>
+                    </label>
+                </template>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8" x-show="!loading">
+            <template x-if="error">
+                <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Error!</strong>
+                    <span class="block sm:inline" x-text="error"></span>
+                </div>
+            </template>
+
+            <template x-if="!error && Object.keys(filteredEvents).length === 0 && !loading">
+                <div class="text-center py-12">
+                    <p class="text-xl text-gray-600">No events found</p>
+                </div>
+            </template>
+
+            <template x-for="(events, date) in filteredEvents" :key="date">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="bg-red-600 text-white px-4 py-3">
+                        <h2 class="text-xl font-semibold" x-text="formatDateHeader(date)"></h2>
+                    </div>
+                    <ul class="divide-y divide-gray-200">
+                        <template x-for="event in events" :key="event.id">
+                            <li class="p-4 hover:bg-gray-50 transition duration-150">
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <div class="w-3 h-3 rounded-full" :style="`background-color: ${event.category?.color || '#cccccc'}`"></div>
+                                    </div>
+                                    <div class="ml-3 flex-1">
+                                        <div class="flex justify-between">
+                                            <h3 class="text-lg font-medium text-gray-900" x-text="event.name"></h3>
+                                            <span class="text-sm text-gray-500" x-text="formatEventTime(event)"></span>
+                                        </div>
+                                        <template x-if="event.location && event.location.name">
+                                            <p class="mt-1 text-sm text-gray-600">
+                                                <span class="font-medium">Location:</span>
+                                                <span x-text="event.location.name"></span>
+                                            </p>
+                                        </template>
+                                        <template x-if="event.category && event.category.name">
+                                            <p class="mt-1">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium"
+                                                    :style="`background-color: ${event.category.color}25; color: ${event.category.color}`"
+                                                    x-text="event.category.name">
+                                                </span>
+                                            </p>
+                                        </template>
+                                        <div x-html="event.description" class="pt-2 text-sm"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </template>
+        </div>
+
+        <div x-show="loading" class="flex justify-center items-center py-20">
+            <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"></div>
+        </div>
+    </div>
+
+    <script>
+        function calendarApp() {
+            return {
+                events: [],
+                groupedEvents: {},
+                loading: true,
+                error: null,
+                searchTerm: '',
+                selectedCategories: ["Building Booking"],
+                uniqueCategories: [],
+
+                fetchEvents() {
+                    this.loading = true;
+                    this.error = null;
+
+                    fetch('https://stcs.churchsuite.com/embed/calendar/json')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            this.events = data;
+
+                            // Extract unique categories
+                            const categoriesMap = new Map();
+                            this.events.forEach(event => {
+                                const category = event.category;
+                                if (category && !categoriesMap.has(category.name)) {
+                                    categoriesMap.set(category.name, category);
+                                }
+                            });
+                            this.uniqueCategories = Array.from(categoriesMap.values());
+
+                            // Initially select all categories
+                            // this.selectedCategories = this.uniqueCategories.map(cat => cat.name);
+
+                            this.groupEvents();
+                            this.loading = false;
+                        })
+                        .catch(error => {
+                            console.error('Error fetching events:', error);
+                            this.error = 'Failed to load calendar events. Please try again later.';
+                            this.loading = false;
+                        });
+                },
+
+                groupEvents() {
+                    const grouped = {};
+
+                    this.events.forEach(event => {
+                        // Extract date part only from the datetime string
+                        const dateStart = event.datetime_start.split(' ')[0];
+
+                        if (!grouped[dateStart]) {
+                            grouped[dateStart] = [];
+                        }
+
+                        grouped[dateStart].push(event);
+                    });
+
+                    // Sort events within each day by start time
+                    Object.keys(grouped).forEach(date => {
+                        grouped[date].sort((a, b) => {
+                            return new Date(a.datetime_start) - new Date(b.datetime_start);
+                        });
+                    });
+
+                    this.groupedEvents = grouped;
+                },
+
+                formatDateHeader(dateString) {
+                    const { DateTime } = luxon;
+                    const date = DateTime.fromSQL(dateString);
+                    return date.toLocaleString({ weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+                },
+
+                formatEventTime(event) {
+                    const { DateTime } = luxon;
+                    const startTime = DateTime.fromSQL(event.datetime_start).toLocaleString(DateTime.TIME_SIMPLE);
+                    const endTime = DateTime.fromSQL(event.datetime_end).toLocaleString(DateTime.TIME_SIMPLE);
+                    return `${startTime} - ${endTime}`;
+                },
+
+                get filteredEvents() {
+                    const filtered = {};
+
+                    Object.keys(this.groupedEvents).forEach(date => {
+                        const matchingEvents = this.groupedEvents[date].filter(event => {
+                            // Category filter
+                            const categoryMatch = this.selectedCategories.length === 0 ||
+                                (event.category && this.selectedCategories.includes(event.category.name));
+
+                            // Search term filter
+                            const searchMatch = !this.searchTerm.trim() ||
+                                event.name.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
+                                (event.description && event.description.toLowerCase().includes(this.searchTerm.toLowerCase())) ||
+                                (event.category && event.category.name.toLowerCase().includes(this.searchTerm.toLowerCase())) ||
+                                (event.location && event.location.name && event.location.name.toLowerCase().includes(this.searchTerm.toLowerCase()));
+
+                            return categoryMatch && searchMatch;
+                        });
+
+                        if (matchingEvents.length > 0) {
+                            filtered[date] = matchingEvents;
+                        }
+                    });
+
+                    return filtered;
+                }
+            };
+        }
+    </script>
+</body>
+</html>
