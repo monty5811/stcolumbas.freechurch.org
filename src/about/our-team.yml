@@ -104,11 +104,19 @@ teams:
       - name: "Philip Brown"
         title: "Inverleith"
         type_: "team_head"
-        picture: /static/uploads/people/philip-brown.jpg
+        picture: /static/uploads/people/philip.jpg
       - name: "Neil MacRae"
         title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/neil-macrae.jpg
+      - name: "Erik Shuttlesworth"
+        title: "Stockbridge"
+        type_: "team_head"
+        picture: /static/uploads/people/eric.jpg
+      - name: "Kevin Maclennan"
+        title: "Fountainbridge"
+        type_: "team_head"
+        picture: /static/uploads/people/kevin.jpg
   - title: "Womens' Pastoral Team"
     type_: "team_list"
     members:
