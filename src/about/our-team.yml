@@ -8,6 +8,10 @@ teams:
         title: "Minister"
         type_: "team_head"
         picture: /static/uploads/people/cory-image.jpg
+      - name: "David Court"
+        title: "Associate Minister"
+        type_: "team_head"
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=D+C&size=175
   - title: "Staff"
     type_: "team_list"
     members:
@@ -15,18 +19,14 @@ teams:
         title: "Office Manager"
         type_: "team_head"
         picture: /static/uploads/people/mairi-beaton.jpg
-      - name: "Lewis MacDonald"
+      - name: "Jemimah Allen"
+        title: "Ministry Apprentice"
+        type_: "team_head"
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=J+A&size=175
+      - name: "Chris Lamont"
         title: "Minister in Training"
         type_: "team_head"
-        picture: /static/uploads/people/Lewis-MacDonald.png
-      - name: "Simon Rehberg"
-        title: "Minister in Training"
-        type_: "team_head"
-        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=S+R&size=175
-      - name: "Flynn Duane"
-        title: "Minister Apprentice"
-        type_: "team_head"
-        picture: /static/uploads/people/flynn.jpg
+        picture: https://eu.ui-avatars.com/api/?background=757575&color=fff&name=C+L&size=175
   - title: "Elders"
     type_: "team_list"
     members:
