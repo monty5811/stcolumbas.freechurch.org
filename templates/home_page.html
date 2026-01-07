@@ -7,14 +7,6 @@
 {% block footer %}{% endblock %}
 
 {% block content %}
-  {% if data.banner %}
-  <div class="bg-red-600 text-white py-3 px-4 text-center pt-20 xl:pt-24">
-    <div class="max-w-4xl mx-auto">
-      <h3 class="text-lg font-semibold mb-2">{{ data.banner.title }}</h3>
-      <div class="text-sm whitespace-pre-line">{{ data.banner.content }}</div>
-    </div>
-  </div>
-  {% endif %}
   {{ data.photo.url|render_bg_image_style }}
   <div class="bg-center bg-cover bg-no-repeat flex flex-col h-screen justify-center text-center text-white w-full {{ data.photo.url|render_bg_image_class }}">
     <div class="max-w-2xl mx-auto">
