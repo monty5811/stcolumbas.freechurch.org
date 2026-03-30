@@ -58,10 +58,6 @@ teams:
         title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/alasdair-black.jpg
-      - name: "Alastair Simison"
-        title: "Meadows"
-        type_: "team_head"
-        picture: /static/uploads/people/alastair-simison-1.jpg
       - name: "Pher Nicolson"
         title: "Corstorphine"
         type_: "team_head"
@@ -81,10 +77,6 @@ teams:
   - title: "Deacons"
     type_: "team_list"
     members:
-      - name: "Murdo Morrison"
-        title: "Meadows"
-        type_: "team_head"
-        picture: /static/uploads/people/murdo-image.jpg
       - name: "Colin Armstrong"
         title: "Inverleith"
         type_: "team_head"
