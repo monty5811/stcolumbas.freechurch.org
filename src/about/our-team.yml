@@ -30,10 +30,6 @@ teams:
   - title: "Elders"
     type_: "team_list"
     members:
-      - name: "Billy Graham"
-        title: "Corstorphine"
-        type_: "team_head"
-        picture: /static/uploads/people/billy-image.jpg
       - name: "Ali Oliver"
         title: "Blackford"
         type_: "team_head"
@@ -42,10 +38,6 @@ teams:
         title: "Inverleith"
         type_: "team_head"
         picture: /static/uploads/people/don-image.jpg
-      - name: "Neil MacLeod"
-        title: "Calton"
-        type_: "team_head"
-        picture: /static/uploads/people/neil-dm-image.jpg
       - name: "Ewan McGillivray"
         title: "Fountainbridge"
         type_: "team_head"
@@ -54,10 +46,6 @@ teams:
         title: "Gilmerton"
         type_: "team_head"
         picture: /static/uploads/people/dean-image.jpg
-      - name: "Alasdair Black"
-        title: "Corstorphine"
-        type_: "team_head"
-        picture: /static/uploads/people/alasdair-black.jpg
       - name: "Pher Nicolson"
         title: "Corstorphine"
         type_: "team_head"
@@ -66,21 +54,17 @@ teams:
         title: "Corstorphine"
         type_: "team_head"
         picture: /static/uploads/people/George-Innes.png
-      - name: "Hamish Alexander"
-        title: "Inverleith"
-        type_: "team_head"
-        picture: /static/uploads/people/hamish-alexander.png
       - name: "Donald Campbell"
         title: "Fountainbridge"
         type_: "team_head"
         picture: /static/uploads/people/donald-campbell.png
-  - title: "Deacons"
-    type_: "team_list"
-    members:
       - name: "Colin Armstrong"
         title: "Inverleith"
         type_: "team_head"
         picture: /static/uploads/people/colin-image.jpg
+  - title: "Deacons"
+    type_: "team_list"
+    members:
       - name: "Alasdair Mackenzie"
         title: "Corstorphine"
         type_: "team_head"
@@ -164,10 +148,6 @@ teams:
         title: "Stockbridge"
         type_: "team_head"
         picture: /static/uploads/people/anna-macrae.jpg
-      - name: "Blythe Mackenzie"
-        title: "Leith"
-        type_: "team_head"
-        picture: /static/uploads/people/blythe.jpg
       - name: "Mairi Beaton"
         title: "Leith"
         type_: "team_head"
