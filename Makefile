@@ -43,8 +43,8 @@ ci:
 	python build.py
 
 ci-setup:
-	npm install -g yarn
-	cd assets && yarn && cd ..
+	command -v yarn >/dev/null || npm install -g yarn
+	cd assets && yarn
 
 js-build: assets/node_modules
 	cd assets && NODE_OPTIONS=--openssl-legacy-provider yarn build
