@@ -5,20 +5,19 @@ const headers = {
   "Access-Control-Allow-Headers": "Content-Type"
 };
 
-exports.handler = function(event, context, callback) {
-  if (event.httpMethod === "HEAD") {
-    callback(null, { statusCode: 200, headers, body: JSON.stringify(null) });
+exports.handler = async function(event, context) {
+  if (event.httpMethod === "HEAD" || event.httpMethod === "OPTIONS") {
+    return { statusCode: 200, headers, body: JSON.stringify(null) };
   }
-  if (event.httpMethod === "OPTIONS") {
-    callback(null, { statusCode: 200, headers, body: JSON.stringify(null) });
-  }
+
   if (event.httpMethod !== "POST" || !event.body) {
-    callback(null, {
+    return {
       statusCode: 400,
       headers,
       body: JSON.stringify({ status: "bad-payload" })
-    });
+    };
   }
+
   //-- Parse the body contents into an object.
   const data = JSON.parse(event.body);
 
@@ -26,22 +25,19 @@ exports.handler = function(event, context, callback) {
   if (!data.amount || !data.description) {
     console.error("Required information is missing.");
 
-    callback(null, {
+    return {
       statusCode: 400,
       headers,
       body: JSON.stringify({ status: "missing-information" })
-    });
-
-    return;
+    };
   }
 
-  stripe.checkout.sessions.create(
-    {
+  try {
+    const session = await stripe.checkout.sessions.create({
       success_url: "https://stcolumbas.freechurch.org/connect/giving-success",
       cancel_url: "https://stcolumbas.freechurch.org/connect/giving-cancel",
       payment_method_types: ["card"],
       billing_address_collection: "required",
-      payment_method_types: ["card"],
       submit_type: "donate",
       line_items: [
         {
@@ -51,26 +47,23 @@ exports.handler = function(event, context, callback) {
           quantity: 1
         }
       ]
-    },
-    function(err, session) {
-      // asynchronously called
-      if (err !== null) {
-        console.log(err);
-        callback(null, {
-          statusCode: 200,
-          headers,
-          body: JSON.stringify({ status: "session-create-failed" })
-        });
-      }
+    });
 
-      callback(null, {
-        statusCode: 200,
-        headers,
-        body: JSON.stringify({
-          status: "session-created",
-          sessionId: session.id
-        })
-      });
-    }
-  );
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify({
+        status: "session-created",
+        sessionId: session.id
+      })
+    };
+  } catch (err) {
+    console.log(err);
+
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify({ status: "session-create-failed" })
+    };
+  }
 };

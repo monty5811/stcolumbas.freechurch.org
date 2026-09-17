@@ -1,4 +1,7 @@
 [build]
   publish = "dist"
   command = "make ci-setup ci"
-  functions = "dist/netlify_functions"
+  functions = "assets/src/netlify_functions"
+
+[functions]
+  node_bundler = "esbuild"

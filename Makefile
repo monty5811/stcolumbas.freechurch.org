@@ -3,7 +3,7 @@ VENV_ACTIVATE=. $(VENV_NAME)/bin/activate
 PYTHON=${VENV_NAME}/bin/python3
 PORT?=4001
 
-.PHONY: deps-compile deps-sync watch serve deploy dev-setup pay_deploy ci ci-setup js-build js-watch css-build py-format
+.PHONY: deps-compile deps-sync watch serve deploy dev-setup pay_deploy ci ci-setup js-build js-watch css-build py-format local-netlify-functions
 
 venv: $(VENV_NAME)/bin/activate
 $(VENV_NAME)/bin/activate: requirements*.in
@@ -41,7 +41,6 @@ ci:
 	make js-build
 	make css-build
 	python build.py
-	make netlify-functions
 
 ci-setup:
 	npm install -g yarn
@@ -62,11 +61,8 @@ css-watch: assets/node_modules
 py-format:
 	black **/*.py
 
-netlify-functions: assets/node_modules
-	./assets/node_modules/netlify-lambda/bin/cmd.js build assets/src/netlify_functions/
-
 local-netlify-functions: assets/node_modules
-	./assets/node_modules/netlify-lambda/bin/cmd.js serve assets/src/netlify_functions/
+	npx netlify dev
 
 assets/node_modules: assets/yarn.lock assets/package.json
 	cd assets && yarn
