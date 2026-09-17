@@ -47,10 +47,10 @@ ci-setup:
 	cd assets && yarn && cd ..
 
 js-build: assets/node_modules
-	cd assets && yarn build
+	cd assets && NODE_OPTIONS=--openssl-legacy-provider yarn build
 
 js-watch: assets/node_modules
-	cd assets && yarn watch
+	cd assets && NODE_OPTIONS=--openssl-legacy-provider yarn watch
 
 css-build: assets/node_modules
 	cd assets && yarn css:build
